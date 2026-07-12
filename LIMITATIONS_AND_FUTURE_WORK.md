@@ -14,8 +14,8 @@ checklist requirement at NeurIPS/ICLR-family venues.)*
    with 90% cross-model herding the effective unit is the case (12/40 modal-correct),
    and the momentum recipe models follow scored 48% in this window. We claim only
    "no better than — here worse than — uninformative."
-3. **Single aggregator proxy** (HackClub → OpenRouter backend) for the paid models;
-   serving configuration/quantization not controlled. Model IDs and run dates pinned.
+3. **API serving configuration not controlled** for hosted models (quantization and
+   serving details unknown). Model IDs and run dates are pinned in the data files.
 4. **Elicitation format.** One prompt family (A/B/C decision format, "Today is
    {date}" anchor). The exploratory-vs-confirmatory comparison shows L0 *tool-seeking*
    shifts with design for 2–3 models, even though within-design commitment gradients

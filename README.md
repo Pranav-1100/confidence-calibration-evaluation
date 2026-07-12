@@ -4,7 +4,7 @@
 
 Pranav Aggarwal — Independent Researcher — pranavaggarwal1100@gmail.com
 
-Paper: [`PAPER_DRAFT.md`](PAPER_DRAFT.md) · [`PAPER_DRAFT.pdf`](PAPER_DRAFT.pdf)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21325375.svg)](https://doi.org/10.5281/zenodo.21325375)
 
 ## Summary
 
@@ -33,10 +33,9 @@ Pre-registration with honest timestamps: [`PREREGISTRATION.md`](PREREGISTRATION.
 ## Repository map
 
 ```
-PAPER_DRAFT.md / .pdf          the paper
+paper.md / paper.pdf           the paper
 PREREGISTRATION.md             predictions & decision rules, timestamped
 LIMITATIONS_AND_FUTURE_WORK.md full limitations discussion + follow-up agenda
-writeups/                      per-experiment writeups + experiments index
 figures/                       all paper figures (PNG + vector PDF)
 scripts/                       experiment runners (TypeScript) + analyzers (Python)
 data/                          frozen raw results + case files (JSON)
@@ -44,8 +43,8 @@ data/                          frozen raw results + case files (JSON)
 
 ## Reproducing
 
-Requirements: Node 18+ (`npm i`), Python 3.10+. API keys via environment
-(`HACKCLUB_API_KEY`, `NVIDIA_API_KEY`) in a `.env` file — never committed.
+Requirements: Node 18+ (`npm i`), Python 3.10+. Model-API keys are read from a
+`.env` file (never committed); each runner script lists the environment variables it expects.
 
 ```bash
 # definitive agentic gradient (L0/L1/L2 + L2' via LEVELS env)
@@ -63,7 +62,7 @@ python3 -m venv .venv && .venv/bin/pip install matplotlib markdown
 ```
 
 Analyzers are deterministic (seeded bootstrap); every number in the paper reproduces
-from the JSONs in `data/`. Total cost of all experiments: ≈ $10 (~2,900 paid model calls).
+from the JSONs in `data/`.
 
 ## Citation
 
@@ -73,6 +72,7 @@ from the JSONs in `data/`. Total cost of all experiments: ≈ $10 (~2,900 paid m
             Relevant-Looking Evidence Makes LLM Agents Commit to the Unknowable},
   author = {Aggarwal, Pranav},
   year   = {2026},
+  doi    = {10.5281/zenodo.21325375},
   note   = {Preprint},
 }
 ```
