@@ -1,0 +1,882 @@
+[
+  {
+    "id": "postcutoff_RELIANCE_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "RELIANCE",
+    "asOfDate": "2026-02-02",
+    "price": 1390.4000244140625,
+    "evidenceText": "Symbol: RELIANCE | As-of date: 2026-02-02 | Current close: ₹1390.40\nClose 10 trading days ago (2026-01-16): ₹1457.90\nRSI(14): 30.8 | EMA20: ₹1435.37 | EMA50: ₹1486.21\nMACD histogram: -2.453\nATR(14): ₹28.65 (2.1% of price)\nVolume ratio (5d/20d): 1.21x\nRegime classification: BEAR_VOLATILE",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1390.40) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-01-16",
+      "priorClose": 1457.9
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will RELIANCE's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹1390.40)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-02-16",
+      "futureClose": 1437.1
+    }
+  },
+  {
+    "id": "postcutoff_TCS_2026-03-25",
+    "fold": "post-cutoff 2026",
+    "symbol": "TCS",
+    "asOfDate": "2026-03-25",
+    "price": 2377.39990234375,
+    "evidenceText": "Symbol: TCS | As-of date: 2026-03-25 | Current close: ₹2377.40\nClose 10 trading days ago (2026-03-11): ₹2464.90\nRSI(14): 28.3 | EMA20: ₹2494.49 | EMA50: ₹2770.00\nMACD histogram: 9.978\nATR(14): ₹65.04 (2.7% of price)\nVolume ratio (5d/20d): 1.12x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹2377.40) HIGHER than the close 10 trading days ago (2026-03-11)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-03-11",
+      "priorClose": 2464.9
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will TCS's closing price 10 trading days from 2026-03-25 be HIGHER than the current close (₹2377.40)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-04-13",
+      "futureClose": 2472.6
+    }
+  },
+  {
+    "id": "postcutoff_HDFCBANK_2026-03-25",
+    "fold": "post-cutoff 2026",
+    "symbol": "HDFCBANK",
+    "asOfDate": "2026-03-25",
+    "price": 782.2999877929688,
+    "evidenceText": "Symbol: HDFCBANK | As-of date: 2026-03-25 | Current close: ₹782.30\nClose 10 trading days ago (2026-03-11): ₹833.95\nRSI(14): 33.5 | EMA20: ₹830.19 | EMA50: ₹884.03\nMACD histogram: -5.947\nATR(14): ₹24.40 (3.1% of price)\nVolume ratio (5d/20d): 1.78x\nRegime classification: BEAR_VOLATILE",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹782.30) HIGHER than the close 10 trading days ago (2026-03-11)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-03-11",
+      "priorClose": 833.95
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will HDFCBANK's closing price 10 trading days from 2026-03-25 be HIGHER than the current close (₹782.30)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-04-13",
+      "futureClose": 794.7
+    }
+  },
+  {
+    "id": "postcutoff_INFY_2026-04-24",
+    "fold": "post-cutoff 2026",
+    "symbol": "INFY",
+    "asOfDate": "2026-04-24",
+    "price": 1154.5999755859375,
+    "evidenceText": "Symbol: INFY | As-of date: 2026-04-24 | Current close: ₹1154.60\nClose 10 trading days ago (2026-04-09): ₹1331.60\nRSI(14): 27.0 | EMA20: ₹1282.64 | EMA50: ₹1343.23\nMACD histogram: -7.540\nATR(14): ₹40.97 (3.5% of price)\nVolume ratio (5d/20d): 1.27x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1154.60) HIGHER than the close 10 trading days ago (2026-04-09)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-04-09",
+      "priorClose": 1331.6
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will INFY's closing price 10 trading days from 2026-04-24 be HIGHER than the current close (₹1154.60)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-05-08",
+      "futureClose": 1179.2
+    }
+  },
+  {
+    "id": "postcutoff_ICICIBANK_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "ICICIBANK",
+    "asOfDate": "2026-02-02",
+    "price": 1352.800048828125,
+    "evidenceText": "Symbol: ICICIBANK | As-of date: 2026-02-02 | Current close: ₹1352.80\nClose 10 trading days ago (2026-01-16): ₹1410.80\nRSI(14): 43.6 | EMA20: ₹1373.25 | EMA50: ₹1371.55\nMACD histogram: -4.385\nATR(14): ₹24.98 (1.8% of price)\nVolume ratio (5d/20d): 1.28x\nRegime classification: BEAR_VOLATILE",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1352.80) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-01-16",
+      "priorClose": 1410.8
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will ICICIBANK's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹1352.80)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-02-16",
+      "futureClose": 1411.6
+    }
+  },
+  {
+    "id": "postcutoff_ITC_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "ITC",
+    "asOfDate": "2026-02-02",
+    "price": 314.70001220703125,
+    "evidenceText": "Symbol: ITC | As-of date: 2026-02-02 | Current close: ₹314.70\nClose 10 trading days ago (2026-01-16): ₹329.20\nRSI(14): 20.4 | EMA20: ₹335.04 | EMA50: ₹366.80\nMACD histogram: 0.818\nATR(14): ₹7.34 (2.3% of price)\nVolume ratio (5d/20d): 1.22x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹314.70) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-01-16",
+      "priorClose": 329.2
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will ITC's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹314.70)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-02-16",
+      "futureClose": 317.95
+    }
+  },
+  {
+    "id": "postcutoff_SBIN_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "SBIN",
+    "asOfDate": "2026-02-02",
+    "price": 1028.699951171875,
+    "evidenceText": "Symbol: SBIN | As-of date: 2026-02-02 | Current close: ₹1028.70\nClose 10 trading days ago (2026-01-16): ₹1042.30\nRSI(14): 51.6 | EMA20: ₹1032.31 | EMA50: ₹1001.65\nMACD histogram: 0.403\nATR(14): ₹22.02 (2.1% of price)\nVolume ratio (5d/20d): 1.37x\nRegime classification: BULL_VOLATILE",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1028.70) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-01-16",
+      "priorClose": 1042.3
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will SBIN's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹1028.70)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-02-16",
+      "futureClose": 1208.1
+    }
+  },
+  {
+    "id": "postcutoff_BHARTIARTL_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "BHARTIARTL",
+    "asOfDate": "2026-02-02",
+    "price": 1965.4000244140625,
+    "evidenceText": "Symbol: BHARTIARTL | As-of date: 2026-02-02 | Current close: ₹1965.40\nClose 10 trading days ago (2026-01-16): ₹2016.40\nRSI(14): 30.6 | EMA20: ₹2010.13 | EMA50: ₹2055.15\nMACD histogram: -3.579\nATR(14): ₹35.89 (1.8% of price)\nVolume ratio (5d/20d): 1.32x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1965.40) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-01-16",
+      "priorClose": 2016.4
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will BHARTIARTL's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹1965.40)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-02-16",
+      "futureClose": 2029.4
+    }
+  },
+  {
+    "id": "postcutoff_KOTAKBANK_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "KOTAKBANK",
+    "asOfDate": "2026-02-02",
+    "price": 408.20001220703125,
+    "evidenceText": "Symbol: KOTAKBANK | As-of date: 2026-02-02 | Current close: ₹408.20\nClose 10 trading days ago (2026-01-16): ₹418.20\nRSI(14): 34.4 | EMA20: ₹419.83 | EMA50: ₹423.34\nMACD histogram: -1.835\nATR(14): ₹8.29 (2.0% of price)\nVolume ratio (5d/20d): 1.53x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹408.20) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-01-16",
+      "priorClose": 418.2
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will KOTAKBANK's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹408.20)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-02-16",
+      "futureClose": 425.6
+    }
+  },
+  {
+    "id": "postcutoff_LT_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "LT",
+    "asOfDate": "2026-02-02",
+    "price": 3921.300048828125,
+    "evidenceText": "Symbol: LT | As-of date: 2026-02-02 | Current close: ₹3921.30\nClose 10 trading days ago (2026-01-16): ₹3856.40\nRSI(14): 50.0 | EMA20: ₹3904.94 | EMA50: ₹3964.05\nMACD histogram: 9.601\nATR(14): ₹77.20 (2.0% of price)\nVolume ratio (5d/20d): 1.34x\nRegime classification: BEAR_VOLATILE",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹3921.30) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2026-01-16",
+      "priorClose": 3856.4
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will LT's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹3921.30)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-02-16",
+      "futureClose": 4201.5
+    }
+  },
+  {
+    "id": "postcutoff_AXISBANK_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "AXISBANK",
+    "asOfDate": "2026-02-02",
+    "price": 1311.5,
+    "evidenceText": "Symbol: AXISBANK | As-of date: 2026-02-02 | Current close: ₹1311.50\nClose 10 trading days ago (2026-01-16): ₹1294.20\nRSI(14): 53.6 | EMA20: ₹1301.49 | EMA50: ₹1279.17\nMACD histogram: 4.614\nATR(14): ₹33.98 (2.6% of price)\nVolume ratio (5d/20d): 1.90x\nRegime classification: BULL_VOLATILE",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1311.50) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2026-01-16",
+      "priorClose": 1294.2
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will AXISBANK's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹1311.50)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-02-16",
+      "futureClose": 1358.3
+    }
+  },
+  {
+    "id": "postcutoff_WIPRO_2026-03-25",
+    "fold": "post-cutoff 2026",
+    "symbol": "WIPRO",
+    "asOfDate": "2026-03-25",
+    "price": 189.0500030517578,
+    "evidenceText": "Symbol: WIPRO | As-of date: 2026-03-25 | Current close: ₹189.05\nClose 10 trading days ago (2026-03-11): ₹202.23\nRSI(14): 31.1 | EMA20: ₹197.50 | EMA50: ₹219.13\nMACD histogram: 0.734\nATR(14): ₹5.27 (2.8% of price)\nVolume ratio (5d/20d): 0.92x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹189.05) HIGHER than the close 10 trading days ago (2026-03-11)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-03-11",
+      "priorClose": 202.23
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will WIPRO's closing price 10 trading days from 2026-03-25 be HIGHER than the current close (₹189.05)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-04-13",
+      "futureClose": 202.97
+    }
+  },
+  {
+    "id": "postcutoff_HCLTECH_2026-03-25",
+    "fold": "post-cutoff 2026",
+    "symbol": "HCLTECH",
+    "asOfDate": "2026-03-25",
+    "price": 1381.300048828125,
+    "evidenceText": "Symbol: HCLTECH | As-of date: 2026-03-25 | Current close: ₹1381.30\nClose 10 trading days ago (2026-03-11): ₹1350.30\nRSI(14): 47.1 | EMA20: ₹1374.92 | EMA50: ₹1489.57\nMACD histogram: 13.183\nATR(14): ₹42.28 (3.1% of price)\nVolume ratio (5d/20d): 1.21x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1381.30) HIGHER than the close 10 trading days ago (2026-03-11)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2026-03-11",
+      "priorClose": 1350.3
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will HCLTECH's closing price 10 trading days from 2026-03-25 be HIGHER than the current close (₹1381.30)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-04-13",
+      "futureClose": 1429.4
+    }
+  },
+  {
+    "id": "postcutoff_ASIANPAINT_2026-03-25",
+    "fold": "post-cutoff 2026",
+    "symbol": "ASIANPAINT",
+    "asOfDate": "2026-03-25",
+    "price": 2270.199951171875,
+    "evidenceText": "Symbol: ASIANPAINT | As-of date: 2026-03-25 | Current close: ₹2270.20\nClose 10 trading days ago (2026-03-11): ₹2232.00\nRSI(14): 47.4 | EMA20: ₹2265.07 | EMA50: ₹2430.57\nMACD histogram: 10.865\nATR(14): ₹63.08 (2.8% of price)\nVolume ratio (5d/20d): 0.91x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹2270.20) HIGHER than the close 10 trading days ago (2026-03-11)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2026-03-11",
+      "priorClose": 2232
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will ASIANPAINT's closing price 10 trading days from 2026-03-25 be HIGHER than the current close (₹2270.20)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-04-13",
+      "futureClose": 2352.4
+    }
+  },
+  {
+    "id": "postcutoff_MARUTI_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "MARUTI",
+    "asOfDate": "2026-02-02",
+    "price": 14384,
+    "evidenceText": "Symbol: MARUTI | As-of date: 2026-02-02 | Current close: ₹14384.00\nClose 10 trading days ago (2026-01-16): ₹15859.00\nRSI(14): 22.9 | EMA20: ₹15597.28 | EMA50: ₹15900.13\nMACD histogram: -201.214\nATR(14): ₹379.13 (2.6% of price)\nVolume ratio (5d/20d): 1.94x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹14384.00) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-01-16",
+      "priorClose": 15859
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will MARUTI's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹14384.00)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-02-16",
+      "futureClose": 15051
+    }
+  },
+  {
+    "id": "postcutoff_SUNPHARMA_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "SUNPHARMA",
+    "asOfDate": "2026-02-02",
+    "price": 1627.9000244140625,
+    "evidenceText": "Symbol: SUNPHARMA | As-of date: 2026-02-02 | Current close: ₹1627.90\nClose 10 trading days ago (2026-01-16): ₹1668.90\nRSI(14): 39.4 | EMA20: ₹1660.84 | EMA50: ₹1713.60\nMACD histogram: -4.811\nATR(14): ₹35.56 (2.2% of price)\nVolume ratio (5d/20d): 1.40x\nRegime classification: BEAR_VOLATILE",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1627.90) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-01-16",
+      "priorClose": 1668.9
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will SUNPHARMA's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹1627.90)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-02-16",
+      "futureClose": 1700.5
+    }
+  },
+  {
+    "id": "postcutoff_TITAN_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "TITAN",
+    "asOfDate": "2026-02-02",
+    "price": 3953.199951171875,
+    "evidenceText": "Symbol: TITAN | As-of date: 2026-02-02 | Current close: ₹3953.20\nClose 10 trading days ago (2026-01-16): ₹4196.90\nRSI(14): 39.5 | EMA20: ₹4043.31 | EMA50: ₹3972.77\nMACD histogram: -31.719\nATR(14): ₹79.92 (2.0% of price)\nVolume ratio (5d/20d): 1.31x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹3953.20) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-01-16",
+      "priorClose": 4196.9
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will TITAN's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹3953.20)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-02-16",
+      "futureClose": 4181.1
+    }
+  },
+  {
+    "id": "postcutoff_ULTRACEMCO_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "ULTRACEMCO",
+    "asOfDate": "2026-02-02",
+    "price": 12535,
+    "evidenceText": "Symbol: ULTRACEMCO | As-of date: 2026-02-02 | Current close: ₹12535.00\nClose 10 trading days ago (2026-01-16): ₹12378.00\nRSI(14): 60.7 | EMA20: ₹12323.57 | EMA50: ₹12006.47\nMACD histogram: 28.992\nATR(14): ₹257.66 (2.1% of price)\nVolume ratio (5d/20d): 1.41x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹12535.00) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2026-01-16",
+      "priorClose": 12378
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will ULTRACEMCO's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹12535.00)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-02-16",
+      "futureClose": 12981
+    }
+  },
+  {
+    "id": "postcutoff_BAJFINANCE_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "BAJFINANCE",
+    "asOfDate": "2026-02-02",
+    "price": 903.7000122070312,
+    "evidenceText": "Symbol: BAJFINANCE | As-of date: 2026-02-02 | Current close: ₹903.70\nClose 10 trading days ago (2026-01-16): ₹950.25\nRSI(14): 31.5 | EMA20: ₹945.73 | EMA50: ₹979.36\nMACD histogram: -1.423\nATR(14): ₹21.65 (2.4% of price)\nVolume ratio (5d/20d): 1.34x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹903.70) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-01-16",
+      "priorClose": 950.25
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will BAJFINANCE's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹903.70)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-02-16",
+      "futureClose": 1012.75
+    }
+  },
+  {
+    "id": "postcutoff_ADANIPORTS_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "ADANIPORTS",
+    "asOfDate": "2026-02-02",
+    "price": 1403.0999755859375,
+    "evidenceText": "Symbol: ADANIPORTS | As-of date: 2026-02-02 | Current close: ₹1403.10\nClose 10 trading days ago (2026-01-16): ₹1421.90\nRSI(14): 46.3 | EMA20: ₹1414.78 | EMA50: ₹1452.35\nMACD histogram: 2.822\nATR(14): ₹38.64 (2.8% of price)\nVolume ratio (5d/20d): 1.46x\nRegime classification: BEAR_VOLATILE",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1403.10) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-01-16",
+      "priorClose": 1421.9
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will ADANIPORTS's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹1403.10)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2026-02-16",
+      "futureClose": 1540.1
+    }
+  },
+  {
+    "id": "postcutoff_RELIANCE_2026-02-26",
+    "fold": "post-cutoff 2026",
+    "symbol": "RELIANCE",
+    "asOfDate": "2026-02-26",
+    "price": 1406.800048828125,
+    "evidenceText": "Symbol: RELIANCE | As-of date: 2026-02-26 | Current close: ₹1406.80\nClose 10 trading days ago (2026-02-12): ₹1448.90\nRSI(14): 42.6 | EMA20: ₹1428.95 | EMA50: ₹1468.30\nMACD histogram: -0.449\nATR(14): ₹27.82 (2.0% of price)\nVolume ratio (5d/20d): 1.04x\nRegime classification: SIDEWAYS",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1406.80) HIGHER than the close 10 trading days ago (2026-02-12)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-02-12",
+      "priorClose": 1448.9
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will RELIANCE's closing price 10 trading days from 2026-02-26 be HIGHER than the current close (₹1406.80)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-03-13",
+      "futureClose": 1380.7
+    }
+  },
+  {
+    "id": "postcutoff_TCS_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "TCS",
+    "asOfDate": "2026-02-02",
+    "price": 3169.60009765625,
+    "evidenceText": "Symbol: TCS | As-of date: 2026-02-02 | Current close: ₹3169.60\nClose 10 trading days ago (2026-01-16): ₹3206.70\nRSI(14): 48.5 | EMA20: ₹3179.59 | EMA50: ₹3178.51\nMACD histogram: -4.300\nATR(14): ₹55.00 (1.7% of price)\nVolume ratio (5d/20d): 1.04x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹3169.60) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-01-16",
+      "priorClose": 3206.7
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will TCS's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹3169.60)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-02-16",
+      "futureClose": 2706.6
+    }
+  },
+  {
+    "id": "postcutoff_HDFCBANK_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "HDFCBANK",
+    "asOfDate": "2026-02-02",
+    "price": 928.0999755859375,
+    "evidenceText": "Symbol: HDFCBANK | As-of date: 2026-02-02 | Current close: ₹928.10\nClose 10 trading days ago (2026-01-16): ₹931.10\nRSI(14): 37.7 | EMA20: ₹938.99 | EMA50: ₹965.43\nMACD histogram: 1.934\nATR(14): ₹15.24 (1.6% of price)\nVolume ratio (5d/20d): 1.06x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹928.10) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-01-16",
+      "priorClose": 931.1
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will HDFCBANK's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹928.10)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-02-16",
+      "futureClose": 925.8
+    }
+  },
+  {
+    "id": "postcutoff_INFY_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "INFY",
+    "asOfDate": "2026-02-02",
+    "price": 1629.4000244140625,
+    "evidenceText": "Symbol: INFY | As-of date: 2026-02-02 | Current close: ₹1629.40\nClose 10 trading days ago (2026-01-16): ₹1689.80\nRSI(14): 48.3 | EMA20: ₹1643.80 | EMA50: ₹1612.57\nMACD histogram: -3.113\nATR(14): ₹30.78 (1.9% of price)\nVolume ratio (5d/20d): 1.16x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1629.40) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-01-16",
+      "priorClose": 1689.8
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will INFY's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹1629.40)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-02-16",
+      "futureClose": 1365.6
+    }
+  },
+  {
+    "id": "postcutoff_ICICIBANK_2026-02-26",
+    "fold": "post-cutoff 2026",
+    "symbol": "ICICIBANK",
+    "asOfDate": "2026-02-26",
+    "price": 1404.9000244140625,
+    "evidenceText": "Symbol: ICICIBANK | As-of date: 2026-02-26 | Current close: ₹1404.90\nClose 10 trading days ago (2026-02-12): ₹1430.00\nRSI(14): 53.2 | EMA20: ₹1397.20 | EMA50: ₹1386.70\nMACD histogram: -1.374\nATR(14): ₹21.77 (1.5% of price)\nVolume ratio (5d/20d): 1.20x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1404.90) HIGHER than the close 10 trading days ago (2026-02-12)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-02-12",
+      "priorClose": 1430
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will ICICIBANK's closing price 10 trading days from 2026-02-26 be HIGHER than the current close (₹1404.90)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-03-13",
+      "futureClose": 1254.8
+    }
+  },
+  {
+    "id": "postcutoff_HINDUNILVR_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "HINDUNILVR",
+    "asOfDate": "2026-02-02",
+    "price": 2357.300048828125,
+    "evidenceText": "Symbol: HINDUNILVR | As-of date: 2026-02-02 | Current close: ₹2357.30\nClose 10 trading days ago (2026-01-16): ₹2360.40\nRSI(14): 47.9 | EMA20: ₹2370.73 | EMA50: ₹2373.08\nMACD histogram: -2.407\nATR(14): ₹47.73 (2.0% of price)\nVolume ratio (5d/20d): 1.30x\nRegime classification: SIDEWAYS",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹2357.30) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-01-16",
+      "priorClose": 2360.4
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will HINDUNILVR's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹2357.30)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-02-16",
+      "futureClose": 2319
+    }
+  },
+  {
+    "id": "postcutoff_ITC_2026-02-26",
+    "fold": "post-cutoff 2026",
+    "symbol": "ITC",
+    "asOfDate": "2026-02-26",
+    "price": 318.29998779296875,
+    "evidenceText": "Symbol: ITC | As-of date: 2026-02-26 | Current close: ₹318.30\nClose 10 trading days ago (2026-02-12): ₹317.45\nRSI(14): 40.7 | EMA20: ₹324.03 | EMA50: ₹346.74\nMACD histogram: 2.003\nATR(14): ₹6.57 (2.1% of price)\nVolume ratio (5d/20d): 0.55x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹318.30) HIGHER than the close 10 trading days ago (2026-02-12)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2026-02-12",
+      "priorClose": 317.45
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will ITC's closing price 10 trading days from 2026-02-26 be HIGHER than the current close (₹318.30)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-03-13",
+      "futureClose": 301.45
+    }
+  },
+  {
+    "id": "postcutoff_SBIN_2026-02-26",
+    "fold": "post-cutoff 2026",
+    "symbol": "SBIN",
+    "asOfDate": "2026-02-26",
+    "price": 1209.5,
+    "evidenceText": "Symbol: SBIN | As-of date: 2026-02-26 | Current close: ₹1209.50\nClose 10 trading days ago (2026-02-12): ₹1192.40\nRSI(14): 68.7 | EMA20: ₹1165.70 | EMA50: ₹1082.10\nMACD histogram: -0.890\nATR(14): ₹24.35 (2.0% of price)\nVolume ratio (5d/20d): 0.87x\nRegime classification: BULL_VOLATILE",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1209.50) HIGHER than the close 10 trading days ago (2026-02-12)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2026-02-12",
+      "priorClose": 1192.4
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will SBIN's closing price 10 trading days from 2026-02-26 be HIGHER than the current close (₹1209.50)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-03-13",
+      "futureClose": 1047
+    }
+  },
+  {
+    "id": "postcutoff_BHARTIARTL_2026-02-26",
+    "fold": "post-cutoff 2026",
+    "symbol": "BHARTIARTL",
+    "asOfDate": "2026-02-26",
+    "price": 1929.5999755859375,
+    "evidenceText": "Symbol: BHARTIARTL | As-of date: 2026-02-26 | Current close: ₹1929.60\nClose 10 trading days ago (2026-02-12): ₹2014.50\nRSI(14): 36.2 | EMA20: ₹1987.45 | EMA50: ₹2028.03\nMACD histogram: -7.717\nATR(14): ₹38.31 (2.0% of price)\nVolume ratio (5d/20d): 1.10x\nRegime classification: BEAR_VOLATILE",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1929.60) HIGHER than the close 10 trading days ago (2026-02-12)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-02-12",
+      "priorClose": 2014.5
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will BHARTIARTL's closing price 10 trading days from 2026-02-26 be HIGHER than the current close (₹1929.60)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-03-13",
+      "futureClose": 1803.4
+    }
+  },
+  {
+    "id": "postcutoff_KOTAKBANK_2026-02-26",
+    "fold": "post-cutoff 2026",
+    "symbol": "KOTAKBANK",
+    "asOfDate": "2026-02-26",
+    "price": 424.54998779296875,
+    "evidenceText": "Symbol: KOTAKBANK | As-of date: 2026-02-26 | Current close: ₹424.55\nClose 10 trading days ago (2026-02-12): ₹426.25\nRSI(14): 51.1 | EMA20: ₹423.50 | EMA50: ₹425.84\nMACD histogram: 0.627\nATR(14): ₹8.31 (2.0% of price)\nVolume ratio (5d/20d): 0.71x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹424.55) HIGHER than the close 10 trading days ago (2026-02-12)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-02-12",
+      "priorClose": 426.25
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will KOTAKBANK's closing price 10 trading days from 2026-02-26 be HIGHER than the current close (₹424.55)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-03-13",
+      "futureClose": 366.85
+    }
+  },
+  {
+    "id": "postcutoff_LT_2026-02-26",
+    "fold": "post-cutoff 2026",
+    "symbol": "LT",
+    "asOfDate": "2026-02-26",
+    "price": 4286.5,
+    "evidenceText": "Symbol: LT | As-of date: 2026-02-26 | Current close: ₹4286.50\nClose 10 trading days ago (2026-02-12): ₹4185.90\nRSI(14): 60.5 | EMA20: ₹4197.98 | EMA50: ₹4101.68\nMACD histogram: 8.396\nATR(14): ₹84.48 (2.0% of price)\nVolume ratio (5d/20d): 1.23x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹4286.50) HIGHER than the close 10 trading days ago (2026-02-12)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2026-02-12",
+      "priorClose": 4185.9
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will LT's closing price 10 trading days from 2026-02-26 be HIGHER than the current close (₹4286.50)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-03-13",
+      "futureClose": 3439
+    }
+  },
+  {
+    "id": "postcutoff_AXISBANK_2026-02-26",
+    "fold": "post-cutoff 2026",
+    "symbol": "AXISBANK",
+    "asOfDate": "2026-02-26",
+    "price": 1395.5,
+    "evidenceText": "Symbol: AXISBANK | As-of date: 2026-02-26 | Current close: ₹1395.50\nClose 10 trading days ago (2026-02-12): ₹1340.00\nRSI(14): 62.7 | EMA20: ₹1358.31 | EMA50: ₹1315.75\nMACD histogram: 2.641\nATR(14): ₹27.65 (2.0% of price)\nVolume ratio (5d/20d): 1.03x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1395.50) HIGHER than the close 10 trading days ago (2026-02-12)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2026-02-12",
+      "priorClose": 1340
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will AXISBANK's closing price 10 trading days from 2026-02-26 be HIGHER than the current close (₹1395.50)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-03-13",
+      "futureClose": 1197.3
+    }
+  },
+  {
+    "id": "postcutoff_WIPRO_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "WIPRO",
+    "asOfDate": "2026-02-02",
+    "price": 242.3000030517578,
+    "evidenceText": "Symbol: WIPRO | As-of date: 2026-02-02 | Current close: ₹242.30\nClose 10 trading days ago (2026-01-16): ₹267.45\nRSI(14): 41.8 | EMA20: ₹248.13 | EMA50: ₹251.09\nMACD histogram: -1.581\nATR(14): ₹5.81 (2.4% of price)\nVolume ratio (5d/20d): 1.01x\nRegime classification: BEAR_VOLATILE",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹242.30) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-01-16",
+      "priorClose": 267.45
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will WIPRO's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹242.30)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-02-16",
+      "futureClose": 213.26
+    }
+  },
+  {
+    "id": "postcutoff_HCLTECH_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "HCLTECH",
+    "asOfDate": "2026-02-02",
+    "price": 1676.800048828125,
+    "evidenceText": "Symbol: HCLTECH | As-of date: 2026-02-02 | Current close: ₹1676.80\nClose 10 trading days ago (2026-01-16): ₹1698.00\nRSI(14): 50.2 | EMA20: ₹1685.78 | EMA50: ₹1659.70\nMACD histogram: -0.699\nATR(14): ₹32.23 (1.9% of price)\nVolume ratio (5d/20d): 1.00x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1676.80) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-01-16",
+      "priorClose": 1698
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will HCLTECH's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹1676.80)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-02-16",
+      "futureClose": 1461.8
+    }
+  },
+  {
+    "id": "postcutoff_ASIANPAINT_2026-02-02",
+    "fold": "post-cutoff 2026",
+    "symbol": "ASIANPAINT",
+    "asOfDate": "2026-02-02",
+    "price": 2402,
+    "evidenceText": "Symbol: ASIANPAINT | As-of date: 2026-02-02 | Current close: ₹2402.00\nClose 10 trading days ago (2026-01-16): ₹2756.90\nRSI(14): 23.7 | EMA20: ₹2648.19 | EMA50: ₹2741.64\nMACD histogram: -39.385\nATR(14): ₹73.30 (3.1% of price)\nVolume ratio (5d/20d): 1.88x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹2402.00) HIGHER than the close 10 trading days ago (2026-01-16)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-01-16",
+      "priorClose": 2756.9
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will ASIANPAINT's closing price 10 trading days from 2026-02-02 be HIGHER than the current close (₹2402.00)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-02-16",
+      "futureClose": 2397.2
+    }
+  },
+  {
+    "id": "postcutoff_MARUTI_2026-02-26",
+    "fold": "post-cutoff 2026",
+    "symbol": "MARUTI",
+    "asOfDate": "2026-02-26",
+    "price": 15213,
+    "evidenceText": "Symbol: MARUTI | As-of date: 2026-02-26 | Current close: ₹15213.00\nClose 10 trading days ago (2026-02-12): ₹15326.00\nRSI(14): 48.7 | EMA20: ₹15172.01 | EMA50: ₹15700.61\nMACD histogram: 50.104\nATR(14): ₹297.03 (2.0% of price)\nVolume ratio (5d/20d): 0.96x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹15213.00) HIGHER than the close 10 trading days ago (2026-02-12)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-02-12",
+      "priorClose": 15326
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will MARUTI's closing price 10 trading days from 2026-02-26 be HIGHER than the current close (₹15213.00)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-03-13",
+      "futureClose": 12591
+    }
+  },
+  {
+    "id": "postcutoff_SUNPHARMA_2026-03-25",
+    "fold": "post-cutoff 2026",
+    "symbol": "SUNPHARMA",
+    "asOfDate": "2026-03-25",
+    "price": 1795.4000244140625,
+    "evidenceText": "Symbol: SUNPHARMA | As-of date: 2026-03-25 | Current close: ₹1795.40\nClose 10 trading days ago (2026-03-11): ₹1825.90\nRSI(14): 56.8 | EMA20: ₹1770.55 | EMA50: ₹1734.56\nMACD histogram: -5.204\nATR(14): ₹35.75 (2.0% of price)\nVolume ratio (5d/20d): 0.89x\nRegime classification: SIDEWAYS",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1795.40) HIGHER than the close 10 trading days ago (2026-03-11)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-03-11",
+      "priorClose": 1825.9
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will SUNPHARMA's closing price 10 trading days from 2026-03-25 be HIGHER than the current close (₹1795.40)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-04-13",
+      "futureClose": 1652.2
+    }
+  },
+  {
+    "id": "postcutoff_TITAN_2026-02-26",
+    "fold": "post-cutoff 2026",
+    "symbol": "TITAN",
+    "asOfDate": "2026-02-26",
+    "price": 4342.60009765625,
+    "evidenceText": "Symbol: TITAN | As-of date: 2026-02-26 | Current close: ₹4342.60\nClose 10 trading days ago (2026-02-12): ₹4275.80\nRSI(14): 66.0 | EMA20: ₹4216.11 | EMA50: ₹4108.33\nMACD histogram: 8.870\nATR(14): ₹78.92 (1.8% of price)\nVolume ratio (5d/20d): 0.58x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹4342.60) HIGHER than the close 10 trading days ago (2026-02-12)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2026-02-12",
+      "priorClose": 4275.8
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will TITAN's closing price 10 trading days from 2026-02-26 be HIGHER than the current close (₹4342.60)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-03-13",
+      "futureClose": 4073.2
+    }
+  },
+  {
+    "id": "postcutoff_ULTRACEMCO_2026-02-26",
+    "fold": "post-cutoff 2026",
+    "symbol": "ULTRACEMCO",
+    "asOfDate": "2026-02-26",
+    "price": 12937,
+    "evidenceText": "Symbol: ULTRACEMCO | As-of date: 2026-02-26 | Current close: ₹12937.00\nClose 10 trading days ago (2026-02-12): ₹13029.00\nRSI(14): 57.3 | EMA20: ₹12826.49 | EMA50: ₹12374.73\nMACD histogram: -32.507\nATR(14): ₹223.07 (1.7% of price)\nVolume ratio (5d/20d): 1.07x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹12937.00) HIGHER than the close 10 trading days ago (2026-02-12)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2026-02-12",
+      "priorClose": 13029
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will ULTRACEMCO's closing price 10 trading days from 2026-02-26 be HIGHER than the current close (₹12937.00)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-03-13",
+      "futureClose": 10616
+    }
+  },
+  {
+    "id": "postcutoff_BAJFINANCE_2026-02-26",
+    "fold": "post-cutoff 2026",
+    "symbol": "BAJFINANCE",
+    "asOfDate": "2026-02-26",
+    "price": 1012.9500122070312,
+    "evidenceText": "Symbol: BAJFINANCE | As-of date: 2026-02-26 | Current close: ₹1012.95\nClose 10 trading days ago (2026-02-12): ₹999.10\nRSI(14): 57.0 | EMA20: ₹999.57 | EMA50: ₹992.00\nMACD histogram: 2.992\nATR(14): ₹23.07 (2.3% of price)\nVolume ratio (5d/20d): 0.70x\nRegime classification: BULL_VOLATILE",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1012.95) HIGHER than the close 10 trading days ago (2026-02-12)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2026-02-12",
+      "priorClose": 999.1
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will BAJFINANCE's closing price 10 trading days from 2026-02-26 be HIGHER than the current close (₹1012.95)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2026-03-13",
+      "futureClose": 855.05
+    }
+  }
+]

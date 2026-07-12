@@ -1,0 +1,1946 @@
+[
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gemini-3.5-flash",
+    "condition": "control",
+    "costUsd": 0.0010665,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of landing HEADS, which is the condition required to record the result as \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "nemotron-3-super-nv",
+    "condition": "control",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has equal 50% chance for heads and tails."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "nemotron-3-super-nv",
+    "condition": "treatment",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing heads, which maps to \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gemini-3.5-flash",
+    "condition": "treatment",
+    "costUsd": 0.001296,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is specified as fair with exactly a 50% chance of landing Heads, which is the condition for recording the result as \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "nemotron-3-super-nv",
+    "condition": "treatment",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has equal 50% chance for heads (UP) and tails (DOWN)."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "nemotron-3-super-nv",
+    "condition": "control",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has equal 50% chance for heads, which we record as \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "nemotron-3-super-nv",
+    "condition": "treatment",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has equal chance of heads or tails, giving a 50% chance of recording \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gemma-4-31b",
+    "condition": "control",
+    "costUsd": 0.0000482,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing heads, which corresponds to the result \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "nemotron-3-super-nv",
+    "condition": "treatment",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair, so heads (UP) occurs with probability 0.5."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "nemotron-3-super-nv",
+    "condition": "control",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair, so heads occurs with probability 0.5, which corresponds to 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "nemotron-3-super-nv",
+    "condition": "treatment",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing heads, which is recorded as UP."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "nemotron-3-super-nv",
+    "condition": "control",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin yields heads with probability 0.5, i.e., 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "nemotron-3-super-nv",
+    "condition": "control",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair, so heads occurs with probability 0.5 = 50%."
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "nemotron-3-super-nv",
+    "condition": "control",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin yields heads with probability 0.5, which maps to \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gpt-5.4-mini",
+    "condition": "control",
+    "costUsd": 0.0003975,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin lands Heads with probability 50%, and Heads is recorded as \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "nemotron-3-super-nv",
+    "condition": "treatment",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has equal chance of heads or tails, giving a 50% chance of recording \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gemma-4-31b",
+    "condition": "treatment",
+    "costUsd": 0.00007578,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The result is determined by a fair coin flip, which has a 50% chance of landing heads."
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "nemotron-3-super-nv",
+    "condition": "control",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin yields heads with probability 0.5, which is recorded as UP."
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "nemotron-3-super-nv",
+    "condition": "treatment",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has equal chance of heads or tails, giving a 50% chance of recording \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gpt-5.4-mini",
+    "condition": "treatment",
+    "costUsd": 0.0005055,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin lands Heads exactly half the time, and Heads is recorded as “UP.”"
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "nemotron-3-super-nv",
+    "condition": "treatment",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin lands heads half the time, so the recorded result \"UP\" occurs with probability 0.5 = 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "grok-4.20",
+    "condition": "control",
+    "costUsd": 0.00040685,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads, which is recorded as UP."
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "nemotron-3-super-nv",
+    "condition": "control",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin lands heads half the time, giving a 50% chance of recording \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "nemotron-3-super-nv",
+    "condition": "control",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin lands heads half the time, and heads is recorded as \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "nemotron-3-super-nv",
+    "condition": "control",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has equal chance of heads or tails, so heads (recorded as UP) occurs with probability 0.5 = 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "grok-4.20",
+    "condition": "treatment",
+    "costUsd": 0.00062685,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is explicitly fair and independent of the provided TCS data which does not influence the flip."
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "nemotron-3-super-nv",
+    "condition": "treatment",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing heads, which is recorded as UP."
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "nemotron-3-super-nv",
+    "condition": "control",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin lands heads half the time, giving a 50% chance of recording \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "haiku-4.5",
+    "condition": "control",
+    "costUsd": 0.00061,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair with exactly 50% probability of landing heads, and heads is recorded as \"UP\", the probability that the recorded result is \"UP\" is 50%."
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "nemotron-3-super-nv",
+    "condition": "control",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The fair coin has a 50% chance of landing heads, which maps to \"UP\"."
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "nemotron-3-super-nv",
+    "condition": "treatment",
+    "costUsd": 0,
+    "probability": null,
+    "abstained": false,
+    "reasoning": "<thinking>\nThe coin is fair, so heads occurs with probability 0.5, which maps to \"UP\".\n</answer>\n<answer>\nPROBABILITY_YES: 50\nREASONING: A fair coin has equal chance of heads or tails, giving a 50% chance of recording \"UP\".\n</answer>"
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "haiku-4.5",
+    "condition": "treatment",
+    "costUsd": 0.000802,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads (recorded as \"UP\"), regardless of the TCS technical data which does not influence the coin flip."
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "nemotron-3-super-nv",
+    "condition": "treatment",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has equal 50% chance for heads and tails."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "opus",
+    "condition": "control",
+    "costUsd": 0.0036,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair with 50% Heads, and Heads maps directly to \"UP,\" the probability is 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "opus",
+    "condition": "treatment",
+    "costUsd": 0.00527,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of Heads (\"UP\"), and the technical data is explicitly stated to have no bearing on the result."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gpt5.4",
+    "condition": "control",
+    "costUsd": 0.00146,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Because a fair coin lands on heads with probability 50%, the recorded result is \"UP\" 50% of the time."
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "nemotron-3-super-nv",
+    "condition": "treatment",
+    "costUsd": 0,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has equal chance of heads or tails, giving a 50% probability for \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gpt5.4",
+    "condition": "treatment",
+    "costUsd": 0.00206,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Because the coin is fair and \"UP\" is recorded if and only if it lands HEADS, the probability is 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "deepseek-v3.2",
+    "condition": "control",
+    "costUsd": 0.000057141,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and HEADS is recorded as \"UP\", the probability is exactly 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "deepseek-v3.2",
+    "condition": "treatment",
+    "costUsd": 0.00011832,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of landing heads, which maps to \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gemini-3.5-flash",
+    "condition": "control",
+    "costUsd": 0.0010485,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of landing HEADS, which is the exact condition required to record the result as \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gemini-3.5-flash",
+    "condition": "treatment",
+    "costUsd": 0.001434,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The outcome \"UP\" depends entirely on a fair coin landing HEADS, which has a probability of exactly 50% regardless of any external stock market data."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gemma-4-31b",
+    "condition": "control",
+    "costUsd": 0.0000482,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing on heads, which corresponds to the result \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gpt-5.4-mini",
+    "condition": "control",
+    "costUsd": 0.0004425,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the fair coin lands HEADS half the time and HEADS is recorded as \"UP,\" the probability of \"UP\" is 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gemma-4-31b",
+    "condition": "treatment",
+    "costUsd": 0.00007446,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The result is determined by a fair coin flip, which by definition has a 50% chance of landing heads."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gpt-5.4-mini",
+    "condition": "treatment",
+    "costUsd": 0.00055425,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair, so Heads and Tails are equally likely, and Heads is recorded as “UP.”"
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "grok-4.20",
+    "condition": "control",
+    "costUsd": 0.00025745,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% probability of landing heads, which records as \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "grok-4.20",
+    "condition": "treatment",
+    "costUsd": 0.0006506,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The problem states it is a fair coin with exactly 50% heads, and the stock data does not influence the outcome."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "haiku-4.5",
+    "condition": "control",
+    "costUsd": 0.00061,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair with exactly 50% probability of landing heads, and heads is recorded as \"UP\", the probability that the recorded result is \"UP\" is 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "haiku-4.5",
+    "condition": "treatment",
+    "costUsd": 0.000797,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with exactly 50% probability of heads (recorded as \"UP\"), and the technical data provided does not influence the coin flip outcome."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "opus",
+    "condition": "control",
+    "costUsd": 0.0037,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of Heads, which is recorded as \"UP.\""
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "opus",
+    "condition": "treatment",
+    "costUsd": 0.00511,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of Heads, and the LT technical data is explicitly irrelevant to the flip."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gpt5.4",
+    "condition": "control",
+    "costUsd": 0.001355,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Because a fair coin lands Heads half the time and \"UP\" is recorded precisely on Heads."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gpt5.4",
+    "condition": "treatment",
+    "costUsd": 0.0018925,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Because the coin is fair, HEADS—and therefore \"UP\"—occurs with probability 50%, regardless of the LT market data."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "deepseek-v3.2",
+    "condition": "control",
+    "costUsd": 0.000059661,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and \"UP\" is recorded for HEADS, the probability is exactly 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gemini-3.5-flash",
+    "condition": "control",
+    "costUsd": 0.0009855,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair, there is a 50% chance of landing Heads, which is the condition for the result to be recorded as \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "deepseek-v3.2",
+    "condition": "treatment",
+    "costUsd": 0.0001069,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair, so the probability of heads (recorded as \"UP\") is exactly 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gemini-3.5-flash",
+    "condition": "treatment",
+    "costUsd": 0.001389,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of landing Heads, which is the condition for recording the result as \"UP\", and the stock data does not affect this probability."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gemma-4-31b",
+    "condition": "control",
+    "costUsd": 0.0000422,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing heads, which is the condition for recording \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gpt-5.4-mini",
+    "condition": "control",
+    "costUsd": 0.0004065,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing heads, and heads is recorded as \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gpt-5.4-mini",
+    "condition": "treatment",
+    "costUsd": 0.00057825,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing Heads, which is recorded as \"UP,\" and the stock data does not affect the coin toss."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "grok-4.20",
+    "condition": "control",
+    "costUsd": 0.00027495,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads, which records as \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "grok-4.20",
+    "condition": "treatment",
+    "costUsd": 0.0005681,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin flip is explicitly fair and independent of the unrelated stock context."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "haiku-4.5",
+    "condition": "control",
+    "costUsd": 0.00062,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair (50% heads probability) and heads is recorded as \"UP\", the probability of the recorded result being \"UP\" is exactly 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "haiku-4.5",
+    "condition": "treatment",
+    "costUsd": 0.000789,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads (recorded as \"UP\"), regardless of any technical indicators or market data provided."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gemma-4-31b",
+    "condition": "treatment",
+    "costUsd": 0.00006516,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The result is determined by a fair coin flip, which has an equal probability of landing heads or tails."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "opus",
+    "condition": "control",
+    "costUsd": 0.0034,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of Heads, and Heads is recorded as \"UP.\""
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "opus",
+    "condition": "treatment",
+    "costUsd": 0.004905,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of Heads, and the stated technical data has no causal effect on the outcome."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gpt5.4",
+    "condition": "control",
+    "costUsd": 0.001415,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Because the coin is fair, Heads occurs with probability 50%, so \"UP\" is recorded 50% of the time."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gpt5.4",
+    "condition": "treatment",
+    "costUsd": 0.0019575,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has an equal 50% chance of landing Heads, which is recorded as \"UP\", and the AXISBANK data does not affect the coin."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "deepseek-v3.2",
+    "condition": "control",
+    "costUsd": 0.000059241,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and \"UP\" corresponds to Heads, the probability is exactly 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "deepseek-v3.2",
+    "condition": "treatment",
+    "costUsd": 0.000110313,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair, so the probability of heads (\"UP\") is exactly 50% regardless of unrelated market data."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gemini-3.5-flash",
+    "condition": "control",
+    "costUsd": 0.0010845,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of landing Heads, which is the exact condition required to record the result as \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gemini-3.5-flash",
+    "condition": "treatment",
+    "costUsd": 0.001335,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is specified as fair with a 50% chance of landing Heads, and its outcome is completely independent of the provided financial data."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gemma-4-31b",
+    "condition": "treatment",
+    "costUsd": 0.0000648,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The result is determined by a fair coin flip, which by definition has a 50% chance of landing heads."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gemma-4-31b",
+    "condition": "control",
+    "costUsd": 0.00004616,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing on heads, which is the condition for recording \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gpt-5.4-mini",
+    "condition": "control",
+    "costUsd": 0.0003885,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin lands heads half the time, and heads is recorded as \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gpt-5.4-mini",
+    "condition": "treatment",
+    "costUsd": 0.00053175,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair, and “UP” is recorded exactly when it lands Heads, so the probability is 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "grok-4.20",
+    "condition": "control",
+    "costUsd": 0.00027495,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads, which records as \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "grok-4.20",
+    "condition": "treatment",
+    "costUsd": 0.0005931,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair and independent of all contextual stock data provided."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "haiku-4.5",
+    "condition": "control",
+    "costUsd": 0.000615,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair (50% heads probability) and heads is recorded as \"UP\", the probability of the recorded result being \"UP\" is exactly 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "haiku-4.5",
+    "condition": "treatment",
+    "costUsd": 0.000806,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads (recorded as \"UP\"), regardless of any external technical data which does not influence the coin flip."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "opus",
+    "condition": "control",
+    "costUsd": 0.004025,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Heads occurs with 50% probability and Heads maps directly to \"UP,\" giving a 50% chance for the recorded result to be \"UP.\""
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "opus",
+    "condition": "treatment",
+    "costUsd": 0.005165,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of Heads (UP), and the MARUTI data is irrelevant to the coin flip."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gpt5.4",
+    "condition": "control",
+    "costUsd": 0.001415,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Because \"UP\" is recorded if and only if the fair coin lands Heads, which happens with probability 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gpt5.4",
+    "condition": "treatment",
+    "costUsd": 0.0017725,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Because the coin is fair, the probability of HEADS—and thus recording \"UP\"—is exactly 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "deepseek-v3.2",
+    "condition": "treatment",
+    "costUsd": 0.000120099,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair, so the probability of heads (recorded as \"UP\") is exactly 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gemini-3.5-flash",
+    "condition": "control",
+    "costUsd": 0.0011115,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Because the coin is fair and has a 50% chance of landing Heads, which corresponds to the recorded result \"UP\", the probability is 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gemini-3.5-flash",
+    "condition": "treatment",
+    "costUsd": 0.0013575,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with exactly a 50% chance of landing Heads, which corresponds to the result \"UP\", and the financial data does not affect this probability."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "deepseek-v3.2",
+    "condition": "control",
+    "costUsd": 0.000063021,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and HEADS corresponds to \"UP\", the probability is exactly 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gpt-5.4-mini",
+    "condition": "control",
+    "costUsd": 0.0004065,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin lands heads with probability 1/2, and heads is recorded as \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gpt-5.4-mini",
+    "condition": "treatment",
+    "costUsd": 0.00053025,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing Heads, which is recorded as “UP.”"
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gemma-4-31b",
+    "condition": "treatment",
+    "costUsd": 0.00006704,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The result depends on a fair coin flip, which has a 50% probability of landing heads regardless of the external financial data provided."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "grok-4.20",
+    "condition": "control",
+    "costUsd": 0.00027495,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads, which is recorded as UP."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gemma-4-31b",
+    "condition": "control",
+    "costUsd": 0.0000627,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has an equal probability of landing on heads or tails."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "grok-4.20",
+    "condition": "treatment",
+    "costUsd": 0.0006406,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair and independent of all contextual stock data, so the probability of recording \"UP\" on heads is exactly 50."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "haiku-4.5",
+    "condition": "control",
+    "costUsd": 0.00062,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair (50% heads probability) and heads is recorded as \"UP\", the probability of the recorded result being \"UP\" is exactly 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "haiku-4.5",
+    "condition": "treatment",
+    "costUsd": 0.000809,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads (recorded as \"UP\"), regardless of the technical data provided which does not influence the coin flip."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "opus",
+    "condition": "control",
+    "costUsd": 0.0034,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of Heads, and Heads is recorded as \"UP\"."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "opus",
+    "condition": "treatment",
+    "costUsd": 0.00498,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of Heads, and the BAJFINANCE data has no bearing on the outcome."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gpt5.4",
+    "condition": "control",
+    "costUsd": 0.00137,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Because a fair coin lands on heads half the time, the recorded result is \"UP\" with probability 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gpt5.4",
+    "condition": "treatment",
+    "costUsd": 0.0019325,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing heads, which is recorded as \"UP\", and the provided BAJFINANCE data does not affect the coin."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "deepseek-v3.2",
+    "condition": "control",
+    "costUsd": 0.000057561,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and HEADS is recorded as \"UP\", the probability of \"UP\" is exactly 50%."
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "deepseek-v3.2",
+    "condition": "treatment",
+    "costUsd": 0.000123561,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair and the recorded result is \"UP\" if and only if it lands heads, which has a 50% probability."
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gemini-3.5-flash",
+    "condition": "control",
+    "costUsd": 0.0009495,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of landing Heads, which is the condition required to record the result as \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gemini-3.5-flash",
+    "condition": "treatment",
+    "costUsd": 0.0014475,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is explicitly stated to be fair with a 50% chance of landing Heads, which corresponds to the \"UP\" result, and this probability is entirely unaffected by the provided financial data."
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gemma-4-31b",
+    "condition": "treatment",
+    "costUsd": 0.00010692,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The probability of a fair coin landing heads is 50%, regardless of the provided technical data."
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gpt-5.4-mini",
+    "condition": "control",
+    "costUsd": 0.000366,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing heads, and heads is recorded as \"UP.\""
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gemma-4-31b",
+    "condition": "control",
+    "costUsd": 0.0000486,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing on heads, which is the condition for recording \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gpt-5.4-mini",
+    "condition": "treatment",
+    "costUsd": 0.00055575,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin gives Heads, recorded as \"UP,\" exactly half the time, and the WIPRO data does not affect the coin flip."
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "grok-4.20",
+    "condition": "control",
+    "costUsd": 0.00027495,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads, which records as \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "grok-4.20",
+    "condition": "treatment",
+    "costUsd": 0.0006406,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is explicitly fair and independent of the irrelevant stock data, so P(UP) is exactly 50."
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "haiku-4.5",
+    "condition": "control",
+    "costUsd": 0.000615,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair (50% heads probability) and heads is recorded as \"UP\", the probability of the recorded result being \"UP\" is exactly 50%."
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "haiku-4.5",
+    "condition": "treatment",
+    "costUsd": 0.000792,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads (recorded as \"UP\"), regardless of the WIPRO technical data which does not influence the coin flip."
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "opus",
+    "condition": "control",
+    "costUsd": 0.003475,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of Heads, and Heads maps directly to the \"UP\" result."
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "opus",
+    "condition": "treatment",
+    "costUsd": 0.005225,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is stated to be fair and the WIPRO data explicitly does not influence it, so Heads/\"UP\" has a 50% chance."
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gpt5.4",
+    "condition": "control",
+    "costUsd": 0.00134,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Because a fair coin lands Heads half the time and \"UP\" is recorded exactly when it lands Heads."
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gpt5.4",
+    "condition": "treatment",
+    "costUsd": 0.0017175,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "\"UP\" is recorded exactly when a fair coin lands heads, which happens with probability 50%."
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "deepseek-v3.2",
+    "condition": "control",
+    "costUsd": 0.000062181,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and \"UP\" corresponds to heads, the probability is exactly 50%."
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gemini-3.5-flash",
+    "condition": "control",
+    "costUsd": 0.0010755,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of landing HEADS, which is the exact condition required to record the result as \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gemini-3.5-flash",
+    "condition": "treatment",
+    "costUsd": 0.0014025,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is explicitly stated to be fair with a 50% chance of landing Heads, and the unrelated stock market data has no influence on the outcome of the flip."
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "deepseek-v3.2",
+    "condition": "treatment",
+    "costUsd": 0.00009412,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair, so the probability of heads (recorded as \"UP\") is exactly 50%."
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gemma-4-31b",
+    "condition": "control",
+    "costUsd": 0.00004224,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing on heads, which corresponds to the result \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gemma-4-31b",
+    "condition": "treatment",
+    "costUsd": 0.00006297,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The result is determined by a fair coin flip, which by definition has a 50% chance of landing heads."
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gpt-5.4-mini",
+    "condition": "control",
+    "costUsd": 0.0003705,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin lands Heads with probability 50%, and Heads is recorded as UP."
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gpt-5.4-mini",
+    "condition": "treatment",
+    "costUsd": 0.00049875,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin gives HEADS with probability 50%, and HEADS is recorded as \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "grok-4.20",
+    "condition": "control",
+    "costUsd": 0.00027495,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads, which records as \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "grok-4.20",
+    "condition": "treatment",
+    "costUsd": 0.0005831,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin flip is explicitly fair and unrelated to the TATASTEEL technical data."
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "haiku-4.5",
+    "condition": "control",
+    "costUsd": 0.000615,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair (50% heads) and heads is recorded as \"UP\", the probability of the recorded result being \"UP\" is exactly 50%."
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "opus",
+    "condition": "control",
+    "costUsd": 0.0039,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Heads occurs with 50% probability and Heads is recorded as \"UP,\" so the result is \"UP\" 50% of the time."
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "opus",
+    "condition": "treatment",
+    "costUsd": 0.005165,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair and the outcome is entirely independent of the TATASTEEL technical data, so Heads (\"UP\") has a 50% chance."
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gpt5.4",
+    "condition": "control",
+    "costUsd": 0.00131,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "\"UP\" is recorded exactly when the fair coin lands Heads, which happens with probability 50%."
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gpt5.4",
+    "condition": "treatment",
+    "costUsd": 0.0018425,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing heads, which is recorded as \"UP,\" and the provided market data is irrelevant."
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "deepseek-v3.2",
+    "condition": "control",
+    "costUsd": 0.00006498,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and \"UP\" is recorded exactly when it lands Heads, the probability is 50%."
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "haiku-4.5",
+    "condition": "treatment",
+    "costUsd": 0.000809,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads (recorded as \"UP\"), regardless of the technical data provided which does not influence the coin flip."
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gemini-3.5-flash",
+    "condition": "control",
+    "costUsd": 0.0010845,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of landing Heads, which is the exact condition required to record the result as \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gemini-3.5-flash",
+    "condition": "treatment",
+    "costUsd": 0.0013575,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is explicitly stated to be fair with a 50% chance of landing Heads, and the unrelated stock data does not affect this probability."
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gemma-4-31b",
+    "condition": "control",
+    "costUsd": 0.00013105,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing heads, which corresponds to the result \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gemma-4-31b",
+    "condition": "treatment",
+    "costUsd": 0.00006447,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% probability of landing on heads."
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gpt-5.4-mini",
+    "condition": "control",
+    "costUsd": 0.0003975,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin lands Heads half the time, and Heads is recorded as \"UP.\""
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "deepseek-v3.2",
+    "condition": "treatment",
+    "costUsd": 0.000117961,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair, so the probability of Heads (recorded as \"UP\") is exactly 50% regardless of unrelated stock data."
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gpt-5.4-mini",
+    "condition": "treatment",
+    "costUsd": 0.00054975,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing Heads, and Heads is recorded as \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "grok-4.20",
+    "condition": "control",
+    "costUsd": 0.00027495,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads, which records as \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "grok-4.20",
+    "condition": "treatment",
+    "costUsd": 0.0006431,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair and independent of the irrelevant stock data, so P(UP) is exactly 50."
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "haiku-4.5",
+    "condition": "control",
+    "costUsd": 0.000615,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair (50% heads probability) and heads is recorded as \"UP\", the probability of the recorded result being \"UP\" is exactly 50%."
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "haiku-4.5",
+    "condition": "treatment",
+    "costUsd": 0.000809,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads (recorded as \"UP\"), regardless of any external technical data which does not influence the coin flip."
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "opus",
+    "condition": "control",
+    "costUsd": 0.0034,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of Heads, and Heads is recorded as \"UP.\""
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "opus",
+    "condition": "treatment",
+    "costUsd": 0.005155,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of Heads (\"UP\"), and the technical data has no bearing on the outcome."
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gpt5.4",
+    "condition": "control",
+    "costUsd": 0.00134,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Because a fair coin lands Heads 50% of the time and Heads is recorded as \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gpt5.4",
+    "condition": "treatment",
+    "costUsd": 0.0018775,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Because a fair coin lands heads 50% of the time and \"UP\" is recorded exactly when it lands heads."
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "deepseek-v3.2",
+    "condition": "control",
+    "costUsd": 0.00006004,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and HEADS corresponds to \"UP\", the probability is exactly 50%."
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "deepseek-v3.2",
+    "condition": "treatment",
+    "costUsd": 0.00011692,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair and lands HEADS (recorded as \"UP\") with a 50% probability, regardless of the unrelated stock data."
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gemini-3.5-flash",
+    "condition": "control",
+    "costUsd": 0.0010935,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and landing on Heads is recorded as \"UP\", the probability of the result being \"UP\" is exactly 50%."
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gemini-3.5-flash",
+    "condition": "treatment",
+    "costUsd": 0.001413,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and has exactly a 50% chance of landing Heads, the probability that the recorded result is \"UP\" is 50%, completely independent of the provided stock data."
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gemma-4-31b",
+    "condition": "control",
+    "costUsd": 0.0000704,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing on heads, which corresponds to the result \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gemma-4-31b",
+    "condition": "treatment",
+    "costUsd": 0.00006528,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The result is determined by a fair coin flip, which by definition has a 50% chance of landing heads."
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gpt-5.4-mini",
+    "condition": "control",
+    "costUsd": 0.000429,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and Heads is defined as “UP,” the probability of “UP” is 50%."
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gpt-5.4-mini",
+    "condition": "treatment",
+    "costUsd": 0.00052125,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Because the coin is fair and HEADS is mapped to “UP,” the probability of “UP” is exactly 50%."
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "grok-4.20",
+    "condition": "control",
+    "costUsd": 0.00028495,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly equal probability for heads or tails, and \"UP\" is defined as the heads outcome."
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "grok-4.20",
+    "condition": "treatment",
+    "costUsd": 0.0005684,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair and independent of the unrelated stock data, so P(UP) is exactly 50."
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "haiku-4.5",
+    "condition": "control",
+    "costUsd": 0.00061,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair with 50% probability of landing heads, and heads is recorded as \"UP\", the probability that the recorded result is \"UP\" is exactly 50%."
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "haiku-4.5",
+    "condition": "treatment",
+    "costUsd": 0.00082,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads (recorded as \"UP\"), regardless of the technical data provided which does not influence the coin flip."
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "opus",
+    "condition": "control",
+    "costUsd": 0.00335,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of Heads, which is recorded as \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "opus",
+    "condition": "treatment",
+    "costUsd": 0.004955,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing Heads, and the technical data explicitly does not influence the outcome."
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gpt5.4",
+    "condition": "control",
+    "costUsd": 0.001325,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since \"UP\" is recorded exactly when the fair coin lands Heads, the probability is 50%."
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gpt5.4",
+    "condition": "treatment",
+    "costUsd": 0.0018725,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Because the coin is fair and \"UP\" corresponds exactly to Heads, the chance of \"UP\" is 50%."
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "deepseek-v3.2",
+    "condition": "control",
+    "costUsd": 0.00007548,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and \"UP\" is recorded exactly when it lands HEADS, the probability is 50%."
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gemini-3.5-flash",
+    "condition": "control",
+    "costUsd": 0.0010755,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of landing Heads, which is the exact condition required to record the result as \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "deepseek-v3.2",
+    "condition": "treatment",
+    "costUsd": 0.00011067,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair, so the probability of heads (recorded as \"UP\") is exactly 50%."
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gemini-3.5-flash",
+    "condition": "treatment",
+    "costUsd": 0.0014025,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and has exactly a 50% chance of landing Heads, the probability of recording the result \"UP\" is 50%, completely independent of the provided financial data."
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gemma-4-31b",
+    "condition": "control",
+    "costUsd": 0.0000473,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% probability of landing heads, which is the condition for recording \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gemma-4-31b",
+    "condition": "treatment",
+    "costUsd": 0.00006866,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has an equal 50% probability of landing on heads."
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gpt-5.4-mini",
+    "condition": "control",
+    "costUsd": 0.0004335,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing Heads, and Heads is recorded as UP."
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gpt-5.4-mini",
+    "condition": "treatment",
+    "costUsd": 0.00052275,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair and “UP” is assigned to Heads, so the probability is 50%."
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "grok-4.20",
+    "condition": "control",
+    "costUsd": 0.00027495,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads, which records as \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "grok-4.20",
+    "condition": "treatment",
+    "costUsd": 0.0006106,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair and independent of the unrelated stock data, so P(UP) is exactly 50."
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "haiku-4.5",
+    "condition": "control",
+    "costUsd": 0.00061,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair (50% heads probability) and heads is recorded as \"UP\", the probability of the recorded result being \"UP\" is exactly 50%."
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "haiku-4.5",
+    "condition": "treatment",
+    "costUsd": 0.000809,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads (recorded as \"UP\"), regardless of any external technical data which does not influence the coin flip."
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "opus",
+    "condition": "control",
+    "costUsd": 0.0037,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of Heads, which is recorded as \"UP.\""
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "opus",
+    "condition": "treatment",
+    "costUsd": 0.00531,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The outcome depends solely on a fair coin flip with a 50% chance of Heads, and the ONGC data is explicitly irrelevant to it."
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gpt5.4",
+    "condition": "control",
+    "costUsd": 0.00128,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Because a fair coin lands Heads half the time, and Heads is recorded as \"UP\"."
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gpt5.4",
+    "condition": "treatment",
+    "costUsd": 0.0019075,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Because the coin is fair, the chance of HEADS—and thus the recorded result \"UP\"—is 50%, regardless of any stock data."
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "deepseek-v3.2",
+    "condition": "control",
+    "costUsd": 0.000063021,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and HEADS is recorded as \"UP\", the probability is exactly 50%."
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "deepseek-v3.2",
+    "condition": "treatment",
+    "costUsd": 0.00011032,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair, so the probability of heads (recorded as \"UP\") is exactly 50%."
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gemini-3.5-flash",
+    "condition": "control",
+    "costUsd": 0.0009675,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and has a 50% chance of landing Heads, the probability of recording the result \"UP\" is exactly 50%."
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gemini-3.5-flash",
+    "condition": "treatment",
+    "costUsd": 0.001416,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is specified as fair with exactly a 50% chance of landing HEADS, which is recorded as \"UP\", and this probability is entirely unaffected by the provided stock market data."
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gemma-4-31b",
+    "condition": "control",
+    "costUsd": 0.0000426,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has an equal 50% chance of landing on heads, which is the condition for recording \"UP\"."
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gpt-5.4-mini",
+    "condition": "control",
+    "costUsd": 0.000393,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing Heads, and Heads is recorded as \"UP\"."
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gemma-4-31b",
+    "condition": "treatment",
+    "costUsd": 0.00007446,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The result is determined by a fair coin flip, which has an equal probability of landing heads or tails regardless of the provided technical data."
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gpt-5.4-mini",
+    "condition": "treatment",
+    "costUsd": 0.0005925,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing Heads, which is recorded as \"UP\", and the BHARTIARTL data is irrelevant."
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "grok-4.20",
+    "condition": "control",
+    "costUsd": 0.00026495,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% probability of landing heads, which is recorded as \"UP\"."
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "grok-4.20",
+    "condition": "treatment",
+    "costUsd": 0.00059935,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin flip is explicitly fair and independent of the unrelated stock context, making the probability of heads exactly 50%."
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "haiku-4.5",
+    "condition": "control",
+    "costUsd": 0.000615,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair (50% heads probability) and heads is recorded as \"UP\", the probability of the recorded result being \"UP\" is exactly 50%."
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "haiku-4.5",
+    "condition": "treatment",
+    "costUsd": 0.000794,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads (recorded as \"UP\"), regardless of the technical data provided which does not influence the coin flip."
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "opus",
+    "condition": "control",
+    "costUsd": 0.00355,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of Heads, and Heads maps directly to the \"UP\" recording."
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "opus",
+    "condition": "treatment",
+    "costUsd": 0.00505,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing Heads, and the technical data is explicitly stated to have no influence on the outcome."
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gpt5.4",
+    "condition": "control",
+    "costUsd": 0.001325,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "\"UP\" is recorded exactly when the fair coin lands Heads, which happens with probability 50%."
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gpt5.4",
+    "condition": "treatment",
+    "costUsd": 0.001855,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing Heads, which is recorded as \"UP\", and the provided market data is irrelevant."
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "deepseek-v3.2",
+    "condition": "control",
+    "costUsd": 0.00006828,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and \"UP\" corresponds to HEADS, the probability is exactly 50%."
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gemini-3.5-flash",
+    "condition": "control",
+    "costUsd": 0.0009405,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair with a 50% chance of landing Heads, which is the condition for the result to be recorded as \"UP\"."
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "deepseek-v3.2",
+    "condition": "treatment",
+    "costUsd": 0.00012112,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair, so the probability of heads (recorded as \"UP\") is exactly 50%."
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gemini-3.5-flash",
+    "condition": "treatment",
+    "costUsd": 0.001302,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is specified as fair with a 50% chance of landing Heads, and this probability is entirely unaffected by the external financial data."
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gemma-4-31b",
+    "condition": "control",
+    "costUsd": 0.00004188,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing on heads, which corresponds to the result \"UP\"."
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gemma-4-31b",
+    "condition": "treatment",
+    "costUsd": 0.00006396,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The result is determined by a fair coin flip, which has an equal probability of landing heads or tails."
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gpt-5.4-mini",
+    "condition": "control",
+    "costUsd": 0.0004155,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and Heads is recorded as \"UP,\" the chance of \"UP\" is exactly 50%."
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gpt-5.4-mini",
+    "condition": "treatment",
+    "costUsd": 0.00053475,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and “UP” means Heads, the probability of “UP” is exactly 50%."
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "grok-4.20",
+    "condition": "control",
+    "costUsd": 0.00026995,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% probability of landing heads, which is recorded as UP."
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "grok-4.20",
+    "condition": "treatment",
+    "costUsd": 0.0006631,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is explicitly fair with a 50% chance of heads (\"UP\"), and the provided stock data is stated to have no influence on the coin flip."
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "haiku-4.5",
+    "condition": "control",
+    "costUsd": 0.00061,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair with exactly 50% probability of landing heads, and heads is recorded as \"UP\", the probability that the recorded result is \"UP\" is 50%."
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "haiku-4.5",
+    "condition": "treatment",
+    "costUsd": 0.000832,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has exactly 50% probability of landing heads (recorded as \"UP\"), regardless of the technical indicators provided, which do not influence the coin flip."
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "opus",
+    "condition": "control",
+    "costUsd": 0.0034,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of landing Heads, which is recorded as \"UP\"."
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "opus",
+    "condition": "treatment",
+    "costUsd": 0.005035,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "A fair coin has a 50% chance of Heads, and the technical data is explicitly stated to have no influence on the outcome."
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gpt5.4",
+    "condition": "control",
+    "costUsd": 0.001415,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Because a fair coin lands Heads 50% of the time and \"UP\" is recorded exactly on Heads."
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gpt5.4",
+    "condition": "treatment",
+    "costUsd": 0.0015275,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is stated to be fair, so HEADS—and thus \"UP\"—has a 50% probability regardless of the stock data."
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "deepseek-v3.2",
+    "condition": "control",
+    "costUsd": 0.00006468,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "Since the coin is fair and HEADS corresponds to \"UP\", the probability is exactly 50%."
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "deepseek-v3.2",
+    "condition": "treatment",
+    "costUsd": 0.000109561,
+    "probability": 50,
+    "abstained": false,
+    "reasoning": "The coin is fair, so the probability of heads (recorded as \"UP\") is exactly 50%."
+  }
+]

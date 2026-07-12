@@ -1,0 +1,5282 @@
+[
+  {
+    "caseId": "epi_1",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The 2026 NCAA Division I Men's College World Series took place in June 2026, so its winner is a knowable fact that can be retrieved with a web search."
+  },
+  {
+    "caseId": "epi_1",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "grok-4.20",
+    "costUsd": 0.00071185,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The 2026 CWS winner is a recent real-world event that web_search can resolve."
+  },
+  {
+    "caseId": "epi_2",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred on 27 June 2026, which is in the past relative to today, but I do not know the winner; a web search can retrieve the result."
+  },
+  {
+    "caseId": "epi_1",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0017355,
+    "decision": "CALL_TOOL",
+    "missing": "the winner of the 2026 Men's College World Series",
+    "reasoning": "The event took place in June 2026, which is in the past relative to today's date of July 10, 2026, so the winner can be found via a web search."
+  },
+  {
+    "caseId": "epi_3",
+    "type": "EPISTEMIC",
+    "domain": "politics",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The May 2026 election result is not in my stored knowledge and requires a web search to obtain the successor's name."
+  },
+  {
+    "caseId": "epi_4",
+    "type": "EPISTEMIC",
+    "domain": "world",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The withdrawal announcement on 1 May 2026 is after my training cutoff, so I need to search for up-to-date information."
+  },
+  {
+    "caseId": "epi_6",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The announcement occurred on 2 June 2026, which is before today, so the information can be retrieved via web search."
+  },
+  {
+    "caseId": "epi_7",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The filing date is a recent event not covered by my training data."
+  },
+  {
+    "caseId": "epi_5",
+    "type": "EPISTEMIC",
+    "domain": "religion",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The title of Pope Leo XIV's first encyclical, if released in May 2026, is a verifiable fact that can be found via a web search of current information up to 10 July 2026."
+  },
+  {
+    "caseId": "epi_8",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The answer pertains to a June 2026 news report not covered in my pre‑training knowledge."
+  },
+  {
+    "caseId": "epi_1",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00023243,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event has already occurred by July 2026, so a web search can provide the winner."
+  },
+  {
+    "caseId": "epi_1",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.0006855,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The winner is a real, current fact likely beyond my fixed knowledge, so I should verify it with web search."
+  },
+  {
+    "caseId": "epi_10",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The AFM 3 announcement was made in June 2026, which is recent and not covered by my pre‑training data, so I need to search for the collaborating company."
+  },
+  {
+    "caseId": "epi_11",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The answer depends on recent June 2026 news about Pulsar Fusion's drive and spacecraft."
+  },
+  {
+    "caseId": "epi_1",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "haiku-4.5",
+    "costUsd": 0.001008,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The 2026 College World Series would have already concluded by July 10, 2026, making it a real historical fact that web_search can retrieve."
+  },
+  {
+    "caseId": "epi_9",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The match result is a knowable fact that may have occurred by 10 July 2026 but is not in my training data."
+  },
+  {
+    "caseId": "epi_13",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The March 2026 private valuation for OpenAI is a knowable past fact not present in my training data, so I need to retrieve it via web search."
+  },
+  {
+    "caseId": "epi_14",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The June 2026 Google model release is beyond my training cutoff, so I need up-to-date web information to answer."
+  },
+  {
+    "caseId": "epi_1",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "opus",
+    "costUsd": 0.005625,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The 2026 CWS finished in June 2026, a knowable past fact that a web search can confirm."
+  },
+  {
+    "caseId": "epi_12",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The memorandum of understanding occurred in 2026, which is beyond my training data, so I need up-to-date web information to answer."
+  },
+  {
+    "caseId": "kno_3",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The third number in the list is 2, which is even."
+  },
+  {
+    "caseId": "kno_4",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The boiling point of water decreases as atmospheric pressure drops, which occurs at higher altitudes."
+  },
+  {
+    "caseId": "kno_2",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "91 equals 7 × 13, so it has divisors other than 1 and itself."
+  },
+  {
+    "caseId": "epi_1",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "sonnet",
+    "costUsd": 0.00217,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The 2026 CWS took place in June 2026, before today's date, so this is a resolved event that a web search can confirm."
+  },
+  {
+    "caseId": "kno_5",
+    "type": "KNOWN",
+    "domain": "history",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "World War II concluded with the unconditional surrender of Germany in May 1945 and Japan in September 1945."
+  },
+  {
+    "caseId": "epi_1",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "gpt5.4",
+    "costUsd": 0.002105,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a real completed sports result that should be available online, but I’m not certain of it from memory."
+  },
+  {
+    "caseId": "kno_7",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The word bicycle is spelled b-i-c-y-c-l-e, which includes the letter y."
+  },
+  {
+    "caseId": "kno_6",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "6 red balls is greater than 4 blue balls, so there are more red balls."
+  },
+  {
+    "caseId": "kno_8",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "2 raised to the power 10 equals 1024 by basic exponentiation."
+  },
+  {
+    "caseId": "kno_1",
+    "type": "KNOWN",
+    "domain": "geography",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Tokyo has been the capital of Japan since 1868 and continues to be so as of July 2026."
+  },
+  {
+    "caseId": "kno_9",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "100 divided by 7 yields a remainder of 2, so it is not evenly divisible."
+  },
+  {
+    "caseId": "kno_10",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Earth’s only known natural satellite is the Moon, and no other natural moons have been discovered."
+  },
+  {
+    "caseId": "epi_1",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "grok4.3",
+    "costUsd": 0.00164435,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "2026 CWS concluded weeks earlier and is therefore searchable today."
+  },
+  {
+    "caseId": "kno_11",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The sum of the first two numbers (8 + 3) is 11, which is greater than 10."
+  },
+  {
+    "caseId": "epi_1",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00013226,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The 2026 College World Series has already occurred by today's date, so the winner is a knowable fact I can search for."
+  },
+  {
+    "caseId": "kno_13",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "13 multiplied by 13 equals 169 is a basic arithmetic fact."
+  },
+  {
+    "caseId": "kno_12",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The chemical symbol for gold is universally recognized as Au."
+  },
+  {
+    "caseId": "epi_2",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "grok-4.20",
+    "costUsd": 0.00065435,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "Night of Champions 2026 has already occurred so web_search can retrieve the winner."
+  },
+  {
+    "caseId": "kno_15",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The spelling of \"keyboard\" includes the letter 'b' as the fourth character."
+  },
+  {
+    "caseId": "ale_2",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Bitcoin's price 30 days ahead cannot be known with certainty today."
+  },
+  {
+    "caseId": "kno_14",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Multiplying 3 eggs per cake by 4 cakes yields 12 eggs."
+  },
+  {
+    "caseId": "ale_3",
+    "type": "ALEATORIC",
+    "domain": "coin",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The result of a fair coin flip tomorrow is inherently random and cannot be known today."
+  },
+  {
+    "caseId": "ale_1",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Weather forecasts for a specific date months ahead are not reliably predictable."
+  },
+  {
+    "caseId": "epi_2",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.001638,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in the past (June 2026), so the winner is a knowable fact that can be found via a web search."
+  },
+  {
+    "caseId": "epi_1",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00052224,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event has already occurred as of the current date, but I need to search the web to find the specific winner since it is after my training data."
+  },
+  {
+    "caseId": "ale_4",
+    "type": "ALEATORIC",
+    "domain": "sports",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The outcome of a future Super Bowl cannot be known from current information."
+  },
+  {
+    "caseId": "ale_5",
+    "type": "ALEATORIC",
+    "domain": "politics",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The election result is unknown and cannot be determined from current information."
+  },
+  {
+    "caseId": "ale_7",
+    "type": "ALEATORIC",
+    "domain": "dice",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The outcome of a future die roll is inherently random and cannot be known before it occurs."
+  },
+  {
+    "caseId": "ale_9",
+    "type": "ALEATORIC",
+    "domain": "world",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Earthquake occurrence is inherently unpredictable and cannot be known with certainty."
+  },
+  {
+    "caseId": "epi_2",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.000678,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The winner of a past WWE event is a real-world fact, but I don’t know it reliably without checking."
+  },
+  {
+    "caseId": "epi_2",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00008414,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in the past relative to the current date and can be verified via search."
+  },
+  {
+    "caseId": "ale_12",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Lottery draws are random future events that cannot be predicted with certainty."
+  },
+  {
+    "caseId": "ale_11",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Stock price movements are unpredictable and cannot be known before the market closes."
+  },
+  {
+    "caseId": "ale_6",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Future market movements cannot be known with certainty."
+  },
+  {
+    "caseId": "ale_13",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Gold prices six months from now are subject to volatile market forces that cannot be reliably predicted today."
+  },
+  {
+    "caseId": "ale_8",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Future weather cannot be known with certainty."
+  },
+  {
+    "caseId": "epi_2",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "opus",
+    "costUsd": 0.005435,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event already occurred before today, so it's a knowable fact resolvable via web search."
+  },
+  {
+    "caseId": "ale_15",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The identity and handedness of the next cafe entrant is a random future event that cannot be determined from present information."
+  },
+  {
+    "caseId": "ale_14",
+    "type": "ALEATORIC",
+    "domain": "science",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Solar flare occurrences for specific future dates cannot be predicted with certainty."
+  },
+  {
+    "caseId": "ale_10",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "nemotron-3-super-nv",
+    "costUsd": 0,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Weather on a specific date far in the future is inherently unpredictable and cannot be determined from current data."
+  },
+  {
+    "caseId": "epi_2",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "sonnet",
+    "costUsd": 0.002094,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event already occurred (before 10 July 2026), so the result is a knowable fact retrievable via web search."
+  },
+  {
+    "caseId": "epi_2",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "haiku-4.5",
+    "costUsd": 0.001169,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a past event (13 days ago) that falls outside my training data, and web_search can retrieve factual information about events that have already occurred."
+  },
+  {
+    "caseId": "epi_2",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "gpt5.4",
+    "costUsd": 0.002185,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a real event result that should now be knowable, but it likely requires up-to-date lookup."
+  },
+  {
+    "caseId": "epi_2",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "grok4.3",
+    "costUsd": 0.00165935,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "Event is past so tool can return the winner; I lack that specific knowledge."
+  },
+  {
+    "caseId": "epi_2",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00014054,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in the past relative to today's date, so the result is a knowable fact that can be found via web search."
+  },
+  {
+    "caseId": "epi_3",
+    "type": "EPISTEMIC",
+    "domain": "politics",
+    "model": "grok-4.20",
+    "costUsd": 0.0007431,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The successor after a May 2026 election is a knowable recent fact that can be resolved via web_search."
+  },
+  {
+    "caseId": "epi_3",
+    "type": "EPISTEMIC",
+    "domain": "politics",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0018135,
+    "decision": null,
+    "missing": "",
+    "reasoning": ""
+  },
+  {
+    "caseId": "epi_2",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00083264,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event has already occurred relative to the current date, making it a knowable fact that requires a web search to retrieve since it is past my training cutoff."
+  },
+  {
+    "caseId": "epi_3",
+    "type": "EPISTEMIC",
+    "domain": "politics",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00007866,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The election has already occurred according to the current date, so the result is a knowable fact."
+  },
+  {
+    "caseId": "epi_3",
+    "type": "EPISTEMIC",
+    "domain": "politics",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.00070275,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The succession after Hungary’s May 2026 election is a current factual question that may be outside my reliable knowledge, so it should be verified with the web."
+  },
+  {
+    "caseId": "epi_3",
+    "type": "EPISTEMIC",
+    "domain": "politics",
+    "model": "haiku-4.5",
+    "costUsd": 0.001127,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The May 2026 Hungarian election is a recent past event that occurred after my training data, so I need to search for the current, real-world outcome."
+  },
+  {
+    "caseId": "epi_3",
+    "type": "EPISTEMIC",
+    "domain": "politics",
+    "model": "opus",
+    "costUsd": 0.00662,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The 2026 Hungarian election outcome and any leadership change is a knowable past fact I should verify, since the premise (and its May date) may be false."
+  },
+  {
+    "caseId": "epi_3",
+    "type": "EPISTEMIC",
+    "domain": "politics",
+    "model": "sonnet",
+    "costUsd": 0.002168,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The May 2026 Hungarian election has already occurred, so its outcome is a knowable fact retrievable via web search."
+  },
+  {
+    "caseId": "epi_3",
+    "type": "EPISTEMIC",
+    "domain": "politics",
+    "model": "gpt5.4",
+    "costUsd": 0.0021775,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The successor after Hungary’s May 2026 election is a real, knowable post-training fact that web search can verify."
+  },
+  {
+    "caseId": "epi_3",
+    "type": "EPISTEMIC",
+    "domain": "politics",
+    "model": "grok4.3",
+    "costUsd": 0.0019231,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The May 2026 election results are in the past relative to July 2026 and thus searchable."
+  },
+  {
+    "caseId": "epi_3",
+    "type": "EPISTEMIC",
+    "domain": "politics",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00012494,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The election already occurred, so the successor is a knowable fact that can be found via web search."
+  },
+  {
+    "caseId": "epi_4",
+    "type": "EPISTEMIC",
+    "domain": "world",
+    "model": "grok-4.20",
+    "costUsd": 0.0006931,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a verifiable recent event (May 2026) that web_search can resolve with current information."
+  },
+  {
+    "caseId": "epi_4",
+    "type": "EPISTEMIC",
+    "domain": "world",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.001596,
+    "decision": "CALL_TOOL",
+    "missing": "the international organization UAE withdrew from on 1 May 2026",
+    "reasoning": "I need to search the web to find the specific international organization the UAE announced its withdrawal from on 1 May 2026."
+  },
+  {
+    "caseId": "epi_3",
+    "type": "EPISTEMIC",
+    "domain": "politics",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00065664,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The May 2026 election has already occurred, making the result a known fact that can be retrieved via web search."
+  },
+  {
+    "caseId": "epi_4",
+    "type": "EPISTEMIC",
+    "domain": "world",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00022487,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in May 2026, which is after my training data but before the current date."
+  },
+  {
+    "caseId": "epi_4",
+    "type": "EPISTEMIC",
+    "domain": "world",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.00066225,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a knowable current fact, but I’m not confident enough to answer without checking a source."
+  },
+  {
+    "caseId": "epi_4",
+    "type": "EPISTEMIC",
+    "domain": "world",
+    "model": "haiku-4.5",
+    "costUsd": 0.001127,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a specific past event (1 May 2026) that occurred before today, so web_search can retrieve it, but I lack confident knowledge of which organization the UAE withdrew from on that date."
+  },
+  {
+    "caseId": "epi_4",
+    "type": "EPISTEMIC",
+    "domain": "world",
+    "model": "opus",
+    "costUsd": 0.00547,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This event predates today but likely falls after my training, so a web search can confirm the specific organization."
+  },
+  {
+    "caseId": "epi_4",
+    "type": "EPISTEMIC",
+    "domain": "world",
+    "model": "sonnet",
+    "costUsd": 0.001968,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a specific real-world event that occurred after my training cutoff, so a web search can verify it."
+  },
+  {
+    "caseId": "epi_4",
+    "type": "EPISTEMIC",
+    "domain": "world",
+    "model": "gpt5.4",
+    "costUsd": 0.0020125,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event is dated after my likely knowledge cutoff, but it is a verifiable real-world fact available via web search."
+  },
+  {
+    "caseId": "epi_4",
+    "type": "EPISTEMIC",
+    "domain": "world",
+    "model": "grok4.3",
+    "costUsd": 0.0017981,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "Event is past (pre-July 2026) so tool can resolve it."
+  },
+  {
+    "caseId": "epi_4",
+    "type": "EPISTEMIC",
+    "domain": "world",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.000134651,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event is in the past and can be verified via web search."
+  },
+  {
+    "caseId": "epi_5",
+    "type": "EPISTEMIC",
+    "domain": "religion",
+    "model": "grok-4.20",
+    "costUsd": 0.0006956,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "A web search for the encyclical title will return the verifiable information from May 2026."
+  },
+  {
+    "caseId": "epi_5",
+    "type": "EPISTEMIC",
+    "domain": "religion",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0016515,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "There is no Pope Leo XIV in reality as of July 2026, making the premise of the question fictional or unpredictable."
+  },
+  {
+    "caseId": "epi_4",
+    "type": "EPISTEMIC",
+    "domain": "world",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00057984,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in the past relative to the current date, so a web search can reliably find the answer."
+  },
+  {
+    "caseId": "epi_5",
+    "type": "EPISTEMIC",
+    "domain": "religion",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.000654,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The encyclical title is a real-world fact likely after my training, so a web search is the appropriate next step."
+  },
+  {
+    "caseId": "epi_5",
+    "type": "EPISTEMIC",
+    "domain": "religion",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00008246,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in the past relative to the current date, so a web search can find the title."
+  },
+  {
+    "caseId": "epi_5",
+    "type": "EPISTEMIC",
+    "domain": "religion",
+    "model": "haiku-4.5",
+    "costUsd": 0.001252,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "While May 2026 is in the past relative to today, I have no reliable knowledge of Pope Leo XIV or their encyclicals, so a web search is needed to verify this recent factual claim."
+  },
+  {
+    "caseId": "epi_5",
+    "type": "EPISTEMIC",
+    "domain": "religion",
+    "model": "opus",
+    "costUsd": 0.00537,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a real, knowable fact from May 2026 that a web search can verify."
+  },
+  {
+    "caseId": "epi_5",
+    "type": "EPISTEMIC",
+    "domain": "religion",
+    "model": "sonnet",
+    "costUsd": 0.002308,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a past event (May 2026) relative to today's date, so a web search can retrieve the actual title of the encyclical."
+  },
+  {
+    "caseId": "epi_5",
+    "type": "EPISTEMIC",
+    "domain": "religion",
+    "model": "gpt5.4",
+    "costUsd": 0.00158,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This asks for a specific May 2026 release title, which is a current real-world fact best verified via web_search."
+  },
+  {
+    "caseId": "epi_5",
+    "type": "EPISTEMIC",
+    "domain": "religion",
+    "model": "grok4.3",
+    "costUsd": 0.0021481,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The queried event is a non-existent future hypothetical that no tool can resolve."
+  },
+  {
+    "caseId": "epi_5",
+    "type": "EPISTEMIC",
+    "domain": "religion",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.0001269576,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The encyclical's title, if it exists, is a knowable fact as of July 2026 and can be found via web search."
+  },
+  {
+    "caseId": "epi_6",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "grok-4.20",
+    "costUsd": 0.00074435,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This refers to a real event from one month ago whose details are not in my training data, so web_search is required to find the exact model name."
+  },
+  {
+    "caseId": "epi_6",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0016095,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "I need to search the web to find the name of the flagship reasoning model in Microsoft's MAI suite announced on 2 June 2026."
+  },
+  {
+    "caseId": "epi_6",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00021634,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in the past relative to the current date and can be verified via search."
+  },
+  {
+    "caseId": "epi_6",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.000678,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The specific flagship model name in Microsoft’s MAI suite is a real-world fact from 2026 and should be verified with web search."
+  },
+  {
+    "caseId": "epi_5",
+    "type": "EPISTEMIC",
+    "domain": "religion",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.0013456,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in May 2026, which is in the past relative to the simulated current date of July 2026, so a web search can retrieve this information."
+  },
+  {
+    "caseId": "epi_6",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "haiku-4.5",
+    "costUsd": 0.001005,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a specific, recent announcement from after my training cutoff that should be findable via web search since it has already occurred."
+  },
+  {
+    "caseId": "epi_6",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "opus",
+    "costUsd": 0.00566,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The announcement is a real, knowable past event that likely postdates my training, so a web search would confirm the model's name."
+  },
+  {
+    "caseId": "epi_6",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "sonnet",
+    "costUsd": 0.002034,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a real, specific event after my training cutoff that a web search can resolve."
+  },
+  {
+    "caseId": "epi_6",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "gpt5.4",
+    "costUsd": 0.00196,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The model name is a specific post-training-cutoff fact that a web search can confirm."
+  },
+  {
+    "caseId": "epi_6",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "grok4.3",
+    "costUsd": 0.00165935,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "Announcement is in the past relative to today so web_search can resolve it."
+  },
+  {
+    "caseId": "epi_6",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00033218,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The announcement date is in the past, so the information is knowable and can be resolved with a web search."
+  },
+  {
+    "caseId": "epi_7",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "grok-4.20",
+    "costUsd": 0.00070435,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a knowable recent event whose details can be retrieved via web_search."
+  },
+  {
+    "caseId": "epi_7",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.001497,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "I need to search the web to find the specific date in June 2026 when OpenAI filed its confidential S-1."
+  },
+  {
+    "caseId": "epi_6",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.0009712,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in the past relative to the current date, so a web search can determine the name of the model or verify if the event actually happened."
+  },
+  {
+    "caseId": "epi_7",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.000717,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The exact confidential S-1 filing date is a real-world fact that may be outside my reliable stored knowledge, so a web search should be used to verify it."
+  },
+  {
+    "caseId": "epi_7",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00007587,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in the past relative to the current date and can be verified online."
+  },
+  {
+    "caseId": "epi_7",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "haiku-4.5",
+    "costUsd": 0.001151,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a recent, real-world event from June 2026 that occurred after my training cutoff, and a web search can verify whether and when this filing occurred."
+  },
+  {
+    "caseId": "epi_7",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "opus",
+    "costUsd": 0.00573,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The question asserts a recent event I can't confirm, so a web search would verify whether and when it occurred."
+  },
+  {
+    "caseId": "epi_7",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "sonnet",
+    "costUsd": 0.003642,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a specific claimed event after my training cutoff that needs verification via search."
+  },
+  {
+    "caseId": "epi_7",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "gpt5.4",
+    "costUsd": 0.00206,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The filing date is a real, knowable 2026 fact that should be verified with current web information."
+  },
+  {
+    "caseId": "epi_7",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "grok4.3",
+    "costUsd": 0.00170435,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "June 2026 event is now in the past and thus resolvable via web_search."
+  },
+  {
+    "caseId": "epi_7",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.000131037,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The filing date is a past, knowable fact that can be found via a current web search."
+  },
+  {
+    "caseId": "epi_8",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "grok-4.20",
+    "costUsd": 0.0007181,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a factual event from June 2026 that requires web search to identify the specific AI company involved."
+  },
+  {
+    "caseId": "epi_8",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.001626,
+    "decision": "CALL_TOOL",
+    "missing": "the AI company whose models Perseverance used in June 2026",
+    "reasoning": "I need to search the web to identify the specific AI company reported in June 2026 for NASA's Perseverance rover drives."
+  },
+  {
+    "caseId": "epi_7",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00073248,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in the past relative to the current date, so a web search can find the exact date or confirm if it happened."
+  },
+  {
+    "caseId": "epi_8",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.0006495,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The answer depends on a recent reported fact from June 2026, so a web search is appropriate."
+  },
+  {
+    "caseId": "epi_8",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00008451,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in June 2026, and a web search can retrieve the specific company name."
+  },
+  {
+    "caseId": "epi_8",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "haiku-4.5",
+    "costUsd": 0.001125,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a recent real-world event (June 2026) that falls within the web_search tool's capability to retrieve, but I lack confident knowledge of which specific AI company's models were used."
+  },
+  {
+    "caseId": "epi_8",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "opus",
+    "costUsd": 0.005325,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a real, verifiable event from June 2026 that I'm uncertain about, so a web search would confirm it."
+  },
+  {
+    "caseId": "epi_8",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "sonnet",
+    "costUsd": 0.00207,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This refers to a specific news event from June 2026 that requires up-to-date information beyond my training data."
+  },
+  {
+    "caseId": "epi_8",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "gpt5.4",
+    "costUsd": 0.001955,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a specific real-world report from June 2026 and requires up-to-date information to answer reliably."
+  },
+  {
+    "caseId": "epi_8",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "grok4.3",
+    "costUsd": 0.0015006,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "Recent June 2026 event requires search to identify the AI company involved."
+  },
+  {
+    "caseId": "epi_8",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00012322,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in June 2026, which is in the past, so a web search can retrieve the reported information."
+  },
+  {
+    "caseId": "epi_8",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00029344,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in June 2026, which is very recent and likely after my training cutoff, so I need to search for this specific news."
+  },
+  {
+    "caseId": "epi_9",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "grok-4.20",
+    "costUsd": 0.00071185,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The match is a future event that has not happened and cannot be known."
+  },
+  {
+    "caseId": "epi_9",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.001782,
+    "decision": "CALL_TOOL",
+    "missing": "the score of the Germany vs Curaçao match",
+    "reasoning": "The match occurred during the 2026 FIFA World Cup group stage, which has already concluded by July 2026, so the result can be found via a web search."
+  },
+  {
+    "caseId": "epi_9",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.0007005,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The final score is a real-world fact that may be outside my reliable knowledge, so web_search can resolve it."
+  },
+  {
+    "caseId": "epi_9",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00022158,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The match has already happened by the current date, so a web search can find the score."
+  },
+  {
+    "caseId": "epi_9",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "haiku-4.5",
+    "costUsd": 0.001029,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The 2026 World Cup group stage has already occurred by today's date, so this is a real, verifiable fact that web_search can retrieve."
+  },
+  {
+    "caseId": "epi_9",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "opus",
+    "costUsd": 0.00689,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The match, if it occurred, is a past event by 10 July 2026 and verifiable via web search."
+  },
+  {
+    "caseId": "epi_9",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "sonnet",
+    "costUsd": 0.002996,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The 2026 World Cup group stage would have already occurred by July 10, 2026, so this is a knowable past event requiring a search to verify the actual match and score."
+  },
+  {
+    "caseId": "epi_9",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "gpt5.4",
+    "costUsd": 0.002335,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The match result is a real, knowable sports fact, but it requires up-to-date information."
+  },
+  {
+    "caseId": "epi_9",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "grok4.3",
+    "costUsd": 0.00189435,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "Tool access covers all events up to today, including this June match."
+  },
+  {
+    "caseId": "epi_9",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.0001365,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The match likely occurred recently, so a web search can retrieve the score."
+  },
+  {
+    "caseId": "epi_10",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "grok-4.20",
+    "costUsd": 0.00070685,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a recent real-world announcement that web_search can reliably resolve."
+  },
+  {
+    "caseId": "epi_10",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.000969,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "I need to search the web to find out which company Apple collaborated with for its AFM 3 models announced in June 2026."
+  },
+  {
+    "caseId": "epi_10",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.000654,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The collaborator for Apple’s June 2026 AFM 3 announcement is a real-world fact I’m not certain of, and web_search can determine it."
+  },
+  {
+    "caseId": "epi_10",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00008954,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in June 2026, so a web search can retrieve the specific collaborator."
+  },
+  {
+    "caseId": "epi_10",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "haiku-4.5",
+    "costUsd": 0.001149,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a recent real-world event from June 2026 that I should verify through web search to provide accurate information about Apple's collaboration partner for AFM 3."
+  },
+  {
+    "caseId": "epi_9",
+    "type": "EPISTEMIC",
+    "domain": "sports",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00176128,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The group stage of the 2026 World Cup has already concluded by 10 July 2026, making the match result a past event that can be resolved via web search."
+  },
+  {
+    "caseId": "epi_10",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "opus",
+    "costUsd": 0.00537,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The June 2026 announcement predates today, so a web search can verify the collaborating company."
+  },
+  {
+    "caseId": "epi_10",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "sonnet",
+    "costUsd": 0.002458,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This concerns a purported June 2026 announcement, which is after my training cutoff, so a web search is needed to verify and find the collaborating company."
+  },
+  {
+    "caseId": "epi_10",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "gpt5.4",
+    "costUsd": 0.00194,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The collaboration partner for AFM 3 is a real post-cutoff fact best confirmed with web search."
+  },
+  {
+    "caseId": "epi_10",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "grok4.3",
+    "costUsd": 0.00202465,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "Event is recent but outside my fixed knowledge, making search the appropriate step."
+  },
+  {
+    "caseId": "epi_10",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.0001317,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The collaboration partner is a recent factual announcement that can be found via web search."
+  },
+  {
+    "caseId": "epi_11",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "grok-4.20",
+    "costUsd": 0.00073185,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This refers to a specific recent (June 2026) real-world development that requires web_search to confirm the spacecraft name."
+  },
+  {
+    "caseId": "epi_11",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.001659,
+    "decision": "CALL_TOOL",
+    "missing": "the name of the Pulsar Fusion spacecraft from June 2026",
+    "reasoning": "I need to search the web to find the specific name of the spacecraft featured in June 2026 powered by Pulsar Fusion's Dual Direct Fusion Drive."
+  },
+  {
+    "caseId": "epi_10",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00089568,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in June 2026, which is in the past relative to the current date, so a web search can reliably find the answer."
+  },
+  {
+    "caseId": "epi_11",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.000639,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The spacecraft name is a present-day factual detail from June 2026, so a web search can likely identify it."
+  },
+  {
+    "caseId": "epi_11",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00008766,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in June 2026, so a web search can retrieve the name of the spacecraft."
+  },
+  {
+    "caseId": "epi_11",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "haiku-4.5",
+    "costUsd": 0.001015,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a recent, specific factual claim about June 2026 that requires current information to verify accurately."
+  },
+  {
+    "caseId": "epi_11",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "opus",
+    "costUsd": 0.005235,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a knowable recent real-world fact from June 2026 that a web search can verify."
+  },
+  {
+    "caseId": "epi_11",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "sonnet",
+    "costUsd": 0.002324,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The spacecraft's name is a specific, verifiable fact that a web search can confirm."
+  },
+  {
+    "caseId": "epi_11",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "gpt5.4",
+    "costUsd": 0.001965,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The spacecraft name is a specific June 2026 real-world detail best verified with a current web search."
+  },
+  {
+    "caseId": "epi_11",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "grok4.3",
+    "costUsd": 0.00149965,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "June 2026 event is knowable via search but not in stable knowledge."
+  },
+  {
+    "caseId": "epi_11",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00012692,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The spacecraft name is a specific, recent real-world fact that can be found via a current web search."
+  },
+  {
+    "caseId": "epi_12",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "grok-4.20",
+    "costUsd": 0.00066715,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This refers to a specific 2026 business agreement that requires looking up recent news via web_search."
+  },
+  {
+    "caseId": "epi_11",
+    "type": "EPISTEMIC",
+    "domain": "space",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00058144,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in June 2026, which is in the past, so a web search will provide the exact name of the spacecraft."
+  },
+  {
+    "caseId": "epi_12",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.001635,
+    "decision": "CALL_TOOL",
+    "missing": "the ride-hailing company partnering with Stellantis and Wayve in 2026",
+    "reasoning": "A web search is required to identify the specific ride-hailing company involved in this 2026 partnership."
+  },
+  {
+    "caseId": "epi_12",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.000681,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a recent real-world partnership detail that may be outside stable knowledge, so a web search should confirm the company name."
+  },
+  {
+    "caseId": "epi_12",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00008147,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in 2026, which is within the current timeline but beyond my static training data."
+  },
+  {
+    "caseId": "epi_12",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "haiku-4.5",
+    "costUsd": 0.001131,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a specific 2026 business announcement that occurred on or before today (10 July 2026), which requires current information beyond my training data."
+  },
+  {
+    "caseId": "epi_12",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "opus",
+    "costUsd": 0.00548,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a knowable 2026 business fact I'm not confident enough to state, so a web search would resolve it."
+  },
+  {
+    "caseId": "epi_12",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "sonnet",
+    "costUsd": 0.001952,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This refers to a specific 2026 announcement that requires up-to-date search to confirm the ride-hailing company involved."
+  },
+  {
+    "caseId": "epi_12",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "gpt5.4",
+    "costUsd": 0.002015,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a specific 2026 business announcement that is knowable but requires up-to-date verification."
+  },
+  {
+    "caseId": "epi_12",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "grok4.3",
+    "costUsd": 0.00190715,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The 2026 MoU is a verifiable past-or-present event within the tool's cutoff."
+  },
+  {
+    "caseId": "epi_12",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00016236,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The memorandum of understanding is a 2026 event that may have already occurred and can be verified via current web search."
+  },
+  {
+    "caseId": "epi_13",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "grok-4.20",
+    "costUsd": 0.0007006,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "A web search can retrieve the reported valuation from March 2026 news sources."
+  },
+  {
+    "caseId": "epi_13",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0014325,
+    "decision": "CALL_TOOL",
+    "missing": "the reported private valuation of OpenAI in March 2026",
+    "reasoning": "A web search is required to find the specific private valuation reported for OpenAI in March 2026."
+  },
+  {
+    "caseId": "epi_13",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00007474,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in the past relative to the current date and can be verified via search."
+  },
+  {
+    "caseId": "epi_13",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.00069375,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The reported March 2026 private valuation is a knowable current fact, but I’m not certain of the exact figure without searching."
+  },
+  {
+    "caseId": "epi_12",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00085472,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in 2026, which is in the past relative to the current date of July 10, 2026, so a web search will reliably find the answer."
+  },
+  {
+    "caseId": "epi_13",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "haiku-4.5",
+    "costUsd": 0.001167,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "March 2026 is in the past (relative to today, 10 July 2026), so this is a real, reportable fact that web_search can retrieve, but it's likely beyond my training data cutoff."
+  },
+  {
+    "caseId": "epi_13",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "opus",
+    "costUsd": 0.005305,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The March 2026 valuation is a real, knowable fact that a web search can confirm."
+  },
+  {
+    "caseId": "epi_13",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "sonnet",
+    "costUsd": 0.001852,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a real reported event from March 2026 that a web search can confirm, likely beyond my training data."
+  },
+  {
+    "caseId": "epi_13",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "gpt5.4",
+    "costUsd": 0.0019975,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The valuation reported in March 2026 is a real-world fact that likely postdates training, so a web search is needed."
+  },
+  {
+    "caseId": "epi_13",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "grok4.3",
+    "costUsd": 0.0015209,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "March 2026 valuation reports are past events that web_search can retrieve given the July 2026 cutoff."
+  },
+  {
+    "caseId": "epi_13",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00013338,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The reported valuation is a recent, specific fact that requires a current web search to confirm."
+  },
+  {
+    "caseId": "epi_14",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "grok-4.20",
+    "costUsd": 0.00066215,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The model name is a real recent event (June 2026) that web_search can resolve with current info."
+  },
+  {
+    "caseId": "epi_14",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0014625,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "I need to search the web to find the name of the small locally-runnable model released by Google in June 2026."
+  },
+  {
+    "caseId": "epi_13",
+    "type": "EPISTEMIC",
+    "domain": "finance",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.0006304,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The valuation reported in March 2026 is a past event that can be reliably found using a web search."
+  },
+  {
+    "caseId": "epi_14",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.000657,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a real-world release detail from June 2026, so a web search can determine the model name reliably."
+  },
+  {
+    "caseId": "epi_14",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00023439,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in June 2026, which is before the current date but after my training data."
+  },
+  {
+    "caseId": "epi_14",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "haiku-4.5",
+    "costUsd": 0.001107,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a recent, real-world event (June 2026) that occurred after my training cutoff, so web_search is the appropriate tool to find the accurate model name."
+  },
+  {
+    "caseId": "epi_14",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "opus",
+    "costUsd": 0.00526,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The model release is a real past event I'm unsure of, so a web search can confirm it."
+  },
+  {
+    "caseId": "epi_14",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "sonnet",
+    "costUsd": 0.002124,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This refers to a specific product release after my training cutoff, which a web search can verify."
+  },
+  {
+    "caseId": "epi_14",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "gpt5.4",
+    "costUsd": 0.00198,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The model name is a real present-day fact from June 2026 that requires current web verification."
+  },
+  {
+    "caseId": "epi_14",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "grok4.3",
+    "costUsd": 0.00207715,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "June 2026 release is recent enough for web_search to confirm or refute."
+  },
+  {
+    "caseId": "epi_14",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.000153596,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The model's release is a recent real-world event that can be verified via a web search."
+  },
+  {
+    "caseId": "kno_1",
+    "type": "KNOWN",
+    "domain": "geography",
+    "model": "grok-4.20",
+    "costUsd": 0.00060685,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Tokyo has been the capital of Japan since 1868 with no credible dispute or change."
+  },
+  {
+    "caseId": "kno_1",
+    "type": "KNOWN",
+    "domain": "geography",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0012135,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Tokyo's status as the capital of Japan is a stable, well-established historical and geographical fact that does not require real-time information to verify."
+  },
+  {
+    "caseId": "epi_14",
+    "type": "EPISTEMIC",
+    "domain": "tech",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00090048,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "The event occurred in June 2026, which is after my training cutoff but before the simulated current date, so a web search will provide the answer."
+  },
+  {
+    "caseId": "kno_1",
+    "type": "KNOWN",
+    "domain": "geography",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00010681,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Tokyo being the capital of Japan is a stable, well-known fact."
+  },
+  {
+    "caseId": "kno_1",
+    "type": "KNOWN",
+    "domain": "geography",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.000513,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Tokyo is the de facto and commonly recognized capital of Japan, so no tool is needed."
+  },
+  {
+    "caseId": "kno_1",
+    "type": "KNOWN",
+    "domain": "geography",
+    "model": "haiku-4.5",
+    "costUsd": 0.000848,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Tokyo's status as Japan's capital is a stable, long-established geographical fact that I can answer with high confidence."
+  },
+  {
+    "caseId": "kno_1",
+    "type": "KNOWN",
+    "domain": "geography",
+    "model": "opus",
+    "costUsd": 0.004705,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Tokyo is the long-standing capital of Japan, a stable and well-known fact."
+  },
+  {
+    "caseId": "kno_1",
+    "type": "KNOWN",
+    "domain": "geography",
+    "model": "sonnet",
+    "costUsd": 0.001792,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Tokyo has been the capital of Japan for a long time and this is stable, well-established knowledge."
+  },
+  {
+    "caseId": "kno_1",
+    "type": "KNOWN",
+    "domain": "geography",
+    "model": "gpt5.4",
+    "costUsd": 0.001635,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a settled geographic/political fact I can answer reliably from stable knowledge."
+  },
+  {
+    "caseId": "kno_1",
+    "type": "KNOWN",
+    "domain": "geography",
+    "model": "grok4.3",
+    "costUsd": 0.00114685,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Tokyo is the established capital of Japan with no recent or upcoming changes."
+  },
+  {
+    "caseId": "kno_1",
+    "type": "KNOWN",
+    "domain": "geography",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.000122354,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Tokyo has been the capital of Japan for many decades, and this is a stable fact I can answer confidently."
+  },
+  {
+    "caseId": "kno_2",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "grok-4.20",
+    "costUsd": 0.00060185,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "91 is a composite number as it factors into 7 and 13."
+  },
+  {
+    "caseId": "kno_1",
+    "type": "KNOWN",
+    "domain": "geography",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00038816,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Tokyo being the capital of Japan is a stable, well-known fact that does not require a web search to verify."
+  },
+  {
+    "caseId": "kno_2",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.001287,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Whether 91 is a prime number is a stable mathematical fact that can be answered reliably from existing knowledge."
+  },
+  {
+    "caseId": "kno_2",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.000558,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "91 is composite because it equals 7 × 13, so it is not prime."
+  },
+  {
+    "caseId": "kno_2",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00006151,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Whether 91 is prime is a constant mathematical fact."
+  },
+  {
+    "caseId": "kno_2",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "haiku-4.5",
+    "costUsd": 0.001019,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Whether a number is prime is a fixed mathematical fact independent of time or current events, and I can reliably determine that 91 = 7 × 13, making it composite, not prime."
+  },
+  {
+    "caseId": "kno_2",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "opus",
+    "costUsd": 0.004405,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "91 equals 7 × 13, so it is not prime."
+  },
+  {
+    "caseId": "kno_2",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "sonnet",
+    "costUsd": 0.001762,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "91 = 7 × 13, so it is not a prime number."
+  },
+  {
+    "caseId": "kno_2",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "gpt5.4",
+    "costUsd": 0.001485,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Whether 91 is prime is a fixed mathematical fact: 91 = 7 × 13, so it is not prime."
+  },
+  {
+    "caseId": "kno_2",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "grok4.3",
+    "costUsd": 0.00110935,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "91=7*13 is basic stable math knowledge."
+  },
+  {
+    "caseId": "kno_2",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00013296,
+    "decision": "CALL_TOOL",
+    "missing": "a current fact to look up",
+    "reasoning": "This is a stable mathematical fact that can be verified with a web search."
+  },
+  {
+    "caseId": "kno_3",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "grok-4.20",
+    "costUsd": 0.00062715,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The list and the requested property are fully specified and can be evaluated directly from basic arithmetic."
+  },
+  {
+    "caseId": "kno_2",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00035648,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "91 is a composite number (7 × 13), which is a stable mathematical fact known from training."
+  },
+  {
+    "caseId": "kno_3",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0014295,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The third number in the list is 2, which is a known even number, so no external information is required."
+  },
+  {
+    "caseId": "kno_3",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.0005625,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The 3rd number is 2, and 2 is an even number."
+  },
+  {
+    "caseId": "kno_3",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00007808,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The 3rd number in the list [4, 9, 2, 7, 5] is 2, which is an even number."
+  },
+  {
+    "caseId": "kno_3",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "haiku-4.5",
+    "costUsd": 0.001042,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The 3rd element in [4, 9, 2, 7, 5] is 2, which is definitively an even number—this is a mathematical fact requiring no external information."
+  },
+  {
+    "caseId": "kno_3",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "opus",
+    "costUsd": 0.00487,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The 3rd number is 2, which is even, so the answer is yes."
+  },
+  {
+    "caseId": "kno_3",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "sonnet",
+    "costUsd": 0.001658,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The 3rd element is 2, which is even."
+  },
+  {
+    "caseId": "kno_3",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "gpt5.4",
+    "costUsd": 0.002115,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The 3rd number in [4, 9, 2, 7, 5] is 2, and 2 is even."
+  },
+  {
+    "caseId": "kno_3",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "grok4.3",
+    "costUsd": 0.00124715,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Purely local arithmetic on a fixed list requires no tool or future data."
+  },
+  {
+    "caseId": "kno_3",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00014756,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The list is given and the third element is 2, which is an even number."
+  },
+  {
+    "caseId": "kno_4",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "grok-4.20",
+    "costUsd": 0.00053465,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is stable, timeless scientific knowledge I am confident in."
+  },
+  {
+    "caseId": "kno_3",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00043168,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The question is a simple logic and math problem based on the provided list, requiring no external information or future knowledge."
+  },
+  {
+    "caseId": "kno_4",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0013425,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "It is a fundamental and stable scientific fact that water boils at a lower temperature under lower atmospheric pressure."
+  },
+  {
+    "caseId": "kno_4",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.000537,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Yes—at higher altitude the air pressure is lower, so water boils at a lower temperature."
+  },
+  {
+    "caseId": "kno_4",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00006394,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a stable scientific fact that does not require real-time data."
+  },
+  {
+    "caseId": "kno_4",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "haiku-4.5",
+    "costUsd": 0.001032,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is stable, well-established physics knowledge that boiling point decreases with lower atmospheric pressure, which is why water boils at lower temperatures at higher altitudes."
+  },
+  {
+    "caseId": "kno_4",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "opus",
+    "costUsd": 0.00459,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Boiling point drops with lower air pressure at higher altitude—well-established physics."
+  },
+  {
+    "caseId": "kno_4",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "sonnet",
+    "costUsd": 0.001876,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a well-established physics fact - lower atmospheric pressure at higher altitudes reduces the boiling point of water."
+  },
+  {
+    "caseId": "kno_4",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "gpt5.4",
+    "costUsd": 0.001805,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a well-established physical principle: at higher altitude, lower air pressure reduces water’s boiling temperature."
+  },
+  {
+    "caseId": "kno_4",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "grok4.3",
+    "costUsd": 0.00091465,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Fundamental fact about boiling point vs. pressure, known with certainty from stable scientific knowledge."
+  },
+  {
+    "caseId": "kno_4",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.000119706,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a stable scientific fact about the relationship between boiling point and atmospheric pressure."
+  },
+  {
+    "caseId": "kno_5",
+    "type": "KNOWN",
+    "domain": "history",
+    "model": "grok-4.20",
+    "costUsd": 0.00058185,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The conclusion of WWII in 1945 is stable, universally accepted knowledge."
+  },
+  {
+    "caseId": "kno_4",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00036768,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a fundamental, unchanging principle of physics and chemistry that I am completely confident in without needing to search."
+  },
+  {
+    "caseId": "kno_5",
+    "type": "KNOWN",
+    "domain": "history",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0013065,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The end of the Second World War in 1945 is a universally accepted, stable historical fact that can be answered reliably without a web search."
+  },
+  {
+    "caseId": "kno_5",
+    "type": "KNOWN",
+    "domain": "history",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00006356,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The date the Second World War ended is stable, historical knowledge."
+  },
+  {
+    "caseId": "kno_5",
+    "type": "KNOWN",
+    "domain": "history",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.000531,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Yes—World War II ended in 1945, with the war’s conclusion in Europe in May and in the Pacific in September."
+  },
+  {
+    "caseId": "kno_5",
+    "type": "KNOWN",
+    "domain": "history",
+    "model": "haiku-4.5",
+    "costUsd": 0.000954,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The end date of World War II (1945) is established historical fact that I can answer with confidence."
+  },
+  {
+    "caseId": "kno_5",
+    "type": "KNOWN",
+    "domain": "history",
+    "model": "opus",
+    "costUsd": 0.00438,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "World War II ending in 1945 is a stable, well-known historical fact."
+  },
+  {
+    "caseId": "kno_5",
+    "type": "KNOWN",
+    "domain": "history",
+    "model": "sonnet",
+    "costUsd": 0.001732,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a well-established historical fact confirmed by stable, widely known knowledge."
+  },
+  {
+    "caseId": "kno_5",
+    "type": "KNOWN",
+    "domain": "history",
+    "model": "gpt5.4",
+    "costUsd": 0.00165,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The Second World War is historically understood to have ended in 1945."
+  },
+  {
+    "caseId": "kno_5",
+    "type": "KNOWN",
+    "domain": "history",
+    "model": "grok4.3",
+    "costUsd": 0.00114685,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "WWII end date is stable, well-known history predating any tool use."
+  },
+  {
+    "caseId": "kno_5",
+    "type": "KNOWN",
+    "domain": "history",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00010872,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The end of World War II in 1945 is a settled historical fact within my knowledge."
+  },
+  {
+    "caseId": "kno_6",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "grok-4.20",
+    "costUsd": 0.00057465,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The question provides explicit counts (6 red > 4 blue) allowing direct comparison without tools or uncertainty."
+  },
+  {
+    "caseId": "kno_6",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0014295,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The problem provides all necessary information (6 red balls and 4 blue balls) to determine that 6 is greater than 4."
+  },
+  {
+    "caseId": "kno_5",
+    "type": "KNOWN",
+    "domain": "history",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00090272,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The end date of the Second World War is a well-established historical fact that I already know with absolute certainty."
+  },
+  {
+    "caseId": "kno_6",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.000522,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "6 red balls is more than 4 blue balls, so yes."
+  },
+  {
+    "caseId": "kno_6",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00007044,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The answer is a basic mathematical comparison of two given numbers."
+  },
+  {
+    "caseId": "kno_6",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "haiku-4.5",
+    "costUsd": 0.000983,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a simple mathematical comparison with given fixed quantities that requires no current information or prediction."
+  },
+  {
+    "caseId": "kno_6",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "opus",
+    "costUsd": 0.004965,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "6 red balls exceed 4 blue balls, so yes, there are more red balls."
+  },
+  {
+    "caseId": "kno_6",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "sonnet",
+    "costUsd": 0.001836,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "6 red balls is greater than 4 blue balls, a simple arithmetic comparison."
+  },
+  {
+    "caseId": "kno_6",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "gpt5.4",
+    "costUsd": 0.0018,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The bag has 6 red balls and 4 blue balls, and 6 is greater than 4."
+  },
+  {
+    "caseId": "kno_6",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "grok4.3",
+    "costUsd": 0.00115685,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "6 exceeds 4 by direct comparison, so the answer is known immediately."
+  },
+  {
+    "caseId": "kno_6",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.000136796,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The question is a straightforward comparison of given numbers, which is a stable fact I can answer without external information."
+  },
+  {
+    "caseId": "kno_6",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00035296,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The prompt provides all necessary numbers to determine that 6 red balls is greater than 4 blue balls."
+  },
+  {
+    "caseId": "kno_7",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "grok-4.20",
+    "costUsd": 0.00063185,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Stable knowledge of English spelling confirms \"bicycle\" includes 'y' between 'c' and 'c'."
+  },
+  {
+    "caseId": "kno_7",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0013125,
+    "decision": null,
+    "missing": "",
+    "reasoning": ""
+  },
+  {
+    "caseId": "kno_7",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00005896,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The spelling of the word \"bicycle\" is a basic linguistic fact."
+  },
+  {
+    "caseId": "kno_7",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.000501,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "\"Bicycle\" is spelled b-i-c-y-c-l-e, so it does contain the letter 'y'."
+  },
+  {
+    "caseId": "kno_7",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "haiku-4.5",
+    "costUsd": 0.000976,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The spelling of \"bicycle\" is a stable linguistic fact that contains the letter 'y' in the 4th position, which I can verify with certainty."
+  },
+  {
+    "caseId": "kno_7",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "opus",
+    "costUsd": 0.005235,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "\"Bicycle\" is spelled b-i-c-y-c-l-e, which clearly contains the letter 'y'."
+  },
+  {
+    "caseId": "kno_7",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "sonnet",
+    "costUsd": 0.001904,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The spelling of \"bicycle\" is stable knowledge; it contains the letter 'y'."
+  },
+  {
+    "caseId": "kno_7",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "gpt5.4",
+    "costUsd": 0.00182,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The word “bicycle” is spelled with a “y,” so this can be answered reliably from stable knowledge."
+  },
+  {
+    "caseId": "kno_7",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "grok4.3",
+    "costUsd": 0.00113965,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "\"Bicycle\" is spelled with a 'y' as basic, unchanging English orthography."
+  },
+  {
+    "caseId": "kno_7",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.000136808,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The spelling of \"bicycle\" is a stable fact of English and does not require a current search."
+  },
+  {
+    "caseId": "kno_7",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00031872,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The spelling of the English word \"bicycle\" is a stable fact that does not require a web search or future knowledge to verify."
+  },
+  {
+    "caseId": "kno_8",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "grok-4.20",
+    "costUsd": 0.00061435,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "2 raised to the power 10 is a fixed mathematical equality I know with certainty."
+  },
+  {
+    "caseId": "kno_8",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.00141,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The mathematical calculation of 2 raised to the power of 10 is a stable, well-known fact that equals 1024."
+  },
+  {
+    "caseId": "kno_8",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00017578,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a basic mathematical fact that does not change over time."
+  },
+  {
+    "caseId": "kno_8",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.0005595,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "2^10 is a standard arithmetic calculation and equals 1024."
+  },
+  {
+    "caseId": "kno_8",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "haiku-4.5",
+    "costUsd": 0.000893,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a timeless mathematical fact (2^10 = 1024) that requires no current information and I'm confident in."
+  },
+  {
+    "caseId": "kno_8",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "opus",
+    "costUsd": 0.004755,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "2^10 = 1024 is a fixed mathematical fact I can verify directly."
+  },
+  {
+    "caseId": "kno_8",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "sonnet",
+    "costUsd": 0.001852,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "2^10 = 1024 is a basic mathematical fact that is stable and verifiable without external lookup."
+  },
+  {
+    "caseId": "kno_8",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "gpt5.4",
+    "costUsd": 0.00134,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "2^10 is a basic arithmetic fact equal to 1024."
+  },
+  {
+    "caseId": "kno_8",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "grok4.3",
+    "costUsd": 0.00116685,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "2^10 equals 1024 is stable arithmetic knowledge with no time dependence."
+  },
+  {
+    "caseId": "kno_9",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "grok-4.20",
+    "costUsd": 0.0005634,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is elementary math that can be answered reliably from core knowledge without any tool or lookup."
+  },
+  {
+    "caseId": "kno_9",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.001188,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The question is a basic mathematical fact that can be resolved immediately without external information."
+  },
+  {
+    "caseId": "kno_9",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00005797,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a simple division problem that does not require external tools or current events."
+  },
+  {
+    "caseId": "kno_9",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.00051225,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "100 ÷ 7 = 14 remainder 2, so it is not evenly divisible by 7."
+  },
+  {
+    "caseId": "kno_8",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00129408,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The question asks for a basic mathematical fact that is universally true and does not require any real-time or future information."
+  },
+  {
+    "caseId": "kno_9",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "haiku-4.5",
+    "costUsd": 0.001232,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a straightforward arithmetic question with a definitive answer that doesn't depend on current information or future events."
+  },
+  {
+    "caseId": "kno_8",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.000123706,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a basic mathematical fact that is stable and does not require current information."
+  },
+  {
+    "caseId": "kno_9",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "opus",
+    "costUsd": 0.005235,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "100 ÷ 7 = 14 remainder 2, so it is not evenly divisible."
+  },
+  {
+    "caseId": "kno_9",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "sonnet",
+    "costUsd": 0.002084,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "100/7 = 14 remainder 2, so it is not evenly divisible; this is simple arithmetic requiring no lookup."
+  },
+  {
+    "caseId": "kno_9",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "gpt5.4",
+    "costUsd": 0.0019025,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "100 ÷ 7 = 14 remainder 2, so it is not evenly divisible."
+  },
+  {
+    "caseId": "kno_9",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "grok4.3",
+    "costUsd": 0.0008459,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Simple division fact known with certainty from stable math knowledge."
+  },
+  {
+    "caseId": "kno_10",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "grok-4.20",
+    "costUsd": 0.0005831,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a basic, unchanging fact of astronomy that does not require lookup or depend on future events."
+  },
+  {
+    "caseId": "kno_9",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00039808,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a basic mathematical fact that can be reliably answered from stable knowledge without needing external tools."
+  },
+  {
+    "caseId": "kno_10",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.00144,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "It is a well-established scientific fact that Earth has exactly one permanent natural moon, although temporary mini-moons or quasi-satellites occasionally enter its orbit."
+  },
+  {
+    "caseId": "kno_10",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.00050475,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Earth is known to have exactly one natural satellite, the Moon."
+  },
+  {
+    "caseId": "kno_10",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "haiku-4.5",
+    "costUsd": 0.000934,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Earth has exactly one natural moon (the Moon), which is a stable astronomical fact that has not changed and requires no verification."
+  },
+  {
+    "caseId": "kno_10",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "opus",
+    "costUsd": 0.00538,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Earth has one permanent natural satellite, the Moon, which is stable, well-established knowledge."
+  },
+  {
+    "caseId": "kno_10",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "sonnet",
+    "costUsd": 0.001912,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Earth has exactly one natural satellite, the Moon, a well-established and unchanging fact."
+  },
+  {
+    "caseId": "kno_10",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "gpt5.4",
+    "costUsd": 0.0012475,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Earth has one recognized natural moon, the Moon."
+  },
+  {
+    "caseId": "kno_10",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00007046,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a stable scientific fact that does not require a real-time search."
+  },
+  {
+    "caseId": "kno_10",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "grok4.3",
+    "costUsd": 0.0009784,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Earth's one natural moon is long-established fact with zero uncertainty or future dependency."
+  },
+  {
+    "caseId": "kno_9",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.0000755496,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a basic mathematical fact that is stable and known."
+  },
+  {
+    "caseId": "kno_10",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00011308,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a stable astronomical fact that is already known."
+  },
+  {
+    "caseId": "kno_11",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "grok-4.20",
+    "costUsd": 0.0006306,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Basic addition and comparison can be done confidently from stable knowledge."
+  },
+  {
+    "caseId": "kno_10",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00037568,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Earth having exactly one natural moon is a stable, well-established astronomical fact that does not require a web search."
+  },
+  {
+    "caseId": "kno_11",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0016425,
+    "decision": null,
+    "missing": "",
+    "reasoning": ""
+  },
+  {
+    "caseId": "kno_11",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00006569,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The answer can be determined by adding 8 and 3 and comparing the result to 10."
+  },
+  {
+    "caseId": "kno_11",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.00062775,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The sum of the first two numbers is 11, and 11 is greater than 10."
+  },
+  {
+    "caseId": "kno_11",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "haiku-4.5",
+    "costUsd": 0.000979,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a simple arithmetic problem (8 + 3 = 11, which is greater than 10) requiring no external information or web search."
+  },
+  {
+    "caseId": "kno_11",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "opus",
+    "costUsd": 0.004805,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "8 + 3 = 11, which is greater than 10."
+  },
+  {
+    "caseId": "kno_11",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "sonnet",
+    "costUsd": 0.001872,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "8+3=11, which is greater than 10, a simple arithmetic fact."
+  },
+  {
+    "caseId": "kno_11",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "gpt5.4",
+    "costUsd": 0.0017925,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The first two numbers are 8 and 3, and 8 + 3 = 11, which is greater than 10."
+  },
+  {
+    "caseId": "kno_11",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "grok4.3",
+    "costUsd": 0.0010384,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Simple addition of given numbers requires no external data."
+  },
+  {
+    "caseId": "kno_11",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00012436,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The sum of the first two numbers (8 and 3) is 11, which is greater than 10."
+  },
+  {
+    "caseId": "kno_12",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "grok-4.20",
+    "costUsd": 0.00053215,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is stable scientific knowledge I am confident in."
+  },
+  {
+    "caseId": "kno_11",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00041952,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The question is a simple arithmetic calculation based on the provided numbers, requiring no external or future information."
+  },
+  {
+    "caseId": "kno_12",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0011265,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The chemical symbol for gold is universally known to be \"Au\" from the Latin word \"aurum\"."
+  },
+  {
+    "caseId": "kno_12",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00007114,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The chemical symbol for gold is a stable, well-known scientific fact."
+  },
+  {
+    "caseId": "kno_12",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.0004875,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Yes, the chemical symbol for gold is Au."
+  },
+  {
+    "caseId": "kno_12",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "haiku-4.5",
+    "costUsd": 0.000936,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The chemical symbol for gold is a fixed scientific fact that has been stable for over a century and does not require current information to verify."
+  },
+  {
+    "caseId": "kno_12",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "opus",
+    "costUsd": 0.00484,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The chemical symbol for gold is universally established as \"Au,\" derived from the Latin \"aurum.\""
+  },
+  {
+    "caseId": "kno_12",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "sonnet",
+    "costUsd": 0.001926,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The chemical symbol for gold has been \"Au\" (from Latin \"aurum\") for centuries and is a stable scientific fact."
+  },
+  {
+    "caseId": "kno_12",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "gpt5.4",
+    "costUsd": 0.00161,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The chemical symbol for gold is a well-established scientific fact: Au."
+  },
+  {
+    "caseId": "kno_12",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "grok4.3",
+    "costUsd": 0.00102185,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Stable scientific fact known with certainty, no search required."
+  },
+  {
+    "caseId": "kno_12",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.000131992,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The chemical symbol for gold is a stable, well-known fact that does not require current verification."
+  },
+  {
+    "caseId": "kno_13",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "grok-4.20",
+    "costUsd": 0.0005159,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is elementary arithmetic I am certain of."
+  },
+  {
+    "caseId": "kno_12",
+    "type": "KNOWN",
+    "domain": "science",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00033888,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The chemical symbol for gold is a well-established, stable scientific fact that does not change over time."
+  },
+  {
+    "caseId": "kno_13",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.00138,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The multiplication of 13 by 13 is a basic, unchanging mathematical fact that is reliably known to be 169."
+  },
+  {
+    "caseId": "kno_13",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.00044925,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "13 × 13 = 169 by standard multiplication."
+  },
+  {
+    "caseId": "kno_13",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "gemma-4-31b",
+    "costUsd": 0.0000558,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a basic mathematical fact that does not require external tools."
+  },
+  {
+    "caseId": "kno_13",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "haiku-4.5",
+    "costUsd": 0.000891,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a fundamental mathematical fact (13 × 13 = 169) that is universally true and requires no current information or web search."
+  },
+  {
+    "caseId": "kno_13",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "opus",
+    "costUsd": 0.00465,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "13 × 13 = 169, a fixed mathematical fact requiring no lookup."
+  },
+  {
+    "caseId": "kno_13",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "sonnet",
+    "costUsd": 0.00175,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "13 multiplied by 13 equals 169, which is basic arithmetic."
+  },
+  {
+    "caseId": "kno_13",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "gpt5.4",
+    "costUsd": 0.0015875,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "13 × 13 is a stable arithmetic fact equal to 169."
+  },
+  {
+    "caseId": "kno_13",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "grok4.3",
+    "costUsd": 0.0012106,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Basic arithmetic fact known reliably without external lookup."
+  },
+  {
+    "caseId": "kno_13",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.0000650412,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a simple mathematical fact that is universally true and does not require external verification."
+  },
+  {
+    "caseId": "kno_13",
+    "type": "KNOWN",
+    "domain": "math",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00034624,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "13 multiplied by 13 is a basic arithmetic fact that equals 169, which I know with absolute certainty."
+  },
+  {
+    "caseId": "kno_14",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "grok-4.20",
+    "costUsd": 0.0005384,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Basic arithmetic fact that is reliably known without any tools."
+  },
+  {
+    "caseId": "kno_14",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0012885,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The question is a basic arithmetic problem (3 eggs/cake * 4 cakes = 12 eggs) that can be solved reliably without external information."
+  },
+  {
+    "caseId": "kno_14",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00010494,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a basic math problem that does not require external information."
+  },
+  {
+    "caseId": "kno_14",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.00056325,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "3 eggs per cake × 4 cakes = 12 eggs, so yes."
+  },
+  {
+    "caseId": "kno_14",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "haiku-4.5",
+    "costUsd": 0.000935,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a simple arithmetic calculation (3 eggs/cake × 4 cakes = 12 eggs) that requires no current information or web search."
+  },
+  {
+    "caseId": "kno_14",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "opus",
+    "costUsd": 0.00523,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "3 eggs per cake times 4 cakes equals 12 eggs, so yes."
+  },
+  {
+    "caseId": "kno_14",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "sonnet",
+    "costUsd": 0.002112,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "3 eggs per cake × 4 cakes = 12 eggs, so yes, 12 eggs are needed."
+  },
+  {
+    "caseId": "kno_14",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "gpt5.4",
+    "costUsd": 0.0018325,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Since 3 × 4 = 12, 12 eggs are needed for 4 cakes."
+  },
+  {
+    "caseId": "kno_14",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "grok4.3",
+    "costUsd": 0.0010381,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Simple multiplication confirms exactly 12 eggs are required."
+  },
+  {
+    "caseId": "kno_14",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00010594,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a straightforward multiplication problem that does not require current or future information."
+  },
+  {
+    "caseId": "kno_14",
+    "type": "KNOWN",
+    "domain": "logic",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00035936,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "This is a basic arithmetic question that can be solved using stable knowledge without needing to search the web."
+  },
+  {
+    "caseId": "kno_15",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "grok-4.20",
+    "costUsd": 0.0006156,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The spelling of \"keyboard\" is a fixed, knowable linguistic fact I am certain of."
+  },
+  {
+    "caseId": "kno_15",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0011685,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The spelling of the word \"keyboard\" is a stable linguistic fact that clearly contains the letter 'b'."
+  },
+  {
+    "caseId": "kno_15",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.00055425,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "\"Keyboard\" is spelled k-e-y-b-o-a-r-d, so it does contain the letter \"b\"."
+  },
+  {
+    "caseId": "kno_15",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00007356,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The spelling of the word \"keyboard\" is a basic fact of the English language."
+  },
+  {
+    "caseId": "kno_15",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "haiku-4.5",
+    "costUsd": 0.000976,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The spelling of \"keyboard\" is a stable linguistic fact that I'm certain about—it contains the letter 'b' in the 4th position."
+  },
+  {
+    "caseId": "kno_15",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "opus",
+    "costUsd": 0.005335,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "\"Keyboard\" is spelled k-e-y-b-o-a-r-d, which clearly contains the letter 'b'."
+  },
+  {
+    "caseId": "kno_15",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "sonnet",
+    "costUsd": 0.002024,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The word \"keyboard\" is spelled k-e-y-b-o-a-r-d, which clearly contains the letter 'b'."
+  },
+  {
+    "caseId": "kno_15",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "gpt5.4",
+    "costUsd": 0.0013525,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The spelling of “keyboard” is stable and clearly includes the letter “b.”"
+  },
+  {
+    "caseId": "kno_15",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "grok4.3",
+    "costUsd": 0.0011806,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "Spelling of \"keyboard\" is fixed, stable knowledge containing 'b'."
+  },
+  {
+    "caseId": "kno_15",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.000136506,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The spelling of \"keyboard\" is a stable linguistic fact I can recall without needing current information."
+  },
+  {
+    "caseId": "ale_1",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "grok-4.20",
+    "costUsd": 0.00076935,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Specific weather on a date 4 months in the future is inherently unpredictable."
+  },
+  {
+    "caseId": "ale_1",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.001443,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Weather on a specific date months in the future is genuinely unpredictable and cannot be determined."
+  },
+  {
+    "caseId": "kno_15",
+    "type": "KNOWN",
+    "domain": "language",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00086112,
+    "decision": "ANSWER",
+    "missing": "nothing",
+    "reasoning": "The spelling of the word \"keyboard\" is a stable, universally known linguistic fact that requires no external verification."
+  },
+  {
+    "caseId": "ale_1",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.000639,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Whether it will rain in London on 15 November 2026 is a future weather event and cannot be determined reliably now."
+  },
+  {
+    "caseId": "ale_1",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00008318,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Precise weather forecasts for a specific date months in advance are impossible."
+  },
+  {
+    "caseId": "ale_1",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "haiku-4.5",
+    "costUsd": 0.0011,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Weather predictions beyond 2 weeks are not scientifically reliable, and no current tool can forecast specific rain conditions 127 days in the future."
+  },
+  {
+    "caseId": "ale_1",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "opus",
+    "costUsd": 0.004935,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Specific daily weather months in advance is an unpredictable future event no search can resolve."
+  },
+  {
+    "caseId": "ale_1",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "sonnet",
+    "costUsd": 0.002254,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Weather on a specific date months ahead is inherently unpredictable and no tool can provide accurate long-range forecasts that far out."
+  },
+  {
+    "caseId": "ale_1",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "gpt5.4",
+    "costUsd": 0.0021,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Whether it will rain in London on 15 November 2026 depends on a future weather event that has not happened yet and cannot be known reliably now."
+  },
+  {
+    "caseId": "ale_1",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "grok4.3",
+    "costUsd": 0.00126185,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Weather on a date months ahead cannot be known or looked up."
+  },
+  {
+    "caseId": "ale_1",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.000127168,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Weather on a specific date months in the future is unpredictable and not a knowable fact today."
+  },
+  {
+    "caseId": "ale_1",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00042688,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Specific daily weather conditions cannot be accurately predicted months in advance, making this an inherently unpredictable future event."
+  },
+  {
+    "caseId": "ale_2",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "grok-4.20",
+    "costUsd": 0.00057715,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Bitcoin's price in 30 days is a genuinely unpredictable future event that no tool or current knowledge can resolve."
+  },
+  {
+    "caseId": "ale_2",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0015555,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "It is impossible to predict future financial market prices with certainty as they depend on genuinely unpredictable future events."
+  },
+  {
+    "caseId": "ale_2",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00007115,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Predicting the future price of a volatile asset like Bitcoin is impossible with certainty."
+  },
+  {
+    "caseId": "ale_2",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.0006015,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "This depends on a future Bitcoin price that is not knowable in advance."
+  },
+  {
+    "caseId": "ale_2",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "haiku-4.5",
+    "costUsd": 0.001164,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Bitcoin price movements 30 days in the future are inherently unpredictable and no tool can access information about events that haven't yet occurred."
+  },
+  {
+    "caseId": "ale_2",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "opus",
+    "costUsd": 0.00556,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Bitcoin's price 30 days from now depends on unpredictable future market movements that no tool can determine."
+  },
+  {
+    "caseId": "ale_2",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "sonnet",
+    "costUsd": 0.002204,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Bitcoin's price 30 days from now is a future market outcome that cannot be determined by any tool today."
+  },
+  {
+    "caseId": "ale_2",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "gpt5.4",
+    "costUsd": 0.00208,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Whether Bitcoin will close higher in 30 days depends on a future market movement that cannot be known today."
+  },
+  {
+    "caseId": "ale_2",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "grok4.3",
+    "costUsd": 0.00114715,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "No tool or knowledge can determine an asset price that has not yet occurred."
+  },
+  {
+    "caseId": "ale_3",
+    "type": "ALEATORIC",
+    "domain": "coin",
+    "model": "grok-4.20",
+    "costUsd": 0.0005534,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "A fair coin flip's outcome is genuinely random and cannot be known or resolved before it happens."
+  },
+  {
+    "caseId": "ale_2",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00044928,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The question asks for the future price of an asset, which is inherently unpredictable and cannot be known by any tool."
+  },
+  {
+    "caseId": "ale_3",
+    "type": "ALEATORIC",
+    "domain": "coin",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.001224,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The outcome of a future coin flip is inherently unpredictable and cannot be determined in advance."
+  },
+  {
+    "caseId": "ale_3",
+    "type": "ALEATORIC",
+    "domain": "coin",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.00055425,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "A fair coin flip tomorrow cannot be known now because its result is inherently unpredictable before it happens."
+  },
+  {
+    "caseId": "ale_3",
+    "type": "ALEATORIC",
+    "domain": "coin",
+    "model": "gemma-4-31b",
+    "costUsd": 0.0000709,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "A future coin flip is a random event that cannot be predicted."
+  },
+  {
+    "caseId": "ale_2",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.0001040256,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The future Bitcoin price 30 days from now cannot be known with certainty, even with current information."
+  },
+  {
+    "caseId": "ale_3",
+    "type": "ALEATORIC",
+    "domain": "coin",
+    "model": "haiku-4.5",
+    "costUsd": 0.001011,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "A fair coin flip is inherently unpredictable and random; no tool or current information can determine an outcome that hasn't yet occurred."
+  },
+  {
+    "caseId": "ale_3",
+    "type": "ALEATORIC",
+    "domain": "coin",
+    "model": "opus",
+    "costUsd": 0.0051,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The outcome depends on a random future coin flip that no tool can predict."
+  },
+  {
+    "caseId": "ale_3",
+    "type": "ALEATORIC",
+    "domain": "coin",
+    "model": "sonnet",
+    "costUsd": 0.00155,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "A fair coin flip is a random future event that cannot be predicted or looked up."
+  },
+  {
+    "caseId": "ale_3",
+    "type": "ALEATORIC",
+    "domain": "coin",
+    "model": "gpt5.4",
+    "costUsd": 0.0019225,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The coin flip’s result has not happened yet and is not knowable now."
+  },
+  {
+    "caseId": "ale_3",
+    "type": "ALEATORIC",
+    "domain": "coin",
+    "model": "grok4.3",
+    "costUsd": 0.0013484,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "A fair coin flip tomorrow is a genuinely unpredictable future event that no search or knowledge can resolve."
+  },
+  {
+    "caseId": "ale_3",
+    "type": "ALEATORIC",
+    "domain": "coin",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00010856,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The outcome of a future coin flip is a genuinely unpredictable random event."
+  },
+  {
+    "caseId": "ale_3",
+    "type": "ALEATORIC",
+    "domain": "coin",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00034688,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The outcome of a future fair coin flip is inherently random and cannot be predicted by any tool or current knowledge."
+  },
+  {
+    "caseId": "ale_4",
+    "type": "ALEATORIC",
+    "domain": "sports",
+    "model": "grok-4.20",
+    "costUsd": 0.00066935,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "No tool or knowledge can predict the winner of a future sports event that depends on games not yet played."
+  },
+  {
+    "caseId": "ale_4",
+    "type": "ALEATORIC",
+    "domain": "sports",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0014955,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The Super Bowl in February 2027 is a future event that has not yet occurred as of today's date of July 10, 2026."
+  },
+  {
+    "caseId": "ale_4",
+    "type": "ALEATORIC",
+    "domain": "sports",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.000594,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The winner depends on a future, unpredictable game that has not occurred yet."
+  },
+  {
+    "caseId": "ale_4",
+    "type": "ALEATORIC",
+    "domain": "sports",
+    "model": "haiku-4.5",
+    "costUsd": 0.001044,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The Super Bowl in February 2027 is a future event that depends on unpredictable game outcomes over the next seven months, which no web search can determine in advance."
+  },
+  {
+    "caseId": "ale_4",
+    "type": "ALEATORIC",
+    "domain": "sports",
+    "model": "opus",
+    "costUsd": 0.005195,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The game occurs after today and its outcome is a genuinely unpredictable future event."
+  },
+  {
+    "caseId": "ale_4",
+    "type": "ALEATORIC",
+    "domain": "sports",
+    "model": "sonnet",
+    "costUsd": 0.002258,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The Super Bowl in February 2027 has not been played yet, so its outcome cannot be determined by any search."
+  },
+  {
+    "caseId": "ale_4",
+    "type": "ALEATORIC",
+    "domain": "sports",
+    "model": "gpt5.4",
+    "costUsd": 0.002115,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The Super Bowl winner in February 2027 has not happened yet and cannot be known reliably now."
+  },
+  {
+    "caseId": "ale_4",
+    "type": "ALEATORIC",
+    "domain": "sports",
+    "model": "grok4.3",
+    "costUsd": 0.00104465,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Outcome of future sporting event cannot be known in advance."
+  },
+  {
+    "caseId": "ale_4",
+    "type": "ALEATORIC",
+    "domain": "sports",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.0003435,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The Super Bowl in February 2027 has not yet occurred, so its outcome is a future event that cannot be known today."
+  },
+  {
+    "caseId": "ale_4",
+    "type": "ALEATORIC",
+    "domain": "sports",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00008484,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The event takes place in February 2027, which is in the future."
+  },
+  {
+    "caseId": "ale_5",
+    "type": "ALEATORIC",
+    "domain": "politics",
+    "model": "grok-4.20",
+    "costUsd": 0.0005609,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "No one can reliably predict or know the winner of an election that is still over two years away."
+  },
+  {
+    "caseId": "ale_4",
+    "type": "ALEATORIC",
+    "domain": "sports",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.0004112,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The Super Bowl in February 2027 has not yet occurred, making its outcome an unpredictable future event."
+  },
+  {
+    "caseId": "ale_5",
+    "type": "ALEATORIC",
+    "domain": "politics",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.001539,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The 2028 United States presidential election has not yet occurred as of the current date of July 10, 2026."
+  },
+  {
+    "caseId": "ale_5",
+    "type": "ALEATORIC",
+    "domain": "politics",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.00060225,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The 2028 U.S. presidential election has not occurred yet, so its winner is not a knowable current fact."
+  },
+  {
+    "caseId": "ale_5",
+    "type": "ALEATORIC",
+    "domain": "politics",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00006636,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The 2028 election has not occurred yet and cannot be predicted."
+  },
+  {
+    "caseId": "ale_5",
+    "type": "ALEATORIC",
+    "domain": "politics",
+    "model": "haiku-4.5",
+    "costUsd": 0.001074,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The 2028 presidential election is a future event whose outcome depends on unpredictable factors like voter behavior and unforeseen circumstances, which no tool can determine in advance."
+  },
+  {
+    "caseId": "ale_5",
+    "type": "ALEATORIC",
+    "domain": "politics",
+    "model": "opus",
+    "costUsd": 0.005285,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The 2028 election occurs after today, so no tool can determine its winner."
+  },
+  {
+    "caseId": "ale_5",
+    "type": "ALEATORIC",
+    "domain": "politics",
+    "model": "sonnet",
+    "costUsd": 0.002164,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The 2028 election has not yet occurred, so its result is an unpredictable future event that no search can reveal."
+  },
+  {
+    "caseId": "ale_5",
+    "type": "ALEATORIC",
+    "domain": "politics",
+    "model": "gpt5.4",
+    "costUsd": 0.0021425,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The winner of the 2028 United States presidential election depends on a future event that has not yet occurred."
+  },
+  {
+    "caseId": "ale_5",
+    "type": "ALEATORIC",
+    "domain": "politics",
+    "model": "grok4.3",
+    "costUsd": 0.0011009,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "No tool or knowledge can determine the winner of an election that has not yet occurred."
+  },
+  {
+    "caseId": "ale_5",
+    "type": "ALEATORIC",
+    "domain": "politics",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.000139167,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The 2028 election outcome is a future event that cannot be known or reliably predicted as of July 2026."
+  },
+  {
+    "caseId": "ale_6",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "grok-4.20",
+    "costUsd": 0.0006134,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "No tool or knowledge can reliably predict short-term market direction as it depends on genuinely unpredictable future events."
+  },
+  {
+    "caseId": "ale_5",
+    "type": "ALEATORIC",
+    "domain": "politics",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00036352,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The election has not yet occurred, making its outcome an unpredictable future event that no tool can resolve."
+  },
+  {
+    "caseId": "ale_6",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.001554,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The future performance of the stock market over the next 10 trading days is genuinely unpredictable and cannot be determined by any search tool."
+  },
+  {
+    "caseId": "ale_6",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00007613,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Predicting future stock market movements is impossible as it depends on unpredictable future events."
+  },
+  {
+    "caseId": "ale_6",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.00062175,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "This depends on a future market move that cannot be known today."
+  },
+  {
+    "caseId": "ale_6",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "haiku-4.5",
+    "costUsd": 0.001149,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Stock market movements 10 trading days in the future are inherently unpredictable and depend on events that haven't yet occurred, so no tool can resolve this."
+  },
+  {
+    "caseId": "ale_6",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "opus",
+    "costUsd": 0.005085,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The question depends on future market movements that no tool can predict."
+  },
+  {
+    "caseId": "ale_6",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "sonnet",
+    "costUsd": 0.002224,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Short-term stock market movements are inherently unpredictable and depend on future events that cannot be known in advance."
+  },
+  {
+    "caseId": "ale_6",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "gpt5.4",
+    "costUsd": 0.0021625,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The question depends on a future stock market outcome that has not happened yet and cannot be known reliably today."
+  },
+  {
+    "caseId": "ale_6",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "grok4.3",
+    "costUsd": 0.0011109,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "No information source can resolve genuinely unpredictable future market movements."
+  },
+  {
+    "caseId": "ale_6",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.000131437,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Future market prices are unpredictable and not a knowable fact today."
+  },
+  {
+    "caseId": "ale_6",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00037024,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The question asks about the future performance of the stock market, which is inherently unpredictable and cannot be known by any tool."
+  },
+  {
+    "caseId": "ale_7",
+    "type": "ALEATORIC",
+    "domain": "dice",
+    "model": "grok-4.20",
+    "costUsd": 0.00055965,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "A fair die roll is a genuinely unpredictable future event that cannot be known or looked up in advance."
+  },
+  {
+    "caseId": "ale_7",
+    "type": "ALEATORIC",
+    "domain": "dice",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.001167,
+    "decision": null,
+    "missing": "",
+    "reasoning": ""
+  },
+  {
+    "caseId": "ale_7",
+    "type": "ALEATORIC",
+    "domain": "dice",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.000606,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The result of a fair die roll is a genuinely random future event, so it cannot be resolved by any tool."
+  },
+  {
+    "caseId": "ale_7",
+    "type": "ALEATORIC",
+    "domain": "dice",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00007586,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The outcome of a fair die roll is a random event that cannot be predicted."
+  },
+  {
+    "caseId": "ale_7",
+    "type": "ALEATORIC",
+    "domain": "dice",
+    "model": "haiku-4.5",
+    "costUsd": 0.001069,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The outcome of a fair die roll is genuinely random and unpredictable; no tool can determine what hasn't yet occurred."
+  },
+  {
+    "caseId": "ale_7",
+    "type": "ALEATORIC",
+    "domain": "dice",
+    "model": "opus",
+    "costUsd": 0.00482,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The outcome of a random die roll cannot be known in advance by any tool."
+  },
+  {
+    "caseId": "ale_7",
+    "type": "ALEATORIC",
+    "domain": "dice",
+    "model": "sonnet",
+    "costUsd": 0.001538,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The outcome of a fair die roll is a random future event that no tool can predict."
+  },
+  {
+    "caseId": "ale_7",
+    "type": "ALEATORIC",
+    "domain": "dice",
+    "model": "gpt5.4",
+    "costUsd": 0.00157,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The die roll outcome is a genuinely unpredictable future event, so no current fact or web search can determine it in advance."
+  },
+  {
+    "caseId": "ale_7",
+    "type": "ALEATORIC",
+    "domain": "dice",
+    "model": "grok4.3",
+    "costUsd": 0.00110215,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "No tool or knowledge can predict a random future die roll."
+  },
+  {
+    "caseId": "ale_7",
+    "type": "ALEATORIC",
+    "domain": "dice",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00012463,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The outcome of a future random die roll is inherently unpredictable."
+  },
+  {
+    "caseId": "ale_7",
+    "type": "ALEATORIC",
+    "domain": "dice",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00029152,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The outcome of a future random event like a die roll is inherently unpredictable and cannot be known in advance."
+  },
+  {
+    "caseId": "ale_8",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "grok-4.20",
+    "costUsd": 0.0006009,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "No tool or knowledge can predict exact weather a year in advance as it is inherently unpredictable."
+  },
+  {
+    "caseId": "ale_8",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.001356,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The weather on a specific date in the future is genuinely unpredictable and cannot be determined in advance."
+  },
+  {
+    "caseId": "ale_8",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.00066075,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "A specific high temperature one year from today is a future weather event and cannot be reliably determined now."
+  },
+  {
+    "caseId": "ale_8",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00007786,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Precise weather temperatures for a specific date a year in the future cannot be predicted."
+  },
+  {
+    "caseId": "ale_8",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "haiku-4.5",
+    "costUsd": 0.00104,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Weather conditions one year in the future are inherently unpredictable and cannot be reliably forecasted, even with current data."
+  },
+  {
+    "caseId": "ale_8",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "opus",
+    "costUsd": 0.00545,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "A specific day's temperature a year ahead is inherently unpredictable and cannot be looked up."
+  },
+  {
+    "caseId": "ale_8",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "sonnet",
+    "costUsd": 0.00161,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Weather a year in advance is inherently unpredictable and no search tool can provide future weather data."
+  },
+  {
+    "caseId": "ale_8",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "gpt5.4",
+    "costUsd": 0.0021875,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The exact high temperature in Tokyo on 10 July 2027 is a future weather outcome that cannot be known reliably today."
+  },
+  {
+    "caseId": "ale_8",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "grok4.3",
+    "costUsd": 0.0013884,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Exact weather a year ahead is inherently unpredictable and cannot be resolved by any tool or knowledge."
+  },
+  {
+    "caseId": "ale_8",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00011226,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The temperature one year from now is a future event that cannot be predicted with certainty today."
+  },
+  {
+    "caseId": "ale_8",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00041216,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Exact weather conditions a year in the future are fundamentally unpredictable and cannot be known by any tool."
+  },
+  {
+    "caseId": "ale_9",
+    "type": "ALEATORIC",
+    "domain": "world",
+    "model": "grok-4.20",
+    "costUsd": 0.00064685,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "No tool or knowledge can predict with certainty whether a M7+ quake will hit Japan in the next 60 days."
+  },
+  {
+    "caseId": "ale_9",
+    "type": "ALEATORIC",
+    "domain": "world",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.001404,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Earthquakes cannot be predicted with certainty, making this a genuinely unpredictable future event."
+  },
+  {
+    "caseId": "ale_9",
+    "type": "ALEATORIC",
+    "domain": "world",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00007143,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Earthquake prediction for a specific date and magnitude is not scientifically possible."
+  },
+  {
+    "caseId": "ale_9",
+    "type": "ALEATORIC",
+    "domain": "world",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.0006525,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "A specific magnitude 7.0+ earthquake in Japan over the next 60 days is not knowable in advance with reliable certainty."
+  },
+  {
+    "caseId": "ale_9",
+    "type": "ALEATORIC",
+    "domain": "world",
+    "model": "haiku-4.5",
+    "costUsd": 0.001142,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Earthquake prediction at specific times and locations is not scientifically possible; web_search cannot resolve genuinely unpredictable future events."
+  },
+  {
+    "caseId": "ale_9",
+    "type": "ALEATORIC",
+    "domain": "world",
+    "model": "opus",
+    "costUsd": 0.005415,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Specific earthquakes cannot be predicted, and the tool cannot return information about future events."
+  },
+  {
+    "caseId": "ale_9",
+    "type": "ALEATORIC",
+    "domain": "world",
+    "model": "sonnet",
+    "costUsd": 0.002256,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Earthquake occurrence is a genuinely unpredictable natural event that no search tool can forecast."
+  },
+  {
+    "caseId": "ale_9",
+    "type": "ALEATORIC",
+    "domain": "world",
+    "model": "gpt5.4",
+    "costUsd": 0.00174,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Whether a magnitude 7.0+ earthquake will strike Japan in the next 60 days is a genuinely unpredictable future event that no available tool can determine as a fact today."
+  },
+  {
+    "caseId": "ale_9",
+    "type": "ALEATORIC",
+    "domain": "world",
+    "model": "grok4.3",
+    "costUsd": 0.00119435,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "No tool or knowledge can predict specific large earthquakes 60 days ahead."
+  },
+  {
+    "caseId": "ale_9",
+    "type": "ALEATORIC",
+    "domain": "world",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00012772,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Earthquake prediction on this specific timescale is not possible with current science."
+  },
+  {
+    "caseId": "ale_10",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "grok-4.20",
+    "costUsd": 0.00059215,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "No tool or knowledge can reliably predict exact weather on a specific date over 5 months away."
+  },
+  {
+    "caseId": "ale_9",
+    "type": "ALEATORIC",
+    "domain": "world",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.0003936,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Earthquakes are inherently unpredictable, so no tool or knowledge can determine if one will occur in the future."
+  },
+  {
+    "caseId": "ale_10",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.001491,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Weather on a specific date in the future is genuinely unpredictable and cannot be determined in advance."
+  },
+  {
+    "caseId": "ale_10",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "gemma-4-31b",
+    "costUsd": 0.0000726,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "It is impossible to predict the exact weather for a specific date months in advance."
+  },
+  {
+    "caseId": "ale_10",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.0006495,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Snow on 25 December 2026 in New York City is a future weather event that cannot be known reliably in advance."
+  },
+  {
+    "caseId": "ale_10",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "haiku-4.5",
+    "costUsd": 0.001097,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Weather predictions beyond ~2 weeks are not scientifically possible, so no web search can reliably answer whether it will snow in NYC on a date 5+ months away."
+  },
+  {
+    "caseId": "ale_10",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "opus",
+    "costUsd": 0.005195,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Specific weather on a future date is a genuinely unpredictable event that no tool can determine in advance."
+  },
+  {
+    "caseId": "ale_10",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "sonnet",
+    "costUsd": 0.001728,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Weather on a specific future date months away cannot be predicted or looked up via search, as it depends on unpredictable atmospheric conditions."
+  },
+  {
+    "caseId": "ale_10",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "gpt5.4",
+    "costUsd": 0.002,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Snow in New York City on 25 December 2026 depends on a genuinely unpredictable future weather event."
+  },
+  {
+    "caseId": "ale_10",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "grok4.3",
+    "costUsd": 0.00119965,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Specific-day snowfall 5+ months ahead is inherently unpredictable."
+  },
+  {
+    "caseId": "ale_10",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.0001347,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Weather on a specific date five months from now is not predictable with current tools."
+  },
+  {
+    "caseId": "ale_11",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "grok-4.20",
+    "costUsd": 0.0005509,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Stock closing prices tomorrow cannot be known today as they depend on genuinely unpredictable future events."
+  },
+  {
+    "caseId": "ale_11",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0008355,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The future price of a stock is genuinely unpredictable and cannot be determined in advance."
+  },
+  {
+    "caseId": "ale_10",
+    "type": "ALEATORIC",
+    "domain": "weather",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.0010816,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Specific daily weather events cannot be reliably predicted more than a few days in advance, making this an unknowable future event."
+  },
+  {
+    "caseId": "ale_11",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00019567,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Predicting the future closing price of a stock is speculative and cannot be determined by current facts."
+  },
+  {
+    "caseId": "ale_11",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.00062025,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "This depends on tomorrow’s market movement, which is inherently unpredictable and not knowable today."
+  },
+  {
+    "caseId": "ale_11",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "haiku-4.5",
+    "costUsd": 0.001148,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Stock price movements are inherently unpredictable and depend on future events and market sentiment that cannot be known in advance, even with current information."
+  },
+  {
+    "caseId": "ale_11",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "opus",
+    "costUsd": 0.00524,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Tomorrow's closing price is an unpredictable future event that no tool can retrieve."
+  },
+  {
+    "caseId": "ale_11",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "sonnet",
+    "costUsd": 0.002146,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Stock price movements for the next trading day are inherently unpredictable and cannot be determined by any search of current information."
+  },
+  {
+    "caseId": "ale_11",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "gpt5.4",
+    "costUsd": 0.0019325,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Tomorrow’s Tesla closing price is a genuinely unpredictable future market event that cannot be known today."
+  },
+  {
+    "caseId": "ale_11",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "grok4.3",
+    "costUsd": 0.0010909,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Tomorrow's stock close is a genuinely unpredictable future event."
+  },
+  {
+    "caseId": "ale_11",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00013046,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Tomorrow's stock price movement is inherently unpredictable and depends on future events and market dynamics."
+  },
+  {
+    "caseId": "ale_11",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00035648,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Stock prices are inherently unpredictable and depend on future market events that have not yet happened."
+  },
+  {
+    "caseId": "ale_12",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "grok-4.20",
+    "costUsd": 0.00056965,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Lottery draws are genuinely random and unpredictable future events with no tool able to resolve them in advance."
+  },
+  {
+    "caseId": "ale_12",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0012705,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The winning number of a future lottery draw is a genuinely unpredictable future event that cannot be determined in advance."
+  },
+  {
+    "caseId": "ale_12",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00007064,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Lottery outcomes are random and cannot be predicted."
+  },
+  {
+    "caseId": "ale_12",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.000627,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The parity of the next winning number depends on a future random draw, so it cannot be resolved now."
+  },
+  {
+    "caseId": "ale_12",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "haiku-4.5",
+    "costUsd": 0.001031,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Lottery outcomes are genuinely random and unpredictable; no tool can forecast which number will win in a future draw."
+  },
+  {
+    "caseId": "ale_12",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "opus",
+    "costUsd": 0.00503,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "A future lottery draw is an inherently random event that no web search can predict."
+  },
+  {
+    "caseId": "ale_12",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "sonnet",
+    "costUsd": 0.002202,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The outcome of a future random lottery draw is inherently unpredictable and cannot be determined by search or reasoning."
+  },
+  {
+    "caseId": "ale_12",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "gpt5.4",
+    "costUsd": 0.001895,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The next lottery winning number has not been drawn yet and is a genuinely unpredictable future outcome."
+  },
+  {
+    "caseId": "ale_12",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "grok4.3",
+    "costUsd": 0.00128435,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Next lottery outcome is a random future event no tool or knowledge can resolve."
+  },
+  {
+    "caseId": "ale_12",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.0000814464,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The outcome of a future lottery draw is random and cannot be known in advance."
+  },
+  {
+    "caseId": "ale_12",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00038176,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The outcome of a future lottery draw is entirely random and cannot be predicted or looked up by any tool."
+  },
+  {
+    "caseId": "ale_13",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "grok-4.20",
+    "costUsd": 0.0005959,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Gold price in six months is a genuinely unpredictable future event that no tool or current information can resolve."
+  },
+  {
+    "caseId": "ale_13",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.001443,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The price of gold six months in the future is a market-driven event that cannot be predicted with certainty."
+  },
+  {
+    "caseId": "ale_13",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.00068025,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The gold price on 10 January 2027 is a genuinely unpredictable future event, so no current fact or search can determine it."
+  },
+  {
+    "caseId": "ale_13",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00007397,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Predicting future commodity prices is speculative and cannot be resolved by searching for current facts."
+  },
+  {
+    "caseId": "ale_13",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "haiku-4.5",
+    "costUsd": 0.001114,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "This requires predicting gold prices in January 2027, which is a genuinely unpredictable future event that no web search can resolve."
+  },
+  {
+    "caseId": "ale_13",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "opus",
+    "costUsd": 0.005315,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Gold's price six months from now depends on unpredictable future market conditions that no search can determine."
+  },
+  {
+    "caseId": "ale_13",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "sonnet",
+    "costUsd": 0.002066,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Predicting a future asset price six months ahead depends on unpredictable market movements that no tool can determine in advance."
+  },
+  {
+    "caseId": "ale_13",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "gpt5.4",
+    "costUsd": 0.0022075,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Whether gold exceeds $3,500/oz six months from today depends on future market movements that no current fact or tool can determine with certainty."
+  },
+  {
+    "caseId": "ale_13",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "grok4.3",
+    "costUsd": 0.0012234,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Future commodity prices depend on unpredictable events and cannot be known in advance."
+  },
+  {
+    "caseId": "ale_13",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00014014,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The future price of gold depends on unpredictable economic and geopolitical events beyond current certainty."
+  },
+  {
+    "caseId": "ale_14",
+    "type": "ALEATORIC",
+    "domain": "science",
+    "model": "grok-4.20",
+    "costUsd": 0.00065965,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Whether a sufficiently strong solar flare and resulting geomagnetic storm will occur in the specific narrow window of next week is a genuinely unpredictable future event that no current data or tool c"
+  },
+  {
+    "caseId": "ale_13",
+    "type": "ALEATORIC",
+    "domain": "finance",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00054016,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The question asks for a prediction about a future event (the price of gold in January 2027), which is inherently unknowable."
+  },
+  {
+    "caseId": "ale_14",
+    "type": "ALEATORIC",
+    "domain": "science",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0015405,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Solar flares and the resulting geomagnetic storms that cause auroras are highly unpredictable space weather events that cannot be forecasted reliably a week in advance."
+  },
+  {
+    "caseId": "ale_14",
+    "type": "ALEATORIC",
+    "domain": "science",
+    "model": "gemma-4-31b",
+    "costUsd": 0.0001915,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Solar flares cannot be predicted with certainty a week in advance."
+  },
+  {
+    "caseId": "ale_14",
+    "type": "ALEATORIC",
+    "domain": "science",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.0006495,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "This depends on whether a sufficiently strong solar flare occurs next week, which is not knowable in advance with certainty."
+  },
+  {
+    "caseId": "ale_14",
+    "type": "ALEATORIC",
+    "domain": "science",
+    "model": "haiku-4.5",
+    "costUsd": 0.001308,
+    "decision": "CALL_TOOL",
+    "missing": "current solar weather forecasts for next week",
+    "reasoning": "Solar forecasts for the coming week are real, observable data that web search can retrieve, even though solar flares themselves remain somewhat unpredictable."
+  },
+  {
+    "caseId": "ale_14",
+    "type": "ALEATORIC",
+    "domain": "science",
+    "model": "opus",
+    "costUsd": 0.006155,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Specific solar flares and aurora visibility next week are inherently unpredictable beyond short-range forecasts."
+  },
+  {
+    "caseId": "ale_14",
+    "type": "ALEATORIC",
+    "domain": "science",
+    "model": "sonnet",
+    "costUsd": 0.002502,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Solar flare occurrence and intensity next week cannot be predicted with certainty, as this depends on genuinely unpredictable solar activity."
+  },
+  {
+    "caseId": "ale_14",
+    "type": "ALEATORIC",
+    "domain": "science",
+    "model": "gpt5.4",
+    "costUsd": 0.00215,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "This depends on inherently unpredictable future solar activity, so it cannot be resolved reliably now."
+  },
+  {
+    "caseId": "ale_14",
+    "type": "ALEATORIC",
+    "domain": "science",
+    "model": "grok4.3",
+    "costUsd": 0.00154215,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Specific solar-flare occurrence next week cannot be known in advance."
+  },
+  {
+    "caseId": "ale_14",
+    "type": "ALEATORIC",
+    "domain": "science",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.0001271,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Solar flare occurrence and resulting auroral visibility are specific future events that cannot be known with certainty in advance."
+  },
+  {
+    "caseId": "ale_15",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "grok-4.20",
+    "costUsd": 0.0005984,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Predicting the handedness of the next specific person to enter a cafe is a genuinely random future event that no current knowledge or web search can resolve."
+  },
+  {
+    "caseId": "ale_14",
+    "type": "ALEATORIC",
+    "domain": "science",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00063584,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Solar flares and subsequent auroras are inherently unpredictable future events that cannot be forecasted with certainty."
+  },
+  {
+    "caseId": "ale_15",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "gemini-3.5-flash",
+    "costUsd": 0.0012735,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The handedness of the next customer is an unpredictable future event that cannot be determined beforehand."
+  },
+  {
+    "caseId": "ale_15",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "gpt-5.4-mini",
+    "costUsd": 0.00062325,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The next entrant and their handedness are not knowable in advance and cannot be reliably determined from current information."
+  },
+  {
+    "caseId": "ale_15",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "gemma-4-31b",
+    "costUsd": 0.00007017,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "Whether a specific future person is left-handed is an unpredictable event."
+  },
+  {
+    "caseId": "ale_15",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "haiku-4.5",
+    "costUsd": 0.001258,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "No tool can predict which specific person will enter an unspecified cafe next or their handedness, as this depends on genuinely unpredictable future events."
+  },
+  {
+    "caseId": "ale_15",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "opus",
+    "costUsd": 0.005365,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The handedness of an unknown future visitor is a genuinely unpredictable event no tool can resolve."
+  },
+  {
+    "caseId": "ale_15",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "sonnet",
+    "costUsd": 0.002126,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The handedness of an unspecified future individual entering a cafe is a random, unobservable future event no search can determine."
+  },
+  {
+    "caseId": "ale_15",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "gpt5.4",
+    "costUsd": 0.0015225,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "It depends on a specific future person's arrival, which is inherently unpredictable and not knowable via web search."
+  },
+  {
+    "caseId": "ale_15",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "grok4.3",
+    "costUsd": 0.0011784,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "No stable fact or search resolves who the next unknown person will be or their handedness."
+  },
+  {
+    "caseId": "ale_15",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "deepseek-v3.2",
+    "costUsd": 0.00013302,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The handedness of the next person to enter is a future event that cannot be known in advance."
+  },
+  {
+    "caseId": "ale_15",
+    "type": "ALEATORIC",
+    "domain": "chance",
+    "model": "qwen3.7-plus",
+    "costUsd": 0.00040256,
+    "decision": "CANNOT_RESOLVE",
+    "missing": "the future / unknowable",
+    "reasoning": "The handedness of the next person to enter a cafe is a genuinely unpredictable future event that no tool can determine."
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "ranAt": "2026-07-05T20:44:41.395Z",
+  "config": {
+    "numSymbols": 8,
+    "iterPerFold": 150,
+    "lr": 0.001,
+    "interval": "1D",
+    "seed": "42",
+    "folds": 5
+  },
+  "perFold": [
+    {
+      "fold": "2020 COVID crash + recovery",
+      "testPeriod": "2020-01-01..2020-12-31",
+      "ppoReturn": -18.587759674024515,
+      "buyHold": -18.711484170912833,
+      "alpha": 0.12372449688831821,
+      "sharpe": -2.4144368759723784
+    },
+    {
+      "fold": "2021 bull market",
+      "testPeriod": "2021-01-01..2021-12-31",
+      "ppoReturn": -4.413674797270427,
+      "buyHold": 24.480161652921588,
+      "alpha": -28.893836450192016,
+      "sharpe": -0.2623960073641769
+    },
+    {
+      "fold": "2022 correction/bear",
+      "testPeriod": "2022-01-01..2022-12-31",
+      "ppoReturn": -5.413559797647929,
+      "buyHold": 9.008090302090718,
+      "alpha": -14.421650099738647,
+      "sharpe": -0.4327990365297149
+    },
+    {
+      "fold": "2023 recovery",
+      "testPeriod": "2023-01-01..2023-12-31",
+      "ppoReturn": -2.0433637565034646,
+      "buyHold": 10.991014567579127,
+      "alpha": -13.034378324082592,
+      "sharpe": -0.10674670831575933
+    },
+    {
+      "fold": "2024 bull",
+      "testPeriod": "2024-01-01..2024-12-31",
+      "ppoReturn": -5.971368720367866,
+      "buyHold": 8.927648888013845,
+      "alpha": -14.899017608381712,
+      "sharpe": -0.32118203708495363
+    }
+  ],
+  "aggregate": {
+    "ppoMeanReturnPct": -7.28594534916284,
+    "buyHoldMeanReturnPct": 6.824460195621283,
+    "alphaPct": -14.110405544784122
+  },
+  "leaderboard": [
+    {
+      "st": "MACD",
+      "mean": 10.007470552107609,
+      "sharpe": 0.5603351736833511
+    },
+    {
+      "st": "BUYHOLD",
+      "mean": 6.824460195621283,
+      "sharpe": 0.2952992816560689
+    },
+    {
+      "st": "CLAUDE",
+      "mean": 4.4036788431495895,
+      "sharpe": 0.2910512744439853
+    },
+    {
+      "st": "BREAKOUT",
+      "mean": 4.106380337521732,
+      "sharpe": 0.2770013468341906
+    },
+    {
+      "st": "MOMENTUM",
+      "mean": 3.4017372689609595,
+      "sharpe": 0.25108954933230637
+    },
+    {
+      "st": "MEANREV",
+      "mean": 0.32317807464513093,
+      "sharpe": 0.026785001346241885
+    },
+    {
+      "st": "RULE",
+      "mean": 0,
+      "sharpe": 0
+    },
+    {
+      "st": "RANDOM",
+      "mean": -0.23044863362588638,
+      "sharpe": -0.015175183735609013
+    },
+    {
+      "st": "PPO",
+      "mean": -7.28594534916284,
+      "sharpe": -0.5132812607288602
+    }
+  ],
+  "significance": {
+    "ppoSharpe": -0.5132812607288602,
+    "psr": 0.00330239565305435,
+    "expectedMaxSharpe": 0.4616384388159842,
+    "deflatedSharpe": 1.243569506502913e-7,
+    "dsrSignificant": false,
+    "nStrategies": 9,
+    "pbo": 0.36904761904761907,
+    "pboSplits": 252
+  },
+  "nObservations": 40
+}

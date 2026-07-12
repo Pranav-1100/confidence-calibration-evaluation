@@ -1,0 +1,362 @@
+[
+  {
+    "id": "coin_1",
+    "domain": "coin",
+    "evidenceText": "A fair coin (P(Heads)=0.5) is flipped repeatedly. The sequence so far is: H H T T T H H H",
+    "type1": {
+      "question": "Was flip #5 in the sequence shown a HEADS?",
+      "groundTruthYes": false
+    },
+    "type2": {
+      "question": "Will the NEXT (9th) flip be HEADS?",
+      "trueProbYes": 0.5,
+      "sampledYes": false,
+      "sealedYes": true
+    }
+  },
+  {
+    "id": "dice_1",
+    "domain": "dice",
+    "evidenceText": "A fair six-sided die (each face 1-6 equally likely) is rolled repeatedly. The rolls so far are: 1 5 4 2 3 2",
+    "type1": {
+      "question": "Was roll #4 in the sequence shown an EVEN number?",
+      "groundTruthYes": true
+    },
+    "type2": {
+      "question": "Will the NEXT (7th) roll be GREATER THAN 3 (i.e. 4, 5, or 6)?",
+      "trueProbYes": 0.5,
+      "sampledYes": false,
+      "sealedYes": true
+    }
+  },
+  {
+    "id": "urn_1",
+    "domain": "urn",
+    "evidenceText": "A bag contains 3 red balls and 7 blue balls (total 10). A ball is drawn, its colour noted, then REPLACED, and the bag reshuffled — each draw is independent. The draws so far are: Red, Red, Red, Red",
+    "type1": {
+      "question": "Was draw #3 in the sequence shown a RED ball?",
+      "groundTruthYes": true
+    },
+    "type2": {
+      "question": "Will the NEXT draw be a RED ball?",
+      "trueProbYes": 0.3,
+      "sampledYes": false,
+      "sealedYes": true
+    }
+  },
+  {
+    "id": "coin_2",
+    "domain": "coin",
+    "evidenceText": "A fair coin (P(Heads)=0.5) is flipped repeatedly. The sequence so far is: T T T T T T T T",
+    "type1": {
+      "question": "Was flip #3 in the sequence shown a HEADS?",
+      "groundTruthYes": false
+    },
+    "type2": {
+      "question": "Will the NEXT (9th) flip be HEADS?",
+      "trueProbYes": 0.5,
+      "sampledYes": true,
+      "sealedYes": true
+    }
+  },
+  {
+    "id": "dice_2",
+    "domain": "dice",
+    "evidenceText": "A fair six-sided die (each face 1-6 equally likely) is rolled repeatedly. The rolls so far are: 3 1 1 5 3 3",
+    "type1": {
+      "question": "Was roll #3 in the sequence shown an EVEN number?",
+      "groundTruthYes": false
+    },
+    "type2": {
+      "question": "Will the NEXT (7th) roll be GREATER THAN 3 (i.e. 4, 5, or 6)?",
+      "trueProbYes": 0.5,
+      "sampledYes": true,
+      "sealedYes": true
+    }
+  },
+  {
+    "id": "urn_2",
+    "domain": "urn",
+    "evidenceText": "A bag contains 6 red balls and 3 blue balls (total 9). A ball is drawn, its colour noted, then REPLACED, and the bag reshuffled — each draw is independent. The draws so far are: Red, Red, Red, Blue",
+    "type1": {
+      "question": "Was draw #2 in the sequence shown a RED ball?",
+      "groundTruthYes": true
+    },
+    "type2": {
+      "question": "Will the NEXT draw be a RED ball?",
+      "trueProbYes": 0.667,
+      "sampledYes": true,
+      "sealedYes": true
+    }
+  },
+  {
+    "id": "coin_3",
+    "domain": "coin",
+    "evidenceText": "A fair coin (P(Heads)=0.5) is flipped repeatedly. The sequence so far is: H H T T T T T T",
+    "type1": {
+      "question": "Was flip #3 in the sequence shown a HEADS?",
+      "groundTruthYes": false
+    },
+    "type2": {
+      "question": "Will the NEXT (9th) flip be HEADS?",
+      "trueProbYes": 0.5,
+      "sampledYes": false,
+      "sealedYes": false
+    }
+  },
+  {
+    "id": "dice_3",
+    "domain": "dice",
+    "evidenceText": "A fair six-sided die (each face 1-6 equally likely) is rolled repeatedly. The rolls so far are: 6 6 6 4 6 6",
+    "type1": {
+      "question": "Was roll #4 in the sequence shown an EVEN number?",
+      "groundTruthYes": true
+    },
+    "type2": {
+      "question": "Will the NEXT (7th) roll be GREATER THAN 3 (i.e. 4, 5, or 6)?",
+      "trueProbYes": 0.5,
+      "sampledYes": true,
+      "sealedYes": false
+    }
+  },
+  {
+    "id": "urn_3",
+    "domain": "urn",
+    "evidenceText": "A bag contains 5 red balls and 3 blue balls (total 8). A ball is drawn, its colour noted, then REPLACED, and the bag reshuffled — each draw is independent. The draws so far are: Blue, Red, Blue, Blue",
+    "type1": {
+      "question": "Was draw #3 in the sequence shown a RED ball?",
+      "groundTruthYes": false
+    },
+    "type2": {
+      "question": "Will the NEXT draw be a RED ball?",
+      "trueProbYes": 0.625,
+      "sampledYes": false,
+      "sealedYes": true
+    }
+  },
+  {
+    "id": "coin_4",
+    "domain": "coin",
+    "evidenceText": "A fair coin (P(Heads)=0.5) is flipped repeatedly. The sequence so far is: T T T H H H H T",
+    "type1": {
+      "question": "Was flip #6 in the sequence shown a HEADS?",
+      "groundTruthYes": true
+    },
+    "type2": {
+      "question": "Will the NEXT (9th) flip be HEADS?",
+      "trueProbYes": 0.5,
+      "sampledYes": false,
+      "sealedYes": true
+    }
+  },
+  {
+    "id": "dice_4",
+    "domain": "dice",
+    "evidenceText": "A fair six-sided die (each face 1-6 equally likely) is rolled repeatedly. The rolls so far are: 4 4 5 6 2 6",
+    "type1": {
+      "question": "Was roll #4 in the sequence shown an EVEN number?",
+      "groundTruthYes": true
+    },
+    "type2": {
+      "question": "Will the NEXT (7th) roll be GREATER THAN 3 (i.e. 4, 5, or 6)?",
+      "trueProbYes": 0.5,
+      "sampledYes": true,
+      "sealedYes": true
+    }
+  },
+  {
+    "id": "urn_4",
+    "domain": "urn",
+    "evidenceText": "A bag contains 6 red balls and 2 blue balls (total 8). A ball is drawn, its colour noted, then REPLACED, and the bag reshuffled — each draw is independent. The draws so far are: Blue, Red, Red, Red",
+    "type1": {
+      "question": "Was draw #2 in the sequence shown a RED ball?",
+      "groundTruthYes": true
+    },
+    "type2": {
+      "question": "Will the NEXT draw be a RED ball?",
+      "trueProbYes": 0.75,
+      "sampledYes": true,
+      "sealedYes": false
+    }
+  },
+  {
+    "id": "coin_5",
+    "domain": "coin",
+    "evidenceText": "A fair coin (P(Heads)=0.5) is flipped repeatedly. The sequence so far is: T T T T T T T H",
+    "type1": {
+      "question": "Was flip #3 in the sequence shown a HEADS?",
+      "groundTruthYes": false
+    },
+    "type2": {
+      "question": "Will the NEXT (9th) flip be HEADS?",
+      "trueProbYes": 0.5,
+      "sampledYes": false,
+      "sealedYes": false
+    }
+  },
+  {
+    "id": "dice_5",
+    "domain": "dice",
+    "evidenceText": "A fair six-sided die (each face 1-6 equally likely) is rolled repeatedly. The rolls so far are: 6 2 4 3 4 2",
+    "type1": {
+      "question": "Was roll #3 in the sequence shown an EVEN number?",
+      "groundTruthYes": true
+    },
+    "type2": {
+      "question": "Will the NEXT (7th) roll be GREATER THAN 3 (i.e. 4, 5, or 6)?",
+      "trueProbYes": 0.5,
+      "sampledYes": false,
+      "sealedYes": false
+    }
+  },
+  {
+    "id": "urn_5",
+    "domain": "urn",
+    "evidenceText": "A bag contains 3 red balls and 2 blue balls (total 5). A ball is drawn, its colour noted, then REPLACED, and the bag reshuffled — each draw is independent. The draws so far are: Red, Red, Red, Blue",
+    "type1": {
+      "question": "Was draw #4 in the sequence shown a RED ball?",
+      "groundTruthYes": false
+    },
+    "type2": {
+      "question": "Will the NEXT draw be a RED ball?",
+      "trueProbYes": 0.6,
+      "sampledYes": true,
+      "sealedYes": true
+    }
+  },
+  {
+    "id": "coin_6",
+    "domain": "coin",
+    "evidenceText": "A fair coin (P(Heads)=0.5) is flipped repeatedly. The sequence so far is: H H T H H T T T",
+    "type1": {
+      "question": "Was flip #5 in the sequence shown a HEADS?",
+      "groundTruthYes": true
+    },
+    "type2": {
+      "question": "Will the NEXT (9th) flip be HEADS?",
+      "trueProbYes": 0.5,
+      "sampledYes": false,
+      "sealedYes": true
+    }
+  },
+  {
+    "id": "dice_6",
+    "domain": "dice",
+    "evidenceText": "A fair six-sided die (each face 1-6 equally likely) is rolled repeatedly. The rolls so far are: 4 2 4 5 1 2",
+    "type1": {
+      "question": "Was roll #5 in the sequence shown an EVEN number?",
+      "groundTruthYes": false
+    },
+    "type2": {
+      "question": "Will the NEXT (7th) roll be GREATER THAN 3 (i.e. 4, 5, or 6)?",
+      "trueProbYes": 0.5,
+      "sampledYes": true,
+      "sealedYes": true
+    }
+  },
+  {
+    "id": "urn_6",
+    "domain": "urn",
+    "evidenceText": "A bag contains 4 red balls and 4 blue balls (total 8). A ball is drawn, its colour noted, then REPLACED, and the bag reshuffled — each draw is independent. The draws so far are: Blue, Red, Red, Red",
+    "type1": {
+      "question": "Was draw #4 in the sequence shown a RED ball?",
+      "groundTruthYes": true
+    },
+    "type2": {
+      "question": "Will the NEXT draw be a RED ball?",
+      "trueProbYes": 0.5,
+      "sampledYes": true,
+      "sealedYes": false
+    }
+  },
+  {
+    "id": "coin_7",
+    "domain": "coin",
+    "evidenceText": "A fair coin (P(Heads)=0.5) is flipped repeatedly. The sequence so far is: T H H T H T T T",
+    "type1": {
+      "question": "Was flip #6 in the sequence shown a HEADS?",
+      "groundTruthYes": false
+    },
+    "type2": {
+      "question": "Will the NEXT (9th) flip be HEADS?",
+      "trueProbYes": 0.5,
+      "sampledYes": true,
+      "sealedYes": true
+    }
+  },
+  {
+    "id": "dice_7",
+    "domain": "dice",
+    "evidenceText": "A fair six-sided die (each face 1-6 equally likely) is rolled repeatedly. The rolls so far are: 5 6 4 4 1 5",
+    "type1": {
+      "question": "Was roll #3 in the sequence shown an EVEN number?",
+      "groundTruthYes": true
+    },
+    "type2": {
+      "question": "Will the NEXT (7th) roll be GREATER THAN 3 (i.e. 4, 5, or 6)?",
+      "trueProbYes": 0.5,
+      "sampledYes": true,
+      "sealedYes": true
+    }
+  },
+  {
+    "id": "urn_7",
+    "domain": "urn",
+    "evidenceText": "A bag contains 4 red balls and 3 blue balls (total 7). A ball is drawn, its colour noted, then REPLACED, and the bag reshuffled — each draw is independent. The draws so far are: Red, Blue, Blue, Blue",
+    "type1": {
+      "question": "Was draw #2 in the sequence shown a RED ball?",
+      "groundTruthYes": false
+    },
+    "type2": {
+      "question": "Will the NEXT draw be a RED ball?",
+      "trueProbYes": 0.571,
+      "sampledYes": true,
+      "sealedYes": true
+    }
+  },
+  {
+    "id": "coin_8",
+    "domain": "coin",
+    "evidenceText": "A fair coin (P(Heads)=0.5) is flipped repeatedly. The sequence so far is: T T T T T H T H",
+    "type1": {
+      "question": "Was flip #5 in the sequence shown a HEADS?",
+      "groundTruthYes": false
+    },
+    "type2": {
+      "question": "Will the NEXT (9th) flip be HEADS?",
+      "trueProbYes": 0.5,
+      "sampledYes": true,
+      "sealedYes": false
+    }
+  },
+  {
+    "id": "dice_8",
+    "domain": "dice",
+    "evidenceText": "A fair six-sided die (each face 1-6 equally likely) is rolled repeatedly. The rolls so far are: 5 4 5 4 4 2",
+    "type1": {
+      "question": "Was roll #5 in the sequence shown an EVEN number?",
+      "groundTruthYes": true
+    },
+    "type2": {
+      "question": "Will the NEXT (7th) roll be GREATER THAN 3 (i.e. 4, 5, or 6)?",
+      "trueProbYes": 0.5,
+      "sampledYes": false,
+      "sealedYes": false
+    }
+  },
+  {
+    "id": "urn_8",
+    "domain": "urn",
+    "evidenceText": "A bag contains 6 red balls and 4 blue balls (total 10). A ball is drawn, its colour noted, then REPLACED, and the bag reshuffled — each draw is independent. The draws so far are: Red, Red, Blue, Blue",
+    "type1": {
+      "question": "Was draw #1 in the sequence shown a RED ball?",
+      "groundTruthYes": true
+    },
+    "type2": {
+      "question": "Will the NEXT draw be a RED ball?",
+      "trueProbYes": 0.6,
+      "sampledYes": true,
+      "sealedYes": true
+    }
+  }
+]

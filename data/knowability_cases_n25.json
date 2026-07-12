@@ -1,0 +1,552 @@
+[
+  {
+    "id": "2020_COVID_crash_+_recovery_1",
+    "fold": "2020 COVID crash + recovery",
+    "symbol": "TCS",
+    "asOfDate": "2020-08-26",
+    "price": 2253.5,
+    "evidenceText": "Symbol: TCS | As-of date: 2020-08-26 | Current close: ₹2253.50\nClose 10 trading days ago (2020-08-12): ₹2257.35\nRSI(14): 52.5 | EMA20: ₹2250.14 | EMA50: ₹2194.51\nMACD histogram: -7.489\nATR(14): ₹45.59 (2.0% of price)\nVolume ratio (5d/20d): 0.70x\nRegime classification: SIDEWAYS",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹2253.50) HIGHER than the close 10 trading days ago (2020-08-12)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2020-08-12",
+      "priorClose": 2257.35
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will TCS's closing price 10 trading days from 2020-08-26 be HIGHER than the current close (₹2253.50)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2020-09-09",
+      "futureClose": 2327.65
+    }
+  },
+  {
+    "id": "2020_COVID_crash_+_recovery_2",
+    "fold": "2020 COVID crash + recovery",
+    "symbol": "LT",
+    "asOfDate": "2020-11-23",
+    "price": 1125.8499755859375,
+    "evidenceText": "Symbol: LT | As-of date: 2020-11-23 | Current close: ₹1125.85\nClose 10 trading days ago (2020-11-09): ₹965.85\nRSI(14): 73.4 | EMA20: ₹1040.45 | EMA50: ₹976.08\nMACD histogram: 12.302\nATR(14): ₹33.70 (3.0% of price)\nVolume ratio (5d/20d): 1.32x\nRegime classification: BULL_VOLATILE",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1125.85) HIGHER than the close 10 trading days ago (2020-11-09)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2020-11-09",
+      "priorClose": 965.85
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will LT's closing price 10 trading days from 2020-11-23 be HIGHER than the current close (₹1125.85)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2020-12-08",
+      "futureClose": 1171.4
+    }
+  },
+  {
+    "id": "2020_COVID_crash_+_recovery_3",
+    "fold": "2020 COVID crash + recovery",
+    "symbol": "AXISBANK",
+    "asOfDate": "2020-10-22",
+    "price": 510.29998779296875,
+    "evidenceText": "Symbol: AXISBANK | As-of date: 2020-10-22 | Current close: ₹510.30\nClose 10 trading days ago (2020-10-08): ₹451.90\nRSI(14): 70.7 | EMA20: ₹468.29 | EMA50: ₹456.78\nMACD histogram: 6.036\nATR(14): ₹17.29 (3.4% of price)\nVolume ratio (5d/20d): 1.13x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹510.30) HIGHER than the close 10 trading days ago (2020-10-08)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2020-10-08",
+      "priorClose": 451.9
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will AXISBANK's closing price 10 trading days from 2020-10-22 be HIGHER than the current close (₹510.30)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2020-11-05",
+      "futureClose": 539.3
+    }
+  },
+  {
+    "id": "2020_COVID_crash_+_recovery_4",
+    "fold": "2020 COVID crash + recovery",
+    "symbol": "MARUTI",
+    "asOfDate": "2020-06-29",
+    "price": 5678.7001953125,
+    "evidenceText": "Symbol: MARUTI | As-of date: 2020-06-29 | Current close: ₹5678.70\nClose 10 trading days ago (2020-06-15): ₹5475.75\nRSI(14): 55.2 | EMA20: ₹5644.90 | EMA50: ₹5332.00\nMACD histogram: -20.706\nATR(14): ₹209.09 (3.7% of price)\nVolume ratio (5d/20d): 0.77x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹5678.70) HIGHER than the close 10 trading days ago (2020-06-15)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2020-06-15",
+      "priorClose": 5475.75
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will MARUTI's closing price 10 trading days from 2020-06-29 be HIGHER than the current close (₹5678.70)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2020-07-13",
+      "futureClose": 5988.85
+    }
+  },
+  {
+    "id": "2020_COVID_crash_+_recovery_5",
+    "fold": "2020 COVID crash + recovery",
+    "symbol": "BAJFINANCE",
+    "asOfDate": "2020-04-27",
+    "price": 204.40499877929688,
+    "evidenceText": "Symbol: BAJFINANCE | As-of date: 2020-04-27 | Current close: ₹204.40\nClose 10 trading days ago (2020-04-09): ₹255.18\nRSI(14): 34.1 | EMA20: ₹239.70 | EMA50: ₹330.12\nMACD histogram: 4.520\nATR(14): ₹22.77 (11.1% of price)\nVolume ratio (5d/20d): 1.17x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹204.40) HIGHER than the close 10 trading days ago (2020-04-09)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2020-04-09",
+      "priorClose": 255.18
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will BAJFINANCE's closing price 10 trading days from 2020-04-27 be HIGHER than the current close (₹204.40)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2020-05-12",
+      "futureClose": 206.97
+    }
+  },
+  {
+    "id": "2021_bull_market_1",
+    "fold": "2021 bull market",
+    "symbol": "WIPRO",
+    "asOfDate": "2021-10-05",
+    "price": 323.42498779296875,
+    "evidenceText": "Symbol: WIPRO | As-of date: 2021-10-05 | Current close: ₹323.42\nClose 10 trading days ago (2021-09-21): ₹333.80\nRSI(14): 50.2 | EMA20: ₹325.18 | EMA50: ₹313.74\nMACD histogram: -2.651\nATR(14): ₹7.28 (2.3% of price)\nVolume ratio (5d/20d): 1.02x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹323.42) HIGHER than the close 10 trading days ago (2021-09-21)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2021-09-21",
+      "priorClose": 333.8
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will WIPRO's closing price 10 trading days from 2021-10-05 be HIGHER than the current close (₹323.42)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2021-10-20",
+      "futureClose": 350.98
+    }
+  },
+  {
+    "id": "2021_bull_market_2",
+    "fold": "2021 bull market",
+    "symbol": "TATASTEEL",
+    "asOfDate": "2021-03-15",
+    "price": 73.63999938964844,
+    "evidenceText": "Symbol: TATASTEEL | As-of date: 2021-03-15 | Current close: ₹73.64\nClose 10 trading days ago (2021-02-26): ₹71.51\nRSI(14): 55.6 | EMA20: ₹71.90 | EMA50: ₹69.19\nMACD histogram: -0.248\nATR(14): ₹2.98 (4.1% of price)\nVolume ratio (5d/20d): 0.80x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹73.64) HIGHER than the close 10 trading days ago (2021-02-26)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2021-02-26",
+      "priorClose": 71.51
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will TATASTEEL's closing price 10 trading days from 2021-03-15 be HIGHER than the current close (₹73.64)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2021-03-30",
+      "futureClose": 80
+    }
+  },
+  {
+    "id": "2021_bull_market_3",
+    "fold": "2021 bull market",
+    "symbol": "POWERGRID",
+    "asOfDate": "2021-05-25",
+    "price": 131.00628662109375,
+    "evidenceText": "Symbol: POWERGRID | As-of date: 2021-05-25 | Current close: ₹131.01\nClose 10 trading days ago (2021-05-10): ₹123.67\nRSI(14): 63.6 | EMA20: ₹126.39 | EMA50: ₹124.46\nMACD histogram: 0.532\nATR(14): ₹3.49 (2.7% of price)\nVolume ratio (5d/20d): 0.86x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹131.01) HIGHER than the close 10 trading days ago (2021-05-10)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2021-05-10",
+      "priorClose": 123.67
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will POWERGRID's closing price 10 trading days from 2021-05-25 be HIGHER than the current close (₹131.01)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2021-06-08",
+      "futureClose": 131.65
+    }
+  },
+  {
+    "id": "2021_bull_market_4",
+    "fold": "2021 bull market",
+    "symbol": "ULTRACEMCO",
+    "asOfDate": "2021-01-11",
+    "price": 5623.7001953125,
+    "evidenceText": "Symbol: ULTRACEMCO | As-of date: 2021-01-11 | Current close: ₹5623.70\nClose 10 trading days ago (2020-12-28): ₹5142.15\nRSI(14): 73.6 | EMA20: ₹5273.54 | EMA50: ₹5015.41\nMACD histogram: 31.182\nATR(14): ₹145.48 (2.6% of price)\nVolume ratio (5d/20d): 1.04x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹5623.70) HIGHER than the close 10 trading days ago (2020-12-28)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2020-12-28",
+      "priorClose": 5142.15
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will ULTRACEMCO's closing price 10 trading days from 2021-01-11 be HIGHER than the current close (₹5623.70)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2021-01-25",
+      "futureClose": 5368.4
+    }
+  },
+  {
+    "id": "2021_bull_market_5",
+    "fold": "2021 bull market",
+    "symbol": "ONGC",
+    "asOfDate": "2021-09-13",
+    "price": 123.05000305175781,
+    "evidenceText": "Symbol: ONGC | As-of date: 2021-09-13 | Current close: ₹123.05\nClose 10 trading days ago (2021-08-27): ₹116.65\nRSI(14): 61.4 | EMA20: ₹118.83 | EMA50: ₹118.47\nMACD histogram: 0.650\nATR(14): ₹3.05 (2.5% of price)\nVolume ratio (5d/20d): 0.92x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹123.05) HIGHER than the close 10 trading days ago (2021-08-27)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2021-08-27",
+      "priorClose": 116.65
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will ONGC's closing price 10 trading days from 2021-09-13 be HIGHER than the current close (₹123.05)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2021-09-27",
+      "futureClose": 140
+    }
+  },
+  {
+    "id": "2022_correction/bear_1",
+    "fold": "2022 correction/bear",
+    "symbol": "BHARTIARTL",
+    "asOfDate": "2022-10-17",
+    "price": 766,
+    "evidenceText": "Symbol: BHARTIARTL | As-of date: 2022-10-17 | Current close: ₹766.00\nClose 10 trading days ago (2022-09-30): ₹799.90\nRSI(14): 47.4 | EMA20: ₹775.25 | EMA50: ₹749.40\nMACD histogram: -4.896\nATR(14): ₹17.04 (2.2% of price)\nVolume ratio (5d/20d): 0.62x\nRegime classification: SIDEWAYS",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹766.00) HIGHER than the close 10 trading days ago (2022-09-30)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2022-09-30",
+      "priorClose": 799.9
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will BHARTIARTL's closing price 10 trading days from 2022-10-17 be HIGHER than the current close (₹766.00)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2022-11-01",
+      "futureClose": 835.55
+    }
+  },
+  {
+    "id": "2022_correction/bear_2",
+    "fold": "2022 correction/bear",
+    "symbol": "BAJAJFINSV",
+    "asOfDate": "2022-10-18",
+    "price": 1726.25,
+    "evidenceText": "Symbol: BAJAJFINSV | As-of date: 2022-10-18 | Current close: ₹1726.25\nClose 10 trading days ago (2022-10-03): ₹1646.60\nRSI(14): 56.7 | EMA20: ₹1697.52 | EMA50: ₹1645.80\nMACD histogram: -1.453\nATR(14): ₹45.83 (2.7% of price)\nVolume ratio (5d/20d): 0.66x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1726.25) HIGHER than the close 10 trading days ago (2022-10-03)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2022-10-03",
+      "priorClose": 1646.6
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will BAJAJFINSV's closing price 10 trading days from 2022-10-18 be HIGHER than the current close (₹1726.25)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2022-11-02",
+      "futureClose": 1710.4
+    }
+  },
+  {
+    "id": "2022_correction/bear_3",
+    "fold": "2022 correction/bear",
+    "symbol": "ULTRACEMCO",
+    "asOfDate": "2022-10-12",
+    "price": 6177.7001953125,
+    "evidenceText": "Symbol: ULTRACEMCO | As-of date: 2022-10-12 | Current close: ₹6177.70\nClose 10 trading days ago (2022-09-27): ₹6192.85\nRSI(14): 42.0 | EMA20: ₹6295.53 | EMA50: ₹6408.19\nMACD histogram: -11.157\nATR(14): ₹155.78 (2.5% of price)\nVolume ratio (5d/20d): 0.75x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹6177.70) HIGHER than the close 10 trading days ago (2022-09-27)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2022-09-27",
+      "priorClose": 6192.85
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will ULTRACEMCO's closing price 10 trading days from 2022-10-12 be HIGHER than the current close (₹6177.70)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2022-10-27",
+      "futureClose": 6436.8
+    }
+  },
+  {
+    "id": "2022_correction/bear_4",
+    "fold": "2022 correction/bear",
+    "symbol": "KOTAKBANK",
+    "asOfDate": "2022-04-26",
+    "price": 348.5400085449219,
+    "evidenceText": "Symbol: KOTAKBANK | As-of date: 2022-04-26 | Current close: ₹348.54\nClose 10 trading days ago (2022-04-08): ₹356.90\nRSI(14): 46.7 | EMA20: ₹351.34 | EMA50: ₹357.06\nMACD histogram: -0.492\nATR(14): ₹9.35 (2.7% of price)\nVolume ratio (5d/20d): 0.91x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹348.54) HIGHER than the close 10 trading days ago (2022-04-08)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2022-04-08",
+      "priorClose": 356.9
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will KOTAKBANK's closing price 10 trading days from 2022-04-26 be HIGHER than the current close (₹348.54)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2022-05-11",
+      "futureClose": 361.99
+    }
+  },
+  {
+    "id": "2022_correction/bear_5",
+    "fold": "2022 correction/bear",
+    "symbol": "HCLTECH",
+    "asOfDate": "2022-02-17",
+    "price": 1163.050048828125,
+    "evidenceText": "Symbol: HCLTECH | As-of date: 2022-02-17 | Current close: ₹1163.05\nClose 10 trading days ago (2022-02-03): ₹1156.75\nRSI(14): 46.6 | EMA20: ₹1172.09 | EMA50: ₹1193.69\nMACD histogram: 3.766\nATR(14): ₹30.33 (2.6% of price)\nVolume ratio (5d/20d): 0.58x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1163.05) HIGHER than the close 10 trading days ago (2022-02-03)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2022-02-03",
+      "priorClose": 1156.75
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will HCLTECH's closing price 10 trading days from 2022-02-17 be HIGHER than the current close (₹1163.05)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2022-03-04",
+      "futureClose": 1138.45
+    }
+  },
+  {
+    "id": "2023_recovery_1",
+    "fold": "2023 recovery",
+    "symbol": "BHARTIARTL",
+    "asOfDate": "2023-02-06",
+    "price": 789.25,
+    "evidenceText": "Symbol: BHARTIARTL | As-of date: 2023-02-06 | Current close: ₹789.25\nClose 10 trading days ago (2023-01-20): ₹764.45\nRSI(14): 52.1 | EMA20: ₹781.90 | EMA50: ₹804.76\nMACD histogram: 4.072\nATR(14): ₹16.84 (2.1% of price)\nVolume ratio (5d/20d): 0.66x\nRegime classification: SIDEWAYS",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹789.25) HIGHER than the close 10 trading days ago (2023-01-20)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2023-01-20",
+      "priorClose": 764.45
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will BHARTIARTL's closing price 10 trading days from 2023-02-06 be HIGHER than the current close (₹789.25)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2023-02-20",
+      "futureClose": 779.15
+    }
+  },
+  {
+    "id": "2023_recovery_2",
+    "fold": "2023 recovery",
+    "symbol": "KOTAKBANK",
+    "asOfDate": "2023-08-25",
+    "price": 355.7699890136719,
+    "evidenceText": "Symbol: KOTAKBANK | As-of date: 2023-08-25 | Current close: ₹355.77\nClose 10 trading days ago (2023-08-10): ₹360.17\nRSI(14): 38.1 | EMA20: ₹360.64 | EMA50: ₹367.59\nMACD histogram: -0.182\nATR(14): ₹5.10 (1.4% of price)\nVolume ratio (5d/20d): 0.86x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹355.77) HIGHER than the close 10 trading days ago (2023-08-10)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2023-08-10",
+      "priorClose": 360.17
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will KOTAKBANK's closing price 10 trading days from 2023-08-25 be HIGHER than the current close (₹355.77)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2023-09-08",
+      "futureClose": 358.64
+    }
+  },
+  {
+    "id": "2023_recovery_3",
+    "fold": "2023 recovery",
+    "symbol": "AXISBANK",
+    "asOfDate": "2023-06-12",
+    "price": 974.2000122070312,
+    "evidenceText": "Symbol: AXISBANK | As-of date: 2023-06-12 | Current close: ₹974.20\nClose 10 trading days ago (2023-05-29): ₹929.80\nRSI(14): 70.3 | EMA20: ₹937.58 | EMA50: ₹899.72\nMACD histogram: 3.139\nATR(14): ₹15.62 (1.6% of price)\nVolume ratio (5d/20d): 1.06x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹974.20) HIGHER than the close 10 trading days ago (2023-05-29)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2023-05-29",
+      "priorClose": 929.8
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will AXISBANK's closing price 10 trading days from 2023-06-12 be HIGHER than the current close (₹974.20)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2023-06-26",
+      "futureClose": 960.55
+    }
+  },
+  {
+    "id": "2023_recovery_4",
+    "fold": "2023 recovery",
+    "symbol": "ULTRACEMCO",
+    "asOfDate": "2023-05-22",
+    "price": 7715.64990234375,
+    "evidenceText": "Symbol: ULTRACEMCO | As-of date: 2023-05-22 | Current close: ₹7715.65\nClose 10 trading days ago (2023-05-08): ₹7735.45\nRSI(14): 55.8 | EMA20: ₹7644.62 | EMA50: ₹7512.99\nMACD histogram: -4.686\nATR(14): ₹123.04 (1.6% of price)\nVolume ratio (5d/20d): 0.63x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹7715.65) HIGHER than the close 10 trading days ago (2023-05-08)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2023-05-08",
+      "priorClose": 7735.45
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will ULTRACEMCO's closing price 10 trading days from 2023-05-22 be HIGHER than the current close (₹7715.65)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2023-06-05",
+      "futureClose": 7882
+    }
+  },
+  {
+    "id": "2023_recovery_5",
+    "fold": "2023 recovery",
+    "symbol": "ASIANPAINT",
+    "asOfDate": "2023-07-19",
+    "price": 3514.64990234375,
+    "evidenceText": "Symbol: ASIANPAINT | As-of date: 2023-07-19 | Current close: ₹3514.65\nClose 10 trading days ago (2023-07-05): ₹3374.40\nRSI(14): 76.6 | EMA20: ₹3383.06 | EMA50: ₹3249.82\nMACD histogram: 7.916\nATR(14): ₹54.68 (1.6% of price)\nVolume ratio (5d/20d): 1.01x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹3514.65) HIGHER than the close 10 trading days ago (2023-07-05)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2023-07-05",
+      "priorClose": 3374.4
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will ASIANPAINT's closing price 10 trading days from 2023-07-19 be HIGHER than the current close (₹3514.65)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2023-08-02",
+      "futureClose": 3362.9
+    }
+  },
+  {
+    "id": "2024_bull_1",
+    "fold": "2024 bull",
+    "symbol": "BHARTIARTL",
+    "asOfDate": "2024-04-30",
+    "price": 1322.300048828125,
+    "evidenceText": "Symbol: BHARTIARTL | As-of date: 2024-04-30 | Current close: ₹1322.30\nClose 10 trading days ago (2024-04-15): ₹1224.55\nRSI(14): 67.0 | EMA20: ₹1275.72 | EMA50: ₹1218.07\nMACD histogram: 6.250\nATR(14): ₹27.40 (2.1% of price)\nVolume ratio (5d/20d): 0.79x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1322.30) HIGHER than the close 10 trading days ago (2024-04-15)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2024-04-15",
+      "priorClose": 1224.55
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will BHARTIARTL's closing price 10 trading days from 2024-04-30 be HIGHER than the current close (₹1322.30)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2024-05-15",
+      "futureClose": 1309.9
+    }
+  },
+  {
+    "id": "2024_bull_2",
+    "fold": "2024 bull",
+    "symbol": "AXISBANK",
+    "asOfDate": "2024-10-15",
+    "price": 1153.8499755859375,
+    "evidenceText": "Symbol: AXISBANK | As-of date: 2024-10-15 | Current close: ₹1153.85\nClose 10 trading days ago (2024-09-30): ₹1232.20\nRSI(14): 37.7 | EMA20: ₹1191.15 | EMA50: ₹1185.08\nMACD histogram: -8.393\nATR(14): ₹25.69 (2.2% of price)\nVolume ratio (5d/20d): 0.80x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1153.85) HIGHER than the close 10 trading days ago (2024-09-30)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2024-09-30",
+      "priorClose": 1232.2
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will AXISBANK's closing price 10 trading days from 2024-10-15 be HIGHER than the current close (₹1153.85)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2024-10-29",
+      "futureClose": 1186.85
+    }
+  },
+  {
+    "id": "2024_bull_3",
+    "fold": "2024 bull",
+    "symbol": "BAJAJFINSV",
+    "asOfDate": "2024-08-16",
+    "price": 1549.9000244140625,
+    "evidenceText": "Symbol: BAJAJFINSV | As-of date: 2024-08-16 | Current close: ₹1549.90\nClose 10 trading days ago (2024-08-01): ₹1634.80\nRSI(14): 42.8 | EMA20: ₹1575.87 | EMA50: ₹1578.21\nMACD histogram: -7.803\nATR(14): ₹32.00 (2.1% of price)\nVolume ratio (5d/20d): 0.76x\nRegime classification: BEAR_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1549.90) HIGHER than the close 10 trading days ago (2024-08-01)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2024-08-01",
+      "priorClose": 1634.8
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will BAJAJFINSV's closing price 10 trading days from 2024-08-16 be HIGHER than the current close (₹1549.90)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2024-08-30",
+      "futureClose": 1783.05
+    }
+  },
+  {
+    "id": "2024_bull_4",
+    "fold": "2024 bull",
+    "symbol": "HINDUNILVR",
+    "asOfDate": "2024-01-15",
+    "price": 2573.199951171875,
+    "evidenceText": "Symbol: HINDUNILVR | As-of date: 2024-01-15 | Current close: ₹2573.20\nClose 10 trading days ago (2024-01-01): ₹2654.75\nRSI(14): 50.2 | EMA20: ₹2575.64 | EMA50: ₹2544.75\nMACD histogram: -8.915\nATR(14): ₹37.15 (1.4% of price)\nVolume ratio (5d/20d): 1.22x\nRegime classification: SIDEWAYS",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹2573.20) HIGHER than the close 10 trading days ago (2024-01-01)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": false,
+      "priorDate": "2024-01-01",
+      "priorClose": 2654.75
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will HINDUNILVR's closing price 10 trading days from 2024-01-15 be HIGHER than the current close (₹2573.20)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": false,
+      "futureDate": "2024-01-31",
+      "futureClose": 2481.55
+    }
+  },
+  {
+    "id": "2024_bull_5",
+    "fold": "2024 bull",
+    "symbol": "BHARTIARTL",
+    "asOfDate": "2024-07-25",
+    "price": 1449.1500244140625,
+    "evidenceText": "Symbol: BHARTIARTL | As-of date: 2024-07-25 | Current close: ₹1449.15\nClose 10 trading days ago (2024-07-10): ₹1445.05\nRSI(14): 53.6 | EMA20: ₹1444.58 | EMA50: ₹1403.10\nMACD histogram: -1.922\nATR(14): ₹31.48 (2.2% of price)\nVolume ratio (5d/20d): 0.54x\nRegime classification: BULL_QUIET",
+    "type1": {
+      "kind": "KNOWABLE",
+      "question": "Based ONLY on the data shown, is the current close (₹1449.15) HIGHER than the close 10 trading days ago (2024-07-10)? In other words, did the price RISE over the past 10 trading days?",
+      "groundTruthYes": true,
+      "priorDate": "2024-07-10",
+      "priorClose": 1445.05
+    },
+    "type2": {
+      "kind": "UNKNOWABLE",
+      "question": "Will BHARTIARTL's closing price 10 trading days from 2024-07-25 be HIGHER than the current close (₹1449.15)? In other words, will the price RISE over the next 10 trading days?",
+      "sealedYes": true,
+      "futureDate": "2024-08-08",
+      "futureClose": 1451.8
+    }
+  }
+]

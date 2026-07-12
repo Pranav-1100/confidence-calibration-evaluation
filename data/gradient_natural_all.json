@@ -1,0 +1,3901 @@
+[
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "grok-4.20",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0003631,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "grok-4.20",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0003956,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "nemotron-3-super-nv",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 45,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "grok-4.20",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0005531,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "nemotron-3-super-nv",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "nemotron-3-super-nv",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 48,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gemini-3.5-flash",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000675,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "nemotron-3-super-nv",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "nemotron-3-super-nv",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 68,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gemini-3.5-flash",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0010155,
+    "probability": 51.5,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "nemotron-3-super-nv",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 65,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gemini-3.5-flash",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001176,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "nemotron-3-super-nv",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 65,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gemma-4-31b",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00024104,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "nemotron-3-super-nv",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "nemotron-3-super-nv",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "nemotron-3-super-nv",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 57,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gpt-5.4-mini",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000492,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "nemotron-3-super-nv",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": null,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "nemotron-3-super-nv",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gemma-4-31b",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00007762,
+    "probability": 48,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gemma-4-31b",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00003972,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gpt-5.4-mini",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000441,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "haiku-4.5",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00056,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gpt-5.4-mini",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00051975,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "haiku-4.5",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000633,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "nemotron-3-super-nv",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 38,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "nemotron-3-super-nv",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 35,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "nemotron-3-super-nv",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "haiku-4.5",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.000708,
+    "probability": 48,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "nemotron-3-super-nv",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 38,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "nemotron-3-super-nv",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "nemotron-3-super-nv",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "opus",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00309,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "opus",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.003475,
+    "probability": 50,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "nemotron-3-super-nv",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "opus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00438,
+    "probability": 51,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "nemotron-3-super-nv",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "sonnet",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.001226,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "nemotron-3-super-nv",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": null,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "sonnet",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00142,
+    "probability": 50,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "nemotron-3-super-nv",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0,
+    "probability": 65,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "nemotron-3-super-nv",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": null,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "nemotron-3-super-nv",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "nemotron-3-super-nv",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gpt5.4",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00143,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "sonnet",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001902,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "nemotron-3-super-nv",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gpt5.4",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00147,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "nemotron-3-super-nv",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "nemotron-3-super-nv",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "gpt5.4",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0017775,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "nemotron-3-super-nv",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "nemotron-3-super-nv",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 48,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "nemotron-3-super-nv",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "nemotron-3-super-nv",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0,
+    "probability": 42,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "grok4.3",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0014134,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "grok4.3",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0014309,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "nemotron-3-super-nv",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "deepseek-v3.2",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000051038,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "grok4.3",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0016059,
+    "probability": 47,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "deepseek-v3.2",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000056542,
+    "probability": null,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "deepseek-v3.2",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0001915,
+    "probability": null,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "nemotron-3-super-nv",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "nemotron-3-super-nv",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0,
+    "probability": 42,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "grok-4.20",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0003706,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "grok-4.20",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00045185,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "grok-4.20",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00062185,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "nemotron-3-super-nv",
+    "level": 2,
+    "probability": null,
+    "abstained": false,
+    "sealedYes": true,
+    "costUsd": 0,
+    "error": "The operation was aborted due to timeout"
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gemini-3.5-flash",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000909,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gemini-3.5-flash",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000843,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gemini-3.5-flash",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001152,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "qwen3.7-plus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00124768,
+    "probability": 48,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gemma-4-31b",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00006646,
+    "probability": 60,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gemma-4-31b",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0000619,
+    "probability": 65,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "qwen3.7-plus",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0011552,
+    "probability": 48,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gpt-5.4-mini",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000477,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gemma-4-31b",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00007678,
+    "probability": 65,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gpt-5.4-mini",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00050175,
+    "probability": 57,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gpt-5.4-mini",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00055425,
+    "probability": 64,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "haiku-4.5",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000577,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "haiku-4.5",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.001485,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_1",
+    "model": "qwen3.7-plus",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0023696,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "haiku-4.5",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.000833,
+    "probability": 68,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "opus",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00328,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "opus",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00351,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "opus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.004515,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "sonnet",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.001392,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "sonnet",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.001314,
+    "probability": 42,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "sonnet",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001906,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gpt5.4",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.001245,
+    "probability": 57,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gpt5.4",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0012525,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "gpt5.4",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0019075,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "grok4.3",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0012259,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "grok4.3",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00138715,
+    "probability": 44,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "grok4.3",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00160965,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "deepseek-v3.2",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0000507,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "deepseek-v3.2",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00004558125,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "deepseek-v3.2",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00008496,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "grok-4.20",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0004031,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "grok-4.20",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0004606,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "grok-4.20",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0005756,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gemini-3.5-flash",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000843,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gemini-3.5-flash",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0008295,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gemini-3.5-flash",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001218,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gemma-4-31b",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00003715,
+    "probability": 65,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gemma-4-31b",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00005871,
+    "probability": 65,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gpt-5.4-mini",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000444,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gpt-5.4-mini",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000432,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gpt-5.4-mini",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00056625,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gemma-4-31b",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00006758,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "haiku-4.5",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00064,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "haiku-4.5",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.001619,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "haiku-4.5",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.000792,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "opus",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00337,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "qwen3.7-plus",
+    "level": 0,
+    "probability": null,
+    "abstained": false,
+    "sealedYes": true,
+    "costUsd": 0,
+    "error": "The operation was aborted due to timeout"
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "opus",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.003445,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "qwen3.7-plus",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0017072,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "opus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.004555,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_2",
+    "model": "qwen3.7-plus",
+    "level": 2,
+    "probability": null,
+    "abstained": false,
+    "sealedYes": true,
+    "costUsd": 0,
+    "error": "The operation was aborted due to timeout"
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "sonnet",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.001378,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "sonnet",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.001298,
+    "probability": 47,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "sonnet",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001922,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gpt5.4",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00145,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gpt5.4",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.001335,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "gpt5.4",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0016325,
+    "probability": 61,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "grok4.3",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0012559,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "grok4.3",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0015059,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "grok4.3",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0014234,
+    "probability": 48,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "deepseek-v3.2",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000051714,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "deepseek-v3.2",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00005628,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "deepseek-v3.2",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00007234,
+    "probability": null,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "grok-4.20",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0003831,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "grok-4.20",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0003906,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "grok-4.20",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0005181,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gemini-3.5-flash",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000897,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gemini-3.5-flash",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0009045,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gemini-3.5-flash",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001119,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gemma-4-31b",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00005616,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gemma-4-31b",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00004126,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gpt-5.4-mini",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000444,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gemma-4-31b",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00007853,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gpt-5.4-mini",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000483,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gpt-5.4-mini",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00055125,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "qwen3.7-plus",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00158304,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "haiku-4.5",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000592,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "haiku-4.5",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000655,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "haiku-4.5",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.000858,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "qwen3.7-plus",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00164928,
+    "probability": 45,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "opus",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00301,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_3",
+    "model": "qwen3.7-plus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0011984,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "opus",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00342,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "opus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00406,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "sonnet",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.001384,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "sonnet",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.001408,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gpt5.4",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.001375,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "sonnet",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001534,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gpt5.4",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.001505,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "gpt5.4",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0018375,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "grok4.3",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0013509,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "grok4.3",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0015784,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "deepseek-v3.2",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00004524,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "grok4.3",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0015609,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "deepseek-v3.2",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00005442,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "deepseek-v3.2",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00007110675,
+    "probability": 45,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "grok-4.20",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0003631,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "grok-4.20",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0003559,
+    "probability": 38,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "grok-4.20",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0005381,
+    "probability": 38,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gemini-3.5-flash",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000828,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gemini-3.5-flash",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0008055,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gemini-3.5-flash",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001215,
+    "probability": 42,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "qwen3.7-plus",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00061248,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gemma-4-31b",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00006424,
+    "probability": 65,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "qwen3.7-plus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00098432,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gemma-4-31b",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0000881,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gpt-5.4-mini",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0004455,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gpt-5.4-mini",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000474,
+    "probability": 57,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gemma-4-31b",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00008007,
+    "probability": 35,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gpt-5.4-mini",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00051,
+    "probability": 40,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "haiku-4.5",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.001339,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "haiku-4.5",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000615,
+    "probability": 42,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_4",
+    "model": "qwen3.7-plus",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00171808,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "haiku-4.5",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.000897,
+    "probability": 32,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "opus",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00314,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "opus",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.003865,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "opus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00439,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "sonnet",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.001286,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "sonnet",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.001236,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "sonnet",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001666,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gpt5.4",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00132,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gpt5.4",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.001415,
+    "probability": 47,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "gpt5.4",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00179,
+    "probability": 41,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "grok4.3",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0015884,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "grok4.3",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0017959,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "deepseek-v3.2",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00004652,
+    "probability": null,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "grok4.3",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0013784,
+    "probability": 38,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "deepseek-v3.2",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000055894,
+    "probability": 35,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "deepseek-v3.2",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00008598,
+    "probability": null,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "grok-4.20",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0004006,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "grok-4.20",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0003809,
+    "probability": 48,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "grok-4.20",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0005406,
+    "probability": 48,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gemini-3.5-flash",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000777,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gemini-3.5-flash",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0009255,
+    "probability": 48,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gemini-3.5-flash",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001293,
+    "probability": 45,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gemma-4-31b",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00006232,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gpt-5.4-mini",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0004755,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "qwen3.7-plus",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00116128,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gpt-5.4-mini",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0004815,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gemma-4-31b",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00009014,
+    "probability": 45,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gpt-5.4-mini",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00046275,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gemma-4-31b",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00006122,
+    "probability": 45,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "qwen3.7-plus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00119712,
+    "probability": 42,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "haiku-4.5",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000592,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "haiku-4.5",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000553,
+    "probability": 48,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "haiku-4.5",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.000734,
+    "probability": 42,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "opus",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00311,
+    "probability": 51,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "opus",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.003485,
+    "probability": 50,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "opus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.004495,
+    "probability": 48,
+    "abstained": false
+  },
+  {
+    "caseId": "2020_COVID_crash_+_recovery_5",
+    "model": "qwen3.7-plus",
+    "level": 1,
+    "probability": null,
+    "abstained": false,
+    "sealedYes": true,
+    "costUsd": 0,
+    "error": "The operation was aborted due to timeout"
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "sonnet",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.001194,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "sonnet",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.001284,
+    "probability": 47,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "sonnet",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001458,
+    "probability": 45,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gpt5.4",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.001605,
+    "probability": 46,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gpt5.4",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0017525,
+    "probability": 44,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "gpt5.4",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00145,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "grok4.3",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0012159,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "grok4.3",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0015034,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "grok4.3",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0014459,
+    "probability": 42,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "deepseek-v3.2",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00004984,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "deepseek-v3.2",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000061964,
+    "probability": 35,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "deepseek-v3.2",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.000066066,
+    "probability": 35,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "grok-4.20",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0003109,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "grok-4.20",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0003309,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "grok-4.20",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0005381,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gemini-3.5-flash",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000738,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gemini-3.5-flash",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0008655,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gemini-3.5-flash",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001161,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "qwen3.7-plus",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00076224,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gemma-4-31b",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00013145,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "qwen3.7-plus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00121856,
+    "probability": 42,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gemma-4-31b",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0000501,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gpt-5.4-mini",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0004185,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gemma-4-31b",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00007169,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gpt-5.4-mini",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000438,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gpt-5.4-mini",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.000528,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "haiku-4.5",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.001464,
+    "probability": 50,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "haiku-4.5",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000625,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_1",
+    "model": "qwen3.7-plus",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00175072,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "haiku-4.5",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.000742,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "opus",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00308,
+    "probability": 51,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "opus",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.003155,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "opus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.004045,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "sonnet",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.001362,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "sonnet",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.001332,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "sonnet",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001708,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gpt5.4",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00156,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gpt5.4",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00158,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "gpt5.4",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001715,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "grok4.3",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0013284,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "grok4.3",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0014231,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "grok4.3",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0014509,
+    "probability": 57,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "deepseek-v3.2",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0000452595,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "deepseek-v3.2",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00004407975,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "deepseek-v3.2",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00008256,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "grok-4.20",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0003731,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "grok-4.20",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0003806,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "grok-4.20",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0005556,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gemini-3.5-flash",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000705,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gemini-3.5-flash",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0008355,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gemini-3.5-flash",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00114,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gemma-4-31b",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00007076,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gpt-5.4-mini",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0004785,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "qwen3.7-plus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00087264,
+    "probability": 57,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gemma-4-31b",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00008154,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gpt-5.4-mini",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0005205,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gpt-5.4-mini",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0005145,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "haiku-4.5",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000624,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gemma-4-31b",
+    "level": 2,
+    "probability": null,
+    "abstained": false,
+    "sealedYes": true,
+    "costUsd": 0,
+    "error": "empty"
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "haiku-4.5",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000575,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "haiku-4.5",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.000862,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "opus",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00307,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "qwen3.7-plus",
+    "level": 0,
+    "probability": null,
+    "abstained": false,
+    "sealedYes": true,
+    "costUsd": 0,
+    "error": "The operation was aborted due to timeout"
+  },
+  {
+    "caseId": "2021_bull_market_2",
+    "model": "qwen3.7-plus",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00175296,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "opus",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.003645,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "opus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.004155,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "sonnet",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.001378,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "sonnet",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.001338,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "sonnet",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001582,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gpt5.4",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00119,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gpt5.4",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00127,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "gpt5.4",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001715,
+    "probability": 63,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "grok4.3",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0013484,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "grok4.3",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0016534,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "grok4.3",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0012584,
+    "probability": 57,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "deepseek-v3.2",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000055139,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "deepseek-v3.2",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000059122,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "deepseek-v3.2",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.000079849,
+    "probability": null,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "grok-4.20",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.0003681,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "grok-4.20",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.0004281,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "grok-4.20",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.00055935,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gemini-3.5-flash",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.000858,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gemini-3.5-flash",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.0010275,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gemini-3.5-flash",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.001245,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gemma-4-31b",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.00003839,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gemma-4-31b",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.00006287,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gemma-4-31b",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.00007237,
+    "probability": 65,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gpt-5.4-mini",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.0004425,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gpt-5.4-mini",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.0004995,
+    "probability": 59,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gpt-5.4-mini",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.00048375,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "qwen3.7-plus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00107168,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "haiku-4.5",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.000571,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "haiku-4.5",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.000599,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "qwen3.7-plus",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00161824,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "haiku-4.5",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.000794,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "opus",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.003575,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "opus",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.00366,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "opus",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.00462,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_3",
+    "model": "qwen3.7-plus",
+    "level": 1,
+    "probability": null,
+    "abstained": false,
+    "sealedYes": true,
+    "costUsd": 0,
+    "error": "The operation was aborted due to timeout"
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "sonnet",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.00124,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "sonnet",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.001404,
+    "probability": 48,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "sonnet",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.001918,
+    "probability": 57,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gpt5.4",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.00152,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gpt5.4",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.001425,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "gpt5.4",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.0017775,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "grok4.3",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.0014634,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "grok4.3",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.0013884,
+    "probability": 57,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "grok4.3",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.00142465,
+    "probability": 57,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "deepseek-v3.2",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.0000299376,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "deepseek-v3.2",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.000062741,
+    "probability": 45,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "deepseek-v3.2",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.00006981975,
+    "probability": 65,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "grok-4.20",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0003931,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "grok-4.20",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0003834,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "grok-4.20",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0004534,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gemini-3.5-flash",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000687,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gemini-3.5-flash",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0008895,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gemini-3.5-flash",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001158,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gemma-4-31b",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00006915,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "qwen3.7-plus",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.00102176,
+    "probability": 45,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gemma-4-31b",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00005393,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gemma-4-31b",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00007498,
+    "probability": 65,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gpt-5.4-mini",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000456,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gpt-5.4-mini",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0004665,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gpt-5.4-mini",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00051,
+    "probability": 61,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "qwen3.7-plus",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.00090368,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "haiku-4.5",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000514,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "haiku-4.5",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000585,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_4",
+    "model": "qwen3.7-plus",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.00139488,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "haiku-4.5",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.000837,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "opus",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.003925,
+    "probability": 50,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "opus",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00345,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "opus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00405,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "sonnet",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00134,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "sonnet",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00126,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gpt5.4",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00137,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "sonnet",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00183,
+    "probability": 60,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gpt5.4",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.001645,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "gpt5.4",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001655,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "grok4.3",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0013309,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "grok4.3",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0014959,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "deepseek-v3.2",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0000304668,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "grok4.3",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0016984,
+    "probability": 57,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "deepseek-v3.2",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000057344,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "deepseek-v3.2",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.000073788,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "grok-4.20",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0003109,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "grok-4.20",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0003834,
+    "probability": 48,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "grok-4.20",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0004734,
+    "probability": 48,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gemini-3.5-flash",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000738,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gemini-3.5-flash",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0010575,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gemini-3.5-flash",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0012735,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gemma-4-31b",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00016513,
+    "probability": 65,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "qwen3.7-plus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00070304,
+    "probability": 60,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gemma-4-31b",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00005916,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gemma-4-31b",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00034217,
+    "probability": 45,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gpt-5.4-mini",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000465,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gpt-5.4-mini",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000507,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gpt-5.4-mini",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0005685,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "haiku-4.5",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.000531,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "haiku-4.5",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.000702,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "haiku-4.5",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.000733,
+    "probability": 48,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "opus",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.003565,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "opus",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00374,
+    "probability": 51,
+    "abstained": false
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "qwen3.7-plus",
+    "level": 0,
+    "probability": null,
+    "abstained": false,
+    "sealedYes": true,
+    "costUsd": 0,
+    "error": "The operation was aborted due to timeout"
+  },
+  {
+    "caseId": "2021_bull_market_5",
+    "model": "qwen3.7-plus",
+    "level": 1,
+    "probability": null,
+    "abstained": false,
+    "sealedYes": true,
+    "costUsd": 0,
+    "error": "The operation was aborted due to timeout"
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "opus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.004485,
+    "probability": 51,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "sonnet",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.001306,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "sonnet",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.001436,
+    "probability": 47,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gpt5.4",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.001325,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "sonnet",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001574,
+    "probability": 46,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gpt5.4",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.001555,
+    "probability": 57,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "gpt5.4",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.001865,
+    "probability": 46,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "grok4.3",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.0015459,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "grok4.3",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0016584,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "grok4.3",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.0015409,
+    "probability": 47,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "deepseek-v3.2",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.0000576,
+    "probability": 45,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "deepseek-v3.2",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00009034,
+    "probability": 40,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "grok-4.20",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.0003184,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "deepseek-v3.2",
+    "level": 0,
+    "sealedYes": true,
+    "costUsd": 0.00004021875,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "grok-4.20",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.0003459,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "grok-4.20",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.0005359,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gemini-3.5-flash",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.00075,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gemini-3.5-flash",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.0008835,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gemini-3.5-flash",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.001278,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gemma-4-31b",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.00008137,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gpt-5.4-mini",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.0004875,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "qwen3.7-plus",
+    "level": 2,
+    "sealedYes": true,
+    "costUsd": 0.00088832,
+    "probability": 45,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gemma-4-31b",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.00006975,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gpt-5.4-mini",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.000486,
+    "probability": 57,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gpt-5.4-mini",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.00056925,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "qwen3.7-plus",
+    "level": 1,
+    "sealedYes": true,
+    "costUsd": 0.00120384,
+    "probability": 48,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gemma-4-31b",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.00009184,
+    "probability": 62,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "haiku-4.5",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.001473,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "haiku-4.5",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.000621,
+    "probability": 58,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "haiku-4.5",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.000762,
+    "probability": 42,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "opus",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.00335,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_1",
+    "model": "qwen3.7-plus",
+    "level": 0,
+    "probability": null,
+    "abstained": false,
+    "sealedYes": true,
+    "costUsd": 0,
+    "error": "The operation was aborted due to timeout"
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "opus",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.003635,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "opus",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.00445,
+    "probability": 51,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "sonnet",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.00126,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "sonnet",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.001304,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "sonnet",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.00158,
+    "probability": 54,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gpt5.4",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.001265,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gpt5.4",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.001215,
+    "probability": 57,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "gpt5.4",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.0017475,
+    "probability": 56,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "grok4.3",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.0014609,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "grok4.3",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.0013609,
+    "probability": 53,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "grok4.3",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.0013484,
+    "probability": 44,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "deepseek-v3.2",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.0000322812,
+    "probability": 52,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "deepseek-v3.2",
+    "level": 1,
+    "sealedYes": false,
+    "costUsd": 0.000035406,
+    "probability": 55,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "deepseek-v3.2",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.00008286,
+    "probability": null,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "qwen3.7-plus",
+    "level": 2,
+    "sealedYes": false,
+    "costUsd": 0.00106176,
+    "probability": 45,
+    "abstained": false
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "qwen3.7-plus",
+    "level": 1,
+    "probability": null,
+    "abstained": false,
+    "sealedYes": false,
+    "costUsd": 0,
+    "error": "HTTP 504"
+  },
+  {
+    "caseId": "2022_correction/bear_2",
+    "model": "qwen3.7-plus",
+    "level": 0,
+    "sealedYes": false,
+    "costUsd": 0.001896,
+    "probability": 50,
+    "abstained": false
+  }
+]

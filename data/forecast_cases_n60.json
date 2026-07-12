@@ -1,0 +1,722 @@
+[
+  {
+    "id": "2020_COVID_crash_+_recovery_1",
+    "fold": "2020 COVID crash + recovery",
+    "symbol": "INFY",
+    "asOfDate": "2020-11-12",
+    "evidenceText": "Symbol: INFY | As-of: 2020-11-12 | Price: ₹1117.75\nRSI(14): 56.1 | EMA20: ₹1098.16 | EMA50: ₹1046.51\nMACD histogram: -1.674\nBollinger position (20,2): 61% of band range\nATR(14): ₹33.58 (3.0% of price)\nVolume ratio (5d/20d): 1.03x\n5-day return: +1.2% | 20-day return: +0.9%\nRegime classification: BEAR_QUIET (trend strength -0.23, vol regime 0.34)",
+    "sealed": {
+      "futureDate": "2020-11-26",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -0.41
+    }
+  },
+  {
+    "id": "2020_COVID_crash_+_recovery_2",
+    "fold": "2020 COVID crash + recovery",
+    "symbol": "SUNPHARMA",
+    "asOfDate": "2020-08-31",
+    "evidenceText": "Symbol: SUNPHARMA | As-of: 2020-08-31 | Price: ₹520.25\nRSI(14): 49.1 | EMA20: ₹525.88 | EMA50: ₹507.67\nMACD histogram: -1.117\nBollinger position (20,2): 19% of band range\nATR(14): ₹17.12 (3.3% of price)\nVolume ratio (5d/20d): 1.36x\n5-day return: -2.5% | 20-day return: +0.2%\nRegime classification: SIDEWAYS (trend strength -0.00, vol regime 0.42)",
+    "sealed": {
+      "futureDate": "2020-09-14",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -4.7
+    }
+  },
+  {
+    "id": "2020_COVID_crash_+_recovery_3",
+    "fold": "2020 COVID crash + recovery",
+    "symbol": "LT",
+    "asOfDate": "2020-05-11",
+    "evidenceText": "Symbol: LT | As-of: 2020-05-11 | Price: ₹821.60\nRSI(14): 40.2 | EMA20: ₹854.47 | EMA50: ₹962.96\nMACD histogram: 3.327\nBollinger position (20,2): 21% of band range\nATR(14): ₹37.66 (4.6% of price)\nVolume ratio (5d/20d): 0.71x\n5-day return: -3.4% | 20-day return: +1.8%\nRegime classification: BEAR_QUIET (trend strength -0.66, vol regime 0.14)",
+    "sealed": {
+      "futureDate": "2020-05-26",
+      "actualDirection": "UP",
+      "actualReturnPct": 0.48
+    }
+  },
+  {
+    "id": "2020_COVID_crash_+_recovery_4",
+    "fold": "2020 COVID crash + recovery",
+    "symbol": "TATASTEEL",
+    "asOfDate": "2020-07-01",
+    "evidenceText": "Symbol: TATASTEEL | As-of: 2020-07-01 | Price: ₹32.37\nRSI(14): 57.0 | EMA20: ₹31.81 | EMA50: ₹30.03\nMACD histogram: -0.105\nBollinger position (20,2): 55% of band range\nATR(14): ₹1.24 (3.8% of price)\nVolume ratio (5d/20d): 0.98x\n5-day return: -0.7% | 20-day return: +2.0%\nRegime classification: SIDEWAYS (trend strength -0.03, vol regime 0.18)",
+    "sealed": {
+      "futureDate": "2020-07-15",
+      "actualDirection": "UP",
+      "actualReturnPct": 4.82
+    }
+  },
+  {
+    "id": "2020_COVID_crash_+_recovery_5",
+    "fold": "2020 COVID crash + recovery",
+    "symbol": "TITAN",
+    "asOfDate": "2020-02-03",
+    "evidenceText": "Symbol: TITAN | As-of: 2020-02-03 | Price: ₹1186.40\nRSI(14): 51.2 | EMA20: ₹1185.50 | EMA50: ₹1177.36\nMACD histogram: -0.655\nBollinger position (20,2): 56% of band range\nATR(14): ₹22.97 (1.9% of price)\nVolume ratio (5d/20d): 1.14x\n5-day return: -2.3% | 20-day return: +2.4%\nRegime classification: BULL_QUIET (trend strength 0.39, vol regime 0.35)",
+    "sealed": {
+      "futureDate": "2020-02-17",
+      "actualDirection": "UP",
+      "actualReturnPct": 10.93
+    }
+  },
+  {
+    "id": "2020_COVID_crash_+_recovery_6",
+    "fold": "2020 COVID crash + recovery",
+    "symbol": "TCS",
+    "asOfDate": "2020-06-04",
+    "evidenceText": "Symbol: TCS | As-of: 2020-06-04 | Price: ₹2091.55\nRSI(14): 63.7 | EMA20: ₹1980.06 | EMA50: ₹1898.14\nMACD histogram: 7.918\nBollinger position (20,2): 100% of band range\nATR(14): ₹65.79 (3.1% of price)\nVolume ratio (5d/20d): 1.23x\n5-day return: +4.4% | 20-day return: +9.9%\nRegime classification: BULL_QUIET (trend strength 0.87, vol regime 0.02)",
+    "sealed": {
+      "futureDate": "2020-06-18",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -2.56
+    }
+  },
+  {
+    "id": "2020_COVID_crash_+_recovery_7",
+    "fold": "2020 COVID crash + recovery",
+    "symbol": "INFY",
+    "asOfDate": "2020-06-24",
+    "evidenceText": "Symbol: INFY | As-of: 2020-06-24 | Price: ₹714.15\nRSI(14): 56.7 | EMA20: ₹702.62 | EMA50: ₹679.42\nMACD histogram: -0.768\nBollinger position (20,2): 72% of band range\nATR(14): ₹19.15 (2.7% of price)\nVolume ratio (5d/20d): 1.09x\n5-day return: +1.5% | 20-day return: +1.2%\nRegime classification: SIDEWAYS (trend strength 0.10, vol regime 0.01)",
+    "sealed": {
+      "futureDate": "2020-07-08",
+      "actualDirection": "UP",
+      "actualReturnPct": 8.48
+    }
+  },
+  {
+    "id": "2020_COVID_crash_+_recovery_8",
+    "fold": "2020 COVID crash + recovery",
+    "symbol": "LT",
+    "asOfDate": "2020-02-18",
+    "evidenceText": "Symbol: LT | As-of: 2020-02-18 | Price: ₹1286.35\nRSI(14): 42.8 | EMA20: ₹1305.33 | EMA50: ₹1308.88\nMACD histogram: -4.087\nBollinger position (20,2): 27% of band range\nATR(14): ₹24.01 (1.9% of price)\nVolume ratio (5d/20d): 0.61x\n5-day return: -0.0% | 20-day return: -1.2%\nRegime classification: BEAR_VOLATILE (trend strength -0.55, vol regime 0.52)",
+    "sealed": {
+      "futureDate": "2020-03-04",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -8.53
+    }
+  },
+  {
+    "id": "2020_COVID_crash_+_recovery_9",
+    "fold": "2020 COVID crash + recovery",
+    "symbol": "BAJAJFINSV",
+    "asOfDate": "2020-09-25",
+    "evidenceText": "Symbol: BAJAJFINSV | As-of: 2020-09-25 | Price: ₹580.33\nRSI(14): 41.6 | EMA20: ₹597.61 | EMA50: ₹616.55\nMACD histogram: -4.987\nBollinger position (20,2): 27% of band range\nATR(14): ₹20.74 (3.6% of price)\nVolume ratio (5d/20d): 1.03x\n5-day return: -1.4% | 20-day return: -11.3%\nRegime classification: BEAR_QUIET (trend strength -1.00, vol regime 0.40)",
+    "sealed": {
+      "futureDate": "2020-10-12",
+      "actualDirection": "UP",
+      "actualReturnPct": 1.89
+    }
+  },
+  {
+    "id": "2020_COVID_crash_+_recovery_10",
+    "fold": "2020 COVID crash + recovery",
+    "symbol": "SBIN",
+    "asOfDate": "2020-10-26",
+    "evidenceText": "Symbol: SBIN | As-of: 2020-10-26 | Price: ₹196.70\nRSI(14): 49.8 | EMA20: ₹197.41 | EMA50: ₹198.21\nMACD histogram: 0.796\nBollinger position (20,2): 56% of band range\nATR(14): ₹6.43 (3.3% of price)\nVolume ratio (5d/20d): 0.94x\n5-day return: -3.6% | 20-day return: +8.0%\nRegime classification: BULL_QUIET (trend strength 0.96, vol regime 0.25)",
+    "sealed": {
+      "futureDate": "2020-11-09",
+      "actualDirection": "UP",
+      "actualReturnPct": 11.59
+    }
+  },
+  {
+    "id": "2020_COVID_crash_+_recovery_11",
+    "fold": "2020 COVID crash + recovery",
+    "symbol": "KOTAKBANK",
+    "asOfDate": "2020-02-24",
+    "evidenceText": "Symbol: KOTAKBANK | As-of: 2020-02-24 | Price: ₹335.65\nRSI(14): 51.1 | EMA20: ₹335.63 | EMA50: ₹335.11\nMACD histogram: 0.238\nBollinger position (20,2): 54% of band range\nATR(14): ₹6.76 (2.0% of price)\nVolume ratio (5d/20d): 0.89x\n5-day return: -0.2% | 20-day return: +2.1%\nRegime classification: BULL_QUIET (trend strength 0.36, vol regime 0.33)",
+    "sealed": {
+      "futureDate": "2020-03-09",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -5.96
+    }
+  },
+  {
+    "id": "2020_COVID_crash_+_recovery_12",
+    "fold": "2020 COVID crash + recovery",
+    "symbol": "ULTRACEMCO",
+    "asOfDate": "2020-07-10",
+    "evidenceText": "Symbol: ULTRACEMCO | As-of: 2020-07-10 | Price: ₹3798.50\nRSI(14): 48.9 | EMA20: ₹3831.78 | EMA50: ₹3697.65\nMACD histogram: -17.323\nBollinger position (20,2): 28% of band range\nATR(14): ₹102.93 (2.7% of price)\nVolume ratio (5d/20d): 1.00x\n5-day return: -2.3% | 20-day return: +0.3%\nRegime classification: BULL_QUIET (trend strength 0.16, vol regime 0.11)",
+    "sealed": {
+      "futureDate": "2020-07-24",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -0.42
+    }
+  },
+  {
+    "id": "2021_bull_market_1",
+    "fold": "2021 bull market",
+    "symbol": "SBIN",
+    "asOfDate": "2021-01-12",
+    "evidenceText": "Symbol: SBIN | As-of: 2021-01-12 | Price: ₹292.50\nRSI(14): 70.3 | EMA20: ₹276.12 | EMA50: ₹252.94\nMACD histogram: -0.061\nBollinger position (20,2): 95% of band range\nATR(14): ₹7.90 (2.7% of price)\nVolume ratio (5d/20d): 1.04x\n5-day return: +3.8% | 20-day return: +6.7%\nRegime classification: BULL_QUIET (trend strength 1.00, vol regime 0.26)",
+    "sealed": {
+      "futureDate": "2021-01-27",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -5.76
+    }
+  },
+  {
+    "id": "2021_bull_market_2",
+    "fold": "2021 bull market",
+    "symbol": "WIPRO",
+    "asOfDate": "2021-01-13",
+    "evidenceText": "Symbol: WIPRO | As-of: 2021-01-13 | Price: ₹229.50\nRSI(14): 88.3 | EMA20: ₹202.05 | EMA50: ₹187.69\nMACD histogram: 3.585\nBollinger position (20,2): 100% of band range\nATR(14): ₹6.00 (2.6% of price)\nVolume ratio (5d/20d): 1.75x\n5-day return: +12.9% | 20-day return: +30.1%\nRegime classification: BULL_VOLATILE (trend strength 1.00, vol regime 0.52)",
+    "sealed": {
+      "futureDate": "2021-01-28",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -5.9
+    }
+  },
+  {
+    "id": "2021_bull_market_3",
+    "fold": "2021 bull market",
+    "symbol": "TCS",
+    "asOfDate": "2021-05-03",
+    "evidenceText": "Symbol: TCS | As-of: 2021-05-03 | Price: ₹3037.00\nRSI(14): 39.3 | EMA20: ₹3128.82 | EMA50: ₹3112.04\nMACD histogram: -18.798\nBollinger position (20,2): 9% of band range\nATR(14): ₹72.34 (2.4% of price)\nVolume ratio (5d/20d): 0.59x\n5-day return: -2.1% | 20-day return: -4.4%\nRegime classification: BEAR_QUIET (trend strength -0.72, vol regime 0.40)",
+    "sealed": {
+      "futureDate": "2021-05-18",
+      "actualDirection": "UP",
+      "actualReturnPct": 1.71
+    }
+  },
+  {
+    "id": "2021_bull_market_4",
+    "fold": "2021 bull market",
+    "symbol": "TATASTEEL",
+    "asOfDate": "2021-04-27",
+    "evidenceText": "Symbol: TATASTEEL | As-of: 2021-04-27 | Price: ₹97.78\nRSI(14): 74.8 | EMA20: ₹87.49 | EMA50: ₹78.85\nMACD histogram: 0.443\nBollinger position (20,2): 95% of band range\nATR(14): ₹3.67 (3.8% of price)\nVolume ratio (5d/20d): 0.87x\n5-day return: +10.1% | 20-day return: +39.1%\nRegime classification: BULL_QUIET (trend strength 1.00, vol regime 0.32)",
+    "sealed": {
+      "futureDate": "2021-05-11",
+      "actualDirection": "UP",
+      "actualReturnPct": 26.2
+    }
+  },
+  {
+    "id": "2021_bull_market_5",
+    "fold": "2021 bull market",
+    "symbol": "SBIN",
+    "asOfDate": "2021-10-29",
+    "evidenceText": "Symbol: SBIN | As-of: 2021-10-29 | Price: ₹502.15\nRSI(14): 62.0 | EMA20: ₹488.28 | EMA50: ₹461.03\nMACD histogram: 0.549\nBollinger position (20,2): 70% of band range\nATR(14): ₹14.87 (3.0% of price)\nVolume ratio (5d/20d): 1.28x\n5-day return: -0.2% | 20-day return: +10.8%\nRegime classification: BULL_QUIET (trend strength 1.00, vol regime 0.30)",
+    "sealed": {
+      "futureDate": "2021-11-15",
+      "actualDirection": "UP",
+      "actualReturnPct": 0.88
+    }
+  },
+  {
+    "id": "2021_bull_market_6",
+    "fold": "2021 bull market",
+    "symbol": "SUNPHARMA",
+    "asOfDate": "2021-06-07",
+    "evidenceText": "Symbol: SUNPHARMA | As-of: 2021-06-07 | Price: ₹675.35\nRSI(14): 50.3 | EMA20: ₹678.03 | EMA50: ₹651.22\nMACD histogram: -4.680\nBollinger position (20,2): 24% of band range\nATR(14): ₹14.21 (2.1% of price)\nVolume ratio (5d/20d): 0.56x\n5-day return: +1.1% | 20-day return: -0.6%\nRegime classification: BEAR_QUIET (trend strength -0.46, vol regime 0.22)",
+    "sealed": {
+      "futureDate": "2021-06-21",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -0.59
+    }
+  },
+  {
+    "id": "2021_bull_market_7",
+    "fold": "2021 bull market",
+    "symbol": "ITC",
+    "asOfDate": "2021-07-15",
+    "evidenceText": "Symbol: ITC | As-of: 2021-07-15 | Price: ₹198.60\nRSI(14): 55.3 | EMA20: ₹196.43 | EMA50: ₹198.08\nMACD histogram: 0.317\nBollinger position (20,2): 100% of band range\nATR(14): ₹2.54 (1.3% of price)\nVolume ratio (5d/20d): 1.06x\n5-day return: +2.1% | 20-day return: +0.3%\nRegime classification: SIDEWAYS (trend strength -0.08, vol regime 0.06)",
+    "sealed": {
+      "futureDate": "2021-07-30",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -0.63
+    }
+  },
+  {
+    "id": "2021_bull_market_8",
+    "fold": "2021 bull market",
+    "symbol": "WIPRO",
+    "asOfDate": "2021-08-13",
+    "evidenceText": "Symbol: WIPRO | As-of: 2021-08-13 | Price: ₹307.75\nRSI(14): 72.4 | EMA20: ₹295.38 | EMA50: ₹283.79\nMACD histogram: 0.219\nBollinger position (20,2): 100% of band range\nATR(14): ₹6.15 (2.0% of price)\nVolume ratio (5d/20d): 0.68x\n5-day return: +2.9% | 20-day return: +6.9%\nRegime classification: BULL_QUIET (trend strength 0.55, vol regime 0.18)",
+    "sealed": {
+      "futureDate": "2021-08-30",
+      "actualDirection": "UP",
+      "actualReturnPct": 2.75
+    }
+  },
+  {
+    "id": "2021_bull_market_9",
+    "fold": "2021 bull market",
+    "symbol": "BAJAJFINSV",
+    "asOfDate": "2021-04-12",
+    "evidenceText": "Symbol: BAJAJFINSV | As-of: 2021-04-12 | Price: ₹916.32\nRSI(14): 39.6 | EMA20: ₹955.36 | EMA50: ₹960.24\nMACD histogram: -1.079\nBollinger position (20,2): 8% of band range\nATR(14): ₹29.31 (3.2% of price)\nVolume ratio (5d/20d): 0.93x\n5-day return: -3.4% | 20-day return: -8.3%\nRegime classification: SIDEWAYS (trend strength -0.13, vol regime 0.16)",
+    "sealed": {
+      "futureDate": "2021-04-28",
+      "actualDirection": "UP",
+      "actualReturnPct": 14.47
+    }
+  },
+  {
+    "id": "2021_bull_market_10",
+    "fold": "2021 bull market",
+    "symbol": "TECHM",
+    "asOfDate": "2021-02-15",
+    "evidenceText": "Symbol: TECHM | As-of: 2021-02-15 | Price: ₹979.20\nRSI(14): 50.4 | EMA20: ₹981.06 | EMA50: ₹961.27\nMACD histogram: -0.792\nBollinger position (20,2): 48% of band range\nATR(14): ₹29.35 (3.0% of price)\nVolume ratio (5d/20d): 0.77x\n5-day return: -0.3% | 20-day return: -2.8%\nRegime classification: BEAR_QUIET (trend strength -0.23, vol regime 0.27)",
+    "sealed": {
+      "futureDate": "2021-03-01",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -4.41
+    }
+  },
+  {
+    "id": "2021_bull_market_11",
+    "fold": "2021 bull market",
+    "symbol": "HCLTECH",
+    "asOfDate": "2021-06-11",
+    "evidenceText": "Symbol: HCLTECH | As-of: 2021-06-11 | Price: ₹983.35\nRSI(14): 67.6 | EMA20: ₹949.95 | EMA50: ₹957.70\nMACD histogram: 5.639\nBollinger position (20,2): 100% of band range\nATR(14): ₹16.81 (1.7% of price)\nVolume ratio (5d/20d): 0.99x\n5-day return: +5.0% | 20-day return: +8.0%\nRegime classification: BULL_QUIET (trend strength 0.51, vol regime 0.00)",
+    "sealed": {
+      "futureDate": "2021-06-25",
+      "actualDirection": "UP",
+      "actualReturnPct": 1.25
+    }
+  },
+  {
+    "id": "2021_bull_market_12",
+    "fold": "2021 bull market",
+    "symbol": "ONGC",
+    "asOfDate": "2021-09-20",
+    "evidenceText": "Symbol: ONGC | As-of: 2021-09-20 | Price: ₹128.50\nRSI(14): 68.6 | EMA20: ₹122.30 | EMA50: ₹119.60\nMACD histogram: 0.969\nBollinger position (20,2): 89% of band range\nATR(14): ₹3.50 (2.7% of price)\nVolume ratio (5d/20d): 1.57x\n5-day return: +4.4% | 20-day return: +16.6%\nRegime classification: BULL_QUIET (trend strength 1.00, vol regime 0.38)",
+    "sealed": {
+      "futureDate": "2021-10-04",
+      "actualDirection": "UP",
+      "actualReturnPct": 14.86
+    }
+  },
+  {
+    "id": "2022_correction/bear_1",
+    "fold": "2022 correction/bear",
+    "symbol": "NTPC",
+    "asOfDate": "2022-02-21",
+    "evidenceText": "Symbol: NTPC | As-of: 2022-02-21 | Price: ₹131.95\nRSI(14): 44.5 | EMA20: ₹134.37 | EMA50: ₹131.34\nMACD histogram: -0.834\nBollinger position (20,2): 19% of band range\nATR(14): ₹3.40 (2.6% of price)\nVolume ratio (5d/20d): 0.82x\n5-day return: -0.4% | 20-day return: -1.6%\nRegime classification: BEAR_QUIET (trend strength -0.40, vol regime 0.39)",
+    "sealed": {
+      "futureDate": "2022-03-08",
+      "actualDirection": "UP",
+      "actualReturnPct": 1.36
+    }
+  },
+  {
+    "id": "2022_correction/bear_2",
+    "fold": "2022 correction/bear",
+    "symbol": "M&M",
+    "asOfDate": "2022-10-03",
+    "evidenceText": "Symbol: M&M | As-of: 2022-10-03 | Price: ₹1251.35\nRSI(14): 45.6 | EMA20: ₹1270.82 | EMA50: ₹1245.92\nMACD histogram: -7.108\nBollinger position (20,2): 21% of band range\nATR(14): ₹36.87 (2.9% of price)\nVolume ratio (5d/20d): 0.96x\n5-day return: +1.2% | 20-day return: -5.2%\nRegime classification: BEAR_QUIET (trend strength -0.51, vol regime 0.30)",
+    "sealed": {
+      "futureDate": "2022-10-18",
+      "actualDirection": "UP",
+      "actualReturnPct": 0.2
+    }
+  },
+  {
+    "id": "2022_correction/bear_3",
+    "fold": "2022 correction/bear",
+    "symbol": "HDFCBANK",
+    "asOfDate": "2022-02-04",
+    "evidenceText": "Symbol: HDFCBANK | As-of: 2022-02-04 | Price: ₹762.00\nRSI(14): 53.6 | EMA20: ₹754.28 | EMA50: ₹753.59\nMACD histogram: 0.435\nBollinger position (20,2): 55% of band range\nATR(14): ₹16.60 (2.2% of price)\nVolume ratio (5d/20d): 0.79x\n5-day return: +4.2% | 20-day return: -1.0%\nRegime classification: BEAR_QUIET (trend strength -0.43, vol regime 0.31)",
+    "sealed": {
+      "futureDate": "2022-02-18",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -0.76
+    }
+  },
+  {
+    "id": "2022_correction/bear_4",
+    "fold": "2022 correction/bear",
+    "symbol": "BAJAJFINSV",
+    "asOfDate": "2022-10-17",
+    "evidenceText": "Symbol: BAJAJFINSV | As-of: 2022-10-17 | Price: ₹1719.25\nRSI(14): 55.7 | EMA20: ₹1694.40 | EMA50: ₹1637.83\nMACD histogram: -4.132\nBollinger position (20,2): 58% of band range\nATR(14): ₹47.46 (2.8% of price)\nVolume ratio (5d/20d): 0.63x\n5-day return: +2.1% | 20-day return: -0.9%\nRegime classification: BEAR_QUIET (trend strength -0.47, vol regime 0.14)",
+    "sealed": {
+      "futureDate": "2022-11-01",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -0.59
+    }
+  },
+  {
+    "id": "2022_correction/bear_5",
+    "fold": "2022 correction/bear",
+    "symbol": "HCLTECH",
+    "asOfDate": "2022-01-24",
+    "evidenceText": "Symbol: HCLTECH | As-of: 2022-01-24 | Price: ₹1124.90\nRSI(14): 29.8 | EMA20: ₹1241.15 | EMA50: ₹1209.56\nMACD histogram: -25.427\nBollinger position (20,2): 0% of band range\nATR(14): ₹36.97 (3.3% of price)\nVolume ratio (5d/20d): 1.37x\n5-day return: -10.6% | 20-day return: -11.2%\nRegime classification: BEAR_QUIET (trend strength -1.00, vol regime 0.47)",
+    "sealed": {
+      "futureDate": "2022-02-08",
+      "actualDirection": "UP",
+      "actualReturnPct": 3.29
+    }
+  },
+  {
+    "id": "2022_correction/bear_6",
+    "fold": "2022 correction/bear",
+    "symbol": "NTPC",
+    "asOfDate": "2022-09-12",
+    "evidenceText": "Symbol: NTPC | As-of: 2022-09-12 | Price: ₹166.40\nRSI(14): 61.5 | EMA20: ₹162.29 | EMA50: ₹154.56\nMACD histogram: 0.072\nBollinger position (20,2): 80% of band range\nATR(14): ₹3.83 (2.3% of price)\nVolume ratio (5d/20d): 1.08x\n5-day return: +1.2% | 20-day return: +8.3%\nRegime classification: BULL_QUIET (trend strength 0.62, vol regime 0.32)",
+    "sealed": {
+      "futureDate": "2022-09-26",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -4.69
+    }
+  },
+  {
+    "id": "2022_correction/bear_7",
+    "fold": "2022 correction/bear",
+    "symbol": "ITC",
+    "asOfDate": "2022-06-27",
+    "evidenceText": "Symbol: ITC | As-of: 2022-06-27 | Price: ₹259.94\nRSI(14): 54.7 | EMA20: ₹257.13 | EMA50: ₹255.04\nMACD histogram: -0.122\nBollinger position (20,2): 61% of band range\nATR(14): ₹5.44 (2.1% of price)\nVolume ratio (5d/20d): 0.82x\n5-day return: +2.2% | 20-day return: +0.3%\nRegime classification: BEAR_QUIET (trend strength -0.32, vol regime 0.16)",
+    "sealed": {
+      "futureDate": "2022-07-11",
+      "actualDirection": "UP",
+      "actualReturnPct": 9.28
+    }
+  },
+  {
+    "id": "2022_correction/bear_8",
+    "fold": "2022 correction/bear",
+    "symbol": "WIPRO",
+    "asOfDate": "2022-06-17",
+    "evidenceText": "Symbol: WIPRO | As-of: 2022-06-17 | Price: ₹202.60\nRSI(14): 22.9 | EMA20: ₹228.43 | EMA50: ₹249.02\nMACD histogram: -1.670\nBollinger position (20,2): 0% of band range\nATR(14): ₹7.34 (3.6% of price)\nVolume ratio (5d/20d): 1.30x\n5-day return: -12.1% | 20-day return: -11.8%\nRegime classification: BEAR_QUIET (trend strength -0.81, vol regime 0.40)",
+    "sealed": {
+      "futureDate": "2022-07-01",
+      "actualDirection": "UP",
+      "actualReturnPct": 4.15
+    }
+  },
+  {
+    "id": "2022_correction/bear_9",
+    "fold": "2022 correction/bear",
+    "symbol": "LT",
+    "asOfDate": "2022-04-12",
+    "evidenceText": "Symbol: LT | As-of: 2022-04-12 | Price: ₹1747.70\nRSI(14): 42.4 | EMA20: ₹1788.71 | EMA50: ₹1829.70\nMACD histogram: 3.822\nBollinger position (20,2): 25% of band range\nATR(14): ₹41.05 (2.3% of price)\nVolume ratio (5d/20d): 1.15x\n5-day return: -4.8% | 20-day return: +0.1%\nRegime classification: BULL_QUIET (trend strength 0.35, vol regime 0.15)",
+    "sealed": {
+      "futureDate": "2022-04-28",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -1.63
+    }
+  },
+  {
+    "id": "2022_correction/bear_10",
+    "fold": "2022 correction/bear",
+    "symbol": "MARUTI",
+    "asOfDate": "2022-08-30",
+    "evidenceText": "Symbol: MARUTI | As-of: 2022-08-30 | Price: ₹9082.25\nRSI(14): 61.8 | EMA20: ₹8804.86 | EMA50: ₹8564.06\nMACD histogram: -11.185\nBollinger position (20,2): 88% of band range\nATR(14): ₹206.28 (2.3% of price)\nVolume ratio (5d/20d): 0.91x\n5-day return: +4.1% | 20-day return: +3.5%\nRegime classification: BEAR_QUIET (trend strength -0.26, vol regime 0.34)",
+    "sealed": {
+      "futureDate": "2022-09-14",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -1.27
+    }
+  },
+  {
+    "id": "2022_correction/bear_11",
+    "fold": "2022 correction/bear",
+    "symbol": "RELIANCE",
+    "asOfDate": "2022-01-24",
+    "evidenceText": "Symbol: RELIANCE | As-of: 2022-01-24 | Price: ₹1097.40\nRSI(14): 40.2 | EMA20: ₹1135.42 | EMA50: ₹1132.71\nMACD histogram: -2.328\nBollinger position (20,2): 17% of band range\nATR(14): ₹25.85 (2.4% of price)\nVolume ratio (5d/20d): 1.03x\n5-day return: -6.8% | 20-day return: +0.3%\nRegime classification: BULL_QUIET (trend strength 0.50, vol regime 0.24)",
+    "sealed": {
+      "futureDate": "2022-02-08",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -0.92
+    }
+  },
+  {
+    "id": "2022_correction/bear_12",
+    "fold": "2022 correction/bear",
+    "symbol": "ULTRACEMCO",
+    "asOfDate": "2022-11-29",
+    "evidenceText": "Symbol: ULTRACEMCO | As-of: 2022-11-29 | Price: ₹6928.90\nRSI(14): 62.3 | EMA20: ₹6799.33 | EMA50: ₹6619.02\nMACD histogram: -7.441\nBollinger position (20,2): 79% of band range\nATR(14): ₹129.66 (1.9% of price)\nVolume ratio (5d/20d): 0.87x\n5-day return: +1.3% | 20-day return: +3.2%\nRegime classification: SIDEWAYS (trend strength 0.07, vol regime 0.14)",
+    "sealed": {
+      "futureDate": "2022-12-13",
+      "actualDirection": "UP",
+      "actualReturnPct": 4.28
+    }
+  },
+  {
+    "id": "2023_recovery_1",
+    "fold": "2023 recovery",
+    "symbol": "TITAN",
+    "asOfDate": "2023-07-20",
+    "evidenceText": "Symbol: TITAN | As-of: 2023-07-20 | Price: ₹2989.30\nRSI(14): 48.7 | EMA20: ₹3019.06 | EMA50: ₹2908.29\nMACD histogram: -19.755\nBollinger position (20,2): 27% of band range\nATR(14): ₹51.81 (1.7% of price)\nVolume ratio (5d/20d): 0.82x\n5-day return: -3.1% | 20-day return: +0.6%\nRegime classification: BULL_QUIET (trend strength 0.17, vol regime 0.43)",
+    "sealed": {
+      "futureDate": "2023-08-03",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -2.92
+    }
+  },
+  {
+    "id": "2023_recovery_2",
+    "fold": "2023 recovery",
+    "symbol": "BHARTIARTL",
+    "asOfDate": "2023-10-06",
+    "evidenceText": "Symbol: BHARTIARTL | As-of: 2023-10-06 | Price: ₹926.05\nRSI(14): 62.9 | EMA20: ₹912.45 | EMA50: ₹895.21\nMACD histogram: 0.450\nBollinger position (20,2): 70% of band range\nATR(14): ₹13.59 (1.5% of price)\nVolume ratio (5d/20d): 0.94x\n5-day return: +0.0% | 20-day return: +5.2%\nRegime classification: BULL_QUIET (trend strength 0.45, vol regime 0.40)",
+    "sealed": {
+      "futureDate": "2023-10-20",
+      "actualDirection": "UP",
+      "actualReturnPct": 2.07
+    }
+  },
+  {
+    "id": "2023_recovery_3",
+    "fold": "2023 recovery",
+    "symbol": "SUNPHARMA",
+    "asOfDate": "2023-06-05",
+    "evidenceText": "Symbol: SUNPHARMA | As-of: 2023-06-05 | Price: ₹1008.75\nRSI(14): 66.7 | EMA20: ₹968.44 | EMA50: ₹971.93\nMACD histogram: 7.776\nBollinger position (20,2): 100% of band range\nATR(14): ₹18.28 (1.8% of price)\nVolume ratio (5d/20d): 1.21x\n5-day return: +4.2% | 20-day return: +4.9%\nRegime classification: BULL_QUIET (trend strength 0.48, vol regime 0.44)",
+    "sealed": {
+      "futureDate": "2023-06-19",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -0.69
+    }
+  },
+  {
+    "id": "2023_recovery_4",
+    "fold": "2023 recovery",
+    "symbol": "LT",
+    "asOfDate": "2023-02-24",
+    "evidenceText": "Symbol: LT | As-of: 2023-02-24 | Price: ₹2134.05\nRSI(14): 43.3 | EMA20: ₹2176.97 | EMA50: ₹2160.08\nMACD histogram: -3.463\nBollinger position (20,2): 24% of band range\nATR(14): ₹49.45 (2.3% of price)\nVolume ratio (5d/20d): 0.75x\n5-day return: -4.1% | 20-day return: -1.2%\nRegime classification: BULL_QUIET (trend strength 0.32, vol regime 0.27)",
+    "sealed": {
+      "futureDate": "2023-03-13",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -0.01
+    }
+  },
+  {
+    "id": "2023_recovery_5",
+    "fold": "2023 recovery",
+    "symbol": "NESTLEIND",
+    "asOfDate": "2023-05-29",
+    "evidenceText": "Symbol: NESTLEIND | As-of: 2023-05-29 | Price: ₹1086.47\nRSI(14): 63.8 | EMA20: ₹1073.84 | EMA50: ₹1022.36\nMACD histogram: -5.825\nBollinger position (20,2): 48% of band range\nATR(14): ₹15.81 (1.5% of price)\nVolume ratio (5d/20d): 0.94x\n5-day return: +1.1% | 20-day return: -0.1%\nRegime classification: BEAR_QUIET (trend strength -0.22, vol regime 0.02)",
+    "sealed": {
+      "futureDate": "2023-06-12",
+      "actualDirection": "UP",
+      "actualReturnPct": 2.58
+    }
+  },
+  {
+    "id": "2023_recovery_6",
+    "fold": "2023 recovery",
+    "symbol": "POWERGRID",
+    "asOfDate": "2023-08-21",
+    "evidenceText": "Symbol: POWERGRID | As-of: 2023-08-21 | Price: ₹185.40\nRSI(14): 50.8 | EMA20: ₹184.68 | EMA50: ₹184.33\nMACD histogram: -0.323\nBollinger position (20,2): 46% of band range\nATR(14): ₹4.15 (2.2% of price)\nVolume ratio (5d/20d): 0.76x\n5-day return: +1.2% | 20-day return: +1.3%\nRegime classification: BEAR_QUIET (trend strength -0.48, vol regime 0.44)",
+    "sealed": {
+      "futureDate": "2023-09-04",
+      "actualDirection": "UP",
+      "actualReturnPct": 3.32
+    }
+  },
+  {
+    "id": "2023_recovery_7",
+    "fold": "2023 recovery",
+    "symbol": "BAJFINANCE",
+    "asOfDate": "2023-11-08",
+    "evidenceText": "Symbol: BAJFINANCE | As-of: 2023-11-08 | Price: ₹745.99\nRSI(14): 41.2 | EMA20: ₹761.07 | EMA50: ₹752.11\nMACD histogram: -3.824\nBollinger position (20,2): 26% of band range\nATR(14): ₹15.67 (2.1% of price)\nVolume ratio (5d/20d): 1.15x\n5-day return: -0.2% | 20-day return: -7.7%\nRegime classification: BEAR_QUIET (trend strength -1.00, vol regime 0.28)",
+    "sealed": {
+      "futureDate": "2023-11-23",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -5.18
+    }
+  },
+  {
+    "id": "2023_recovery_8",
+    "fold": "2023 recovery",
+    "symbol": "TATASTEEL",
+    "asOfDate": "2023-10-17",
+    "evidenceText": "Symbol: TATASTEEL | As-of: 2023-10-17 | Price: ₹127.40\nRSI(14): 54.0 | EMA20: ₹126.43 | EMA50: ₹124.05\nMACD histogram: -0.194\nBollinger position (20,2): 58% of band range\nATR(14): ₹2.50 (2.0% of price)\nVolume ratio (5d/20d): 0.79x\n5-day return: +1.7% | 20-day return: -3.4%\nRegime classification: BEAR_QUIET (trend strength -0.28, vol regime 0.19)",
+    "sealed": {
+      "futureDate": "2023-11-01",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -8.48
+    }
+  },
+  {
+    "id": "2023_recovery_9",
+    "fold": "2023 recovery",
+    "symbol": "TITAN",
+    "asOfDate": "2023-04-24",
+    "evidenceText": "Symbol: TITAN | As-of: 2023-04-24 | Price: ₹2629.55\nRSI(14): 68.5 | EMA20: ₹2550.60 | EMA50: ₹2487.42\nMACD histogram: 0.599\nBollinger position (20,2): 98% of band range\nATR(14): ₹41.42 (1.6% of price)\nVolume ratio (5d/20d): 0.91x\n5-day return: +0.9% | 20-day return: +4.6%\nRegime classification: BULL_QUIET (trend strength 0.46, vol regime 0.10)",
+    "sealed": {
+      "futureDate": "2023-05-09",
+      "actualDirection": "UP",
+      "actualReturnPct": 4.52
+    }
+  },
+  {
+    "id": "2023_recovery_10",
+    "fold": "2023 recovery",
+    "symbol": "WIPRO",
+    "asOfDate": "2023-04-03",
+    "evidenceText": "Symbol: WIPRO | As-of: 2023-04-03 | Price: ₹183.98\nRSI(14): 40.7 | EMA20: ₹186.13 | EMA50: ₹192.76\nMACD histogram: -0.027\nBollinger position (20,2): 38% of band range\nATR(14): ₹3.07 (1.7% of price)\nVolume ratio (5d/20d): 1.02x\n5-day return: +1.7% | 20-day return: -5.2%\nRegime classification: BEAR_QUIET (trend strength -1.00, vol regime 0.33)",
+    "sealed": {
+      "futureDate": "2023-04-20",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -1.39
+    }
+  },
+  {
+    "id": "2023_recovery_11",
+    "fold": "2023 recovery",
+    "symbol": "ICICIBANK",
+    "asOfDate": "2023-11-21",
+    "evidenceText": "Symbol: ICICIBANK | As-of: 2023-11-21 | Price: ₹926.10\nRSI(14): 44.7 | EMA20: ₹932.51 | EMA50: ₹945.91\nMACD histogram: 0.222\nBollinger position (20,2): 46% of band range\nATR(14): ₹12.56 (1.4% of price)\nVolume ratio (5d/20d): 1.10x\n5-day return: -0.9% | 20-day return: -0.7%\nRegime classification: BULL_QUIET (trend strength 0.18, vol regime 0.38)",
+    "sealed": {
+      "futureDate": "2023-12-06",
+      "actualDirection": "UP",
+      "actualReturnPct": 8.33
+    }
+  },
+  {
+    "id": "2023_recovery_12",
+    "fold": "2023 recovery",
+    "symbol": "TECHM",
+    "asOfDate": "2023-10-17",
+    "evidenceText": "Symbol: TECHM | As-of: 2023-10-17 | Price: ₹1197.60\nRSI(14): 40.7 | EMA20: ₹1223.61 | EMA50: ₹1214.71\nMACD histogram: -7.174\nBollinger position (20,2): 24% of band range\nATR(14): ₹25.09 (2.1% of price)\nVolume ratio (5d/20d): 0.94x\n5-day return: -2.5% | 20-day return: -7.9%\nRegime classification: BEAR_QUIET (trend strength -0.97, vol regime 0.33)",
+    "sealed": {
+      "futureDate": "2023-11-01",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -6.05
+    }
+  },
+  {
+    "id": "2024_bull_1",
+    "fold": "2024 bull",
+    "symbol": "ASIANPAINT",
+    "asOfDate": "2024-07-15",
+    "evidenceText": "Symbol: ASIANPAINT | As-of: 2024-07-15 | Price: ₹2956.50\nRSI(14): 55.1 | EMA20: ₹2934.87 | EMA50: ₹2903.04\nMACD histogram: 7.018\nBollinger position (20,2): 70% of band range\nATR(14): ₹54.70 (1.9% of price)\nVolume ratio (5d/20d): 1.45x\n5-day return: +2.0% | 20-day return: +1.2%\nRegime classification: BULL_QUIET (trend strength 0.35, vol regime 0.16)",
+    "sealed": {
+      "futureDate": "2024-07-30",
+      "actualDirection": "UP",
+      "actualReturnPct": 1.64
+    }
+  },
+  {
+    "id": "2024_bull_2",
+    "fold": "2024 bull",
+    "symbol": "WIPRO",
+    "asOfDate": "2024-07-01",
+    "evidenceText": "Symbol: WIPRO | As-of: 2024-07-01 | Price: ₹263.67\nRSI(14): 76.0 | EMA20: ₹244.66 | EMA50: ₹237.76\nMACD histogram: 2.085\nBollinger position (20,2): 100% of band range\nATR(14): ₹5.92 (2.2% of price)\nVolume ratio (5d/20d): 0.94x\n5-day return: +7.5% | 20-day return: +20.3%\nRegime classification: BULL_QUIET (trend strength 1.00, vol regime 0.47)",
+    "sealed": {
+      "futureDate": "2024-07-15",
+      "actualDirection": "UP",
+      "actualReturnPct": 6.13
+    }
+  },
+  {
+    "id": "2024_bull_3",
+    "fold": "2024 bull",
+    "symbol": "TECHM",
+    "asOfDate": "2024-04-01",
+    "evidenceText": "Symbol: TECHM | As-of: 2024-04-01 | Price: ₹1244.55\nRSI(14): 39.1 | EMA20: ₹1271.09 | EMA50: ₹1289.12\nMACD histogram: -2.637\nBollinger position (20,2): 4% of band range\nATR(14): ₹26.22 (2.1% of price)\nVolume ratio (5d/20d): 1.20x\n5-day return: -3.0% | 20-day return: -3.2%\nRegime classification: BEAR_QUIET (trend strength -0.25, vol regime 0.04)",
+    "sealed": {
+      "futureDate": "2024-04-16",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -3.92
+    }
+  },
+  {
+    "id": "2024_bull_4",
+    "fold": "2024 bull",
+    "symbol": "LT",
+    "asOfDate": "2024-01-05",
+    "evidenceText": "Symbol: LT | As-of: 2024-01-05 | Price: ₹3521.90\nRSI(14): 64.6 | EMA20: ₹3432.69 | EMA50: ₹3249.91\nMACD histogram: -14.200\nBollinger position (20,2): 78% of band range\nATR(14): ₹63.32 (1.8% of price)\nVolume ratio (5d/20d): 0.82x\n5-day return: -0.1% | 20-day return: +5.0%\nRegime classification: BULL_QUIET (trend strength 0.35, vol regime 0.33)",
+    "sealed": {
+      "futureDate": "2024-01-19",
+      "actualDirection": "UP",
+      "actualReturnPct": 3.52
+    }
+  },
+  {
+    "id": "2024_bull_5",
+    "fold": "2024 bull",
+    "symbol": "HINDUNILVR",
+    "asOfDate": "2024-05-23",
+    "evidenceText": "Symbol: HINDUNILVR | As-of: 2024-05-23 | Price: ₹2382.50\nRSI(14): 62.3 | EMA20: ₹2316.92 | EMA50: ₹2315.27\nMACD histogram: 8.111\nBollinger position (20,2): 84% of band range\nATR(14): ₹39.94 (1.7% of price)\nVolume ratio (5d/20d): 0.76x\n5-day return: +2.5% | 20-day return: +5.3%\nRegime classification: BULL_VOLATILE (trend strength 0.70, vol regime 0.58)",
+    "sealed": {
+      "futureDate": "2024-06-06",
+      "actualDirection": "UP",
+      "actualReturnPct": 7.01
+    }
+  },
+  {
+    "id": "2024_bull_6",
+    "fold": "2024 bull",
+    "symbol": "BHARTIARTL",
+    "asOfDate": "2024-04-12",
+    "evidenceText": "Symbol: BHARTIARTL | As-of: 2024-04-12 | Price: ₹1225.55\nRSI(14): 58.2 | EMA20: ₹1207.42 | EMA50: ₹1173.53\nMACD histogram: -2.634\nBollinger position (20,2): 66% of band range\nATR(14): ₹26.02 (2.1% of price)\nVolume ratio (5d/20d): 0.75x\n5-day return: +1.5% | 20-day return: +1.8%\nRegime classification: SIDEWAYS (trend strength 0.06, vol regime 0.23)",
+    "sealed": {
+      "futureDate": "2024-04-29",
+      "actualDirection": "UP",
+      "actualReturnPct": 8.72
+    }
+  },
+  {
+    "id": "2024_bull_7",
+    "fold": "2024 bull",
+    "symbol": "ULTRACEMCO",
+    "asOfDate": "2024-04-09",
+    "evidenceText": "Symbol: ULTRACEMCO | As-of: 2024-04-09 | Price: ₹9769.15\nRSI(14): 48.8 | EMA20: ₹9801.58 | EMA50: ₹9865.70\nMACD histogram: 25.149\nBollinger position (20,2): 57% of band range\nATR(14): ₹193.80 (2.0% of price)\nVolume ratio (5d/20d): 1.01x\n5-day return: -2.7% | 20-day return: +1.0%\nRegime classification: BULL_QUIET (trend strength 0.40, vol regime 0.17)",
+    "sealed": {
+      "futureDate": "2024-04-25",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -0.87
+    }
+  },
+  {
+    "id": "2024_bull_8",
+    "fold": "2024 bull",
+    "symbol": "INFY",
+    "asOfDate": "2024-04-05",
+    "evidenceText": "Symbol: INFY | As-of: 2024-04-05 | Price: ₹1479.10\nRSI(14): 29.5 | EMA20: ₹1540.07 | EMA50: ₹1593.68\nMACD histogram: -5.998\nBollinger position (20,2): 20% of band range\nATR(14): ₹28.90 (2.0% of price)\nVolume ratio (5d/20d): 0.98x\n5-day return: -1.3% | 20-day return: -7.9%\nRegime classification: BEAR_QUIET (trend strength -1.00, vol regime 0.18)",
+    "sealed": {
+      "futureDate": "2024-04-23",
+      "actualDirection": "DOWN",
+      "actualReturnPct": -2.48
+    }
+  },
+  {
+    "id": "2024_bull_9",
+    "fold": "2024 bull",
+    "symbol": "NTPC",
+    "asOfDate": "2024-02-08",
+    "evidenceText": "Symbol: NTPC | As-of: 2024-02-08 | Price: ₹330.90\nRSI(14): 62.3 | EMA20: ₹319.92 | EMA50: ₹301.58\nMACD histogram: 0.788\nBollinger position (20,2): 82% of band range\nATR(14): ₹9.03 (2.7% of price)\nVolume ratio (5d/20d): 0.92x\n5-day return: +2.8% | 20-day return: +3.5%\nRegime classification: BULL_QUIET (trend strength 0.84, vol regime 0.39)",
+    "sealed": {
+      "futureDate": "2024-02-22",
+      "actualDirection": "UP",
+      "actualReturnPct": 2.61
+    }
+  },
+  {
+    "id": "2024_bull_10",
+    "fold": "2024 bull",
+    "symbol": "RELIANCE",
+    "asOfDate": "2024-08-16",
+    "evidenceText": "Symbol: RELIANCE | As-of: 2024-08-16 | Price: ₹1478.20\nRSI(14): 46.0 | EMA20: ₹1487.73 | EMA50: ₹1491.45\nMACD histogram: -2.488\nBollinger position (20,2): 42% of band range\nATR(14): ₹25.70 (1.7% of price)\nVolume ratio (5d/20d): 0.67x\n5-day return: +2.0% | 20-day return: -6.8%\nRegime classification: BEAR_QUIET (trend strength -0.46, vol regime 0.17)",
+    "sealed": {
+      "futureDate": "2024-08-30",
+      "actualDirection": "UP",
+      "actualReturnPct": 2.13
+    }
+  },
+  {
+    "id": "2024_bull_11",
+    "fold": "2024 bull",
+    "symbol": "NTPC",
+    "asOfDate": "2024-04-12",
+    "evidenceText": "Symbol: NTPC | As-of: 2024-04-12 | Price: ₹361.75\nRSI(14): 68.8 | EMA20: ₹346.06 | EMA50: ₹336.76\nMACD histogram: 3.028\nBollinger position (20,2): 84% of band range\nATR(14): ₹9.59 (2.7% of price)\nVolume ratio (5d/20d): 0.80x\n5-day return: +2.0% | 20-day return: +4.9%\nRegime classification: BULL_QUIET (trend strength 1.00, vol regime 0.11)",
+    "sealed": {
+      "futureDate": "2024-04-29",
+      "actualDirection": "UP",
+      "actualReturnPct": 0.35
+    }
+  },
+  {
+    "id": "2024_bull_12",
+    "fold": "2024 bull",
+    "symbol": "KOTAKBANK",
+    "asOfDate": "2024-01-23",
+    "evidenceText": "Symbol: KOTAKBANK | As-of: 2024-01-23 | Price: ₹356.90\nRSI(14): 40.1 | EMA20: ₹364.51 | EMA50: ₹360.46\nMACD histogram: -2.375\nBollinger position (20,2): 17% of band range\nATR(14): ₹6.70 (1.9% of price)\nVolume ratio (5d/20d): 1.20x\n5-day return: -3.6% | 20-day return: -4.1%\nRegime classification: BEAR_QUIET (trend strength -0.77, vol regime 0.43)",
+    "sealed": {
+      "futureDate": "2024-02-07",
+      "actualDirection": "UP",
+      "actualReturnPct": 0.45
+    }
+  }
+]
