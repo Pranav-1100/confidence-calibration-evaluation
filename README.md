@@ -1,78 +1,77 @@
 # Calibrated Enough to Know, Not Calibrated to Act
 
-**Relevant-looking evidence makes LLM agents commit to the unknowable.**
+**Fabricated Evidence Makes LLM Agents Commit to the Unknowable**
 
-Pranav Aggarwal — Independent Researcher — pranavaggarwal1100@gmail.com
+Pranav Aggarwal, independent researcher · [DOI 10.5281/zenodo.21325375](https://doi.org/10.5281/zenodo.21325375) · ORCID [0009-0005-1243-0520](https://orcid.org/0009-0005-1243-0520)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21325375.svg)](https://doi.org/10.5281/zenodo.21325375)
+**[Read the paper (PDF)](paper.pdf)** · [Markdown source](paper.md)
 
-## Summary
+---
 
-An LLM agent with a search tool is asked a provably unpredictable question (will a
-stock's price be higher in 10 trading days?) and must ANSWER, CALL_TOOL, or DECLINE.
-On 40 outcome-balanced, post-training-cutoff cases (chance = 50% by construction):
+## What this is
 
-| Condition | Commitment (ANSWER) |
+LLM agents deployed behind dashboards and market feeds are assumed to make better decisions with
+more context. For questions that are irreducibly uncertain, that assumption inverts.
+
+Across 12 frontier models, commitment to a directional call on a provably unpredictable question
+rises **6.5% → 54.0%** as an authoritative-looking indicator panel is added. Fabricating the entire
+panel, so that nothing the model can see is true except the question, produces **36.8%** commitment
+against **37.6%** for real market data. The trigger is the presentation, not the information.
+
+The failure sits at the act/don't-act gate rather than in stated belief: the same models answer
+matched *answerable* questions essentially perfectly, and their stated probabilities are
+anti-predictive of outcomes (AUROC **0.346**). The gate can be trained into a 3B model with
+synthetic data about dice and coins, and it holds exactly when the response format leaves the model
+room to reason.
+
+## Repository layout
+
+| path | contents |
 |---|---|
-| L0 — bare question | 6.5% |
-| L1 — two prices | 14.8% |
-| **L2 — full technical panel (non-predictive)** | **54.0%** |
-| L2′ — same panel, *different* stock | 3.5% |
+| `paper.md`, `paper.pdf` | the current paper (v2) |
+| `figures/` | the six figures it uses, PNG + PDF |
+| `data/` | every cached model output behind every number, plus the evaluation case sets |
+| `scripts/` | v1 experiment runners and analysis; `scripts/v2/` builds the v2 figures and PDF |
+| `PREREGISTRATION.md` | the pre-registration for the diagnostic study, written before the confirmatory run |
+| `v1/` | the earlier paper this one extends, with its own figures |
+| `_archive/` | superseded figures, kept rather than deleted |
 
-- Commitment shift L2−L0 = **+48pp** (case-clustered 95% CI [+44, +51]), across 12 frontier models.
-- The committed calls are **worse than uninformative**: Brier 0.282 vs 0.250 for always-"50%" (gap CI [+0.008, +0.056]); models herd (90% within-case agreement) on momentum-shaped signals that score 48% themselves.
-- The collapse at L2′ shows the trigger is **relevance**, not the presence of data.
-- The judgment exists: told to classify knowability first, models label the question
-  irreducible **91%** of the time and then commit **0.4%**. The triage instruction cuts
-  commitment 54%→10% at zero cost on answerable questions; a matched-length placebo
-  prompt yields 48% — and backfires for some models.
+Training code, checkpoint evaluation scripts and the Kaggle notebooks live in the `RL_env/`
+directory of the working repository; the cached generations they produced are in `data/` here.
 
-Limitations & future work: [`LIMITATIONS_AND_FUTURE_WORK.md`](LIMITATIONS_AND_FUTURE_WORK.md).
-Pre-registration with honest timestamps: [`PREREGISTRATION.md`](PREREGISTRATION.md).
+## Reproducing the numbers
 
-## Repository map
-
-```
-paper.md / paper.pdf           the paper
-PREREGISTRATION.md             predictions & decision rules, timestamped
-LIMITATIONS_AND_FUTURE_WORK.md full limitations discussion + follow-up agenda
-figures/                       all paper figures (PNG + vector PDF)
-scripts/                       experiment runners (TypeScript) + analyzers (Python)
-data/                          frozen raw results + case files (JSON)
-```
-
-## Reproducing
-
-Requirements: Node 18+ (`npm i`), Python 3.10+. Model-API keys are read from a
-`.env` file (never committed); each runner script lists the environment variables it expects.
+Every number in the paper is recomputable from `data/` without an API call or a GPU hour, because
+the release contains raw cached generations rather than summary statistics.
 
 ```bash
-# definitive agentic gradient (L0/L1/L2 + L2' via LEVELS env)
-npx ts-node -r dotenv/config scripts/run_agentic_gradient.ts data/knowability_postcutoff.json out.json all 2.5 1
-python3 scripts/analyze_agentic_gradient.py data/agentic_postcutoff.json
-
-# mitigation pair (MITIGATION=1 = triage; MITIGATION=placebo = placebo arm)
-MITIGATION=1 LEVELS=0,2 npx ts-node -r dotenv/config scripts/run_agentic_gradient.ts data/knowability_postcutoff.json out_mitigated.json all 1.5
-python3 scripts/analyze_mitigation.py data/agentic_postcutoff.json data/agentic_mitigated.json data/discrimination_all.json data/discrimination_mitigated.json
-
-# figures + paper PDF
-python3 -m venv .venv && .venv/bin/pip install matplotlib markdown
-.venv/bin/python scripts/make_figures.py
-.venv/bin/python scripts/md_to_pdf.py
+python3 -m venv .venv && .venv/bin/pip install markdown matplotlib
+.venv/bin/python scripts/v2/make_v2_figures.py     # rebuild all six figures from data/
+.venv/bin/python scripts/v2/build_pdf.py           # rebuild paper.pdf from paper.md
 ```
 
-Analyzers are deterministic (seeded bootstrap); every number in the paper reproduces
-from the JSONs in `data/`.
+## What is in the data
 
-## Citation
+12-model runs across four domains; four scrambled-display constructions including a fully
+fabricated arm; a dose-response run over panel density; the original equity study; eleven trained
+checkpoints' generations under two evaluation framings; and a tense-balanced control set built to
+break the one confound that could have explained the training result away.
 
-```bibtex
-@misc{aggarwal2026calibrated,
-  title  = {Calibrated Enough to Know, Not Calibrated to Act:
-            Relevant-Looking Evidence Makes LLM Agents Commit to the Unknowable},
-  author = {Aggarwal, Pranav},
-  year   = {2026},
-  doi    = {10.5281/zenodo.21325375},
-  note   = {Preprint},
-}
+Two cautions are documented in `data/README_v2_data.md` and matter if you re-analyse: `sealedYes`
+is a placeholder on the sports and weather unknowable arms, which have no resolved outcomes; and
+two models leave a large fraction of their responses unparseable, so their discrimination scores
+are lower bounds.
+
+## Citing
+
+Cite the Zenodo record, which resolves to the latest version:
+
 ```
+Aggarwal, P. (2026). Calibrated Enough to Know, Not Calibrated to Act:
+Fabricated Evidence Makes LLM Agents Commit to the Unknowable.
+DOI 10.5281/zenodo.21325375
+```
+
+## License
+
+MIT for code; see `LICENSE`. The paper and figures are the author's work.

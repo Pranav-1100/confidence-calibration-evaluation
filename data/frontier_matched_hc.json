@@ -1,0 +1,2882 @@
+[
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf30d_BTCUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>This is a 30-day forward price prediction. Crypto prices are essentially unpredictable over such horizons\u2014random walk with slight drift. The technical indicators (RSI 31.5 suggesting oversold, low volume) give only marginal hints. No genuine edge exists for predicting 30-day direction. This i"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf7d_BTCUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThis is a question about predicting future price movement of Bitcoin 7 days ahead. This is fundamentally a random walk / near-efficient market. The technical indicators (oversold RSI of 27.4, sharp drop) might suggest a slight mean-reversion bounce, but 7-day price direction is essentially u"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf30d_ETHUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThis asks for a 30-day-ahead price prediction. Crypto prices over 30 days are essentially unpredictable from technical indicators. RSI of 29.2 suggests oversold, which might hint at mean reversion, but this is a weak signal. The honest answer is that future price direction over 30 days is no"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf7d_ETHUSDT_2026-02-19_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Future price movement is fundamentally unpredictable. The indicators given (RSI, volume, sentiment) provide no reliable edge for 7-day forward prediction. This is essentially a coin flip. The mixed signals (RSI neutral-ish, low volume, mixed sentiment) don't give a determinable answer.\n\nHones"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf30d_SOLUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>30-day price prediction of a volatile crypto asset. This is fundamentally not predictable with edge. RSI 26.6 suggests oversold, which might hint at mean reversion, but crypto prices over 30 days are essentially random walk. No real edge. Should decline or answer with near-50/50 and minimal a"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf7d_SOLUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nShort-term crypto price prediction 7 days out is essentially unpredictable. RSI 25.9 is oversold, suggesting possible bounce, but momentum is strongly down. This is fundamentally near-random. No real edge exists for 7-day forward crypto prices. The oversold RSI gives a tiny lean toward mean "
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf30d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Future price prediction 30 days out is fundamentally uncertain. RSI 19.3 is deeply oversold, suggesting potential bounce, but 30-day direction isn't reliably determinable. This is essentially a random walk. Small edge from mean-reversion signal, but honestly not determinable with confidence.\n"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf7d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Future price movement is fundamentally unpredictable. RSI 19.3 suggests oversold, which slightly favors a bounce, but 7-day forward price is essentially random with only tiny edge. This is a coin-flip with minimal edge.</think>\nDECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFI"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf30d_XRPUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Future price movement 30 days out is fundamentally unpredictable from technical indicators alone. RSI at 33.8 suggests mildly oversold, but this gives no reliable edge for a 30-day directional bet on a volatile crypto asset. This is essentially a coin flip with no genuine predictive edge.</th"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf7d_XRPUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThis is a 7-day forward price prediction for a volatile crypto asset. Fundamentally, short-term price movements are close to a random walk. The technical indicators (oversold RSI ~30, elevated volume, recent sharp decline) provide weak signals but not reliable predictive edge. Future price i"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf30d_ADAUSDT_2026-03-27_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Future price prediction 30 days out is essentially unpredictable. The indicators given (RSI 41, mild downtrend, mixed sentiment) provide almost no reliable edge over 50/50. Crypto 30-day direction is dominated by market-wide factors not in this data. This is genuinely not determinable with me"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf7d_ADAUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nFuture price movement of a volatile crypto asset 7 days out is fundamentally unpredictable. The indicators (RSI 30 oversold, elevated volume, recent decline) offer weak hints but no reliable edge. This is essentially a random walk with slight noise. No genuine determinability.\n</think>\nDECIS"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf30d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>This is a 30-day-ahead price prediction. Fundamentally, future crypto prices are not determinable from current technical indicators. RSI of 15.6 is deeply oversold, which historically has slight mean-reversion tendency, but this is not a reliable edge. Crypto 30-day forward returns are essent"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf7d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Future price movement is fundamentally unpredictable. RSI of 15.6 is extremely oversold, which suggests possible bounce, but 7-day forward price is genuinely uncertain. No reliable edge exists for predicting crypto prices. The oversold RSI gives a slight statistical lean toward mean reversion"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf30d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 54.0,
+  "stake": 5.0,
+  "commit": 0,
+  "raw": "<think>Future price movement over 30 days is fundamentally unpredictable. The data shows oversold conditions (RSI 16.8), which might suggest a bounce, but crypto prices over 30 days are essentially a random walk with high volatility. No reliable edge.\n\nThe RSI is deeply oversold, which slightly favo"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf7d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Future price movement is fundamentally unpredictable. RSI at 16.8 suggests oversold, which might imply a bounce, but 7-day forward returns are essentially random. Elevated volume and mixed sentiment don't give reliable edge. The oversold RSI gives a slight lean toward mean reversion, but cryp"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf30d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\n30-day forward price prediction from technical indicators alone. Crypto prices are essentially unpredictable over 30-day horizons. RSI at 19.7 is deeply oversold, which sometimes suggests mean reversion, but this is a weak edge at best. Fundamentally, future price movement depends on macro c"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf7d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nFuture price movement of a volatile crypto asset 7 days out is fundamentally unpredictable. RSI of 19.7 is deeply oversold, suggesting possible bounce, but this is weak signal. No reliable edge. Direction of short-term crypto price is essentially random with tiny mean-reversion tilt from ove"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf30d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Future price 30 days out is fundamentally uncertain. RSI 17.1 is extremely oversold, suggesting possible bounce, but crypto prices over 30 days are dominated by unpredictable factors. The edge is minimal. Oversold conditions slightly favor mean reversion, but not reliably determinable.</think"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf7d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 55.0,
+  "stake": 8.0,
+  "commit": 0,
+  "raw": "<think>\nFuture 7-day price movement is fundamentally unpredictable. RSI at 17.1 is deeply oversold, suggesting possible bounce, but 7-day forward price is essentially random. No reliable edge exists for predicting short-term crypto direction. The oversold condition gives a slight lean toward mean re"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf30d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThis is asking to predict a future price movement 30 days out. This is fundamentally uncertain. RSI of 20.4 suggests oversold, which could mean mean reversion (bounce), but 30-day crypto price prediction is genuinely not reliably determinable. Any edge is minimal.\n\nThe technical signals (ove"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf7d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nFuture price movement over 7 days is fundamentally unpredictable from technical indicators. RSI of 20.4 suggests oversold, which could hint at a bounce, but this is not reliable enough for a real edge. Crypto short-term is essentially a random walk. I have essentially no genuine predictive e"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf30d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Future price movement over 30 days is fundamentally unpredictable. The indicators (RSI 22.8 oversold, volume spike) give slight hints of a possible bounce, but crypto 30-day direction is essentially a coin flip with tiny edge. No reliable predictive power.</think>\nDECISION: DECLINE\nPROBABILIT"
+ },
+ {
+  "model": "anthropic/claude-opus-4.8",
+  "id": "cf7d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Future price movement of a crypto asset 7 days out is fundamentally unpredictable. RSI 22.8 suggests oversold, which might hint at a bounce, but this is weak signal. Crypto 7-day direction is essentially a coin flip with tiny edge. The question asks whether it's determinable \u2014 it's not truly "
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf30d_BTCUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 54.0,
+  "stake": 15.0,
+  "commit": 0,
+  "raw": "<think>\nRSI at 31.5 signals oversold conditions, which historically has a mild mean-reversion tendency (slight bullish tilt). However, volume ratio of 0.70x shows weak buying interest, and on-chain sentiment is mixed\u2014no strong catalyst either way. 30-day crypto price movements are dominated by macro"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf7d_BTCUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 54.0,
+  "stake": 15.0,
+  "commit": 0,
+  "raw": "<think>\nRSI of 27.4 indicates oversold conditions, which statistically often precedes short-term bounces. However, the strong downtrend (-22% in 10d, -12% in 7d) with high volume suggests continued selling pressure/capitulation. Mixed on-chain sentiment adds no clear signal. Short-term crypto price "
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf30d_ETHUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 54.0,
+  "stake": 15.0,
+  "commit": 0,
+  "raw": "<think>\nOversold RSI (29.2) often precedes short-term bounces, and declining volume (0.60x) suggests selling pressure may be exhausting. However, 30-day crypto forecasts are highly uncertain due to macro/news factors not captured here. The trend is still bearish (down 8.3% over 10d), though the most"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf7d_ETHUSDT_2026-02-19_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 53.0,
+  "stake": 10.0,
+  "commit": 0,
+  "raw": "<think>\nMixed signals: 10-day decline (-7.4%) but 7-day roughly flat (+0.1%), suggesting recent stabilization. RSI 57.8 is neutral-to-mildly-bullish, not overbought. Low volume ratio (0.55x) suggests weak conviction in either direction, reducing momentum signal reliability. On-chain sentiment \"mixed"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf30d_SOLUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 56.0,
+  "stake": 15.0,
+  "commit": 0,
+  "raw": "<think>\nOversold RSI (26.6) often precedes short-term bounces, but 30-day crypto price direction is highly uncertain and dominated by macro/sentiment factors not fully captured here. Mixed on-chain sentiment and low volume ratio suggest weak conviction either way. Technicals lean slightly toward mea"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf7d_SOLUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 55.0,
+  "stake": 12.0,
+  "commit": 0,
+  "raw": "<think>\nOversold RSI (25.9) suggests potential for short-term mean reversion/bounce after a sharp 30% decline. However, \"mixed\" on-chain sentiment and continued downtrend momentum add uncertainty. Elevated volume (1.67x) could indicate either capitulation (bottoming) or continued selling pressure. C"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf30d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 56.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "<think>\nBNB is in a steep downtrend (-18% in 10 days, -5.8% in 7 days) with RSI at 19.3, deeply oversold. Oversold conditions often precede short-term relief rallies, but strong downtrends can persist, especially with low volume (0.66x) suggesting weak buying interest and unconfirmed reversal. On-ch"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf7d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 57.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "<think>\nRSI at 19.3 indicates deeply oversold conditions, which historically often precede short-term relief bounces. However, the trend is strongly bearish (-18% in 10d, -5.8% in 7d), and volume is declining (0.66x), suggesting weak conviction on any reversal. Mixed on-chain sentiment adds uncertai"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf30d_XRPUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 47.0,
+  "stake": 15.0,
+  "commit": 0,
+  "raw": "<think>\nXRP is in a clear downtrend (-10.9% over 10d, -4.3% over 7d), with RSI at 33.8 approaching but not deeply oversold. Low volume ratio (0.64x) suggests selling pressure may be exhausting somewhat, which could support a bounce, but mixed on-chain sentiment gives no strong directional catalyst. "
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf7d_XRPUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 54.0,
+  "stake": 12.0,
+  "commit": 0,
+  "raw": "<think>\nXRP has dropped sharply (-25.5% in 10d, -13.6% in 7d), RSI at 29.9 signals oversold conditions, often preceding short-term technical bounces. However, downtrend momentum is strong and on-chain sentiment is mixed, not clearly bullish. Elevated volume ratio suggests capitulation-driven selling"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf30d_ADAUSDT_2026-03-27_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 44.0,
+  "stake": 15.0,
+  "commit": 0,
+  "raw": "<think>\nRecent trend is down (-14.9% over 10d, -7.5% over 7d), RSI 41.4 is neutral (not oversold), volume unremarkable, sentiment mixed. This gives slight bearish momentum bias but no strong signal. 30-day crypto price moves are dominated by broader market/macro factors not present in this data. Sli"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf7d_ADAUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 54.0,
+  "stake": 12.0,
+  "commit": 0,
+  "raw": "<think>\nOversold RSI (30.2) suggests potential for short-term mean-reversion bounce, but strong downtrend (-24% in 10d, -7.3% in 7d) with elevated volume (1.85x) indicates continued selling pressure. Mixed on-chain sentiment adds no clear directional signal. Crypto 7-day price moves are highly stoch"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf30d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 56.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "<think>\nBTC has dropped significantly (-14.1% in 10 days, -11.2% in 7 days) with RSI at 15.6, indicating extreme oversold conditions. Historically, such extreme oversold RSI levels often precede short-term relief rallies or stabilization, giving a slight statistical tilt toward higher prices over th"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf7d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 56.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "<think>\nExtreme oversold RSI (15.6) often precedes short-term bounces, but strong downtrend momentum (-14% 10d, -11% 7d) and mixed on-chain sentiment suggest continued weakness is plausible too. Elevated volume ratio (1.58x) shows strong selling pressure, but could also mark capitulation/bottoming. "
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf30d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "<think>\nRSI of 16.8 signals extreme oversold conditions, often preceding short-term mean-reversion bounces. However, the recent sharp decline (-23% in 10 days) shows strong bearish momentum. Elevated volume (1.64x) suggests capitulation, which can precede reversal but can also indicate continued dis"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf7d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 56.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "<think>\nRSI at 16.8 indicates extreme oversold conditions, which historically often precede short-term bounces. The sharp 23% decline over 10 days with elevated volume suggests possible capitulation/selling exhaustion. However, crypto markets can extend oversold conditions in strong downtrends, and "
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf30d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "<think>\nRSI at 19.7 signals extreme oversold conditions, which historically increases probability of mean-reversion bounce over subsequent weeks. However, 30 days is a long horizon in crypto, and mixed on-chain sentiment plus elevated volume (1.51x) could indicate either capitulation (bounce likely)"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf7d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 57.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "<think>\nRSI 19.7 is deeply oversold, often preceding short-term bounces, but the asset is in a strong downtrend (-21.5% in 10d, -15.2% in 7d) with mixed on-chain sentiment and elevated volume (possible capitulation or continued selling). Oversold conditions increase probability of a mean-reversion b"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf30d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 55.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "<think>\nRSI at 17.1 signals extreme oversold conditions, historically associated with short-term mean-reversion bounces. However, the asset is in a clear downtrend (-14.6% 10d, -12.4% 7d) with elevated volume (1.58x) suggesting active selling pressure, and \"mixed\" on-chain sentiment adds no clear di"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf7d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 56.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "<think>\nRSI 17.1 is deeply oversold, historically associated with short-term mean-reversion bounces. However, strong downtrend (-14.6% in 10d, -12.4% in 7d) shows persistent selling pressure, and mixed on-chain sentiment adds uncertainty. Elevated volume ratio (1.58x) suggests either capitulation (b"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf30d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 55.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "DECISION: ANSWER\nPROBABILITY_YES: 55\nALLOCATE_PCT: 20\nEDGE_CONFIDENCE: 15"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf7d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 53.0,
+  "stake": 10.0,
+  "commit": 0,
+  "raw": "<think>\nRSI at 20.4 signals oversold conditions, which sometimes precedes short-term bounces, but crypto prices are highly volatile and driven by many unpredictable factors (news, macro events, liquidations, etc.) not captured here. The downtrend momentum (-17.3% over 10d, -13.3% over 7d) suggests b"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf30d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 55.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "<think>\nOversold RSI (22.8) often precedes short-term bounces, but strong downtrend (-20.5% 10d, -15.7% 7d) and elevated volume ratio suggest continued selling pressure or capitulation. 30-day crypto price moves are dominated by market-wide sentiment, macro factors, and randomness that can't be infe"
+ },
+ {
+  "model": "anthropic/claude-sonnet-5",
+  "id": "cf7d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 54.0,
+  "stake": 10.0,
+  "commit": 0,
+  "raw": "<think>\nOversold RSI (22.8) suggests potential short-term mean-reversion bounce, but strong bearish momentum (-20.5% over 10d, -15.7% over 7d) with elevated volume (1.49x) indicates continued selling pressure. Mixed on-chain sentiment adds no clear directional signal. Crypto prices over 7-day horizo"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf30d_BTCUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 55.0,
+  "stake": 45.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze what we know:\n\n**Current state (2026-02-13):**\n- Price: $68,853.96\n- 10-day trend: DOWN 9.1% (from $75,770.21)\n- 7-day change: -2.4% (downtrend continues)\n- RSI 14: 31.5 (oversold territory, typically <30 is oversold, so near it)\n- Volume ratio 5d/20d: 0.70x (below average vol"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf7d_BTCUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 62.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze the available data:\n\n**Bearish signals:**\n- Down 22.4% over 10 days (strong downtrend)\n- 7-day change: -12.0% (continued weakness)\n- RSI 27.4 (oversold territory, typically <30)\n- On-chain sentiment: mixed (not supportive)\n\n**Potentially bullish signals:**\n- RSI at 27.4 is dee"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf30d_ETHUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 62.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze what we know and don't know:\n\n**Known data points:**\n- Current price: $2,048.72\n- 10-day decline: -8.3% (from $2,233.72)\n- 7-day change: -0.7%\n- 14-day RSI: 29.2 (oversold territory, typically <30)\n- Volume ratio: 0.60x (below average)\n- On-chain sentiment: mixed\n\n**What this "
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf7d_ETHUSDT_2026-02-19_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 52.0,
+  "stake": 35.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze what we know:\n\n**Available data:**\n- Current price: $1,949.08\n- 10-day trend: down 7.4% (from $2,105.02)\n- 7-day change: +0.1% (essentially flat)\n- 14-day RSI: 57.8 (neutral, slightly bullish; 50 is midpoint, <30 oversold, >70 overbought)\n- Volume ratio: 0.55x (below average -"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf30d_SOLUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze what we know and don't know:\n\n**Known factors:**\n- Current price: $84.33\n- Recent trend: Down 13.9% over 10 days, -3.6% over 7 days\n- RSI 14: 26.6 (oversold territory, typically <30)\n- Volume ratio: 0.72x (below average, suggesting weak conviction)\n- On-chain sentiment: mixed "
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf7d_SOLUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 42.0,
+  "stake": 55.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze what we know about Solana's price trajectory and technical indicators:\n\n**Bearish signals:**\n- Down 30.1% over 10 days (severe downtrend)\n- 7-day change: -17.0% (continued weakness)\n- RSI 14-day at 25.9 (deeply oversold, typically <30)\n- Mixed on-chain sentiment (not supportiv"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf30d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 62.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze what we know:\n\n**Current state:**\n- Price: $618.94\n- Down 18% over 10 days (significant downtrend)\n- 7-day change: -5.8% (continued weakness)\n- RSI 14: 19.3 (extremely oversold, typically <30 is oversold)\n- Volume ratio 0.66x (below average, suggesting weak conviction)\n- On-ch"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf7d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 35.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze the available data for BNB price prediction 7 days forward:\n\n**Bearish signals:**\n- Down 18% over 10 days (strong downtrend)\n- RSI 19.3 (extremely oversold, but can persist)\n- 7-day change -5.8% (continued weakness)\n- Volume ratio 0.66x (below average, suggests weak conviction"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf30d_XRPUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze what we know and don't know:\n\n**Known factors:**\n- Current price: $1.41\n- 10-day trend: -10.9% (bearish)\n- 7-day change: -4.3% (bearish)\n- RSI 14: 33.8 (oversold territory, typically <30 is oversold, so near it)\n- Volume ratio 0.64x (below average, suggests weak conviction)\n- "
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf7d_XRPUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 42.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze what we know about XRP on 2026-02-07:\n\n**Bearish signals:**\n- Down 25.5% over 10 days (strong downtrend)\n- 7-day change: -13.6% (continued weakness)\n- RSI 29.9 (oversold territory, typically <30)\n- On-chain sentiment: mixed (not supportive)\n\n**Potentially bullish signals:**\n- "
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf30d_ADAUSDT_2026-03-27_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze what we know and don't know:\n\n**What we have:**\n- Current price: $0.25\n- 10-day performance: down 14.9% (from $0.29)\n- 7-day change: -7.5%\n- 14-day RSI: 41.4 (below 50, suggesting weakness but not extreme oversold)\n- Volume ratio: 1.03x (relatively normal)\n- On-chain sentiment"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf7d_ADAUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 42.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze the available data for predicting ADA price 7 days from now (2026-02-14):\n\n**Bearish signals:**\n- Down 24.1% over 10 days (strong downtrend)\n- 7-day change: -7.3% (continued weakness)\n- RSI 30.2 (oversold territory, typically <30)\n- Mixed on-chain sentiment (no bullish convict"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf30d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 62.0,
+  "stake": 58.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze what we know:\n\n**Current state (2026-02-01):**\n- Price: $76,968.21\n- 10-day decline: -14.1%\n- 7-day decline: -11.2%\n- RSI: 15.6 (extremely oversold, typically <30 is oversold)\n- Volume ratio: 1.58x (elevated, suggests capitulation or reversal interest)\n- On-chain sentiment: mi"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf7d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 62.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze the available data:\n\n**Bearish signals:**\n- Down 14.1% over 10 days (strong downtrend)\n- 7-day change: -11.2% (continued weakness)\n- RSI 14-day at 15.6 (extremely oversold, typically <30 is oversold)\n- On-chain sentiment: mixed (not supportive)\n\n**Potentially bullish signals:*"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf30d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze what we know and don't know:\n\n**Known factors:**\n- Current price: $2,270.15\n- Sharp 23.1% decline over 10 days\n- 7-day change: -19.4% (continuing downtrend)\n- RSI 14: 16.8 (extremely oversold, typically <30 is oversold)\n- Volume ratio 1.64x (elevated volume, suggests convictio"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf7d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 62.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze the available data for predicting Ethereum's price 7 days from now (2026-02-08):\n\n**Bearish signals:**\n- Down 23.1% over 10 days (strong downtrend)\n- Down 19.4% over 7 days (continued weakness)\n- RSI of 16.8 is extremely oversold (below 30 = oversold territory)\n- Mixed on-chai"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf30d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 42.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze what we know and don't know:\n\n**What we have:**\n- Current price: $100.79\n- Recent sharp decline: -21.5% over 10 days, -15.2% over 7 days\n- RSI at 14.7: extremely oversold (typically <30 is oversold, <20 is severely oversold)\n- Volume ratio 1.51x: elevated volume on recent move"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf7d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 62.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze what we know:\n\n**Bearish signals:**\n- Down 21.5% over 10 days (strong downtrend)\n- 7-day change: -15.2% (continued weakness)\n- RSI 19.7 (extremely oversold, typically <30)\n- On-chain sentiment: mixed (not supportive)\n\n**Potentially bullish signals:**\n- Volume ratio 1.51x (elev"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf30d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 58.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze what we know:\n\n**Current state:**\n- Price: $758.54\n- Down 14.6% over 10 days\n- Down 12.4% over 7 days\n- RSI 14: 17.1 (extremely oversold, <30 is oversold territory)\n- Volume ratio: 1.58x (elevated, suggests capitulation selling)\n- On-chain sentiment: mixed\n\n**What this tells u"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf7d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 58.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze the available data for BNB on 2026-02-01:\n\n**Bearish signals:**\n- Down 14.6% over 10 days\n- 7-day change: -12.4% (strong downtrend)\n- RSI 14: 17.1 (extremely oversold, typically <30 is oversold)\n- On-chain sentiment: mixed (not supportive)\n\n**Potentially bullish signals:**\n- V"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf30d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 42.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze what we know and don't know:\n\n**What we have:**\n- Current price: $1.59\n- Recent downtrend: -17.3% over 10 days, -13.3% over 7 days\n- RSI 14: 20.4 (extremely oversold, typically <30 is oversold)\n- Volume ratio: 1.67x (elevated, suggests capitulation or renewed interest)\n- On-ch"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf7d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 48.0,
+  "stake": 35.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze the available data for XRP on 2026-02-01:\n\n**Bearish signals:**\n- Down 17.3% over 10 days (strong downtrend)\n- 7-day change: -13.3% (continued weakness)\n- RSI 14-day: 20.4 (extremely oversold, typically <30 is oversold)\n- On-chain sentiment: mixed (not supportive)\n\n**Potential"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf30d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 52.0,
+  "stake": 35.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze what we know and don't know:\n\n**What we have:**\n- Current price: $0.29\n- Recent downtrend: -20.5% over 10 days, -15.7% over 7 days\n- RSI 22.8 (oversold territory, typically <30)\n- Volume ratio 1.49x (elevated, suggests conviction in selling)\n- On-chain sentiment: mixed (neutra"
+ },
+ {
+  "model": "anthropic/claude-haiku-4.5",
+  "id": "cf7d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 52.0,
+  "stake": 35.0,
+  "commit": 0,
+  "raw": "<think>\nLet me analyze what we know about Cardano's price trajectory and technical indicators:\n\n**Bearish signals:**\n- Down 20.5% over 10 days (strong downtrend)\n- 7-day change: -15.7% (continued weakness)\n- RSI 22.8 (deeply oversold, typically <30)\n- On-chain sentiment: mixed (not supportive)\n\n**Po"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf30d_BTCUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 56.0,
+  "stake": 18.0,
+  "commit": 0,
+  "raw": "<think>Short-term market direction 30 days out is inherently uncertain, but the provided indicators do give some probabilistic signal. BTC is down sharply over 10 days, RSI 31.5 suggests near-oversold conditions that can support a rebound, but low volume ratio and mixed on-chain sentiment weaken con"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf7d_BTCUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 18.0,
+  "commit": 0,
+  "raw": "<think>Short-horizon crypto direction is inherently noisy, but the provided signals do contain some predictive information. BTC is sharply oversold (14-day RSI 27.4), down hard over 7d and 10d, with elevated volume (2.01x) suggesting capitulation/panic selling and potential mean reversion over the n"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf30d_ETHUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 56.0,
+  "stake": 18.0,
+  "commit": 0,
+  "raw": "<think>Short-term signals are mildly mean-reversion bullish: 14-day RSI at 29.2 is oversold, suggesting bounce potential; however 10-day trend is clearly down, 7-day still slightly negative, volume is subdued at 0.60x so reversal conviction is weak, and on-chain sentiment is mixed. Over a 30-day hor"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf7d_ETHUSDT_2026-02-19_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 48.0,
+  "stake": 12.0,
+  "commit": 0,
+  "raw": "<think>Only limited, noisy indicators are provided for a 7-day ahead crypto price move. Slightly positive RSI and flat 7-day change are offset by weak 10-day trend, low volume, and mixed sentiment. This is not determinable with certainty, but a probabilistic forecast is still possible. Edge over cha"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf30d_SOLUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 56.0,
+  "stake": 18.0,
+  "commit": 0,
+  "raw": "<think>Short-term crypto direction is not determinable with high reliability from limited snapshot data, but the user asks whether the 30-day higher/lower outcome is determinable from what is given. We can still form a probabilistic forecast from oversold RSI and recent drawdown, tempered by weak vo"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf7d_SOLUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 18.0,
+  "commit": 0,
+  "raw": "<think>Short-horizon crypto direction is inherently uncertain, but given the supplied indicators there is at least some predictive signal: very sharp recent selloff, RSI 25.9 (oversold), and elevated volume suggest capitulation/rebound odds somewhat above 50%, though trend remains strongly down and "
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf30d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 18.0,
+  "commit": 0,
+  "raw": "<think>Short-horizon crypto direction is uncertain, but the provided data does support a probabilistic call. BNB is deeply oversold (RSI 19.3) after a sharp 10-day drawdown, which modestly favors a 30-day rebound above current price. However, weak volume and mixed sentiment reduce conviction. So thi"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf7d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 22.0,
+  "commit": 0,
+  "raw": "<think>Short-horizon crypto direction is uncertain, but the provided signals do offer some edge: sharp 10-day drawdown, very low RSI (19.3) suggesting oversold conditions, and mixed sentiment with below-average volume. Oversold often supports a short-term rebound, though weak volume reduces convicti"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf30d_XRPUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 44.0,
+  "stake": 18.0,
+  "commit": 0,
+  "raw": "<think>Short-horizon crypto direction is inherently uncertain, but the provided indicators do allow a probabilistic estimate. XRP is in short-term downtrend (-10.9% in 10d, -4.3% in 7d), weak volume (0.64x) suggests limited buying interest, and sentiment is mixed. RSI 33.8 is near oversold, which mo"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf7d_XRPUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 18.0,
+  "commit": 0,
+  "raw": "<think>Short-term direction is uncertain, but the provided data does support a modest probabilistic lean. XRP is deeply oversold (14d RSI 29.9), down sharply over 10 days and 7 days, and volume is elevated at 2.03x, which often accompanies capitulation and raises odds of a short-term bounce within 7"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf30d_ADAUSDT_2026-03-27_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Given only a short recent price path, RSI, volume ratio, and mixed sentiment, a 30-day directional forecast for ADA is not determinable with reliable edge. Crypto is highly sensitive to unprovided market, macro, regulatory, BTC correlation, and news factors. Slight bearish drift exists, but n"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf7d_ADAUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Short-term crypto direction is not determinable with reliability from only recent price change, RSI, volume ratio, and mixed sentiment. These features may hint at oversold/bounce potential, but 7-day outcomes remain highly noisy and depend on missing market-wide catalysts and BTC context. The"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf30d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Short-horizon crypto direction is not determinable from only a few technical and sentiment inputs; despite oversold RSI and sharp drop suggesting possible rebound, 30-day outcome depends on substantial missing information and randomness. There is some weak directional signal, but not enough t"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf7d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Short-horizon BTC direction is not determinable from the provided snapshot alone. The data suggest oversold/possible bounce (RSI 15.6, elevated volume after sharp drop), but 7-day crypto moves are highly path-dependent and need broader context like macro/news/derivatives/liquidity. Any estima"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf30d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 18.0,
+  "commit": 0,
+  "raw": "<think>Short-term crypto direction is never determinable with certainty, but the prompt asks whether it is sufficiently inferable from supplied market state. Given a 23% drawdown in 10 days, 7-day change -19.4%, extremely oversold RSI 16.8, and elevated volume 1.64x, there is evidence of capitulatio"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf7d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 61.0,
+  "stake": 22.0,
+  "commit": 0,
+  "raw": "<think>Short-term direction is uncertain, but the provided signals allow a probabilistic forecast: ETH is deeply oversold (RSI 16.8) after a sharp 10-day/7-day drawdown, with elevated volume suggesting capitulation and increased chance of a short-term mean-reversion bounce. Mixed on-chain sentiment "
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf30d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Short-term crypto direction over 30 days is not determinable from the limited snapshot alone. The data suggest oversold conditions (RSI 19.7, sharp drawdown, elevated volume) which can increase rebound odds, but mixed sentiment and missing broader market/macro/news context make any forecast h"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf7d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 14.0,
+  "commit": 0,
+  "raw": "<think>Short-horizon crypto direction is inherently uncertain, but the provided signals allow a probabilistic estimate. Solana is deeply oversold (RSI 19.7) after a sharp 10-day drop with elevated volume, which often increases odds of a short-term mean-reversion bounce over the next week. Mixed on-c"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf30d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 56.0,
+  "stake": 18.0,
+  "commit": 0,
+  "raw": "<think>Short-term crypto direction over 30 days is not determinable from this limited snapshot. The data suggests oversold conditions (RSI 17.1, sharp drawdown, elevated volume) which could imply bounce odds above 50%, but many missing drivers remain and 30-day price is highly uncertain. I can form "
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf7d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 24.0,
+  "commit": 0,
+  "raw": "<think>Sharp short-term selloff, extremely oversold RSI (17.1), and elevated volume suggest capitulation/bounce conditions, which modestly increase odds of a 7-day rebound versus further decline. But 7-day price direction is still uncertain with mixed sentiment and limited context, so only a small e"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf30d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 14.0,
+  "commit": 0,
+  "raw": "<think>Short-term market direction 30 days out is inherently uncertain, but the provided indicators do allow a probabilistic judgment. XRP is sharply down over 7\u201310 days, RSI 20.4 is deeply oversold, and volume is elevated, which often supports at least a reflex rebound over the next month. Mixed on"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf7d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Short-term direction is not determinable with confidence from only recent price drop, RSI oversold, elevated volume, and mixed sentiment. These suggest a possible bounce, but 7-day crypto moves are highly noisy and missing broader market, news, and order-flow context. There is some slight pre"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf30d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 18.0,
+  "commit": 0,
+  "raw": "<think>Short-term crypto direction is inherently uncertain, but the provided indicators do support a modest probabilistic lean rather than total indeterminacy: ADA is deeply oversold (RSI 22.8) after a sharp 10-day/7-day drawdown, with elevated volume suggesting capitulation or strong activity. Mixe"
+ },
+ {
+  "model": "openai/gpt-5.4",
+  "id": "cf7d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 16.0,
+  "commit": 0,
+  "raw": "<think>Short-horizon crypto direction is inherently uncertain, but the provided indicators allow a probabilistic estimate. ADA is sharply down over 7-10 days, RSI 22.8 is deeply oversold, and volume is elevated, which modestly favors a 7-day relief bounce despite negative momentum and mixed sentimen"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf30d_BTCUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 44.0,
+  "stake": 35.0,
+  "commit": 0,
+  "raw": "<think>We can\u2019t know a future BTC price with certainty from the provided indicators, but the question is still answerable probabilistically using the given trend/technical data. Current momentum is weak (down 9.1% over 10d, RSI 31.5, low volume ratio, mixed sentiment), which slightly favors downside"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf7d_BTCUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 42.0,
+  "stake": 54.0,
+  "commit": 0,
+  "raw": "DECISION: ANSWER\nPROBABILITY_YES: 42\nALLOCATE_PCT: 54\nEDGE_CONFIDENCE: 18"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf30d_ETHUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>We only have recent price/technical context, not future market information. A 30-day higher/lower outcome is not determinable from the given data; at best it supports a probabilistic guess, not a reliable decision.</think>\nDECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf7d_ETHUSDT_2026-02-19_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>We have only recent price/volume/RSI/on-chain sentiment, which can inform a probabilistic forecast but cannot determine the exact 7-day future price. This is a genuine uncertain market outcome, so I should decline rather than pretend determinism.</think>\nDECISION: DECLINE\nPROBABILITY_YES: NA\n"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf30d_SOLUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Given only recent price momentum, RSI, volume, and mixed sentiment, a 30-day future price is not determinable with high confidence. I can estimate directionality, but not know it. </think>\nDECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 18"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf7d_SOLUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Given the strong recent downtrend, oversold RSI, and elevated volume, a short-term rebound is somewhat plausible, but the direction in 7 days is still inherently uncertain and not determinable from the provided data alone.</think>\nDECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CO"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf30d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 62.0,
+  "commit": 0,
+  "raw": "<think>We can make a probabilistic forecast from the provided technical/contextual data, but it is not deterministically knowable. Given the sharp recent decline, very low RSI, and below-average volume, a rebound over 30 days is plausible but still uncertain. I\u2019d lean slightly above 50/50 for a high"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf7d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Given the strong recent downtrend and very oversold RSI, there is some bounce potential, but 7-day directional price prediction remains uncertain and not determinable from the provided data alone.</think>\nDECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 10"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf30d_XRPUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 42.0,
+  "stake": 58.0,
+  "commit": 0,
+  "raw": "DECISION: ANSWER\nPROBABILITY_YES: 42\nALLOCATE_PCT: 58\nEDGE_CONFIDENCE: 18"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf7d_XRPUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 54.0,
+  "stake": 18.0,
+  "commit": 0,
+  "raw": "<think>Given the strong recent downtrend, oversold RSI near 30, and elevated volume, a rebound over 7 days is plausible but far from certain. This is still a probabilistic market question, so I can estimate rather than determine exactly.</think>\nDECISION: ANSWER\nPROBABILITY_YES: 54\nALLOCATE_PCT: 18\n"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf30d_ADAUSDT_2026-03-27_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>We only have recent price/momentum, RSI, volume, and sentiment. That is not enough to know the exact price 30 days out; future crypto pricing is inherently uncertain and missing major drivers/news. I can only give a rough probabilistic guess, not a determinable answer.</think>\nDECISION: DECLI"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf7d_ADAUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 44.0,
+  "stake": 55.0,
+  "commit": 0,
+  "raw": "<think>The future 7-day price is not determinable from the limited indicators provided; at best we can estimate a probabilistic lean from oversold momentum and elevated volume, but not know it. I\u2019d lean slightly bearish-to-mixed rather than a confident yes.</think>\nDECISION: ANSWER\nPROBABILITY_YES: "
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf30d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 44.0,
+  "stake": 58.0,
+  "commit": 0,
+  "raw": "<think>We can\u2019t know the future price with certainty from the provided indicators, but it is still a forecastable question with some edge from the recent oversold/volume signals. I\u2019d answer rather than decline, with a bearish-but-not-extreme probability and modest commitment.</think>\nDECISION: ANSWE"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf7d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 56.0,
+  "stake": 42.0,
+  "commit": 0,
+  "raw": "DECISION: ANSWER\nPROBABILITY_YES: 56\nALLOCATE_PCT: 42\nEDGE_CONFIDENCE: 14"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf30d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 38.0,
+  "stake": 35.0,
+  "commit": 0,
+  "raw": "DECISION: ANSWER\nPROBABILITY_YES: 38\nALLOCATE_PCT: 35\nEDGE_CONFIDENCE: 18"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf7d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 56.0,
+  "commit": 0,
+  "raw": "<think>Given the strong recent downtrend and deeply oversold RSI, a short-term rebound is plausible, but 7-day direction is still highly uncertain from the limited data. I can form a probabilistic view, not a deterministic one.</think>\nDECISION: ANSWER\nPROBABILITY_YES: 58\nALLOCATE_PCT: 56\nEDGE_CONFI"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf30d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 54.0,
+  "stake": 18.0,
+  "commit": 0,
+  "raw": "<think>There is enough market data to make a probabilistic forecast, but not to know for sure. The sharp recent decline, oversold RSI, and elevated volume suggest a rebound is plausible, though on-chain sentiment is mixed and price direction in 30 days remains uncertain. I can estimate a probability"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf7d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 44.0,
+  "stake": 35.0,
+  "commit": 0,
+  "raw": "<think>Given the strong recent downtrend and very low RSI (oversold), there is some rebound potential, but 7-day direction is still inherently uncertain. The provided indicators are enough to make a probabilistic forecast, not a deterministic one.</think>\nDECISION: ANSWER\nPROBABILITY_YES: 44\nALLOCAT"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf30d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 54.0,
+  "commit": 0,
+  "raw": "<think>We can make a probabilistic forecast from the provided price momentum, RSI, and volume, but we cannot know the future deterministically. The strong oversold RSI and elevated volume suggest a rebound is plausible, yet the recent downtrend and mixed sentiment keep it highly uncertain. This is a"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf7d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 39.0,
+  "stake": 62.0,
+  "commit": 0,
+  "raw": "<think>Given the strong short-term downtrend, extremely low RSI, and elevated volume, a rebound is plausible but still uncertain. The question is inherently forecast-based, but the provided indicators are enough to make a probabilistic call rather than decline.</think>\nDECISION: ANSWER\nPROBABILITY_Y"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf30d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Given only recent price action, RSI, volume, and mixed sentiment, a 30-day future XRP price is not determinable with high confidence. I can make a weak directional guess, but not a reliable forecast from the provided info alone.</think>\nDECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nE"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf7d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>Given the strong recent downtrend, very low RSI, and elevated volume, a short-term rebound is plausible, but the exact 7-day price is still uncertain and not determinable from the provided data alone.</think>\nDECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 18"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf30d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 60.0,
+  "commit": 0,
+  "raw": "DECISION: ANSWER\nPROBABILITY_YES: 58\nALLOCATE_PCT: 60\nEDGE_CONFIDENCE: 58"
+ },
+ {
+  "model": "openai/gpt-5.4-mini",
+  "id": "cf7d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 42.0,
+  "stake": 40.0,
+  "commit": 0,
+  "raw": "<think>Given only recent price momentum, oversold RSI, elevated volume, and mixed sentiment, I can estimate but not deterministically know the 7-day future price. This is a probabilistic market forecast, so it is answerable as a prediction rather than a deterministic fact.</think>\nDECISION: ANSWER\nP"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf30d_BTCUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf7d_BTCUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<thought\nThe question asks for a prediction of Bitcoin's price 7 days into the future (from 2026-02-07 to 2026-02-14). Future price movements of highly volatile financial assets like Bitcoin are inherently non-deterministic and cannot be determined from past technical indicators alone, as they depen"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf30d_ETHUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf7d_ETHUSDT_2026-02-19_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf30d_SOLUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf7d_SOLUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf30d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf7d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf30d_XRPUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf7d_XRPUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf30d_ADAUSDT_2026-03-27_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf7d_ADAUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf30d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf7d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf30d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf7d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "An analysis of the provided data shows that while Ethereum (ETHUSDT) is currently in an extremely oversold condition (14-day RSI of 16.8) with high capitulation-like volume (1.64x), predicting the exact direction of a highly volatile cryptocurrency 7 days into the future is inherently uncertain. Bec"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf30d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf7d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "30 is normal, RSI < 20 is extremely oversold, suggesting a strong probability of a bounce.\nProbability of YES: 60%\nEdge confidence:"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf30d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf7d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf30d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf7d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf30d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemini-3.5-flash",
+  "id": "cf7d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "DECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 0"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf30d_BTCUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows a strong downward trend (down 9.1% over 10 days), a low RSI (31.5) suggesting it is approaching oversold territory, and low volume (0.70x). While these are technical indicators, predicting the exact price of a volatile asset like Bitcoin 30 days into the future is fun"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf7d_BTCUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 65.0,
+  "stake": 40.0,
+  "commit": 1,
+  "raw": "<think>\nThe data shows a strong downward trend (-22.4% over 10 days, -12% over 7 days). However, the 14-day RSI is 27.4, which is typically considered \"oversold\" (below 30), often signaling a potential bounce or reversal. The volume ratio is high (2.01x), indicating strong activity/selling pressure."
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf30d_ETHUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 58.0,
+  "stake": 15.0,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows a strong bearish trend (down 8.3% over 10 days) and a 14-day RSI of 29.2, which indicates the asset is in \"oversold\" territory. Typically, an RSI below 30 suggests a potential price bounce or reversal in the short-to-medium term. However, the volume ratio is low (0.60"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf7d_ETHUSDT_2026-02-19_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data includes current price, short-term trends (10-day down, 7-day flat), RSI (neutral/slightly bullish at 57.8), low volume ratio (0.55x indicating decreasing interest), and mixed sentiment. None of these indicators provide a deterministic or high-probability prediction for a s"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf30d_SOLUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 65.0,
+  "stake": 40.0,
+  "commit": 1,
+  "raw": "<think>\nThe data shows a strong downward trend (down 13.9% in 10 days), but the 14-day RSI is 26.6, which is deep in \"oversold\" territory (typically <30). Oversold conditions often precede a technical bounce or trend reversal. However, volume is declining (0.72x), and sentiment is mixed. While techn"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf7d_SOLUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe data shows a strong downward trend (-30.1% over 10 days, -17% over 7 days). However, the 14-day RSI is 25.9, which is deep in \"oversold\" territory (typically <30), suggesting a potential price bounce or stabilization. The volume ratio is increasing (1.67x), indicating high activity/capit"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf30d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 65.0,
+  "stake": 40.0,
+  "commit": 1,
+  "raw": "<think>\nThe data shows a strong downward trend (down 18% in 10 days), but the 14-day RSI is 19.3, which is deeply oversold (typically <30). Oversold conditions often precede a technical bounce or trend reversal. However, the volume ratio is low (0.66x), and sentiment is mixed, suggesting a lack of s"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf7d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 65.0,
+  "stake": 20.0,
+  "commit": 1,
+  "raw": "<think>\nThe asset (BNB) is in a strong downtrend (down 18% in 10 days). However, the 14-day RSI is 19.3, which is deeply oversold (typically <30). Oversold conditions often precede a technical bounce or consolidation. Volume is declining (0.66x), suggesting the selling pressure may be exhausting. Wh"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf30d_XRPUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows a short-term downtrend (down 10.9% over 10 days) and a low RSI (33.8), which often suggests an oversold condition and a potential for a bounce. However, the volume ratio is low (0.64x), indicating a lack of strong buying momentum, and sentiment is mixed. Predicting a "
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf7d_XRPUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 55.0,
+  "stake": 10.0,
+  "commit": 0,
+  "raw": "<think>\nThe data shows a strong downward trend (-25.5% over 10 days, -13.6% over 7 days). However, the 14-day RSI is 29.9, which is typically considered \"oversold\" (below 30), suggesting a potential price bounce or reversal. The volume ratio is high (2.03x), indicating increased activity during this"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf30d_ADAUSDT_2026-03-27_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data includes current price, short-term price trends (10d, 7d), RSI, volume ratio, and sentiment. However, predicting a specific price movement 30 days into the future for a volatile cryptocurrency asset based solely on these lagging indicators and a \"mixed\" sentiment is specula"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf7d_ADAUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe data shows a strong downward trend (-24.1% over 10 days) and a bearish 7-day change. However, the 14-day RSI is at 30.2, which is approaching \"oversold\" territory (typically <30), suggesting a potential for a relief bounce or reversal. The volume ratio is increasing (1.85x), indicating h"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf30d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe data shows a strong downward trend (-14.1% over 10 days) but a very low 14-day RSI of 15.6. An RSI below 30 is typically considered \"oversold,\" which often precedes a technical bounce or reversal. However, predicting the exact price 30 days into the future for a volatile asset like Bitco"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf7d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 65.0,
+  "stake": 20.0,
+  "commit": 1,
+  "raw": "<think>\nThe data shows a strong downward trend (down 14.1% in 10 days) but a very low 14-day RSI of 15.6. An RSI below 30, and especially below 20, typically indicates an \"oversold\" condition, which often precedes a technical bounce or trend reversal. The volume ratio is increasing (1.58x), suggesti"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf30d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": ""
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf7d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 65.0,
+  "stake": 20.0,
+  "commit": 1,
+  "raw": "<think>\nThe data shows a strong downward trend (down 23.1% in 10 days) but an extremely low 14-day RSI of 16.8. An RSI below 30, and especially below 20, typically indicates an \"oversold\" condition, which often precedes a technical bounce or mean reversion. The volume ratio is increasing (1.64x), su"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf30d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 65.0,
+  "stake": 20.0,
+  "commit": 1,
+  "raw": "<think>\nThe data shows a strong downward trend (-21.5% over 10 days) but a very low 14-day RSI of 19.7, which typically indicates an \"oversold\" condition. An RSI below 30 often precedes a technical bounce or trend reversal. However, price action in crypto is highly volatile and influenced by externa"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf7d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 65.0,
+  "stake": 20.0,
+  "commit": 1,
+  "raw": "<think>\nThe asset is in a strong downtrend (-21.5% over 10 days). However, the 14-day RSI is 19.7, which is deeply oversold (typically <30). Volume is increasing (1.51x), suggesting a potential climax or accumulation phase. While the trend is bearish, the extreme RSI suggests a high probability of a"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf30d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 65.0,
+  "stake": 20.0,
+  "commit": 1,
+  "raw": "<think>\nThe data shows a strong short-term downtrend (-14.6% over 10 days), but the 14-day RSI is 17.1, which is deeply oversold (typically <30). An RSI of 17.1 often precedes a technical bounce or trend reversal. Additionally, the volume ratio is increasing (1.58x), suggesting high activity/capitul"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf7d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 65.0,
+  "stake": 20.0,
+  "commit": 1,
+  "raw": "<think>\nThe data shows a strong downward trend (down 14.6% over 10 days), but the 14-day RSI is 17.1, which is deeply oversold (typically <30). An RSI of 17.1 often precedes a technical bounce or mean reversion. The volume ratio is increasing (1.58x), suggesting high activity/capitulation. While the"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf30d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe data shows a strong downward trend (down 17.3% over 10 days) but a very low 14-day RSI of 20.4, which typically indicates an \"oversold\" condition. An RSI below 30 often precedes a price correction or bounce. Additionally, the volume ratio is increasing (1.67x), suggesting high activity d"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf7d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 65.0,
+  "stake": 40.0,
+  "commit": 1,
+  "raw": "<think>\nThe data shows a strong downward trend (-17.3% over 10 days, -13.3% over 7 days). However, the 14-day RSI is 20.4, which is deep in \"oversold\" territory (typically <30), suggesting a high probability of a technical bounce or mean reversion in the short term. The volume ratio is increasing (1"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf30d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe data provides a strong bearish trend (down 20.5% in 10 days) but also a very low 14-day RSI (22.8), which typically indicates an \"oversold\" condition and a potential for a mean-reversion bounce. Volume is increasing (1.49x), suggesting high activity. However, predicting a price 30 days o"
+ },
+ {
+  "model": "google/gemma-4-31b-it",
+  "id": "cf7d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe data shows a strong downward trend (down 20.5% in 10 days, -15.7% in 7 days). However, the 14-day RSI is 22.8, which is deep in \"oversold\" territory (typically <30), often signaling a potential bounce or reversal. The volume ratio is increasing (1.49x), suggesting higher activity. Despit"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf30d_BTCUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data (recent price action, RSI, volume ratio, mixed on-chain sentiment) offers no reliable basis for forecasting the exact price direction 30 days forward; BTC moves are driven by many unobservable future events and remain inherently uncertain.\n</think>\n\nDECISION: DECLINE\nPROBAB"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf7d_BTCUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows a sharp recent decline and oversold RSI, but crypto prices remain driven by unpredictable external factors (news, macro events, sentiment shifts) not captured here. No model or indicator set can deterministically forecast a 7-day directional move from this alone; outc"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf30d_ETHUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nLimited technical snapshot (RSI oversold, weak volume, mixed sentiment) cannot overcome crypto's high randomness and unobservable drivers over a 30-day horizon; outcome is genuinely indeterminate. </think>\n\nDECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\nEDGE_CONFIDENCE: 5"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf7d_ETHUSDT_2026-02-19_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think> The provided data includes recent price changes, RSI, volume, and mixed sentiment, but these are insufficient to predict future price direction with any reliability due to market volatility, external events, and inherent unpredictability in crypto prices over short periods like 7 days. No mo"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf30d_SOLUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe data shows short-term technicals (oversold RSI, declining price/volume) but crypto prices 30 days out are dominated by unpredictable external factors (news, regulation, macro events, sentiment shifts) not captured here. No basis for a reliable directional forecast exists.\n</think>\nDECISI"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf7d_SOLUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nFuture crypto price in 7 days depends on unpredictable external events, news, macro factors, and random market noise not captured in the given snapshot. Technical signals (oversold RSI, volume) hint at possible mean-reversion but supply no deterministic edge; outcome remains genuinely indete"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf30d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows recent price decline and oversold conditions but offers no basis to forecast net direction over a full 30-day horizon. Crypto prices are driven by innumerable external events, sentiment shifts, and macro factors absent from the snapshot; therefore the outcome is not d"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf7d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data consists only of backward-looking metrics (recent price changes, RSI, volume ratio, mixed sentiment). No forward-looking catalysts, macro factors, or predictive model outputs are given. Short-term crypto prices are dominated by unpredictable noise; even an oversold RSI offe"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf30d_XRPUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data consists only of short-term technicals and mixed sentiment with no fundamentals, catalysts, macro factors, or forward-looking info. Crypto prices over 30 days are dominated by unpredictable variables, so the outcome is not determinable from what is given.</think>\n\nDECISION:"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf7d_XRPUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows technical signals (oversold RSI, elevated volume) but crypto prices are driven by unpredictable external factors (news, macro events, sentiment shifts) not captured here. Future direction over 7 days therefore contains irreducible randomness and missing information, m"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf30d_ADAUSDT_2026-03-27_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe data shows only short-term price action, neutral RSI, flat volume, and mixed sentiment. Crypto prices 30 days forward are driven by many external random factors (news, macro, BTC correlation, etc.) absent from the inputs, so the outcome is not determinable.\n</think>\nDECISION: DECLINE\nPRO"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf7d_ADAUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nFuture crypto price in 7 days depends on countless unprovided factors (macro events, BTC moves, news, order flow). Technicals like RSI 30.2 and volume spike give hints but cannot determine outcome; randomness dominates. Hence DECLINE.</think>\n\nDECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_P"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf30d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows recent oversold conditions and volume spike but includes no fundamentals, macro drivers, news/events, or forward-looking catalysts. 30-day BTC moves are dominated by unpredictable external factors, so the outcome is not determinable from the given inputs.\n</think>\nDEC"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf7d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nFuture BTC price in 7 days cannot be determined from the given snapshot of past price action, RSI, volume, and mixed on-chain data; too many external random factors (news, macro events, order flow) remain unknown. Hence DECLINE.</think>\nDECISION: DECLINE\nPROBABILITY_YES: NA\nALLOCATE_PCT: NA\n"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf30d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows a sharp recent decline and oversold conditions but offers no basis for a reliable 30-day forecast. Crypto prices depend on countless external, unpredictable factors (news, macro events, sentiment shifts) not captured here. Thus, the outcome is not determinable from th"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf7d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data consists entirely of historical/current metrics (price levels, RSI, volume ratio, sentiment label). No forward-looking deterministic signals, catalysts, or exhaustive variables are given that could fix the outcome 7 days ahead. Crypto prices remain subject to unpredictable "
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf30d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows recent price action and a few technicals (oversold RSI, elevated volume), but 30-day forward price direction in crypto depends on countless unmentioned variables (macro events, news, BTC correlation, sentiment shifts, etc.). No model or dataset here can reliably forec"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf7d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nFuture price in 7 days cannot be determined from the given snapshot alone; markets contain irreducible randomness, external news, and order-flow shocks not captured here. Technical signals (oversold RSI, volume spike) hint at possible mean-reversion but supply no deterministic edge. Hence DE"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf30d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows recent price action and technical indicators but offers no insight into future catalysts or market dynamics that would determine the price in 30 days. Crypto prices are inherently unpredictable over such horizons with the given information.\n</think>\nDECISION: DECLINE\n"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf7d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows a sharp recent decline and deeply oversold RSI, but short-term crypto price direction remains dominated by random noise, external events, and order-flow not captured here. No deterministic forecast is possible from the given snapshot alone. </think>\n\nDECISION: DECLINE"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf30d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe data shows short-term technicals (oversold RSI, volume spike) but no model, fundamentals, or forward-looking inputs sufficient to forecast a binary outcome 30 days ahead in a volatile asset class. Future events (news, macro, adoption) are missing and dominant, so genuinely not determinab"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf7d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows oversold conditions (RSI 20.4) and elevated volume, which can hint at mean-reversion potential, but 7-day crypto price direction remains dominated by unobservable random shocks, news flow, and order-flow noise not captured in the snapshot. No model or indicator set ca"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf30d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think> The provided data shows recent declines and oversold conditions, but 30-day crypto price prediction involves too many unpredictable variables like news events, macroeconomic factors, and market sentiment shifts not captured here. Thus, not determinable. </think>\n\nDECISION: DECLINE\nPROBABILIT"
+ },
+ {
+  "model": "x-ai/grok-4.3",
+  "id": "cf7d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows recent downside momentum and oversold conditions but offers no basis to determine the exact price outcome 7 days ahead, as crypto prices depend on unpredictable external factors. This falls under genuinely non-determinable. </think>\n\nDECISION: DECLINE\nPROBABILITY_YES:"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf30d_BTCUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows a recent downtrend (-9.1% in 10 days), low RSI (31.5, indicating oversold), and reduced volume, with mixed on-chain sentiment. While this suggests a possible short-term bounce, 30-day price direction for BTC remains highly random and influenced by countless unseen fac"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf7d_BTCUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows BTC down sharply (22% in 10 days, 12% in 7 days) with RSI at 27.4 (deeply oversold) and elevated recent volume. While this setup often precedes short-term bounces, crypto remains highly volatile and nothing in the data gives a reliable edge on the exact 7-day directio"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf30d_ETHUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows a downtrend, low RSI (29.2, oversold), and declining volume, but \"mixed\" on-chain sentiment and no clear directional signal for the next 30 days. Crypto prices are highly volatile and influenced by many unseen factors (news, macro, flows). This is genuinely not determ"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf7d_ETHUSDT_2026-02-19_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows a recent 7.4% decline over 10 days, slightly positive 7-day change, neutral RSI (57.8), low volume ratio, and mixed on-chain sentiment. This gives no clear directional edge for the next 7 days in a volatile asset like ETH. Crypto price movement over short horizons is "
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf30d_SOLUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows a clear downtrend (13.9% drop in 10 days, 7-day -3.6%), deeply oversold RSI of 26.6, and declining volume. While this setup often precedes mean-reversion bounces in crypto, nothing in the given data allows a reliable directional forecast 30 days out. Market regime, ma"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf7d_SOLUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows a strong downtrend (-30% in 10 days, -17% in 7 days) with deeply oversold RSI (25.9) and elevated recent volume. While this setup often leads to mean-reversion bounces in crypto, the on-chain sentiment is only mixed and we have no clear catalyst, order flow, or direct"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf30d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows a sharp downtrend (-18% in 10 days), very oversold RSI (19.3), and declining volume. While this setup often precedes mean-reversion bounces in crypto, there is no reliable edge for predicting the exact direction or magnitude 30 days out. Market regime, macro factors, "
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf7d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nGiven only a single snapshot with bearish technicals (RSI 19.3 deeply oversold but still falling, 18% drop in 10 days, low volume), mixed on-chain sentiment, and no other predictive edge, direction 7 days forward is not reliably determinable. Short-term crypto moves remain noisy and random w"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf30d_XRPUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows a clear short-term downtrend (down 10.9% in 10 days, -4.3% in 7 days), low RSI of 33.8 (oversold but can stay oversold), declining volume, and only \"mixed\" on-chain sentiment. No fundamental, macroeconomic, or directional catalysts are given. Crypto prices over 30 day"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf7d_XRPUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nGiven only a single snapshot with bearish technicals (down 25% in 10d, RSI 29.9 indicating oversold but still trending down, mixed on-chain sentiment), there is no reliable way to determine the direction 7 days forward. Crypto is highly random over short horizons; the data provided does not "
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf30d_ADAUSDT_2026-03-27_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows a clear downtrend (down 14.9% in 10 days, -7.5% in 7 days), mildly oversold RSI, average volume, and mixed on-chain sentiment. This is insufficient to reliably determine the direction of the next 30 days in a volatile asset like ADA. Crypto prices are heavily influenc"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf7d_ADAUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nGiven only a single snapshot with mixed on-chain sentiment, mildly oversold RSI, recent downtrend, and elevated short-term volume, there is no clear edge or deterministic signal for the next 7 days. Crypto prices at this frequency are dominated by noise and unseen factors. Cannot reliably de"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf30d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows BTC down sharply (14% in 10 days), deeply oversold (RSI 15.6), with elevated recent volume. While this setup often precedes mean-reversion bounces, crypto remains highly volatile and 30-day direction is dominated by unpredictable macro, flows, and sentiment shifts not"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf7d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe data shows a sharp recent decline (-14.1% in 10 days, -11.2% in 7 days) with an extremely oversold RSI of 15.6, elevated short-term volume, and mixed on-chain sentiment. While this setup often precedes mean-reversion bounces in Bitcoin, nothing in the provided data gives a reliable edge "
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf30d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows a sharp recent decline (-23% in 10 days, -19% in 7 days) with extremely oversold RSI of 16.8 and elevated short-term volume. While this setup often precedes mean-reversion bounces, crypto remains highly volatile and nothing in the data (on-chain sentiment is only \"mix"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf7d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nGiven only a single current snapshot with bearish technicals (sharp 23% 10d drop, 19% 7d drop, extremely oversold 14d RSI of 16.8, elevated recent volume), mixed on-chain sentiment offers no clear directional edge. Mean-reversion is possible but not determinable with any reliability from thi"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf30d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows a sharp recent decline (-21.5% in 10 days), very oversold RSI of 19.7, and elevated short-term volume. While this setup often precedes mean-reversion bounces, crypto remains highly volatile and the on-chain sentiment is only mixed. Nothing in the data gives a reliable"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf7d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows a strong downtrend (-21.5% in 10 days, -15.2% in 7 days) with deeply oversold RSI of 19.7, elevated recent volume, and mixed on-chain sentiment. While this setup often precedes mean-reversion bounces in crypto, nothing here deterministically tells us the exact directi"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf30d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows strong bearish signals: down 14.6% in 10 days, -12.4% in 7 days, extremely oversold RSI of 17.1 (typically signals potential rebound but also confirms severe weakness), and mixed on-chain sentiment. However, crypto prices are highly volatile and influenced by countles"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf7d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nGiven only a single snapshot with bearish technicals (RSI 17.1 deeply oversold but still falling, -14.6% in 10 days, -12.4% in 7 days) plus mixed on-chain sentiment and elevated short-term volume, the direction over the next 7 days remains highly random. Mean-reversion is possible but not de"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf30d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nGiven only a single current snapshot with price, recent declines, low RSI (oversold), elevated short-term volume, and mixed on-chain sentiment, there is no reliable way to determine the direction 30 days forward. Crypto prices at this timeframe are dominated by unpredictable factors not prov"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf7d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe data shows a strong downtrend (-17% in 10 days, -13% in 7 days), deeply oversold RSI of 20.4, and elevated recent volume. While this setup often leads to mean-reversion bounces in crypto, the on-chain sentiment is only mixed and we have no catalyst, order flow, or macro information. 7-da"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf30d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nGiven only a single current snapshot with price, recent declines, low RSI (oversold), elevated short-term volume, and mixed on-chain sentiment, there is no reliable way to determine the direction 30 days forward. Crypto prices are dominated by unpredictable factors outside this data. This is"
+ },
+ {
+  "model": "x-ai/grok-4.20",
+  "id": "cf7d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows a strong downtrend (-20.5% in 10 days, -15.7% in 7 days), deeply oversold RSI of 22.8, and elevated recent volume. While this setup often precedes mean-reversion bounces in crypto, on-chain sentiment is mixed and no other decisive catalysts or order-flow data is given"
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf30d_BTCUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 45.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "Given the data provided\u2014historical price changes, RSI indicating potential oversold conditions, mixed on-chain sentiment, and volume ratios\u2014there is some basis for a probabilistic assessment. However, predicting Bitcoin's price 30 days out involves significant uncertainty due to market volatility an"
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf7d_BTCUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "The data shows Bitcoin is in a sharp downtrend (down 22.4% over 10 days, 7-day change -12.0%) with oversold conditions (14-day RSI 27.4) and elevated recent volume (volume ratio 2.01x), while on-chain sentiment is mixed. Although oversold conditions can precede a bounce, the strong downward momentum"
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf30d_ETHUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "Given the limited data (10-day price drop, slightly negative 7-day change, low RSI suggesting oversold conditions, low volume ratio, mixed on-chain sentiment, and no forward-looking fundamentals or macro context), any 30-day price forecast would rely heavily on assumed mean reversion or trend contin"
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf7d_ETHUSDT_2026-02-19_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "The data provides historical trends and indicators, but predicting the exact price direction 7 days ahead involves inherent market randomness not captured by past performance alone. While the 7-day change is slightly positive and RSI is neutral, the 10-day decline and mixed sentiment suggest uncerta"
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf30d_SOLUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "The data provided includes recent price trends, RSI indicating oversold conditions, and mixed sentiment, but predicting a specific 30-day price movement for a volatile asset like Solana based solely on 10-14 days of historical and technical data is not reliably determinable. Market movements over a "
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf7d_SOLUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "The data shows a strong recent downtrend (down 30.1% over 10 days, 7-day change -17.0%) and oversold conditions (14-day RSI 25.9), which could suggest a potential short-term bounce. However, volume is elevated (1.67x ratio) and on-chain sentiment is mixed, indicating uncertainty. While oversold RSI "
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf30d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 52.0,
+  "stake": 5.0,
+  "commit": 0,
+  "raw": "The data shows a sharply oversold condition (14-day RSI 19.3), a significant drop over 10 days (\u201118%), and current volume lower than the 20-day average, often a sign of selling exhaustion. However, predicting price direction 30 days out purely from short-term technicals and mixed sentiment is highly"
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf7d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "The data provides historical price trends, RSI, volume, and sentiment, but no forward-looking catalysts, news, or predictive models. While oversold conditions (RSI 19.3) suggest potential for a bounce, the mixed sentiment and recent downtrend introduce uncertainty. Predicting exact price movement 7 "
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf30d_XRPUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "Looking at the data, we have a clear downtrend over recent days, oversold RSI (33.8), mixed sentiment, and low volume ratio. However, predicting price direction 30 days out purely from 10\u201314 days of technical and sentiment data is highly speculative. Financial markets, especially crypto, have substa"
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf7d_XRPUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "Looking at the data, the price has been in a clear downtrend over the past 10 days (-25.5%) and 7 days (-13.6%), with a 14-day RSI of 29.9 indicating oversold conditions. The high volume ratio suggests increased selling pressure recently. While oversold conditions can sometimes precede a bounce, the"
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf30d_ADAUSDT_2026-03-27_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "The data provides historical price changes, RSI, volume, and sentiment, but these are backward-looking indicators. Predicting the price 30 days out involves numerous unpredictable factors (market news, macroeconomic shifts, crypto-specific events, regulatory changes) not captured in the given metric"
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf7d_ADAUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "The data provides historical trends, RSI, volume, and sentiment, but no forward-looking catalysts or external market factors. Price movements in crypto are highly volatile and influenced by unpredictable news, making a 7-day forecast speculative rather than determinable from past data alone.\n\nDECISI"
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf30d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "The data shows Bitcoin is in a sharp downtrend with a very low RSI (15.6) indicating extreme oversold conditions, high recent volume suggesting capitulation, and a significant drop from 10 days ago. Historically, such extreme readings often precede at least a short-term bounce or relief rally within"
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf7d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "Given the data, Bitcoin shows oversold conditions (14-day RSI 15.6) and elevated recent volume (volume ratio 1.58x), which can sometimes indicate capitulation and potential for a short-term bounce. However, the price has dropped sharply over the past 7 and 10 days, and on-chain sentiment is mixed, n"
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf30d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 65.0,
+  "stake": 60.0,
+  "commit": 1,
+  "raw": "The data shows a sharp recent decline (down 23.1% over 10 days, 7-day change -19.4%), extremely oversold RSI (14-day RSI 16.8), and elevated volume ratio (1.64x), which often signals a potential near-term bounce or reversal after such a steep drop. However, predicting the exact price direction 30 da"
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf7d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "Given the data, the question is about predicting a future price movement based on historical and technical indicators. While there are strong bearish signals (sharp recent declines, very low RSI indicating oversold conditions, mixed sentiment), predicting exact price direction over a specific 7-day "
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf30d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "The question asks for a 30-day price prediction based solely on historical data, technical indicators (like RSI), volume, and sentiment. While the data shows oversold conditions (14-day RSI 19.7) and high recent volume, predicting a specific 30-day future price direction from this limited informatio"
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf7d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "Given the data, the question asks for a price prediction 7 days into the future based solely on historical and technical indicators (price action, RSI, volume, sentiment). While there are strong oversold signals (14-day RSI 19.7, steep recent declines), predicting the exact price direction over a sp"
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf30d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "The data shows BNB is in a strong downtrend (down 14.6% over 10d, 7d -12.4%) with oversold RSI (14-day RSI 17.1) and elevated volume ratio, but on-chain sentiment is mixed. While oversold conditions can precede a bounce, predicting the exact price direction 30 days out from only 10 days of past pric"
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf7d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "The data shows strong bearish momentum (down 14.6% over 10 days, -12.4% over 7 days) and oversold conditions (14-day RSI 17.1), which can sometimes precede a short-term bounce. However, the volume ratio of 1.58x suggests elevated selling pressure recently, and on-chain sentiment is mixed, not clearl"
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf30d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "Looking at the data:  \n- Price is down sharply over 7 and 10 days (-13.3%, -17.3%).  \n- 14-day RSI is extremely oversold at 20.4, often preceding short-term bounces.  \n- Volume ratio is elevated at 1.67\u00d7, suggesting increased trading interest near lows.  \n- On-chain sentiment is mixed, not overly be"
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf7d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "**Reasoning:**  \nThe data shows a strong recent downtrend (-17.3% over 10 days, RSI deeply oversold at 20.4) and elevated volume during the decline. While oversold conditions can precede a bounce, there is no explicit catalyst or reversal signal provided, and on-chain sentiment is mixed. The future "
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf30d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "The data provides historical price trends, RSI indicating oversold conditions, and volume/sentiment metrics, but predicting a specific 30-day future price direction for a cryptocurrency involves inherent uncertainty due to market volatility, external factors, and the limited scope of the given data "
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "id": "cf7d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "The data provides historical price trends, RSI indicating oversold conditions, and volume/sentiment metrics, but future price movement depends on unpredictable market factors and external news not captured here. While indicators like low RSI might suggest a potential bounce, they don't guarantee a h"
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf30d_BTCUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nAnalyzing the given data:\n- RSI at 31.5 is near oversold territory (<30), which historically signals potential mean reversion/bounce\n- Price has dropped 9.1% in 10 days, with the 7-day decline slowing to -2.4%, suggesting selling momentum may be exhausting\n- Volume ratio of 0.70x indicates d"
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf7d_BTCUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nAnalyzing the key signals:\n1. RSI at 27.4 - firmly in oversold territory (<30). Historically, this has been a mean-reversion signal in crypto, often preceding short-term bounces within 5-10 days.\n2. Sharp decline: -22.4% in 10 days, -12% in 7 days. This aggressive selling may be exhausting.\n"
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf30d_ETHUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": ""
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf7d_ETHUSDT_2026-02-19_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": ""
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf30d_SOLUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe question asks for the price direction of Solana 30 days into the future based on short-term technical indicators (14-day RSI, 7-day price change, 5-day volume ratio) and mixed on-chain sentiment. While the 14-day RSI of 26.6 indicates the asset is currently oversold (which might suggest "
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf7d_SOLUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nAnalyzing the data:\n- RSI at 25.9 is deeply oversold (below 30), which historically suggests mean-reversion potential\n- However, the asset is in a strong downtrend (-30% in 10 days, -17% in 7 days)\n- Volume ratio 1.67x could indicate capitulation (bullish) or continued heavy selling (bearish"
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf30d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe question asks for a deterministic prediction of BNB's price 30 days into the future based on current technical indicators (RSI, volume, recent price action). While the 14-day RSI of 19.3 indicates the asset is heavily oversold and might be due for a technical bounce, and the recent price"
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf7d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": ""
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf30d_XRPUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows XRP in a short-term downtrend with declining volume and an RSI approaching oversold territory (33.8). While these technical indicators might suggest a potential short-term mean reversion or bounce, a 30-day horizon in cryptocurrency markets is highly stochastic and su"
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf7d_XRPUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": ""
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf30d_ADAUSDT_2026-03-27_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nAnalyzing the available data for Cardano (ADAUSDT):\n\n1. **Price trend**: Clear downtrend - down 14.9% over 10 days, -7.5% over 7 days. Momentum is bearish.\n2. **RSI (14-day)**: 41.4 - below 50 (bearish bias) but not oversold (<30), so no strong mean-reversion signal.\n3. **Volume ratio**: 1"
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf7d_ADAUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": ""
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf30d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": ""
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf7d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": ""
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf30d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": ""
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf7d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 65.0,
+  "stake": 60.0,
+  "commit": 1,
+  "raw": "<think>\nThe current data shows Ethereum has experienced a severe short-term drawdown, dropping 19.4% over the last 7 days and 23.1% over the last 10 days. The 14-day RSI is at 16.8, which is deeply oversold (well below the standard 30 threshold, and even below the extreme 20 threshold). Additionally"
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf30d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": ""
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf7d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": ""
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf30d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nPredicting the exact price of a cryptocurrency 30 days into the future is inherently stochastic and subject to random market movements, macroeconomic factors, and hidden information not captured by short-term technical indicators. While the 14-day RSI of 17.1 indicates the asset is heavily o"
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf7d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 65.0,
+  "stake": 55.0,
+  "commit": 1,
+  "raw": "<think>\nThe 14-day RSI is at 17.1, which is extremely oversold. Historically, such low RSI readings on major assets like BNB indicate exhausted selling pressure and a high probability of a short-term mean-reversion bounce within a 7-day window. Although the 7-day change is negative (-12.4%) and the "
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf30d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": ""
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf7d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nThe provided data shows XRP is in a strong downtrend with a deeply oversold 14-day RSI of 20.4 and elevated selling volume (1.67x ratio). While oversold conditions and high volume can sometimes indicate capitulation and a potential short-term bounce, cryptocurrency markets are highly stochas"
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf30d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nAnalyzing the data for ADAUSDT:\n\n**Bearish signals:**\n- Strong downtrend: -20.5% over 1"
+ },
+ {
+  "model": "qwen/qwen3.7-plus",
+  "id": "cf7d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think>\nAnalyzing the key signals:\n1. RSI at 22.8 is deeply oversold (below 30 threshold). Historically, RSI readings below 25 in crypto have shown mean-reversion tendencies within 7-day windows.\n2. Sharp decline (-20.5% in 10 days) suggests potential capitulation.\n3. Volume ratio 1.49x (elevated) c"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf30d_BTCUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "To determine if Bitcoin (BTCUSDT) will be priced higher 30 days from now than its current price, let's analyze the given data:\n\n- The current price is $68,853.96.\n- The price 10 days ago was $75,770.21, which is a 9.1% decrease over 10 days.\n- The 7-day change is -2.4%, indicating a recent downward "
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf7d_BTCUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 55.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "<think> The current price of Bitcoin is $69,289.38, and it has been decreasing over the past 10 days with a 22.4% drop and a 12.0% decrease over the last 7 days. The 14-day RSI is 27.4, which indicates that Bitcoin is in the oversold region. The volume ratio (5d/20d) is 2.01x, suggesting increased r"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf30d_ETHUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think> The current data shows a downward trend in Ethereum's price over the past 10 days, with a decline of 8.3%, and a relatively low 14-day RSI of 29.2, which might indicate an oversold condition. However, the on-chain sentiment is mixed, and the volume ratio is below 1, which could suggest a lac"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf7d_ETHUSDT_2026-02-19_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think> The 7-day change is +0.1%, which is a slightly positive trend, and the 14-day RSI is 57.8, indicating a neutral position, neither overbought nor oversold. However, the on-chain sentiment is mixed, and the volume ratio is relatively low at 0.55x, which might indicate a lack of strong momentum"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf30d_SOLUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think> The current data shows a downward trend in Solana's price over the last 10 and 7 days, with a relatively low 14-day RSI of 26.6, which might indicate an oversold condition. However, the on-chain sentiment is mixed, and the volume ratio is less than 1, which doesn't provide a clear bullish si"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf7d_SOLUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 55.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "<think> The current price of Solana (SOLUSDT) is $87.59, and it has been experiencing a decline, with a 30.1% drop over the past 10 days and a 17.0% decrease over the last 7 days. The 14-day RSI is 25.9, which indicates that the asset is oversold. The volume ratio (5d/20d) is 1.67x, suggesting incre"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf30d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think> The current price of BNB (BNBUSDT) is $618.94, and we have information about its recent price movements and technical indicators. The 14-day RSI is 19.3, which is considered oversold, suggesting a potential rebound. However, the on-chain sentiment is mixed, and the volume ratio is below 1, i"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf7d_BNBUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think> The current price of BNB (BNBUSDT) is $618.94, and we are asked to determine if it will be higher 7 days from now. The 7-day change is -5.8%, and the 14-day RSI is 19.3, which indicates an oversold condition. However, the on-chain sentiment is mixed, and the volume ratio is 0.66x, which does"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf30d_XRPUSDT_2026-02-13_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think> The current data shows a downward trend in XRP's price over the last 10 and 7 days, with a 14-day RSI of 33.8, which is below the neutral zone, indicating potential overselling. However, the on-chain sentiment is mixed, and the volume ratio is less than 1, suggesting lower than average tradi"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf7d_XRPUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think> The current price of XRP is $1.42, and it has been declining over the past 10 days with a 25.5% decrease and a 7-day change of -13.6%. The 14-day RSI is 29.9, which indicates that the asset might be oversold. However, the on-chain sentiment is mixed, and the volume ratio is 2.03x, which coul"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf30d_ADAUSDT_2026-03-27_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think> The provided data includes the current price, recent price changes, and some technical indicators like the RSI and volume ratio, but it lacks specific information about future market conditions, events, or trends that could significantly influence the price of Cardano (ADAUSDT) 30 days from "
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf7d_ADAUSDT_2026-02-07_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think> The current price of Cardano (ADAUSDT) is $0.27, and we have information about its recent price movements and technical indicators. The 14-day RSI is 30.2, which is considered oversold, and the volume ratio (5d/20d) is 1.85x, indicating increased recent activity. However, the on-chain sentim"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf30d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 55.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "<think> The current price of Bitcoin is $76,968.21, and it has been declining over the past 10 and 7 days, with a 14-day RSI of 15.6, which indicates an oversold condition. The volume ratio is higher than usual, and on-chain sentiment is mixed. Given this information, it's possible that the price co"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf7d_BTCUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 55.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "<think> The current price of Bitcoin is $76,968.21, and it has been decreasing over the past 10 and 7 days, with a 14-day RSI of 15.6, which indicates an oversold condition. The on-chain sentiment is mixed, and the volume ratio is higher than average. Considering these factors, there is a possibilit"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf30d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 55.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "To determine if Ethereum (ETHUSDT) will be priced higher 30 days from now than its current price, let's analyze the given data:\n\n- The current price is $2,270.15.\n- The price 10 days ago was $2,952.69, which is a 23.1% decrease over 10 days.\n- The 7-day change is -19.4%, indicating a significant rec"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf7d_ETHUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think> The current price of Ethereum is down 23.1% over the past 10 days and 19.4% over the past 7 days, indicating a strong downward trend. The 14-day RSI is 16.8, which is considered oversold, suggesting a potential bounce. However, the on-chain sentiment is mixed, and the volume ratio is 1.64x, "
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf30d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 60.0,
+  "stake": 40.0,
+  "commit": 0,
+  "raw": "<think> The current price of Solana (SOLUSDT) is $100.79, and it has been declining over the past 10 and 7 days, with a significant drop of 21.5% over 10 days. The 14-day RSI is 19.7, which indicates that the asset is oversold. However, the on-chain sentiment is mixed, and the volume ratio is higher"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf7d_SOLUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 60.0,
+  "stake": 40.0,
+  "commit": 0,
+  "raw": "<think> The current price of Solana (SOLUSDT) is $100.79, and it has been declining over the past 10 days with a 21.5% decrease and a 7-day change of -15.2%. The 14-day RSI is 19.7, which indicates an oversold condition. However, the on-chain sentiment is mixed, and the volume ratio is 1.51x, which "
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf30d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 55.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "<think> The current price of BNB (BNBUSDT) is $758.54, and we are asked to determine if it will be higher 30 days from now. The provided data includes a 14.6% decrease over the last 10 days, a 12.4% decrease over the last 7 days, and a 14-day RSI of 17.1, which indicates an oversold condition. The v"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf7d_BNBUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "DECLINE",
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think> The current price of BNB is $758.54, and it has been decreasing over the past 10 days and 7 days, with a 14-day RSI of 17.1, which is considered oversold. However, the on-chain sentiment is mixed, and the volume ratio is higher than usual. </think>\n\nDECISION: DECLINE\nPROBABILITY_YES: NA\nALLO"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf30d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 60.0,
+  "stake": 40.0,
+  "commit": 0,
+  "raw": "<think> The current price of XRP is $1.59, and it has been declining over the past 10 and 7 days, with a significant drop of 17.3% over 10 days. The 14-day RSI is 20.4, which indicates that the asset is oversold. The volume ratio is 1.67x, suggesting increased activity, and the on-chain sentiment is"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf7d_XRPUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 60.0,
+  "stake": 30.0,
+  "commit": 0,
+  "raw": "<think> The current price of XRP is $1.59, and it has been declining over the past 10 and 7 days, with a 14-day RSI of 20.4, which indicates an oversold condition. However, the on-chain sentiment is mixed, and the volume ratio is higher than average, which could be a sign of a potential reversal. </"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf30d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": "ANSWER",
+  "prob": 55.0,
+  "stake": 20.0,
+  "commit": 0,
+  "raw": "<think> The current price of Cardano (ADAUSDT) is $0.29, and it has been declining over the past 10 and 7 days, with a significant drop of 20.5% over 10 days and 15.7% over 7 days. The 14-day RSI is 22.8, which indicates that the asset is oversold. The volume ratio is 1.49x, suggesting increased act"
+ },
+ {
+  "model": "meta-llama/llama-3.3-70b-instruct",
+  "id": "cf7d_ADAUSDT_2026-02-01_thin_L2",
+  "level": "crypto-unk-L2",
+  "decision": null,
+  "prob": null,
+  "stake": null,
+  "commit": 0,
+  "raw": "<think> The current price of Cardano (ADAUSDT) is $0.29, and it has been declining over the past 10 days with a "
+ }
+]

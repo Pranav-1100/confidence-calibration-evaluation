@@ -1,6 +1,9 @@
-node_modules/
+__pycache__/
+.DS_Store
 .env
 .venv*/
-dist/
-.DS_Store
+.venv/
+*.pyc
 *.render.html
+dist/
+node_modules/

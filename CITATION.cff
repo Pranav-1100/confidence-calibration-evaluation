@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "If you use this research code or evaluation materials, please cite this repository."
-title: "Confidence Calibration Evaluation"
+title: "Calibrated Enough to Know, Not Calibrated to Act"
 authors:
   - family-names: "Aggarwal"
     given-names: "Pranav"
     email: "pranavaggarwal1100@gmail.com"
     orcid: "https://orcid.org/0009-0005-1243-0520"
-version: 1.0.0
-date-released: "2026-07-12"
+version: 2.0.0
+date-released: "2026-08-19"
 repository-code: "https://github.com/Pranav-1100/confidence-calibration-evaluation"
 keywords:
   - large language models
@@ -19,7 +19,7 @@ keywords:
 doi: 10.5281/zenodo.21325375
 preferred-citation:
   type: article
-  title: "Calibrated Enough to Know, Not Calibrated to Act: Relevant-Looking Evidence Makes LLM Agents Commit to the Unknowable"
+  title: "Calibrated Enough to Know, Not Calibrated to Act: Fabricated Evidence Makes LLM Agents Commit to the Unknowable"
   authors:
     - family-names: "Aggarwal"
       given-names: "Pranav"
