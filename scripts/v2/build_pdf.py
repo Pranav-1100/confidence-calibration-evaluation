@@ -45,6 +45,10 @@ else:
 # Figure captions are bold-led paragraphs starting "Figure N:" - tag them so they can
 # be styled small and kept with their image.
 html = re.sub(r"<p><strong>(Figure \d+:.*?)</strong>", r"<p class='caption'><strong>\1</strong>", html)
+# bind each image to the caption that follows it, so a page break cannot land between them
+html = re.sub(r"<p><strong>(Table \d+:.*?)</strong></p>", r"<p class='tcap'><strong>\1</strong></p>", html)
+html = re.sub(r"<p>(<img[^>]*>)</p>\s*(<p class='caption'>.*?</p>)",
+              r"<figure class='fig'>\1\2</figure>", html, flags=re.S)
 
 CSS = """
 @page { size: A4; margin: 20mm 20mm 18mm; @bottom-center { content: counter(page); } }
@@ -72,18 +76,30 @@ body { font-family: Charter, Georgia, 'Times New Roman', serif;
            border-bottom: 0.7px solid #999; break-after: avoid; font-weight: 700; }
 .body h3 { font-size: 10.9pt; margin: 4.5mm 0 1.8mm; break-after: avoid; font-weight: 700; }
 .body p { margin: 0 0 2.6mm; orphans: 3; widows: 3; }
+/* only a 'Table N:' lead is bound to what follows it */
+p.tcap { break-after: avoid; margin-bottom: 1.5mm; }
 .body ul, .body ol { margin: 0 0 3mm 6mm; padding-left: 4mm; }
 .body li { margin-bottom: 1.2mm; }
 strong { color: #000; font-weight: 700; }
 
 /* ---------------- figures and captions ---------------- */
+/* Bind the image to its caption without locking the pair into one unbreakable block.
+   Making the whole figure unbreakable pushed ~2.6in of blank space onto pages 10 and 14,
+   because image + ten-line caption exceeded what remained on the page. */
+figure.fig { break-inside: auto; margin: 4mm 0 5mm; }
+figure.fig img { max-width: 100%; max-height: 74mm; width: auto; display: block;
+                 margin: 0 auto 1.5mm; break-after: avoid; }
 img { max-width: 100%; display: block; margin: 4mm auto 1.5mm; break-inside: avoid; }
-p.caption { font-size: 8.9pt; line-height: 1.42; color: #333; margin: 0 6mm 5mm;
-            text-align: justify; break-before: avoid; }
+p.caption { font-size: 8.7pt; line-height: 1.4; color: #333; margin: 0 6mm 0;
+            text-align: justify; break-before: avoid; orphans: 2; widows: 2; }
+/* the front matter is its own page: the body always starts clean */
+.front { break-after: page; }
 
 /* ---------------- tables ---------------- */
 table { border-collapse: collapse; margin: 3.5mm auto 4.5mm; font-size: 8.7pt;
-        max-width: 100%; break-inside: avoid; }
+        max-width: 100%; break-inside: auto; }
+thead { display: table-header-group; }
+tr { break-inside: avoid; }
 th, td { border: 0.5px solid #aaa; padding: 1.5mm 2.4mm; text-align: center;
          line-height: 1.32; }
 th { background: #eeeeea; font-weight: 700; }
@@ -94,11 +110,11 @@ code { font-family: 'SF Mono', Menlo, Consolas, monospace; font-size: 8.3pt;
        background: #f2f2ef; padding: 0 1.5px; border-radius: 2px; }
 pre { background: #f6f6f3; border: 0.6px solid #ddd; border-radius: 3px;
       padding: 2.5mm 3mm; white-space: pre-wrap; word-wrap: break-word;
-      font-size: 8.2pt; line-height: 1.4; break-inside: avoid; margin: 3mm 0; }
+      font-size: 8.2pt; line-height: 1.4; break-inside: auto; margin: 3mm 0; }
 pre code { background: none; padding: 0; }
 blockquote { border-left: 2.5px solid #bbb; margin: 3mm 0; padding: 1.5mm 4mm;
              background: #f8f8f6; font-size: 9.2pt; break-inside: avoid; }
-hr { border: none; border-top: 0.6px solid #ccc; margin: 5mm 0; }
+hr { display: none; }   /* section headings already carry a rule; the extra line reads as a false break */
 a { color: #14396b; text-decoration: none; }
 """
 
