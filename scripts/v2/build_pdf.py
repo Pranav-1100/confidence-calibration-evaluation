@@ -46,6 +46,9 @@ else:
 # be styled small and kept with their image.
 html = re.sub(r"<p><strong>(Figure \d+:.*?)</strong>", r"<p class='caption'><strong>\1</strong>", html)
 # bind each image to the caption that follows it, so a page break cannot land between them
+def _mark_long(m):
+    return m.group(0).replace("<table>", "<table class='long'>") if m.group(0).count("<tr") > 12 else m.group(0)
+html = re.sub(r"<table>.*?</table>", _mark_long, html, flags=re.S)
 html = re.sub(r"<p><strong>(Table \d+:.*?)</strong></p>", r"<p class='tcap'><strong>\1</strong></p>", html)
 html = re.sub(r"<p>(<img[^>]*>)</p>\s*(<p class='caption'>.*?</p>)",
               r"<figure class='fig'>\1\2</figure>", html, flags=re.S)
@@ -96,8 +99,11 @@ p.caption { font-size: 8.7pt; line-height: 1.4; color: #333; margin: 0 6mm 0;
 .front { break-after: page; }
 
 /* ---------------- tables ---------------- */
+/* Short tables stay whole. Only tables too tall for a page are allowed to break, and those
+   repeat their header row. A table split across pages loses its column meanings. */
 table { border-collapse: collapse; margin: 3.5mm auto 4.5mm; font-size: 8.7pt;
-        max-width: 100%; break-inside: auto; }
+        max-width: 100%; break-inside: avoid; page-break-inside: avoid; }
+table.long { break-inside: auto; page-break-inside: auto; }
 thead { display: table-header-group; }
 tr { break-inside: avoid; }
 th, td { border: 0.5px solid #aaa; padding: 1.5mm 2.4mm; text-align: center;
@@ -110,7 +116,7 @@ code { font-family: 'SF Mono', Menlo, Consolas, monospace; font-size: 8.3pt;
        background: #f2f2ef; padding: 0 1.5px; border-radius: 2px; }
 pre { background: #f6f6f3; border: 0.6px solid #ddd; border-radius: 3px;
       padding: 2.5mm 3mm; white-space: pre-wrap; word-wrap: break-word;
-      font-size: 8.2pt; line-height: 1.4; break-inside: auto; margin: 3mm 0; }
+      font-size: 8.2pt; line-height: 1.4; break-inside: avoid; page-break-inside: avoid; margin: 3mm 0; }
 pre code { background: none; padding: 0; }
 blockquote { border-left: 2.5px solid #bbb; margin: 3mm 0; padding: 1.5mm 4mm;
              background: #f8f8f6; font-size: 9.2pt; break-inside: avoid; }
