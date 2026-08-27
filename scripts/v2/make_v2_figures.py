@@ -31,7 +31,8 @@ os.makedirs(OUT, exist_ok=True)
 C = {"commit": "#c0392b", "tool": "#e67e22", "decline": "#2980b9",
      "trained": "#27ae60", "frontier": "#c0392b", "grey": "#7f8c8d", "ink": "#2c3e50"}
 plt.rcParams.update({"font.size": 10, "axes.spines.top": False, "axes.spines.right": False,
-                     "figure.dpi": 110, "savefig.bbox": "tight"})
+                     "figure.dpi": 110, "savefig.bbox": "tight",
+                     "pdf.fonttype": 42, "ps.fonttype": 42})
 
 LABEL = r"(ANSWER|CALL[_ -]?TOOL|DECLINE|CANNOT[_ -]?RESOLVE)"
 PREFIX = r"(?:DECISION|RESPONSE|FINAL(?:\s+DECISION)?|VERDICT|ACTION|CHOICE|ANS)"

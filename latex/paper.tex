@@ -1,0 +1,917 @@
+\documentclass[10pt]{article}
+
+\usepackage[a4paper,top=20mm,left=20mm,right=20mm,bottom=18mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{XCharter}
+\usepackage{microtype}
+\linespread{1.2}
+\renewcommand{\normalsize}{\fontsize{10.2pt}{12.24pt}\selectfont}
+\normalsize
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{amsmath,amssymb}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{mdframed}
+\usepackage{fancyvrb}
+\usepackage{needspace}
+\usepackage{makecell}
+\usepackage{titlesec}
+\usepackage[colorlinks=true,linkcolor=blue!45!black,citecolor=blue!45!black,urlcolor=blue!45!black,pdftitle={Calibrated Enough to Know, Not Calibrated to Act},pdfauthor={Pranav Aggarwal}]{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7.37pt}
+\setlength{\tabcolsep}{7.5pt}
+\renewcommand{\arraystretch}{1.5}
+\setlength{\arrayrulewidth}{0.4pt}
+
+% -- colors matched to the original CSS build (build_pdf.py) --
+\definecolor{tblrule}{RGB}{170,170,170}   % table borders, CSS #aaa
+\definecolor{tblhead}{RGB}{238,238,234}   % table header fill, CSS #eeeeea
+\definecolor{headrule}{RGB}{153,153,153}  % section-heading rule, CSS #999
+\definecolor{boxbg}{RGB}{246,246,243}     % code-box fill, CSS #f6f6f3
+\definecolor{boxborder}{RGB}{221,221,221} % code-box border, CSS #ddd
+\arrayrulecolor{tblrule}
+
+% -- table column helpers: M = centered+vertically-centered, F = left+vertically-centered (first column) --
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{F}[1]{>{\raggedright\arraybackslash}m{#1}}
+\newcommand{\tablefont}{\fontsize{8.7pt}{11.5pt}\selectfont}
+
+% -- prompt/code boxes, matching CSS 'pre': light fill, light border, small rounded feel, kept together --
+\newcommand{\boxfont}{\fontsize{8.2pt}{10.5pt}\selectfont}
+\fvset{fontsize=\boxfont,samepage=true,boxwidth=\linewidth}
+\mdfdefinestyle{promptbox}{
+  backgroundcolor=boxbg, linecolor=boxborder, linewidth=0.6pt,
+  innermargin=3mm, outermargin=0pt, innertopmargin=3mm, innerbottommargin=3mm,
+  roundcorner=2pt, splitbottomskip=0pt, splittopskip=0pt
+}
+
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\raggedbottom
+\captionsetup{font=small,labelfont=bf}
+\captionsetup[figure]{width=0.92\textwidth,justification=justified}
+
+% -- section-heading rule, matching CSS: border-bottom: 0.7px solid #999, kept with the heading --
+\titleformat{\section}{\normalfont\fontsize{12.6pt}{15pt}\selectfont\bfseries}{\thesection}{1em}{}[{\color{headrule}\vspace{2pt}\titlerule[0.7pt]}]
+\titlespacing*{\section}{0pt}{14pt}{7pt}
+\titleformat{\subsection}{\normalfont\fontsize{10.9pt}{13pt}\selectfont\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{9pt}{4pt}
+
+\title{}
+\date{}
+
+\begin{document}
+\pagestyle{plain}
+
+\begin{center}
+\begin{minipage}{\dimexpr\textwidth-12mm\relax}
+\centering
+{\fontsize{17pt}{21.76pt}\selectfont\bfseries Calibrated Enough to Know, Not Calibrated to Act: Fabricated Evidence Makes LLM Agents Commit to the Unknowable}
+\end{minipage}
+
+\vspace{5pt}
+{\fontsize{10pt}{12pt}\selectfont\bfseries Pranav Aggarwal}
+
+\vspace{1pt}
+{\fontsize{10pt}{12pt}\selectfont Independent Researcher}
+
+\vspace{1pt}
+{\fontsize{10pt}{12pt}\selectfont\href{mailto:pranavaggarwal1100@gmail.com}{pranavaggarwal1100@gmail.com} \textperiodcentered\ ORCID \href{https://orcid.org/0009-0005-1243-0520}{0009-0005-1243-0520}}
+
+\vspace{3pt}
+{\fontsize{9.2pt}{11pt}\selectfont\itshape\color{black!73} Preprint, version 2 - August 2026. DOI: \href{https://doi.org/10.5281/zenodo.22043517}{10.5281/zenodo.22043517}}
+
+\vspace{1pt}
+{\fontsize{9.2pt}{11pt}\selectfont\itshape\color{black!73} Extends ``Calibrated Enough to Know, Not Calibrated to Act: Relevant-Looking Evidence Makes LLM Agents Commit to the Unknowable'' (v1, July 2026).}
+
+\vspace{1pt}
+{\fontsize{9.2pt}{11pt}\selectfont\itshape\color{black!73} Code, data, pre-registration and all cached model outputs: \href{https://github.com/Pranav-1100/confidence-calibration-evaluation}{github.com/Pranav-1100/confidence-calibration-evaluation}}
+\end{center}
+
+\vspace{5pt}
+\hrule
+\vspace{8pt}
+
+\begin{center}
+{\fontsize{11pt}{13pt}\selectfont\bfseries \MakeUppercase{Abstract}}
+\end{center}
+\vspace{1pt}
+
+\begin{center}
+\begin{minipage}{\dimexpr\textwidth-28mm\relax}
+\fontsize{9.7pt}{14.55pt}\selectfont
+An LLM agent shown a professional-looking market panel commits to a directional call on a provably
+unpredictable question far more often than one asked the bare question: across 12 frontier models,
+commitment rises from 6.5\% to 54.0\% as evidence is escalated. It commits just as readily when every
+number on the panel is invented. Fabricating the entire display, so that nothing the model can see is
+true except the question itself, still lifts commitment from 24.5\% to 36.8\%, statistically
+indistinguishable from the 37.6\% produced by genuine market data. What unlocks confident action is
+not information but the authority of its packaging.
+
+The failure is narrow and locatable, and three explanations can be ruled out directly. Incapacity is
+not the answer: on matched \textit{answerable} questions attached to the same panels, the same models
+answer essentially always, at near-perfect accuracy. Nor is it belief - stated probabilities barely
+move across the gradient that swings action by 48 points, and they score worse than a climatological
+baseline. Missing judgment isn't it either: asked to classify a question's knowability before acting,
+models call it irreducible 90\% of the time and then commit on just 0.4\% of those. The act/don't-act
+gate is what fails. It is also concentrated rather than universal: three of
+the twelve models are seduced, four never commit under any panel, three commit regardless, and two
+respond weakly.
+
+Because the gate is separable, it can be trained. Supervised fine-tuning of a 3B model on 540
+synthetic cases, predominantly dice, coins, jars and timers, drives commitment to 0.0\% on the
+original cases, transfers to three unseen domains, and survives a tense-balanced control that rules out a ``decline anything about
+the future'' heuristic. It does not survive everything, and the boundary is sharp: the gate holds exactly when the response
+format leaves the model room to reason, and formats that remove that room remove the gate. In one
+run of an ablation recipe it does worse than fail safely, committing on 48 of 48 unknowable items
+with a real probability attached to every one. Robustness to prompts shaped very differently from
+training therefore varies across training runs, and rigid output formats suppress the model's reasoning and
+leave it confident and wrong on questions it otherwise answers correctly. The gate is trainable and
+context-fragile, and deployment needs both halves of that sentence.
+\end{minipage}
+\end{center}
+
+\clearpage
+
+\section{Introduction}
+
+A production LLM agent is rarely asked a bare question. It sits behind dashboards, retrieval results, monitoring feeds and market data, and the practice rests on an assumption shared by builders and by emerging governance frameworks (\href{https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng}{EU AI Act Art.\ 15}; \href{https://www.nist.gov/itl/ai-risk-management-framework}{NIST AI RMF}): more context makes the agent's decisions more reliable. Prior work (\href{https://doi.org/10.5281/zenodo.21325375}{Aggarwal}, 2026) showed that for irreducibly uncertain questions this assumption inverts - relevant-looking context is what makes agents stop saying ``this cannot be known.'' That result left the cause open. Does the technical panel genuinely, if weakly, inform the agent, or does its authoritative \textit{appearance} alone unlock the action? The two are observationally identical, and separating them requires intervening on the evidence itself.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.92\textwidth]{figures/fig1_story.pdf}
+\caption{\textbf{What this paper shows, end to end.} An agent is asked a question whose answer is
+unknowable in advance. Adding an authoritative-looking indicator panel drives commitment from
+6.5\% to 54.0\% across 12 frontier models. Fabricating the six technical indicators leaves it
+unchanged (37.6\% to 38.3\%), and fabricating the entire panel, so that nothing the model can see is
+true except the question, leaves it unchanged again (36.8\%) while still sitting 12 points above the
+24.5\% baseline with no panel at all. Fine-tuning a 3B model on 540 synthetic cases about dice and
+coins then drives commitment on the original 40 cases to 0.0\%.}
+\label{fig:story}
+\end{figure}
+
+\textbf{Scope.} The questions studied here are \textit{aleatoric}: the answer exists and will resolve, but is unknowable in advance. Will this asset close higher over its stated horizon? Will this match be won? Will it rain on a given day ten days out? This is a different object from the unanswerability that abstention benchmarks measure, which is largely \textit{epistemic} - missing information, false premises, ill-posed or underspecified queries (\href{https://arxiv.org/abs/2506.09038}{Kirichenko} et al., 2025; \href{https://arxiv.org/abs/2604.17073}{Zhai} et al., 2026). An epistemically unanswerable question becomes answerable if the missing fact is supplied; an aleatoric one does not, and no tool call can resolve it. That distinction is what makes the failure mode here specific: the correct action is available, obvious on reflection, and still not taken.
+
+\textbf{What I do.} (1) Build an unknowability oracle from short-horizon price direction, verified near-chance ex ante with outcomes sealed at construction. (2) Escalate evidence across matched conditions and measure the \textit{action}, not the stated probability. (3) Fabricate the evidence while preserving its form, to separate information from presentation. (4) Localize the failure by asking whether the judgment exists, whether belief moves, and whether standard calibration metrics can see it. (5) Train the gate into a small model's weights using only synthetic data from unrelated domains. (6) Test where that trained gate breaks.
+
+\textbf{Contributions.}
+
+\begin{enumerate}[leftmargin=1.4em]
+\item \textbf{The display is the trigger} (\S3). Fabricated same-asset indicator panels induce commitment statistically indistinguishable from real ones, isolating presentation from information. This answers the control left open by Aggarwal (2026), whose different-entity panel was visibly wrong and so could be rejected on data-integrity grounds rather than knowability grounds.
+
+\item \textbf{The failure is at the action gate, and standard metrics are blind to it} (\S4, \S5). The effect replicates across four domains and 12 models with commitment ranging 0-100\% between models in a way that does not track capability; meanwhile stated belief barely moves, the stated probabilities score worse than a climatological baseline, and the same models handle matched answerable questions essentially perfectly.
+
+\item \textbf{The gate is trainable, and context-fragile} (\S6-\S8). Synthetic-only supervised fine-tuning drives commitment to 0.0\% on the original cases and transfers to three unseen domains across six independent runs. The boundary has a mechanism rather than being simple variance: \textbf{the gate holds exactly when the response format leaves the model room to reason}, and formats that remove that room remove the gate, with 240/240 and 288/288 responses containing reasoning where a slot exists against 0/288 where it does not.
+\end{enumerate}
+
+\textbf{What is not new.} Overconfidence in language models, calibration degradation from preference training, and abstention on unanswerable questions are each well studied. The contribution is the causal isolation of \textit{presentation} as the trigger, on provably aleatoric questions with sealed outcomes, measured at the action level, together with a training intervention and a map of its failure boundary.
+
+\textbf{Roadmap.} The paper reports six experiments over four domains, twelve frontier models and eleven trained checkpoints. \S2 defines the unknowability oracle, the evidence conditions and the degenerate-strategy baselines every headline number is checked against. \S3 is the causal core: fabricated evidence panels against real ones, in four constructions. \S4 shows the effect is not domain-specific, across four domains. \S5 localizes it, ruling out incapacity, absent belief and absent judgment in turn. \S6 trains the gate into a 3B model and tests the two confounds that could explain the result away. \S7 puts that model back on the original benchmark under the original prompt. \S8 is where it breaks, and is the section a deployer should read first.
+
+\section{Method}
+
+\textbf{Unknowability oracle.} Horizons differ by domain and are stated with each: the original equity set asks about the close ten trading days ahead, the crypto set about the price 30 days ahead, sports about the next scheduled fixture, and weather about precipitation on a day ten days out. Short-horizon price direction on liquid assets is approximately a coin flip ex ante under market efficiency. I verify this rather than assume it: candidate pools are near-balanced by outcome, tested sets are balanced by construction so chance is exactly 50\%, and committed calls are scored against sealed outcomes. All as-of dates fall after every roster model's training cutoff, so memorization is not available. The same evidence-escalation construction is applied to sports fixtures and to ten-day-out precipitation, with two important differences. First, those two domains carry \textbf{no sealed outcomes}. Their items are constructed to be unpredictable rather than verified so, and no earned check is available for them. Only the equity and crypto sets have resolved outcomes, and only those support the Brier analysis. Second, and more seriously for weather, the panel supplies an \textit{ensemble-model rain probability}, and numerical ensemble precipitation forecasts at a ten-day horizon carry real if modest skill. A model that reads ``ensemble rain probability 24\%'' and answers near 24\% may be behaving correctly rather than being seduced, yet my scoring counts it as a commitment on an unknowable question. Weather shows the largest effect of the three transfer domains and has no outcomes against which to check this, so it is the weakest of the four as an unknowability instrument and should be read as suggestive. Crypto, which has sealed outcomes and a verified near-chance base rate, is the primary transfer domain.
+
+\textbf{A naming caution.} Evidence levels are defined per experiment and are not identical across them. The panel called \textbf{L2} in the transfer domains (\S4) carries a price header, a seven-day change, RSI and a volume ratio; the panel called \textbf{rich} in \S3 additionally carries EMA20/50, MACD, ATR and a regime tag, and the transfer-domain L2 is in fact byte-identical to the arm that \S3 labels \textbf{thin}. The two experiments therefore use different manipulation strengths under overlapping names, which is one reason the transfer effect sizes ($h$ 0.64 to 1.07) are smaller than those on the original equity set.
+
+\textbf{Evidence gradient.} Matched conditions per case. The original equity study uses four; the three transfer domains use the first three only, which is why their unknowable arms hold 216 rows per model (24 questions x 3 levels x 3 domains) rather than 288.
+
+\begin{table}[H]
+\centering
+\tablefont
+\caption{\textbf{The evidence gradient.}}
+\begin{tabular}{|F{1.4cm}|M{7.6cm}|M{2.0cm}|M{2.4cm}|}
+\hline
+\rowcolor{tblhead}\textbf{condition} & \textbf{what the model sees} & \textbf{equity study} & \textbf{transfer domains} \\
+\hline
+\textbf{L0} & the bare question, no data block & yes & yes \\
+\hline
+\textbf{L1} & current value and the value ten periods prior & yes & yes \\
+\hline
+\textbf{L2} & a full professional panel: RSI-14, EMA-20/50, MACD histogram, ATR, volume ratio and a regime classification, or the domain equivalent & yes & yes \\
+\hline
+\textbf{L2'} & the same full panel belonging to a \textit{different} entity, dates rewritten to the host case so staleness cannot explain a refusal & yes & no \\
+\hline
+\end{tabular}
+\end{table}
+
+The \S3 scrambled-display arms are a separate manipulation on the equity-style panel and are not
+levels of this gradient. \texttt{thin} carries the price header, seven-day change, RSI and volume ratio;
+\texttt{rich} adds EMA-20, EMA-50, the MACD histogram, ATR and a regime classification; \texttt{scram} is \texttt{rich}
+with the six technical fields replaced by the same asset's values from an earlier date; \texttt{scramfull}
+fabricates the header and regime tag as well. A transfer domain's L2 panel is the size of \texttt{thin},
+not of \texttt{rich}, so per-model rates are not comparable across the two experiments without saying so.
+
+\textbf{Matched answerable controls.} Every transfer domain also carries questions attached to the \textit{same} rich panel that \textit{are} resolvable from the data shown - threshold comparisons such as ``is the 14-day RSI above 42.6?'' - balanced 36 YES / 36 NO overall, with ground truth recomputed from the panel text. This arm is what makes a decline non-trivial. Without it, a model that declines everything scores perfectly on an all-unknowable evaluation. Question wordings were checked so that no single word predicts the answer, and direction-word shortcuts were explicitly rejected during construction.
+
+\textbf{Box 1 - the L2 prompt (evidence abbreviated; full prompts in Appendix B).}
+
+\needspace{20\baselineskip}
+\begin{mdframed}[style=promptbox]
+\begin{Verbatim}
+Today is 2026-02-13. You are an analyst assistant helping a client. You have a tool available:
+  web_search(query) to returns real-world information from the internet up to today.
+  It cannot return information about events that have not yet happened.
+
+Data available:
+Symbol: Bitcoin (BTCUSDT) | As-of date: 2026-02-13 | Current close: $68,853.96
+Close 10 trading days ago (down 9.1%): $75,770.21
+RSI(14): 31.5 | EMA20: $74,843.83 | EMA50: $81,496.02 | MACD histogram: -382.5
+ATR(14): $5,370 (7.8%) | Volume ratio (5d/20d): 0.70x | Regime: BEAR_VOLATILE
+
+The client asks: will Bitcoin's closing price 30 days from now be HIGHER than it is today?
+
+Decide how to act:
+  (A) ANSWER    - give the client your best directional probabilistic call now.
+  (B) CALL_TOOL - use web_search to gather more before answering.
+  (C) DECLINE   - tell the client this is a genuinely unpredictable future outcome
+                  that no tool or analysis can reliably resolve.
+\end{Verbatim}
+\end{mdframed}
+
+In the scrambled arm of \S3 the six technical fields carry the same asset's values from a different date, and the header is recomputed so it stays internally consistent; nothing in the panel is detectably wrong.
+
+\textbf{Agentic protocol.} Each prompt anchors the present, offers a \texttt{web\_search} tool described as returning information only up to today, and requests one decision: ANSWER with a probability, CALL\_TOOL, or DECLINE. The framing is a natural analyst scenario with no humility anchor; pilot runs showed that wording such as ``50 = coin flip'' or an explicit UNKNOWABLE option suppresses the effect by supplying the safe answer.
+
+\textbf{Metrics, defined before use.}
+
+\begin{itemize}[leftmargin=1.4em]
+\item \textbf{Commitment} is choosing ANSWER at all. I verify this reproduces the published gradient exactly, whereas a confident-only variant (requiring $|p-50| \geq 15$) gives 7.5\% at L2 rather than 54.0\%. All comparisons in this paper use the same definition on both sides.
+\item \textbf{Discrimination} is P(decline $\mid$ unknowable) $-$ P(decline $\mid$ answerable). Treating ``unknowable'' as the positive class and DECLINE as the positive prediction, this is TPR $-$ FPR, that is \textbf{Youden's J} (Youden, 1950) = sensitivity + specificity $-$ 1, with balanced accuracy = (J+1)/2. A model that declines everything and a model that declines nothing both score J = 0. One result should be stated before J is used at all. \textbf{Not one of the twelve frontier models ever declines an answerable question}, 0 of 864. Neither does the trained model, on the transfer domains or on the original 40 cases. The single exception is the tense-balanced set of \S6.6, where 2 of 72 answerable-present items are declined and specificity is 0.972. Over-abstention is therefore absent from the frontier roster entirely and from the main recipe on both transfer and the original cases. The standard worry about training a model to refuse is that it will refuse too much, and that isn't what happens here. Two exceptions exist and both are disclosed where they arise: the tense-balanced set of \S6.6, and the 516-case ablation recipe under the reasoning-suppressing framing, where one run declines 33.3\% of answerable weather items (\S8). Wherever specificity is one, J reduces exactly to the decline rate on the unknowable arm, which is the case for every headline number in this paper. Every point of discrimination reported in this paper is therefore earned on the unknowable side, with the answerable side confirming that nothing was paid for it.
+\item \textbf{Earned check}: Brier score (Brier, 1950) of committed calls against sealed outcomes, compared to the 0.250 of uniformly answering ``50\%''.
+\item \textbf{Brier decomposition} of the stated probabilities into reliability, resolution and uncertainty (Murphy, 1973). Murphy's partition is bin-free only over \textit{distinct forecast values}, which these probabilities are, since models emit a small set of round numbers; the CORP decomposition used in \S5 (\href{https://doi.org/10.1073/pnas.2016191118}{Dimitriadis} et al., 2021) is bin-free unconditionally and is the one the headline calibration claim rests on. \textbf{ECE} is reported alongside at several bin counts, as a contrast rather than as a quality measure, because it is sensitive to that choice.
+\item \textbf{Case-clustered bootstrap.} All intervals resample \textit{cases} rather than rows. A case is one (asset, date) event, which contributes a decision in every arm and for every model, so resampling rows would treat those as independent when they are not.
+\item \textbf{Cohen's h} (Cohen, 1988) for proportion differences, on a scale where 0.2 is conventionally small, 0.5 medium and 0.8 large; 95\% case-clustered bootstrap intervals throughout.
+\end{itemize}
+
+\textbf{Interval convention.} Equivalence tests report 90\% intervals. This is the convention for \textbf{two one-sided tests} (TOST; Schuirmann, 1987; Lakens, 2017), the standard way to show that two rates are close enough to be called equivalent rather than merely failing to differ: two tests at $\alpha = 0.05$ correspond to a 90\% interval; every other interval in this paper is 95\%.
+
+\textbf{Denominators.} The same convention is applied everywhere: rows whose API call failed (no content returned, zero cost) are dropped, and rows that returned content the parser could not read are kept in the denominator and counted as non-commitments. Dropping a failed call removes an observation that was never made; dropping an unreadable one would flatter the commitment rate by discarding exactly the responses most likely to be malformed. Failed calls are 0.23\% of the 12-model transfer run (8 of 3,456 nominal calls, leaving 3,448) and 20.7\% of the two older paid constructions cited in \S3, which is why those two are reported as supporting replications rather than as primary evidence.
+
+\textbf{Parsing.} Decisions are read from the model's decision line. A \textit{strict} parser accepts only \texttt{DECISION:}; a \textit{semantic} parser also accepts \texttt{RESPONSE:} and a small set of equivalent prefixes, because models frequently emit those. Both are reported side by side throughout, the same pair is applied to every model and every cell, and no cell was re-parsed selectively. The delta reached 100 percentage points on individual cells, which is why it is disclosed rather than silently corrected. The semantic parser accepts only an explicit \texttt{PREFIX: LABEL} line; it does not infer a decline from prose, since that would let a hedged answer be scored as a refusal.
+
+\subsection{Degenerate-strategy baselines}
+
+Any metric that a strategy with no understanding can match is not evidence for a claim about understanding. Every headline evaluation in this paper is therefore accompanied by what five such strategies would score on it, and the exercise is not decorative: it is what exposed the confound described in \S6.6 and the metric problem described in \S6.3.
+
+\begin{table}[H]
+\centering
+\tablefont
+\caption{\textbf{Degenerate strategies and what they score.}}
+\begin{tabular}{|F{5.6cm}|M{2.6cm}|M{4.6cm}|}
+\hline
+\rowcolor{tblhead}\textbf{strategy} & \textbf{Youden's J on the transfer sets} & \textbf{accuracy on the NSE (National Stock Exchange of India) answerable arm} \\
+\hline
+always DECLINE & 0 & n/a (never answers) \\
+\hline
+always ANSWER & 0 & 50.0\% (chance) \\
+\hline
+always answer NO & 0 & \textbf{72.5\%} (the class base rate) \\
+\hline
+\textbf{decline iff the question is future-tense} & \textbf{+100} & n/a \\
+\hline
+\textbf{decline iff the question contains the word ``will''} & \textbf{+100} & n/a \\
+\hline
+\end{tabular}
+\end{table}
+
+The first two rows are why the answerable arm exists: without it, refusing everything scores perfectly. The third is why accuracy on that arm must be read against 72.5\% rather than 50\%. \textbf{The fourth and fifth rows are the serious ones, and they are the same confound stated two ways.} In every transfer evaluation set the unknowable items are future-tense and the answerable items present-tense, so a policy of declining anything about the future attains a perfect discrimination score while representing no knowability judgment at all. The separation is in fact lexical rather than grammatical: the token ``will'' appears in 72 of 72 unknowable rendered items and 0 of 24 answerable ones in each domain (24 distinct questions rendered at three evidence levels, against 24 answerable questions), and the phrase ``According to the data shown'' does the reverse, so a single substring match suffices. \S6.6 tests a set constructed to break this rule, since its answerable items are future-tense and contain ``will''; the transfer sets themselves are not lexically de-confounded, which is a limitation of those sets rather than of the trained model. This is discussed in \S11 and is the paper's principal open threat to validity.
+
+Applying the same test to the truthfulness metric T declared in advance for the training leg (\S6.3) returns a similar result. On an evaluation composed of 216 unknowable and 72 answerable items, the strategy ``always DECLINE'' scores \textbf{T = +50.0}, above the \textbf{+42} this project fixed in advance as the score to beat. A threshold declared before the data is only as good as the degenerate strategy it excludes, and this one excludes nothing: the bar was set on a differently composed question set, and T is sensitive to the unknowable-to-answerable ratio of whatever set it is computed on. The lesson generalizes beyond this paper. Any accuracy-like metric on a class-imbalanced abstention benchmark inherits a floor from the majority class, so a target fixed on one composition does not transfer to another. Reporting the degenerate floor alongside the metric, on the same evaluation, is the cheap fix, and \S6.3 does so.
+
+\section{The display, not the data, is the trigger}
+
+The L2' relevance control defined in \S2 collapses commitment when the panel belongs to a different entity - but a different entity is \textit{visibly} wrong, so a model may be rejecting a detectable mismatch rather than reasoning about knowability. The discriminating control is fabricated data attributed to the \textit{same} entity: undetectably plausible, informationally empty.
+
+\subsection{Partial scramble: fabricating the indicator block}
+
+\textbf{Construction.} The scrambled panel keeps the format, the asset, the header and the scale of the real one. Six technical fields are replaced with that asset's values from a different date: RSI(14), EMA20, EMA50, the MACD histogram, ATR(14) and the volume ratio. Donor dates are strictly earlier, so there is no look-ahead, and headers are direction-matched so no internal inconsistency is detectable. What is \textit{not} changed matters for interpreting the result: the symbol, the as-of date, the current close, the ten-day-prior close, the stated percentage move and the regime classification are real in both arms. The manipulation isolates the \textit{technical indicator block}, not the whole evidence display. The question, the tool and the action menu are identical across arms. A model committing equally under both panels is, by construction, responding to the form of the evidence rather than its content.
+
+\textbf{Result.} Across the \textbf{same 12 models} used in \S4, on \textbf{24 distinct (asset, date) events} (Figure~\ref{fig:scrambled}) rendered in all three arms (860 decisions), commitment is thin 24.5\% to rich 37.6\% $\rightarrow$ \textbf{scrambled 38.3\%}. Scrambled minus rich is \textbf{+0.7pp}, with a case-clustered 90\% CI of \textbf{[-2.1, +3.1]}.
+
+Scrambled minus thin is +13.8pp, so the panel changes behavior; only its truth value does not.
+
+\textbf{The pooled null is an average over a population that isn't uniform, and the disaggregated result is stronger.} Five of the twelve models return the same commitment decision on all 72 of their items - four never choose ANSWER and one always does - and so contribute no variance to this contrast at all. (Two of those five vary between DECLINE and CALL\_TOOL, which J does not distinguish; the constancy is in whether they commit.) Restricting to the seven models that respond to the manipulation, the difference is +1.19pp with a 90\% CI of [-3.57, +5.36], which no longer establishes equivalence at a $\pm$5pp margin. Restrict further to the three models that carry the effect and scrambled minus real is \textbf{+11.11pp, 90\% CI [+4.17, +18.06]}. Within this construction, the fabricated panel is significantly the more seductive of the two. The correct claim is therefore narrower than a global null and more pointed than one: among models that respond to authoritative packaging at all, fabricated packaging works at least as well as real data, and for the most affected family it works better. I report the pooled equivalence test for completeness and because it was the pre-specified analysis, but it should not be read as a statement about frontier models in general. An earlier 7-model run on 8 events gives -0.2pp with a wider interval, and two further 24-event constructions reproduce the pattern (26.2\% to 49.2\% to 48.1\%, and 26.2\% to 47.0\% to 46.4\%). A fifth, fully independent construction on 48 events that share no asset or date with the original 24, run across the seven responsive models on the same roster, gives scrambled minus real of +2.60pp with a 90\% CI of [-0.66, +5.86]. Five constructions, differing in roster, sample and event set, all place the difference within a few points of zero with a mix of signs. The models that can be seduced are seduced near-identically by real technical indicators and by noise wearing their costume.
+
+\subsection{Full fabrication: nothing on the panel is true}
+
+\textbf{Construction.} The price header and regime tag stayed real in the arms above, so a narrower reading of the null was still possible: maybe the technical indicator block adds nothing beyond the momentum information already in the header, and models key on the header in both arms. That reading is testable, and I tested it. A fourth arm fabricates the \textit{entire} panel - symbol excepted, the current close, the ten-day-prior close, the stated percentage move, the regime classification and all six technical fields are donor values from a different date, made internally self-consistent so no arithmetic check can detect the substitution. Nothing a model can see is true except the question. Across the same 12 models and the same 24 events (288 decisions), commitment is \textbf{36.8\%}, against 37.6\% for the real panel and 24.5\% for no panel at all. Fully fabricated minus thin is \textbf{+12.33pp, 90\% CI [+9.55, +15.11]}; real minus thin is +13.16pp, 90\% CI [+9.67, +16.84]. Fully fabricated minus real is \textbf{-0.83pp, 90\% CI [-4.51, +2.66]}, which passes the same $\pm$5pp equivalence test the partial-scramble arm was pre-specified against. A panel in which every number is invented moves commitment as far as a panel in which every number is true, and the two lifts are within a point of each other. The narrower reading is ruled out: the effect does not run through the real header.
+
+The per-family picture is the same. The three Claude models commit on \textbf{40.3\%} of fully fabricated panels, against 40.3\% on the real panel and 1.4\% with no panel at all: the family that responds to authoritative packaging responds just as strongly to a panel with nothing true on it. This arm is underpowered for the per-family comparison and should not be read as a test of the +11.11pp excess in either direction. With three models on 24 events, the 90\% interval on fully fabricated minus real is [-11.11, +11.11], which contains zero \textit{and} contains the partial-scramble estimate; 6.3\% of bootstrap draws fall at or above +11.11pp. Deciding whether the excess is a property of partial scrambling or of fabricated panels generally needs a construction built for that comparison, with more events per model, and it is left open here. What all four constructions do jointly support is the claim the title makes: fabricated and real displays are interchangeable in their effect on action at the roster level, with construction-level variation of a few points in either direction.
+
+\subsection{Who this happens to}
+
+\textbf{The average hides who this happens to.} Pooling conceals a sharp split. Three models are seduced and seduced \textit{more} by the fabricated panel than the real one: Claude Sonnet 5 goes 4.2 to 62.5 $\rightarrow$ \textbf{70.8\%} across thin, rich and scrambled, Claude Haiku 4.5 goes 0.0 to 45.8 $\rightarrow$ \textbf{50.0\%}, and Claude Opus 4.8 goes 0.0 to 12.5 $\rightarrow$ \textbf{33.3\%}. Four models never commit in any arm (DeepSeek V3.2, Qwen3.7-plus, and both Grok models, all 0/0/0), and three commit in every arm regardless of evidence (both OpenAI models and Gemma, 88-100\% throughout). One of the four apparent non-committers needs a caveat that changes how it should be read: \textbf{Qwen3.7-plus returns output neither parser can read on 75.0\% of its rows in this experiment} (51 of 68 non-error responses), and those rows are counted as non-commitments. Its 0/0/0 is therefore mostly unreadable output rather than demonstrated restraint. Dropping it entirely leaves every conclusion in this section intact: thin 26.5\%, real 40.9\%, scrambled 41.7\%, fully fabricated 40.2\%, with scrambled minus real +0.76pp and fully fabricated minus real -0.76pp. The remaining two, Gemini 3.5 Flash and Llama 3.3 70B, respond weakly: both are at 0\% without a panel and reach only 4-17\% with one, so they show the direction of the effect at a magnitude an order below the Claude models. The effect is therefore carried entirely by one developer's models in this roster, while a third of the roster is immune and a quarter is saturated. Reporting only the pooled rate would obscure that the phenomenon has a specific and narrow incidence.
+
+\subsection{A dial, not a switch}
+
+\textbf{It is a dial, not a switch.} Commitment scales with the \textit{quantity} of authoritative display. Sixteen crypto events were rendered at four panel densities and run across seven models, 112 decisions per density, all parsed. Commitment rises with the number of indicators shown: 0 indicators gives \textbf{0.0\%} (95\% CI [0.0, 3.3]), 2 gives \textbf{5.4\%} [2.5, 11.2], 4 gives \textbf{32.1\%} [24.2, 41.3], and 7 gives \textbf{50.0\%} [40.9, 59.1]. The models' own elicited edge rises alongside it, 2.0 to 3.1 to 9.2 to 14.1. That edge is the \texttt{EDGE\_CONFIDENCE} field they are asked to report, averaged over every row including declines, where it is 0. On committed calls alone, mean $|$stated probability - 50$|$ moves 0.0 to 3.5 to 6.4 to 7.0 across the same four densities. The intervals separate the endpoints cleanly and each step lies outside the interval of the step two below it; adjacent intervals at 4 and 7 indicators overlap slightly ([24.2, 41.3] against [40.9, 59.1]), so the ordering of neighboring steps is suggestive rather than established. The overall pattern is a graded response to display density rather than a threshold effect.
+
+\textbf{In the models' own words.} The failure is legible in the reasoning traces. One model, committing on a scrambled crypto panel: \textit{``Bitcoin is in a confirmed downtrend (BEAR\_VOLATILE, below EMA20/50, negative MACD)...''} - every indicator cited is a real number from the wrong date. Another, resisting: \textit{``Whether RELIANCE will close higher over the next 10 trading days is a genuinely unpredictable...''} And on an explicitly labeled fair coin, the same models are near-perfect: \textit{``A fair coin has no memory, so previous flips and commentary don't matter.''} The identical irreducible uncertainty is handled correctly when it is labeled and incorrectly when it is dressed in domain context.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{figures/fig2_scrambled.pdf}
+\caption{\textbf{The display is the trigger.} Left: commitment across four arms of increasing
+fabrication. \textbf{No panel} 24.5\%; \textbf{real data} 37.6\%; \textbf{indicators fabricated}, with the price
+header and regime tag left true, 38.3\%; and \textbf{the entire panel fabricated} (hatched), where the
+symbol aside every number is a donor value from a different date and nothing the model can see is
+true, 36.8\%. Adding a panel of pure invention moves commitment as far as adding a panel of fact
+(+12.3pp against +13.2pp over the no-panel baseline), and fully fabricated minus real is -0.8pp
+with a 90\% case-clustered CI of [-4.5, +2.7], inside the pre-specified $\pm$5pp equivalence margin.
+Bars show Wilson intervals on the proportions, which are narrower than the case-clustered
+intervals quoted in the text. Middle: the same four arms per model. The pooled result averages
+over a population that isn't uniform - four models never commit under any panel, three commit
+under all of them, and the three that carry the effect are all from one developer. Right:
+commitment scales with the number of indicators displayed (seven models, crypto only, 112
+decisions per density). Twelve models, 24 events, 1,148 decisions in total.}
+\label{fig:scrambled}
+\end{figure}
+
+\section{Evidence-induced commitment occurs across domains}
+
+\textbf{The confirmatory gradient.} On 40 outcome-balanced, post-cutoff cases, 12 frontier models commit 6.5\% when asked bare, 14.8\% when shown two prices, and \textbf{54.0\%} when shown the full panel (+48pp; case-clustered 95\% CI [+44, +51]). Shown the same panel belonging to a different entity, commitment collapses to 3.5\%, below the bare baseline.
+
+\textbf{The commitment is unearned.} Committed calls at L2 score a Brier of 0.281 against the 0.250 of uniformly answering ``50\%'' (gap 95\% CI [+0.008, +0.056]) - worse than uninformative. Models herd, agreeing with each other within-case 90\% of the time, on momentum-shaped signals that themselves carry no edge in this window.
+
+\textbf{It is not the domain.} I ran 12 frontier models under the same prompt on three further domains built the same way. Eleven of the twelve match the original roster; one open-weight model was substituted for another no longer served. Commitment on unknowable questions rises with evidence in all three (Figure~\ref{fig:gradient}): crypto 9.4\% to 22.6\% to 34.7\% (Cohen's $h$ = +0.64), sports 4.2\% to 29.2\% to 36.8\% ($h$ = +0.89), weather 9.1\% to 5.6\% to 55.7\% ($h$ = +1.07). The gradient is monotone in two of these three; weather's L1 dips below its L0, which I report and do not smooth. Averaged over the 12 models, commitment at the heaviest evidence level is 42.5\% (42.4\% pooling rows directly).
+
+\textbf{It is not capability.} Per-model commitment at L2 spans the full range (Figure~\ref{fig:permodel}). Before reading the numbers, a caution: these are the four-domain transfer sets, a different experiment from the single-domain scrambled study in \S3, so the same model appears at different rates in the two sections. Claude Haiku 4.5 commits on 45.8\% of the \S3 crypto panels and on 0.0\% of these transfer items; Claude Opus 4.8 goes the other way, 12.5\% against 86.1\%. Both are correct, and the difference is the case set, not an inconsistency. Two OpenAI models commit on \textit{every} unknowable case (100\%, J = +0); Claude Opus 4.8 commits 86.1\%, Claude Sonnet 5 70.8\%, Gemini 3.5 Flash 48.6\%; at the other end Claude Haiku 4.5 commits 0.0\% and Grok 4.3 reaches J = +88. Haiku outperforms Opus and Sonnet from the same developer, and the small and large OpenAI models behave identically.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{figures/fig3_gradient.pdf}
+\caption{\textbf{Evidence-induced commitment across four domains, and its removal by training.}
+Commitment is the rate of choosing ANSWER on a question whose answer is unknowable in advance;
+the correct action at every point is to decline. Red: 12 frontier models, three-option prompt. Solid
+green: the trained 3B under the two-option prompt, pooled over the four runs of the 540-case recipe.
+Dotted green: the same four runs under the frontier models' own three-option prompt, which is the
+prompt-matched comparison. The stocks panel compares against the published baseline on the identical
+40 cases under a prompt reproduced verbatim. Under both framings the trained model stays far below
+the frontier baseline in every domain, reaching at most 6.2\% on crypto at L2 against the frontier
+models' 34.7\%. Grey: the \S6.5 ablation checkpoint, trained on 516 cases rather than 540 and therefore
+a different model, plotted separately rather than averaged into the green lines; it is the only
+checkpoint that fails, and averaging it in would report 25\% commitment on crypto, a value no trained
+run exhibits. Weather's L1 falls below its L0, so the gradient is monotone in three of the four
+domains.}
+\label{fig:gradient}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/fig4_per_model.pdf}
+\caption{\textbf{Per-model behavior spans the full range and does not track capability.} Left:
+commitment on unknowable questions at the heaviest evidence level, pooled over three domains.
+Right: Youden's J, the discrimination between declining what is unknowable and declining what is
+answerable; a model that declines everything and a model that declines nothing both score zero.
+Dashed lines mark the trained 3B model. Two models commit on every unknowable case with zero
+discrimination, while a smaller model from one of the same developers commits on none. Whatever governs this is not scale.}
+\label{fig:permodel}
+\end{figure}
+
+\section{The judgment is present; the gate does not consult it}
+
+Five results in this section come from four different experiments, so they are not five
+measurements of one system. Each is sourced here rather than left for later.
+
+\begin{table}[H]
+\centering
+\tablefont
+\begin{tabular}{|F{5.0cm}|M{4.8cm}|M{3.2cm}|}
+\hline
+\rowcolor{tblhead}\textbf{result} & \textbf{source run} & \textbf{n} \\
+\hline
+triage, placebo, belief slope & 12-model equity run & 478-480 decisions per level \\
+\hline
+CORP calibration decomposition & committed calls from that run & 257 \\
+\hline
+elicited-edge separability (AUROC) & six open-weight models, mixed question set & 528 \\
+\hline
+answerable-arm accuracy ($\sim$100\%) & 12-model transfer run & 864 \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{The judgment exists and is accessible} \textit{(12-model equity run)}. Instructed to classify the question's knowability before acting, models label it irreducible \textbf{90\%} of the time at the heaviest evidence level, and conditional on having said so commit \textbf{0.4\%} of the time (4 of 910, pooled over the bare and full-panel conditions; at the full panel alone it is 0.9\%). A one-paragraph triage instruction cuts commitment 54.0\% to 10.2\% (95\% CI [-47, -41]) with no measurable cost on answerable questions. This is not generic prompt pressure: a matched-length placebo instruction (``be thorough and diligent'') achieves only 47.6\%, and \textit{raises} commitment for some models, apparently by reading diligence as an instruction to use the provided data.
+
+\textbf{Belief barely moves} \textit{(same run; Figure~\ref{fig:belief})}. Across the gradient that swings action by 48 points, mean $|$stated probability - 50$|$ moves from 4.7 to 7.7. A model can sound calibrated and act miscalibrated.
+
+\textbf{Standard calibration screening is blind to this, though the standard metric is a poor way to demonstrate it.} Expected calibration error on these committed calls is 0.079 at 5 bins, 0.211 at 10 and 0.208 at 15, so a claim resting on ECE alone inverts with an arbitrary binning choice. Instead, here is a way to state it that doesn't depend on binning. Against a climatological forecast of the base rate, these probabilities have a \textbf{Brier Skill Score of -0.124}: they are worse than simply predicting the base rate on every item. Decomposing the score with the CORP method (Dimitriadis, Gneiting \& Jordan, 2021), which uses isotonic regression rather than bins, the decomposition is \textbf{MCB 0.0391 - DSC 0.0081 + UNC 0.2500 = 0.2809}, reconciling exactly with the Brier score. Both components matter and the paper reports both: discrimination (Murphy's \textit{resolution}) is 0.0081, which is 3.2\% of the available uncertainty, and miscalibration is 0.0391, nearly five times larger and the reason the skill score is negative. The probabilities are therefore not merely uninformative; they are also mis-stated, and the second fact is the larger of the two. The probabilities are therefore neither well calibrated nor discriminating: \textbf{the stated probability is anti-predictive of the outcome.} Ranking the 257 committed calls by the probability attached to them gives an \textbf{area under the ROC curve (AUROC)} of \textbf{0.346}. AUROC here answers one question: take one event that happened and one that did not, and how often did the model attach the higher probability to the one that happened? At 0.5 it is guessing; at 0.346 it attached the higher probability to the \textit{wrong} event 65\% of the time (95\% CI [0.280, 0.413]), entirely below the 0.5 that means no information at all. Where the models say 60\% the event occurs 35.3\% of the time (n=85); where they say 40\% it occurs 66.7\% (n=96). Directional accuracy on the non-hedged calls is \textbf{35.6\%}, below the 50\% a coin achieves. The aggregate looks unremarkable, which is exactly the trap: mean stated probability is 49.1\% against a 50.6\% base rate, a bias of 1.5 points, so any audit that checks only whether the average forecast matches the average outcome passes this model. The failure is conditional, not aggregate, and it deepens with evidence: AUROC falls 0.417 to 0.403 to 0.346 from L0 to L2. Adding an authoritative panel does not merely make these models act on nothing; it makes the number they state point the wrong way. Evaluations that audit stated probabilities cannot see this failure; agent evaluations must audit decisions.
+
+\textbf{It is not incapacity, and this is the sharpest evidence} \textit{(12-model transfer run)}. On the matched answerable controls - the same rich panels, questions genuinely resolvable from what is shown - the same 12 frontier models answer \textbf{98.6-100\%} of the time and are \textbf{98.6-100\% accurate} per model, 99.9\% pooled (a single error, on one sports item, out of 859 answered). They are not confused by the panel, unable to read it, or generally refusal-averse. They answer what is answerable, perfectly, and then also answer what is unanswerable. The act/don't-act gate simply never fires.
+
+\textbf{The signal is separable} \textit{(six open-weight models, mixed question set)}. Thresholding the model's own elicited edge classifies answerable from unknowable at AUROC 0.887, with a best-threshold accuracy of 83.7\%. The models' own act/decline choices score 67.9\% on the same items, so the gap between what the elicited signal can distinguish and what the action policy does is about 16 accuracy points. AUROC and accuracy are different quantities and are not differenced here, and the 67.9\% depends on scoring CALL\_TOOL as an error; excluding tool calls instead gives 73.9\%. 89\% of commitments occur while the model reports having almost no predictive edge.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/fig5_belief_action.pdf}
+\caption{\textbf{Action swings while belief stays put.} The same escalation of evidence that moves the
+decision to commit by 48 percentage points moves the model's stated probability away from 50 by
+about 3 points. These probabilities score worse than predicting the
+base rate on every item (Brier Skill Score -0.124), separating outcomes almost not at all, while
+the actions taken on their basis score worse than uniformly answering ``50\%''. The belief series is
+non-monotone, dipping at L1 before rising. Evaluations that audit stated probabilities cannot see
+this failure.}
+\label{fig:belief}
+\end{figure}
+
+\section{The gate can be trained}
+
+If the judgment is present and separable, the natural test is whether the gate can be made to consult it.
+
+\subsection*{6.0 The checkpoint roster}
+
+Eleven checkpoints are referred to throughout \S6 to \S8 and in Appendices D and E. They are \textbf{not}
+five seeds of one recipe, and conflating them produces numbers that describe no model that was
+actually trained, so this table fixes the names used everywhere else.
+
+\begin{table}[H]
+\centering
+\tablefont
+\caption{\textbf{The checkpoint roster.}}
+\begin{tabular}{|F{2.2cm}|M{2.9cm}|M{0.9cm}|M{1.7cm}|M{2.5cm}|M{2.5cm}|}
+\hline
+\rowcolor{tblhead}\textbf{name used in this paper} & \textbf{recipe} & \textbf{seed} & \textbf{evaluated on transfer} & \textbf{evaluated on original 40 cases} & \textbf{evaluated on tense-balanced set} \\
+\hline
+\textbf{main run} & 540 cases & 0 & yes & yes & yes \\
+\hline
+\textbf{preference stage} & 540 cases + DPO & 0 & yes & yes & yes \\
+\hline
+\textbf{seed 1} & 540 cases & 1 & yes & not yet & not yet \\
+\hline
+\textbf{seed 2} & 540 cases & 2 & yes & not yet & not yet \\
+\hline
+\textbf{seeds 3, 4, 5} & 540 cases & 3, 4, 5 & yes & not yet & not yet \\
+\hline
+\textbf{ablation}, seeds 0-3 & 516 cases (24 sports items deleted, \S6.5) & 0, 1, 2, 3 & yes & not yet & not yet \\
+\hline
+\end{tabular}
+\end{table}
+
+The \textbf{main recipe} means the seven 540-case checkpoints: main run, preference stage, and seeds 1 to 5.
+Six of those are independent training runs; the preference stage continues the main run rather than training from scratch, so ranges quoted over independent runs cover six checkpoints and ranges over the main recipe cover seven. The preference stage is a continuation of the main run rather than an independent training
+run, so ranges quoted over ``independent runs'' cover three checkpoints, and ranges quoted over ``the
+main recipe'' cover four. The \textbf{ablation} is a different training set and is always reported
+separately. One further run has tense-balanced generations retained but no transfer generations; it appears in
+\S6.6 only, as \textit{main-s3}, and contributes to no transfer range. The ablation seeds are named \textit{ablation s0-s3} throughout to avoid collision with it.
+
+\subsection{Recipe}
+
+Completion-only supervised fine-tuning with chain-of-thought targets (following Zhai et al., 2026), 4-bit QLoRA (\href{https://arxiv.org/abs/2305.14314}{Dettmers} et al., 2023) on Qwen2.5-3B-Instruct (Qwen Team, 2024), three epochs. Training data is 540 synthetic cases, predominantly dice, coins, jars, timers and calendars, containing no stocks, crypto or weather items. \textbf{It does contain 24 sports items} (all gold DECLINE, of the form ``in next week's match between the Hawks and the Foxes, will the Hawks win?'') which share a template with the sports transfer evaluation, so sports is not zero-shot in the main runs. I resolve this by retraining with those 24 items deleted (\S6.5); sports discrimination is unchanged, so all three transfer domains behave as held out. Half the unknowable cases carry a rich but non-predictive indicator panel, paired with matched cases whose panel genuinely \textit{does} resolve the question, so the model must learn to judge whether evidence resolves a question rather than to decline whenever a panel appears. Each case is rendered under a bank of prompt framings, including tool-offering ones where the gold action remains DECLINE, since no search resolves a random future.
+
+\subsection{Coverage matters more than recipe}
+
+An earlier run of the same recipe declined reliably under natural phrasings but collapsed under a tool-offering prompt. Auditing that run's own training mix showed why: the failing cell - tool framing combined with a seductive panel - was 9.0\% of training rows, because framings had been sampled at random rather than stratified, and the synthetic panels were single-line while the transfer panels were multi-line professional dashboards. Stratifying to 25.5\% and enriching the panels is the difference between the two results, which I report as an ablation and do not present only the tuned version.
+
+\subsection{Results}
+
+Evaluation uses two held-out framings, and the distance between them matters for reading what follows. The \textit{natural} framing is worded differently from every training framing but shares their structure: a reasoning block, a two-option menu, the same answer footer, no tool. The \textit{frontier} framing is structurally novel, with three options including a tool call and a wrapper tag. What this section demonstrates is therefore robustness to rephrasing; robustness to arbitrary prompt structure is the subject of \S8, and is weaker.
+
+Under the natural framing, across \textbf{six independent runs} of the main recipe, Youden's J is +62 to +100 for crypto, +83 to +100 for sports and +75 to +100 for weather. The preference stage, which continues the main run rather than training independently, scores +100 / +100 / +88 and falls inside every one of those ranges. Three seeds were added after the first draft precisely because three runs is not a spread, and they widened it: the lowest crypto value moved from +88 to +62 and sports, which had been +100 in every earlier run, came in at +83 once. The gate installs reliably and its strength varies by up to 38 points between seeds, which is the honest version of a claim the smaller sample would have overstated. The answerable arm is answered 99-100\% of the time at 88.9-98.6\% accuracy with \textbf{zero over-abstention in all seven checkpoints} under this framing; the only cells where over-abstention is non-zero are the tense-balanced set of \S6.6 (2 of 72) and the ablation recipe under the reasoning-suppressing framing (\S8). A truthfulness metric T = \%right-action - \%wrong-action was declared in advance for this leg. Its scores are not reported here, for three reasons that matter more than any score would. First, T and its +42 target were fixed in the project's analysis notes before any model was fine-tuned, but \textbf{not} in the released pre-registration, which covers the diagnostic study only and says nothing about a training leg; this is a declared-in-advance analysis choice, not a pre-registered endpoint, and \S6.3 should not be read as the latter. Second, that +42 was measured on six open-weight models over a different, mixed question set under a more lenient scoring rule, so it indicates an intended direction rather than serving as a matched control. Third, and decisively, the degenerate-baseline test in \S2 shows that ``always DECLINE'' scores \textbf{T = +50.0} on this evaluation's composition, above the +42 target, so the target excludes no strategy worth excluding. T is therefore recorded as a declared-in-advance metric that did not survive its own degenerate-baseline check, which is the useful thing about it. Youden's J against the matched answerable arm is the metric that carries the claim.
+
+\subsection{A preference stage helps modestly}
+
+A DPO (Direct Preference Optimization; \href{https://arxiv.org/abs/2305.18290}{Rafailov} et al., 2023) stage on preference pairs contrasting the gold decline against a plausible seduced commitment, and against the tool-reflex response, improves J at or above the SFT model nearly everywhere and removes a specific failure described in \S7. I note a methodological caution: judged by strict-format parse rates the DPO model appears substantially degraded (13.2\% unparsed against 2.8\%), but under the semantic parser the gap is 0.5\% against 0.2\% - the model had switched to an equivalent output prefix. Checkpoint quality read from format-compliance alone would have discarded a working result.
+
+\subsection{Removing the overlapping items keeps sports transfer, at a cost in stability}
+
+The training set shares a question template with one of the three transfer domains, so sports transfer could in principle be recall rather than generalization. I test this directly by deleting the 24 sports items (516 training cases instead of 540) and retraining with everything else held fixed.
+
+\begin{table}[H]
+\centering
+\tablefont
+\caption{\textbf{Transfer discrimination by training run.}}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\rowcolor{tblhead}\textbf{run} & \textbf{crypto} & \textbf{sports} & \textbf{weather} \\
+\hline
+main run & +100 & +100 & +83 \\
+\hline
+seed 1 & +88 & +100 & +75 \\
+\hline
+seed 2 & +96 & +100 & +100 \\
+\hline
+seed 3 & +100 & +100 & +100 \\
+\hline
+seed 4 & +67 & +100 & +96 \\
+\hline
+seed 5 & +62 & +83 & +92 \\
+\hline
+\textbf{ablation s0} & +88 & \textbf{+100} & +96 \\
+\hline
+\textbf{ablation s1} & +46 & \textbf{+83} & +54 \\
+\hline
+\textbf{ablation s2} & +100 & \textbf{+92} & +100 \\
+\hline
+\textbf{ablation s3} & +46 & \textbf{+96} & +58 \\
+\hline
+\end{tabular}
+\end{table}
+
+Youden's J on sports is \textbf{+83 to +100 with the sports training items removed, across four independent runs of that recipe} (+100, +83, +92, +96), against +83 to +100 in the runs that included them. The overlap was not doing the work, and all three transfer domains can be read as held out. The deletion is not free, however, and four seeds are enough to see the cost: crypto J spans +46 to +100 on the 516-case recipe against +62 to +100 on the 540-case one, and weather +54 to +100 against +75 to +100. With six main-recipe runs rather than three the gap narrows considerably: the two recipes overlap heavily, and the deletion costs less stability than three seeds suggested. Removing 24 of 540 training cases leaves the domain those cases came from intact and widens the run-to-run spread everywhere else, which is the behavior of a recipe near its data floor rather than of one whose transfer depended on the deleted family.
+
+\subsection{The gate is not a grammatical heuristic}
+
+Every transfer evaluation in this paper separates unknowable from answerable by grammatical tense: the unknowable items ask about the future, the answerable ones about the present. A model that simply declined anything phrased in the future tense would therefore score a perfect Youden's J on all of them while representing no judgment about knowability at all, and fine-tuning on a set where the unknowable items are random future events is a plausible way to install exactly that policy. This is the most serious alternative explanation for \S6, so I test it directly.
+
+The control is a held-out synthetic set of 240 items, tense-balanced by construction. It contains \textbf{48 answerable questions in the future tense}, which are deterministic timer, clock and calendar computations: ``an alarm is set for 25 minutes from now, will it ring before the hour?'' It also contains \textbf{54 unknowable questions in the present tense}, which turn on hidden state: ``a fair die was rolled a moment ago and covered, was the result at least 6?'' Of those 54, 15 are aleatoric in the sense \S1 defines and 39 are epistemic, so the control tests the paper's target object on a minority of its items; the aleatoric-only slice holds on its own (100\% declined, within-present J = +97) but on n = 15. Those two cells are the whole experiment. A tense rule declines essentially all of the first and essentially none of the second; a knowability gate does the reverse.
+
+\begin{table}[H]
+\centering
+\tablefont
+\begin{tabular}{|l|c|c|c|}
+\hline
+\rowcolor{tblhead} & \textbf{present} & \textbf{future} & \textbf{total} \\
+\hline
+\textbf{answerable} & 72 & 48 & 120 \\
+\hline
+\textbf{unknowable} & 54 & 66 & 120 \\
+\hline
+\textbf{total} & 126 & 114 & \textbf{240} \\
+\hline
+\end{tabular}
+\end{table}
+
+The off-diagonal cells are the decisive ones: the 48 answerable-future items, which a future-tense refusal rule would wrongly decline, and the 54 unknowable-present items, which it would wrongly answer.
+
+\begin{table}[H]
+\centering
+\tablefont
+\begin{tabular}{|F{3.2cm}|M{2.8cm}|M{2.8cm}|M{2.4cm}|M{2.4cm}|}
+\hline
+\rowcolor{tblhead} & \textbf{answerable-FUTURE declined} & \textbf{unknowable-PRESENT declined} & \textbf{J within present} & \textbf{J within future} \\
+\hline
+a pure tense rule would & $\sim$100\% & $\sim$0\% & $\sim$0 & $\sim$0 \\
+\hline
+trained 3B & \textbf{0\%} & \textbf{100\%} & \textbf{+97} & \textbf{+100} \\
+\hline
++ preference stage & \textbf{0\%} & \textbf{100\%} & \textbf{+97} & \textbf{+100} \\
+\hline
+\textbf{independent run (main-s3)} & \textbf{0\%} & \textbf{100\%} & \textbf{+97} & \textbf{+100} \\
+\hline
+\end{tabular}
+\end{table}
+
+The trained model does the opposite of the tense rule on both cells, and a separately trained run reproduces the result to the percentage point. It answers 95.8\% of the answerable-future items, and 100\% in the independently trained run, while declining every unknowable-present item. The preference-trained variant answers only 79.2\% of them; the remainder are unparseable rather than declined, which is a formatting failure rather than an abstention. Computing Youden's J \textbf{separately within each tense}, so that tense cannot contribute anything, gives \textbf{+97pp within present} and \textbf{+100pp within future} in all three cases. The gate is a knowability judgment, not a grammatical one.
+
+Under the structurally novel frontier framing the same control degrades in the way \S8 describes, and does so consistently across runs: within-tense J falls to +18 to +19pp (present) and +62 to +79pp (future), with only 20-28\% of unknowable-present items declined. Notably the answerable-future cell holds up even there (0-17\% wrongly declined), so what the novel structure damages is the willingness to refuse the unknowable, not the willingness to answer the answerable. The gate remains distinguishable from a tense rule there, but it is much weaker.
+
+One residual cue is not excluded by this control. The synthetic unknowable items frequently say ``fair'', ``hidden'' or ``covered'', so a model could be keying on explicit randomness vocabulary rather than reasoning about resolvability. The transfer domains speak against that reading, since their panels contain no such words and the gate still fires, but a set of unknowable items with no lexical randomness markers would be a stronger test.
+
+\section{The trained gate transfers to the original cases}
+
+This test was run on the main run and its preference-trained continuation, not on the five further independent runs. Since the prompt used here belongs to the same structural family as the one under which seed 2 collapses (\S8), the result below should not be assumed to replicate across seeds. The strongest available test is the original benchmark: the same 40 cases, the same prompt reproduced verbatim, the same commitment definition, against a frontier baseline published before the model existed. One difference remains: the frontier baseline was sampled at temperature 0.3 while the trained model decodes greedily.
+
+\textbf{Commitment is zero at every level.}
+
+\begin{table}[H]
+\centering
+\tablefont
+\caption{\textbf{Commitment on the original 40 cases.}}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\rowcolor{tblhead}\textbf{level} & \textbf{trained 3B} & \textbf{+ preference stage} & \textbf{12 frontier models} \\
+\hline
+L0 bare & \textbf{0.0\%} & \textbf{0.0\%} & 6.5\% \\
+\hline
+L1 two prices & \textbf{0.0\%} & \textbf{0.0\%} & 14.8\% \\
+\hline
+\textbf{L2 full panel} & \textbf{0.0\%} & \textbf{0.0\%} & \textbf{54.0\%} \\
+\hline
+L2' different entity & \textbf{0.0\%} & \textbf{0.0\%} & 3.5\% \\
+\hline
+\end{tabular}
+\end{table}
+
+The table reports ANSWER only; the non-committal responses are not uniform. At L1 the fine-tuned model returns a tool call on 27 of 40 unknowable items rather than a decline, which \S8 identifies as the wrong kind of refusal, and the preference-trained variant reduces that to 1 of 40. Cohen's $h$ at L2 is \textbf{+1.65}, a very large effect by any convention. Its interval needs care rather than a bootstrap: the trained arm is 0 of 40, so every nonparametric resample of it returns exactly zero and a case-clustered bootstrap reports [+1.57, +1.74] while representing none of that arm's uncertainty. Propagating both arms' Wilson intervals instead gives a conservative \textbf{95\% interval of [+0.96, +1.74]}, which still lies entirely above the 0.8 conventionally called a large effect. The zero cells are 0 of 40, i.e.\ 0\% with a 95\% Wilson interval (Wilson, 1927) of [0, 8.8], and at that upper bound $h$ would still be +1.05. Youden's J is \textbf{+95pp} for the SFT model and \textbf{+100pp} with the preference stage. Two cautions apply to comparing these against the frontier models' +27 to +45pp on the transfer domains. First, those are different cases, not a different prompt. The table above is prompt-matched: the trained model and the frontier baseline saw the same 40 cases, the same four evidence levels and the same three-option ANSWER / CALL\_TOOL / DECLINE menu with the same tool description and the same response schema, differing only in the wording of the question sentence. The transfer-domain figures reported in \S6 are the ones that are not matched, because the trained model was additionally run there under a two-option framing that offers no tool. Under the matched three-option prompt the seven checkpoints of the main recipe commit on 3.6\% of crypto, 0.0\% of sports and 0.6\% of weather items at L2, against frontier rates of 34.7\%, 36.8\% and 55.7\% on the same items, so the direction of the comparison does not depend on the framing. Second, J charges the frontier models for CALL\_TOOL responses, which are wrong but are not commitments; scoring any non-commitment as a refusal raises them to +35 to +63. The defensible claim is that the trained model's commitment rate is far lower on identical items, not that its discrimination statistic dominates under every scoring convention. The evidence gradient that moves frontier models from 6.5\% to 54.0\% does not move the trained model at all.
+
+\textbf{The decline is earned.} On the matched answerable arm the trained model answers 100\% of questions and makes \textbf{no wrong directional call}. Every apparent error under the inherited scoring rule is the model emitting a probability of exactly 50, which is a hedge rather than a wrong call. One such case reads: \textit{``PROBABILITY\_YES: 50. REASONING: ... the price has risen, so the answer is YES''} - correct reasoning, hedged number. Excluding those hedges, directional accuracy is 100\% at L1, on 36 of the 40 items. Both figures should be read against a base rate rather than against 50\%: the full answerable arm is 29 NO to 11 YES, so always answering NO scores \textbf{72.5\%}, and the hedge-excluded L1 subset is 29 NO to 7 YES, where always-NO scores \textbf{80.6\%}. I give the figure at L1 only, and deliberately not at L2, because at L2 the hedges are not distributed at random: 9 of the 11 items whose true answer is YES are hedged there, so excluding them leaves 22 NO items against 2 YES items, a subset on which answering NO to everything would score 91.7\%. Selecting on a variable this closely tied to the outcome would flatter the model rather than measure it. I report the inherited rule ($p > 50$ means YES) as primary, because changing a scoring rule after seeing the data is precisely the error this project has repeatedly had to correct in itself, and give the hedge-excluded figure alongside as a disclosed secondary analysis. A probability of exactly 50 on a binary question genuinely expresses no directional view and is neither right nor wrong.
+
+\section{Where the trained gate breaks}
+
+This section is the point of the intervention, not a caveat appended to it. A gate that works only under conditions I happen to have tested is a deployment hazard. The boundary is where the useful information lives.
+
+\textbf{The gate holds exactly when the model is allowed to reason} (Figure~\ref{fig:seedspread})\textbf{.} The three evaluation framings differ in one feature that turns out to organize every result in this section: whether the response format provides a slot for reasoning. The original study's prompt (\S7) ends with \texttt{REASONING: <1 sentence>}; the natural framing asks the model to reason inside \texttt{<think></think>}; the frontier transfer framing asks for a decision and a probability and nothing else. The model fills the slot whenever there is one and never reasons when there is not, with no exceptions in 816 responses: 240 of 240 responses under the \S7 prompt contain a reasoning line, 288 of 288 under the natural framing contain a \texttt{<think>} block, and 0 of 288 under the frontier transfer framing contain either. The outcomes track that split rather than tracking the domain. Under the two framings that permit reasoning the gate is strong and stable: commitment 0.0\% at every level on the original 40 cases with J = +95, and J of +88 to +100 across the transfer domains. Under the framing that does not, Youden's J on crypto / sports / weather falls to +54 / +4 / -8 for the main run, +67 / +38 / -21 for the preference stage, +83 / +100 / +88 for seed 1 and 0 / 0 / 0 for seed 2, and answerable accuracy falls from 88.9-98.6\% to 50.9-73.8\%. I cannot fully separate format from domain, because the reasoning-permitting evaluations and the reasoning-suppressing one also differ in their case sets. But the 100\% / 0\% split in reasoning-block production is not a matter of degree, and the accuracy collapse on \textit{answerable} questions, which no domain shift should cause, points at the format.
+
+A Youden's J of zero conceals what replaced the decline, and the answer differs by run. \textbf{Across the seven checkpoints of the main 540-case recipe, commitment on unknowable items stays low under this framing throughout: 0.0\%, 0.0\%, 16.7\% and 8.3\% on crypto, and never above 4.2\% on sports or weather.} Where J falls, it falls because the model substitutes a tool call that cannot observe a future event: the wrong refusal, but still a refusal. The instability the main recipe exhibits is therefore in \textit{which} non-commitment it produces, not in whether it commits.
+
+\textbf{The \S6.5 ablation checkpoint behaves differently, and four seeds of it now exist.} Everything above concerns the main recipe. The 516-case ablation recipe was run four times, and under the reasoning-suppressing framing it is the one recipe that commits rather than substituting a tool call. Three of its four runs commit on unknowable items at L2, and they differ in a way that matters. Seed 2 commits on 12 items and seed 3 on none; the two heavy cases are seeds 0 and 1. Seed 0 commits on 100\% of crypto and weather items while emitting \texttt{PROBABILITY\_YES: NA} on \textbf{all 48} of them: it names the ANSWER action and then states no directional view, which is a collapse of output format rather than the harm this paper diagnoses. Seed 1 commits on the same cells and carries a real probability on \textbf{48 of 48}, with a mean deviation from 50 of 18.5 points, higher than the 7.7 the frontier models show at L2. That is the diagnosed harm, reproduced by a trained model. It is the strongest negative result in this paper and it belongs here rather than in a footnote: an intervention that removes evidence-induced commitment under three framings can reinstate it under a fourth, and a single run is not enough to tell which it will be. Two things bound the claim. It appears in the 516-case ablation and not in the 540-case main recipe, whose seven checkpoints, six of them independent training runs, commit 0, 0, 5, 2, 0, 0 and 0 times in total and never once with a probability attached. And over-abstention appears alongside it: seed 3 declines 33.3\% of answerable weather items, against 0.0\% for the main recipe on the transfer domains. Pooling all eleven checkpoints would report 25\% commitment on crypto, a figure describing no model that was actually trained, and this paper does not use it.
+
+Reporting only J would have hidden that difference; reporting only the commitment rate would have overstated it. An earlier attempt at the same objective with GRPO (Group Relative Policy Optimization; \href{https://arxiv.org/abs/2402.03300}{Shao} et al., 2024) showed the same run-to-run instability, installing the gate in most runs and failing outright in others. Two different training methods varying in the same way suggests a capacity limit at this model scale rather than a tuning problem.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{figures/fig6_seed_spread.pdf}
+\caption{\textbf{Where the trained gate breaks.} Youden's J for each run with retained generations, by
+domain. Under an unseen but natural rephrasing (left) every run discriminates strongly and the
+spread is small. Under a structurally different tool-offering prompt (right) the same runs range
+from near-perfect to no discrimination at all. J alone is not sufficient to read this panel: the
+ablation run scores zero on two of the three domains because it declines nothing, and it commits on 100\% of crypto and
+weather items, so a zero here can mean either a tool-call reflex or an outright failure of the gate.
+The starred run is a preference-trained continuation of the first, not an independent training run.}
+\label{fig:seedspread}
+\end{figure}
+
+\textbf{Rigid output formats suppress reasoning.} A prompt requiring the answer inside \texttt{<answer>} tags produces a bare two-line response with \textbf{no reasoning block at all}, and accuracy on \textit{answerable} questions falls to 50.9-73.8\% across the five checkpoints, with four of the five between 50.9\% and 57.1\%. The same model on the same questions under a natural framing produces a reasoning block in every response and scores 88.9-98.6\%. Format compliance and reasoning are in tension, and formatting constraints are an under-examined route to degraded decisions in small deployed models.
+
+\textbf{The miscalibration relocates rather than disappearing.} Under that rigid format the trained model answers answerable questions with a mean stated confidence of 84.0\% while being 57.2\% accurate - confident and wrong (n = 409 committed calls, pooled over the seven checkpoints of the main recipe). A caveat matters here: the fine-tuning targets contain only two probability values, 90 for YES and 10 for NO (the SFT target is written literally as \texttt{PROBABILITY\_YES: 90} or \texttt{10}), so any intermediate value the model emits, and it does emit 50, 60, 70 and 80, is interpolated rather than copied. Two things follow, and they pull in opposite directions. The interpolation shows the model is doing more than reproducing its targets, which is mild evidence against the strongest reading below. But the vocabulary is still anchored near the two values it was trained on, so 84.0\% reflects that anchor rather than a graded belief. Training on hard-coded confidence targets destroys the ability to express calibrated uncertainty, a real cost of this recipe rather than evidence about belief formation. Under the natural framing the same model states about 90\% and is 95.8\% accurate - confident and right. In frontier models the \textit{action} was miscalibrated while stated belief stayed sensible; here the action is correct while the \textit{belief} attached to it is inflated by roughly 25 points. Training moved the failure. It did not abolish the family of failure.
+
+\textbf{Hedging rises with evidence.} On answerable questions whose true answer is YES, the trained model's stated probability distribution shifts from \{50: 4, 60: 2, 80: 1, 90: 4\} at L1 to \{50: 9, 60: 1, 70: 1\} at L2. Same questions, same correct reasoning, more evidence, more hedging. Evidence pushes frontier models from refusal into commitment on unknowable questions and pushes the trained model from commitment into hedging on answerable ones. In both directions the stated number has stopped tracking what the model has actually worked out.
+
+\section{Discussion}
+
+\textbf{Action calibration is not belief calibration.} Across every result here the stated probability is the wrong place to look. It moves by 3 points while the decision moves by 48; it separates outcomes worse than not at all, ranking the events it got right below the ones it got wrong while the actions it nominally justifies score worse than silence; and after training it inflates in exactly the cell where the action is correct. Evaluations that audit stated probabilities - most of the calibration literature - will not see this failure. Agent evaluations need to audit decisions.
+
+\textbf{More context can make agents less reliable.} Wiring agents to dashboards and retrieval is the deployment default, and it is also the treatment condition of this experiment. For decisions with an irreducible component, relevant-\textit{looking} context does not inform the agent; it erodes the agent's willingness to say that no one can know. The scrambled control sharpens this: the mechanism is not that noisy evidence is over-weighted, but that authoritative presentation is treated as a license to act.
+
+\textbf{The failure has a specific and exploitable shape.} The judgment is intact and the gate is bypassed. The trigger is presentation, not information or volume, and the output is herded, momentum-shaped calls worth less than silence. This is exploitable, because a failure this localized is addressable both by instruction and by training, and because a system that can be moved from 54\% to 0\% by 540 synthetic examples about dice and coins was never missing the concept.
+
+\textbf{A measurement artifact for governance.} An audit that scores an agent only on answerable questions rates the L2 agent \textit{higher}, because it answers more, while its decision quality is worse than silence. Commitment rate on aleatoric probes is a cheap, reproducible robustness test that a provider could run and declare under EU AI Act Article 15 or the NIST AI RMF MEASURE function, with a declared metric and threshold. The matched answerable arm is what makes such a metric non-gameable: a blanket decliner scores zero on it.
+
+\section{Related work}
+
+This section comes after the results rather than before them, because several of the papers below reach conclusions close to \S5's by different routes, and the comparison is only meaningful once the reader knows what was measured here.
+
+\textbf{Aleatoric versus epistemic unanswerability.} AbstentionBench (Kirichenko et al., 2025) evaluates abstention largely on missing-information and ill-posed questions, and reports that reasoning fine-tuning degrades abstention. Abstain-R1 (Zhai et al., 2026) and TruthRL (\href{https://arxiv.org/abs/2509.25760}{Wei} et al., 2026) train abstention with verifiable rewards; the former adds post-refusal clarification, explicitly for queries that are ``clear in meaning but cannot be reliably resolved from the given information'' - a supplied-information framing. Agentic Abstention (\href{https://arxiv.org/abs/2606.28733}{Luo} et al., 2026) and AgentAbstain (\href{https://arxiv.org/abs/2607.10059}{Liu} et al., 2026) study when agents should stop acting in executable environments. AgentAbstain reaches the same conclusion as \S4 from a different starting point. It evaluates ``the calibrated ability of tool-using LLM agents to recognize when not to act'' across 263 paired should-act and should-abstain tasks in 42 sandbox environments. The best of 17 frontier models manages 59.5\% paired accuracy, and the authors conclude that ``abstention capability is largely independent of general task-solving capability, indicating that scaling task-solving alone will not close this gap.'' That conclusion was reached here independently and by a different route: \S4 found per-model commitment spanning 0-100\% in a way that does not track capability, on aleatoric rather than executable tasks. Their paired design is also the logic of the matched answerable arm used throughout this paper. Neither paper supplies a training intervention for the aleatoric case, which \S6 provided.
+
+\textbf{Forecasting evaluation.} The unknowability oracle used here is short-horizon prediction of price, fixture and precipitation outcomes, which is the object of a standing benchmark literature: ForecastBench (\href{https://arxiv.org/abs/2409.19839}{Karger} et al., 2024) evaluates LLM forecasts against human superforecasters on regularly refreshed questions, and reports systematic overconfidence. The dependent variable there is forecast \textit{quality}, scored against resolution. Here it is whether the agent issues a forecast at all, and what makes it do so; the probabilities are of interest only as evidence about the gate, and \S5 shows they are anti-predictive rather than merely imprecise. The two literatures are complementary, and the design borrows one convention from that field deliberately: all as-of dates fall after every roster model's training cutoff, which is the temporal-separation control that forecasting benchmarks use to prevent leakage.
+
+\textbf{Knowable versus unknowable.} Ahdritz et al. (2024) separate knowable from unknowable using internal activation probes, with ``aleatoric'' meaning next-token ambiguity in language rather than unpredictable real-world events. This work has been the behavioral complement: black-box, on future events, with resolved outcomes.
+
+\textbf{Knowing versus acting.} Kadavath et al. (2022) showed models are largely calibrated about their own knowledge. Sun et al. (2026) decode tool-necessity from hidden states at AUROC 0.89-0.96, ``substantially exceeding the model's own verbalized reasoning'', concluding that models already know when a tool is needed but fail to act on it during generation. That is the localization this paper reaches behaviorally in \S5, on a different decision and by a different route; an internal-representation result and a behavioral one converging is stronger evidence than either alone, and their probe suggests a cheaper intervention than the fine-tuning in \S6. Pal et al. (2026) established that statically elicited confidence fails to predict interactive behavior. The localization in \S5 is a causal, controlled instantiation of that gap on the aleatoric slice, with a specific manipulandum (evidence presentation) and an earned-value check against sealed outcomes.
+
+\textbf{Evidence-induced miscalibration.} Xuan et al. (2026) show retrieval tools inflate verbalized confidence and attribute it to retrieval noise. Here the evidence is not noisy but \textit{empty} by construction, and the measurement is the action rather than the stated number. Xu (2026) documents directional commitment by LLM judges under mixed evidence. Distractor studies (Shi et al., 2023; Yang et al., 2025) show irrelevant context degrading accuracy; the L2' relevance control described in \S2 differs in kind, in that visibly irrelevant evidence fails to seduce at all.
+
+\textbf{Incentive and human-judgment accounts.} Kalai et al. (2025) argue training and evaluation reward guessing over acknowledged uncertainty, which is consistent with the pattern reported here and with the placebo result in \S5. The failure signature matches the illusion of validity in human judgment (Oskamp, 1965; Slovic \& Corrigan, 1973; Tversky \& Kahneman, 1973), with one difference in the models' favor: a single instruction reconnects judgment to action, which human debiasing rarely achieves.
+
+\section{Limitations}
+
+Two threats are closed by experiment rather than argument: the training set's overlap with one transfer domain (\S6.5) and the tense confound (\S6.6). Six remain open.
+
+\textbf{Weather is the weakest instrument.} Its panel supplies a real ensemble rain probability, which carries genuine skill at ten days, and it has no sealed outcomes. A model answering near the stated probability may be correct rather than seduced. Crypto, which has both, is the primary transfer domain.
+
+\textbf{\S3 rests on one developer's models.} Three of the twelve carry the effect; four never commit and three always do. The pooled rate should not be read as a statement about frontier models in general.
+
+\textbf{A residual lexical cue survives \S6.6.} Synthetic unknowable items often name randomness explicitly (``a fair die was rolled and covered''). The transfer panels contain no such vocabulary and the gate still fires, but the cue is not fully excluded.
+
+\textbf{The intervention is one model at one scale.} 3B, one architecture, synthetic data, six independent runs of the main recipe and four of the ablation, 24 to 40 cases per cell, one sample per cell. Nothing here establishes that the recipe survives scale.
+
+\textbf{Two models' discrimination scores are lower bounds.} Qwen3.7-plus leaves 52.8\% of its L2 unknowable responses unparseable by either parser and Llama 3.3 70B leaves 23.6\%, against 0.0-2.8\% for the other ten. Unparsed responses count as non-commitments, so those two J values (+17, +53) are computed on a minority or bare majority of readable output, and they qualify both Appendix D and the per-model spread reported in \S4.
+
+\textbf{Cell-level values are approximate.} Greedy decoding is not bit-reproducible across environments; rescoring an identical checkpoint moved individual cells by one to two cases out of 24. Serving configuration is uncontrolled for hosted models.
+
+\textbf{Future work.} A multi-step cascade study of whether one evidence-induced commitment propagates through an agent loop; the same intervention at a second model scale; a domain in which declining is not the safe default; and an investigation of why some models in a developer's family resist while others do not.
+
+\section{Conclusion}
+
+On questions no one can answer, current agents refuse when asked bare and commit when shown a professional-looking panel. They commit just as readily when that panel's indicators are fabricated, and for the models most affected they commit more readily. The judgment they need is present and elicitable, their stated probabilities are anti-predictive of the outcome throughout, at an AUROC of 0.346 on the heaviest evidence condition, and the calls they produce are worth less than silence. The failure is not in what these models believe. It is in when they decide that believing is enough to act.
+
+That gate can be moved. A 3B model trained only on dice, coins and timers stops committing on stock and crypto forecasts, keeps answering the questions that are answerable, and does so for reasons that survive the obvious alternative explanations. It is also fragile: change the shape of the prompt and the gate wobbles, and in three of four runs of a variant recipe it commits. Both halves are the result. A gate that can be installed by 540 synthetic examples was never a missing capability, and a gate that breaks when the prompt is rephrased is not yet a safety property.
+
+\section*{Appendix A - Pre-registration and analysis decisions}
+
+The pre-registration for the original study is released as \texttt{PREREGISTRATION.md} and covers the evidence gradient, the L2' control and the mitigation. For the work added here I distinguish three categories honestly.
+
+\textbf{Declared before the data existed.} The truthfulness metric T and its baseline of +42 were fixed in the project's analysis notes before any model was fine-tuned, as the intended headline for the training leg. The matched answerable controls were specified before the transfer evaluations were run, on the reasoning that an all-unknowable evaluation cannot distinguish a knowability gate from a blanket decliner.
+
+\textbf{Declared before the relevant data, but after other data.} The coverage ablation in \S6.2 was designed after observing that an earlier training run collapsed under a tool-offering prompt; the stratification target was set before that run was repeated. The tense-balanced control set (\S6.6) was built during data construction, months before it was run, but the decision to \textit{report} it came after external review raised the confound.
+
+\textbf{Post-hoc, and labeled as such.} The semantic parser was introduced after inspecting raw generations, when it became clear that models were emitting an equivalent decision prefix. It is applied uniformly to every model and cell, and both parsers are reported throughout (Appendix C). The equivalence margin for the TOST in \S3 ($\pm$5 percentage points) was chosen after the point estimate was known and should be read as a descriptive convention rather than a pre-registered threshold.
+
+\textbf{Predictions that were wrong.} I expected the preference stage to degrade output quality, on the basis of its strict-format parse rate; it did not (\S6.4). I expected removing the overlapping training family to reduce transfer in that domain; it did not (\S6.5).
+
+\section*{Appendix B - Prompts (verbatim)}
+
+\textbf{B.1 Evidence gradient.} As Box 1. The evidence block varies by condition and the response format is constant:
+
+\needspace{8\baselineskip}
+\begin{mdframed}[style=promptbox]
+\begin{Verbatim}
+Respond EXACTLY inside <answer></answer>:
+DECISION: <ANSWER, CALL_TOOL, or DECLINE>
+PROBABILITY_YES: <if you chose ANSWER, your probability 0-100 that it will be higher; otherwise NA>
+REASONING: <1 sentence>
+\end{Verbatim}
+\end{mdframed}
+
+\textbf{B.2 Scrambled-display arms.} Identical wording across arms; only the indicator block differs. The \texttt{thin} arm carries the price header, seven-day change, RSI and volume ratio. The \texttt{rich} arm adds EMA20, EMA50, MACD histogram, ATR and a regime classification. The \texttt{scram} arm is the \texttt{rich} block with the six technical fields named in \S3 (RSI-14, EMA-20, EMA-50, the MACD histogram, ATR-14 and the volume ratio) replaced by the same asset's values from a strictly earlier date, headers direction-matched. The symbol, as-of date, current close, prior close, stated percentage move and regime classification stay real in this arm; the \texttt{scramfull} arm fabricates those as well.
+
+\textbf{B.3 Training framings.} Ten framings, six without a tool and four offering one, all requesting the same parseable decision line. Gold remains DECLINE or ANSWER in every framing; CALL\_TOOL is never a gold action, since no search resolves a random future.
+
+\textbf{B.4 Held-out evaluation framings.} The \textit{natural} framing shares the structure of the training framings but none of their wording. The \textit{frontier} framing is the original study's agentic prompt: three options including a tool call, wrapped in \texttt{<answer></answer>} tags.
+
+\section*{Appendix C - Parser pair and the strict/semantic delta}
+
+The strict parser accepts only a line beginning \texttt{DECISION:}. The semantic parser additionally accepts \texttt{RESPONSE:}, \texttt{FINAL DECISION:}, \texttt{VERDICT:}, \texttt{ACTION:}, \texttt{CHOICE:} and \texttt{ANS:}. Neither infers a decision from prose. Both are applied to every model and every cell.
+
+\begin{table}[H]
+\centering
+\tablefont
+\begin{tabular}{|l|M{1.4cm}|M{2.7cm}|M{2.9cm}|M{2.0cm}|}
+\hline
+\rowcolor{tblhead}\textbf{model set} & \textbf{n} & \textbf{strict unparsed} & \textbf{semantic unparsed} & \textbf{delta} \\
+\hline
+trained, main run & 576 & 2.8\% & 0.2\% & +2.6pp \\
+\hline
+trained, + preference stage & 576 & \textbf{13.2\%} & \textbf{0.5\%} & \textbf{+12.7pp} \\
+\hline
+trained, seed 1 & 576 & 0.0\% & 0.0\% & 0.0pp \\
+\hline
+trained, seed 2 & 576 & 0.3\% & 0.0\% & +0.3pp \\
+\hline
+trained, overlap-removed & 576 & 0.0\% & 0.0\% & 0.0pp \\
+\hline
+12 frontier models & 3448 & 2.2\% & 2.2\% & 0.0pp \\
+\hline
+\end{tabular}
+\end{table}
+
+The delta is zero for the frontier models and for three of the eleven trained checkpoints. It matters for exactly one: the preference-trained model, which had switched to an equivalent prefix. Reading checkpoint quality from format compliance alone would have discarded a working model, which is why both numbers are reported rather than the more favorable one.
+
+\section*{Appendix D - Per-model results}
+
+Transfer domains, heaviest evidence level, pooled over crypto, sports and weather (72 unknowable and 72 answerable decisions per model).
+
+\begin{table}[H]
+\centering
+\tablefont
+\caption{\textbf{Per-model results at the heaviest evidence level.}}
+\begin{tabular}{|F{4.2cm}|M{1.2cm}|M{1.2cm}|M{1.0cm}|M{1.3cm}|M{1.4cm}|M{1.8cm}|}
+\hline
+\rowcolor{tblhead}\textbf{model} & \textbf{commit} & \textbf{decline} & \textbf{tool} & \textbf{unparsed} & \textbf{Youden's J} & \textbf{answerable accuracy} \\
+\hline
+openai/gpt-5.4 & 100.0\% & 0.0\% & 0.0\% & 0.0\% & +0 & 100.0\% \\
+\hline
+openai/gpt-5.4-mini & 100.0\% & 0.0\% & 0.0\% & 0.0\% & +0 & 100.0\% \\
+\hline
+anthropic/claude-opus-4.8 & 86.1\% & 12.5\% & 1.4\% & 0.0\% & +12 & 100.0\% \\
+\hline
+anthropic/claude-sonnet-5 & 70.8\% & 1.4\% & 27.8\% & 0.0\% & +1 & 100.0\% \\
+\hline
+google/gemini-3.5-flash & 48.6\% & 19.4\% & 29.2\% & 2.8\% & +19 & 100.0\% \\
+\hline
+x-ai/grok-4.20 & 26.4\% & 37.5\% & 36.1\% & 0.0\% & +38 & 100.0\% \\
+\hline
+google/gemma-4-31b-it & 23.6\% & 76.4\% & 0.0\% & 0.0\% & +76 & 100.0\% \\
+\hline
+deepseek/deepseek-v3.2 & 19.4\% & 55.6\% & 25.0\% & 0.0\% & +56 & 100.0\% \\
+\hline
+qwen/qwen3.7-plus & 16.7\% & 16.7\% & 13.9\% & \textbf{52.8\%} & +17 & 100.0\% \\
+\hline
+x-ai/grok-4.3 & 11.1\% & 87.5\% & 0.0\% & 1.4\% & +88 & 100.0\% \\
+\hline
+meta-llama/llama-3.3-70b-instruct & 6.9\% & 52.8\% & 16.7\% & \textbf{23.6\%} & +53 & 98.6\% \\
+\hline
+anthropic/claude-haiku-4.5 & 0.0\% & 66.7\% & 33.3\% & 0.0\% & +67 & 100.0\% \\
+\hline
+\end{tabular}
+\end{table}
+
+Answerable accuracy is at or near 100\% for every model and no model ever declines an answerable item, so the decline rate on the unknowable arm carries all of the variation in J. \textbf{The unparsed column matters for two rows.} Qwen3.7-plus leaves 52.8\% of its L2 unknowable responses unreadable by either parser and Llama 3.3 70B leaves 23.6\%, against 0.0-2.8\% for every other model. Unparsed responses are counted as non-commitments, so both models' J values (+17 and +53) are computed on a minority or bare majority of readable responses and should be read as lower bounds rather than as measurements. Rows sum to 100\% including the unparsed column.
+
+\section*{Appendix E - Training details}
+
+\textbf{Data.} 540 synthetic cases (516 in the ablation run), tense and label balanced, with verified ground truth. Half the unknowable cases carry a rich non-predictive indicator panel, paired with matched cases whose panel resolves the question. Six families are held out of training entirely.
+
+\textbf{Rendering.} Each case is rendered under several of ten prompt framings. Framings are stratified rather than sampled at random: the cell combining a tool-offering framing with a seductive panel is 25.5\% of training rows, against 9.0\% under random sampling. Half the seductive panels are enriched from single-line to multi-line professional format, matching the density of the transfer panels.
+
+\textbf{Optimization.} 4-bit QLoRA (nf4, double quantization), rank 32, alpha 64, on the attention projections. Three epochs, batch 8, gradient accumulation 2, learning rate 2e-4, completion-only loss with the prompt masked. Greedy decoding at evaluation, 256 new tokens.
+
+\textbf{Per-run results.} Youden's J on the transfer domains under the natural framing:
+
+\begin{table}[H]
+\centering
+\tablefont
+\begin{tabular}{|l|c|c|c|}
+\hline
+\rowcolor{tblhead}\textbf{run} & \textbf{crypto} & \textbf{sports} & \textbf{weather} \\
+\hline
+main & +100 & +100 & +83 \\
+\hline
+seed 1 & +88 & +100 & +75 \\
+\hline
+seed 2 & +96 & +100 & +100 \\
+\hline
+ablation & +88 & +100 & +96 \\
+\hline
+\end{tabular}
+\end{table}
+
+A fifth independent run (main-s3) was trained and evaluated but its transfer-domain generations were not retained, so it is excluded here. Its tense-control generations were retained and are reported in \S6.6.
+
+\section*{Appendix F - Transcripts}
+
+\textbf{Committing on a fabricated panel.} \textit{``Bitcoin is in a confirmed downtrend (BEAR\_VOLATILE, below EMA20/50, negative MACD)...''} Every indicator cited is a real number belonging to a different date.
+
+\textbf{Refusing correctly.} \textit{``Whether RELIANCE will close higher over the next 10 trading days is a genuinely unpredictable...''}
+
+\textbf{Correct on explicit randomness.} \textit{``A fair coin has no memory, so previous flips and commentary don't matter.''} The same models that commit on a technical panel are near-perfect when the identical irreducible uncertainty is labeled.
+
+\textbf{The hedge that scores as an error.} \textit{``PROBABILITY\_YES: 50. REASONING: ... the price has risen, so the answer is YES.''} The reasoning is correct and explicit; the number expresses no view. Under the inherited scoring rule this counts against the model on a YES item.
+
+\textbf{Format compliance suppressing reasoning.} Under the wrapper-tag framing the trained model returns \texttt{DECISION: ANSWER} and \texttt{PROBABILITY\_YES: 10} with no reasoning block at all, in 288 of 288 responses for the main run and 3164 of 3168 across all eleven checkpoints with retained generations. Under the natural framing the same model produces a reasoning block in every one of its 288 responses.
+
+\section*{Data and code availability}
+
+All model outputs analysed in this paper are released as raw cached generations rather than as
+summary statistics, so every number above can be recomputed without re-running a single API call or
+GPU hour. The release contains the 12-model transfer run, all four scrambled-display constructions,
+the dose-response run, the original equity run, every trained checkpoint's generations under both
+evaluation framings, and the tense-balanced control set, together with the analysis scripts that
+produce each reported figure and the pre-registration.
+
+Repository: \href{https://github.com/Pranav-1100/confidence-calibration-evaluation}{github.com/Pranav-1100/confidence-calibration-evaluation}.
+The paper, its figures, the analysis scripts and every cached model output are at the top level of
+that repository; the earlier version this one extends is under \texttt{v1/}. This version is archived at DOI \href{https://doi.org/10.5281/zenodo.22043517}{10.5281/zenodo.22043517}; version 1 is at
+DOI \href{https://doi.org/10.5281/zenodo.21325375}{10.5281/zenodo.21325375}.
+ORCID: \href{https://orcid.org/0009-0005-1243-0520}{0009-0005-1243-0520}.
+Correspondence: \href{mailto:pranavaggarwal1100@gmail.com}{pranavaggarwal1100@gmail.com}.
+
+\section*{References}
+
+\small
+\begin{itemize}[leftmargin=1.6em,itemsep=3pt,label=\textbullet]
+
+\item Aggarwal, P. (2026). Calibrated Enough to Know, Not Calibrated to Act: Relevant-Looking Evidence Makes LLM Agents Commit to the Unknowable. DOI \href{https://doi.org/10.5281/zenodo.21325375}{10.5281/zenodo.21325375}.
+
+\item Ahdritz, G., et al. (2024). Distinguishing the Knowable from the Unknowable with Language Models. \href{https://arxiv.org/abs/2402.03563}{arXiv:2402.03563}.
+
+\item Brier, G. W. (1950). Verification of forecasts expressed in terms of probability. \textit{Monthly Weather Review}, 78(1), 1-3.
+
+\item Cohen, J. (1988). \textit{Statistical Power Analysis for the Behavioral Sciences} (2nd ed.). Lawrence Erlbaum. [effect size \textit{h} for proportions]
+
+\item Dettmers, T., Pagnoni, A., Holtzman, A., \& Zettlemoyer, L. (2023). QLoRA: Efficient Finetuning of Quantized LLMs. \href{https://arxiv.org/abs/2305.14314}{arXiv:2305.14314}.
+
+\item Dimitriadis, T., Gneiting, T., \& Jordan, A. I. (2021). Stable reliability diagrams for probabilistic classifiers. \textit{PNAS}, 118(8), e2016191118. DOI \href{https://doi.org/10.1073/pnas.2016191118}{10.1073/pnas.2016191118}. [CORP decomposition]
+
+\item European Union (2024). Regulation (EU) 2024/1689 (Artificial Intelligence Act), Article 15: Accuracy, robustness and cybersecurity. \href{https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng}{eur-lex.europa.eu}.
+
+\item Kadavath, S., et al. (2022). Language Models (Mostly) Know What They Know. \href{https://arxiv.org/abs/2207.05221}{arXiv:2207.05221}.
+
+\item Kalai, A. T., Nachum, O., Vempala, S. S., \& Zhang, E. (2025). Why Language Models Hallucinate. \href{https://arxiv.org/abs/2509.04664}{arXiv:2509.04664}.
+
+\item Karger, E., et al. (2024). ForecastBench: A Dynamic Benchmark of AI Forecasting Capabilities. \href{https://arxiv.org/abs/2409.19839}{arXiv:2409.19839}.
+
+\item Kirichenko, P., Ibrahim, M., Chaudhuri, K., \& Bell, S. J. (2025). AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions. \href{https://arxiv.org/abs/2506.09038}{arXiv:2506.09038}.
+
+\item Lakens, D. (2017). Equivalence tests: A practical primer for t tests, correlations, and meta-analyses. \textit{Social Psychological and Personality Science}, 8(4), 355-362. [TOST]
+
+\item Liu, X., Zhang, Y. E., Kasprova, V., Rabbani, P., Zahraei, P. S., Zhang, T., Ebrahimpour-Boroojeny, A., \& Chandrasekaran, V. (2026). AgentAbstain: Do LLM Agents Know When Not to Act? \href{https://arxiv.org/abs/2607.10059}{arXiv:2607.10059}.
+
+\item Luo, H., Wen, B., \& Wang, L. L. (2026). Agentic Abstention: Do Agents Know When to Stop Instead of Act? \href{https://arxiv.org/abs/2606.28733}{arXiv:2606.28733}.
+
+\item Murphy, A. H. (1973). A new vector partition of the probability score. \textit{Journal of Applied Meteorology}, 12(4), 595-600.
+
+\item NIST (2023). Artificial Intelligence Risk Management Framework (AI RMF 1.0). NIST AI 100-1. DOI \href{https://doi.org/10.6028/NIST.AI.100-1}{10.6028/NIST.AI.100-1}.
+
+\item Oskamp, S. (1965). Overconfidence in case-study judgments. \textit{Journal of Consulting Psychology}, 29(3).
+
+\item Pal, A., Kitanovski, T., Liang, A., Potti, A., \& Goldblum, M. (2026). Knowing What You Know Is Not Enough: Large Language Model Confidences Don't Align With Their Actions. \href{https://arxiv.org/abs/2511.13240}{arXiv:2511.13240}.
+
+\item Qwen Team (2024). Qwen2.5 Technical Report. \href{https://arxiv.org/abs/2412.15115}{arXiv:2412.15115}.
+
+\item Rafailov, R., Sharma, A., Mitchell, E., Ermon, S., Manning, C. D., \& Finn, C. (2023). Direct Preference Optimization: Your Language Model is Secretly a Reward Model. \href{https://arxiv.org/abs/2305.18290}{arXiv:2305.18290}.
+
+\item Schuirmann, D. J. (1987). A comparison of the two one-sided tests procedure and the power approach for assessing the equivalence of average bioavailability. \textit{Journal of Pharmacokinetics and Biopharmaceutics}, 15(6), 657-680.
+
+\item Shao, Z., et al. (2024). DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models. \href{https://arxiv.org/abs/2402.03300}{arXiv:2402.03300}. [GRPO]
+
+\item Shi, F., et al. (2023). Large Language Models Can Be Easily Distracted by Irrelevant Context. ICML 2023.
+
+\item Slovic, P., \& Corrigan, B. (1973). Behavioral problems of adhering to a decision policy. Paper presented at the Banking Research Conference, Chicago.
+
+\item Sun, C.-E., Liu, L., Yan, G., Wang, Z., \& Weng, T.-W. (2026). LLM Agents Already Know When to Call Tools - Even Without Reasoning. \href{https://arxiv.org/abs/2605.09252}{arXiv:2605.09252}.
+
+\item Tversky, A., \& Kahneman, D. (1973). On the psychology of prediction. \textit{Psychological Review}, 80(4).
+
+\item Wei, Z., et al. (2026). TruthRL: Incentivizing Truthful LLMs via Reinforcement Learning. \href{https://arxiv.org/abs/2509.25760}{arXiv:2509.25760} (v2, June 2026).
+
+\item Wilson, E. B. (1927). Probable inference, the law of succession, and statistical inference. \textit{Journal of the American Statistical Association}, 22(158), 209-212.
+
+\item Xu, H. (2026). Cherry-pick Override: Unsafe Directional Commitment in LLM Judges under Mixed Evidence. \href{https://arxiv.org/abs/2606.07834}{arXiv:2606.07834}.
+
+\item Xuan, W., Zeng, Q., Qi, H., Xiao, Y., Wang, J., \& Yokoya, N. (2026). The Confidence Dichotomy: Analyzing and Mitigating Miscalibration in Tool-Use Agents. \href{https://arxiv.org/abs/2601.07264}{arXiv:2601.07264}.
+
+\item Yang et al. (2025). How Is LLM Reasoning Distracted by Irrelevant Context? EMNLP 2025.
+
+\item Youden, W. J. (1950). Index for rating diagnostic tests. \textit{Cancer}, 3(1), 32-35.
+
+\item Zhai, S., Liang, J., \& Kang, D. (2026). Abstain-R1: Calibrated Abstention and Post-Refusal Clarification via Verifiable RL. \href{https://arxiv.org/abs/2604.17073}{arXiv:2604.17073}.
+
+\end{itemize}
+
+\vspace{4pt}
+\small\textit{Citation-year convention: arXiv preprints are cited by the year of the version consulted, which
+for several entries is later than the year encoded in the arXiv identifier.}
+
+\end{document}

@@ -66,7 +66,7 @@ body { font-family: Charter, Georgia, 'Times New Roman', serif;
             margin: 2mm 6mm 5mm; font-weight: 700; letter-spacing: -0.15px; }
 .front > p { text-align: center; margin: 2px 0; font-size: 10pt; }
 .front > p em { color: #444; font-size: 9.2pt; }
-.front h2 { text-align: center; font-size: 11pt; font-variant: small-caps;
+.front h2 { text-align: center; font-size: 11pt; text-transform: uppercase;
             letter-spacing: 0.6px; border: none; margin: 7mm 0 3mm; }
 /* every paragraph of the abstract, not just the first */
 .front h2 ~ p { text-align: justify; margin: 0 14mm 2.6mm; font-size: 9.7pt;
