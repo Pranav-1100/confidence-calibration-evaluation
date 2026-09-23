@@ -13,12 +13,12 @@
 #   4. BOOTSTRAP CI ON COHEN'S H, which was quoted as a bare point estimate.
 #   5. TENSE COMPOSITION of every evaluation set, so the confound is documented numerically.
 #
-# usage: python3 rl/v2_stats_addendum.py
+# usage: python3 scripts/v2/v2_stats_addendum.py
 # ================================================================================
 import json, os, re, math, random, collections
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MR = os.path.join(ROOT, "..", "main-research", "data")
+MR = os.path.join(os.path.dirname(ROOT), "data")
 RNG = random.Random(0)
 
 def load(*p):

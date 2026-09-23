@@ -7,3 +7,6 @@ __pycache__/
 *.render.html
 dist/
 node_modules/
+latex/*.aux
+latex/*.log
+latex/*.out

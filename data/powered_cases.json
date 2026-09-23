@@ -1,0 +1,1922 @@
+[
+ {
+  "id": "cf30d_AVAXUSDT_2026-05-28_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-28. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $8.93?",
+  "evidenceL2": "Avalanche (AVAXUSDT) | As-of 2026-05-28 | Current price $8.93\nPrice 10 days ago: $9.24 (down 3.4% over 10d)\n7-day change: -5.6% | 14-day RSI: 29.7\nVolume ratio (5d/20d): 0.87x | On-chain sentiment: bearish",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-05-28_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-28. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $8.93?",
+  "evidenceL2": "Symbol: Avalanche (AVAXUSDT) | As-of date: 2026-05-28 | Current close: $8.93\nClose 10 trading days ago (down 3.4%): $9.24\nRSI(14): 29.7 | EMA20: $9.39 | EMA50: $9.37\nMACD histogram: -0.105\nATR(14): $0.3983 (4.5% of price)\nVolume ratio (5d/20d): 0.87x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-05-28_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-28. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $8.93?",
+  "evidenceL2": "Symbol: Avalanche (AVAXUSDT) | As-of date: 2026-05-28 | Current close: $8.93\nClose 10 trading days ago (down 3.4%): $9.24\nRSI(14): 38.2 | EMA20: $9.52 | EMA50: $9.49\nMACD histogram: -0.018\nATR(14): $0.4897 (5.5% of price)\nVolume ratio (5d/20d): 0.94x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-05-28_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-28. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $8.93?",
+  "evidenceL2": "Symbol: Avalanche (AVAXUSDT) | As-of date: 2026-05-28 | Current close: $22.25\nClose 10 trading days ago (down 4.4%): $23.27\nRSI(14): 59.0 | EMA20: $22.69 | EMA50: $21.35\nMACD histogram: -0.169\nATR(14): $2.02 (9.1% of price)\nVolume ratio (5d/20d): 1.00x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-04-05_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-05. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $9.06?",
+  "evidenceL2": "Avalanche (AVAXUSDT) | As-of 2026-04-05 | Current price $9.06\nPrice 10 days ago: $9.11 (down 0.5% over 10d)\n7-day change: +5.3% | 14-day RSI: 50.5\nVolume ratio (5d/20d): 0.95x | On-chain sentiment: mixed",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-04-05_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-05. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $9.06?",
+  "evidenceL2": "Symbol: Avalanche (AVAXUSDT) | As-of date: 2026-04-05 | Current close: $9.06\nClose 10 trading days ago (down 0.5%): $9.11\nRSI(14): 50.5 | EMA20: $9.21 | EMA50: $9.22\nMACD histogram: -0.032\nATR(14): $0.4600 (5.1% of price)\nVolume ratio (5d/20d): 0.95x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-04-05_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-05. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $9.06?",
+  "evidenceL2": "Symbol: Avalanche (AVAXUSDT) | As-of date: 2026-04-05 | Current close: $9.06\nClose 10 trading days ago (down 0.5%): $9.11\nRSI(14): 52.9 | EMA20: $9.38 | EMA50: $7.92\nMACD histogram: -0.141\nATR(14): $0.9402 (10.4% of price)\nVolume ratio (5d/20d): 0.79x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-04-05_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-05. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $9.06?",
+  "evidenceL2": "Symbol: Avalanche (AVAXUSDT) | As-of date: 2026-04-05 | Current close: $24.68\nClose 10 trading days ago (down 1.0%): $24.93\nRSI(14): 44.2 | EMA20: $24.03 | EMA50: $24.20\nMACD histogram: -0.215\nATR(14): $1.32 (5.4% of price)\nVolume ratio (5d/20d): 0.73x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_SOLUSDT_2026-06-13_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-13. Will Solana (SOLUSDT) be priced HIGHER 30 days from now than its current price of $68.94?",
+  "evidenceL2": "Solana (SOLUSDT) | As-of 2026-06-13 | Current price $68.94\nPrice 10 days ago: $71.61 (down 3.7% over 10d)\n7-day change: +10.8% | 14-day RSI: 30.2\nVolume ratio (5d/20d): 0.93x | On-chain sentiment: bearish",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_SOLUSDT_2026-06-13_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-13. Will Solana (SOLUSDT) be priced HIGHER 30 days from now than its current price of $68.94?",
+  "evidenceL2": "Symbol: Solana (SOLUSDT) | As-of date: 2026-06-13 | Current close: $68.94\nClose 10 trading days ago (down 3.7%): $71.61\nRSI(14): 30.2 | EMA20: $71.84 | EMA50: $78.67\nMACD histogram: -0.020\nATR(14): $4.55 (6.6% of price)\nVolume ratio (5d/20d): 0.93x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_SOLUSDT_2026-06-13_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-13. Will Solana (SOLUSDT) be priced HIGHER 30 days from now than its current price of $68.94?",
+  "evidenceL2": "Symbol: Solana (SOLUSDT) | As-of date: 2026-06-13 | Current close: $68.94\nClose 10 trading days ago (down 3.7%): $71.61\nRSI(14): 23.1 | EMA20: $82.48 | EMA50: $77.81\nMACD histogram: -2.839\nATR(14): $7.47 (10.8% of price)\nVolume ratio (5d/20d): 0.86x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_SOLUSDT_2026-06-13_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-13. Will Solana (SOLUSDT) be priced HIGHER 30 days from now than its current price of $68.94?",
+  "evidenceL2": "Symbol: Solana (SOLUSDT) | As-of date: 2026-06-13 | Current close: $119.05\nClose 10 trading days ago (down 4.6%): $124.82\nRSI(14): 36.1 | EMA20: $121.01 | EMA50: $133.80\nMACD histogram: -3.753\nATR(14): $10.61 (8.9% of price)\nVolume ratio (5d/20d): 1.58x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-11_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-11. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,284.99?",
+  "evidenceL2": "Ethereum (ETHUSDT) | As-of 2026-04-11 | Current price $2,284.99\nPrice 10 days ago: $2,140.35 (up 6.8% over 10d)\n7-day change: +10.6% | 14-day RSI: 74.6\nVolume ratio (5d/20d): 1.06x | On-chain sentiment: bullish",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-11_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-11. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,284.99?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-04-11 | Current close: $2,284.99\nClose 10 trading days ago (up 6.8%): $2,140.35\nRSI(14): 74.6 | EMA20: $2,148.95 | EMA50: $2,090.77\nMACD histogram: +12.684\nATR(14): $97.91 (4.3% of price)\nVolume ratio (5d/20d): 1.06x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-11_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-11. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,284.99?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-04-11 | Current close: $2,284.99\nClose 10 trading days ago (up 6.8%): $2,140.35\nRSI(14): 56.7 | EMA20: $2,182.70 | EMA50: $1,978.70\nMACD histogram: -16.887\nATR(14): $111.21 (4.9% of price)\nVolume ratio (5d/20d): 0.87x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-11_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-11. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,284.99?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-04-11 | Current close: $2,660.81\nClose 10 trading days ago (up 7.5%): $2,475.08\nRSI(14): 48.6 | EMA20: $2,507.33 | EMA50: $2,143.86\nMACD histogram: -33.633\nATR(14): $153.35 (5.8% of price)\nVolume ratio (5d/20d): 0.65x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_SOLUSDT_2026-04-08_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-08. Will Solana (SOLUSDT) be priced HIGHER 30 days from now than its current price of $82.57?",
+  "evidenceL2": "Solana (SOLUSDT) | As-of 2026-04-08 | Current price $82.57\nPrice 10 days ago: $81.44 (up 1.4% over 10d)\n7-day change: +1.7% | 14-day RSI: 34.6\nVolume ratio (5d/20d): 0.93x | On-chain sentiment: bearish",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_SOLUSDT_2026-04-08_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-08. Will Solana (SOLUSDT) be priced HIGHER 30 days from now than its current price of $82.57?",
+  "evidenceL2": "Symbol: Solana (SOLUSDT) | As-of date: 2026-04-08 | Current close: $82.57\nClose 10 trading days ago (up 1.4%): $81.44\nRSI(14): 34.6 | EMA20: $83.97 | EMA50: $84.52\nMACD histogram: -0.725\nATR(14): $4.40 (5.3% of price)\nVolume ratio (5d/20d): 0.93x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_SOLUSDT_2026-04-08_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-08. Will Solana (SOLUSDT) be priced HIGHER 30 days from now than its current price of $82.57?",
+  "evidenceL2": "Symbol: Solana (SOLUSDT) | As-of date: 2026-04-08 | Current close: $82.57\nClose 10 trading days ago (up 1.4%): $81.44\nRSI(14): 81.9 | EMA20: $72.39 | EMA50: $71.64\nMACD histogram: +2.737\nATR(14): $4.82 (5.8% of price)\nVolume ratio (5d/20d): 0.89x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_SOLUSDT_2026-04-08_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-08. Will Solana (SOLUSDT) be priced HIGHER 30 days from now than its current price of $82.57?",
+  "evidenceL2": "Symbol: Solana (SOLUSDT) | As-of date: 2026-04-08 | Current close: $160.97\nClose 10 trading days ago (up 2.1%): $157.68\nRSI(14): 39.9 | EMA20: $160.70 | EMA50: $160.10\nMACD histogram: +0.387\nATR(14): $8.72 (5.4% of price)\nVolume ratio (5d/20d): 0.97x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-06-10_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-10. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0829?",
+  "evidenceL2": "Dogecoin (DOGEUSDT) | As-of 2026-06-10 | Current price $0.0829\nPrice 10 days ago: $0.1004 (down 17.4% over 10d)\n7-day change: -9.2% | 14-day RSI: 21.4\nVolume ratio (5d/20d): 0.95x | On-chain sentiment: bearish",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-06-10_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-10. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0829?",
+  "evidenceL2": "Symbol: Dogecoin (DOGEUSDT) | As-of date: 2026-06-10 | Current close: $0.0829\nClose 10 trading days ago (down 17.4%): $0.1004\nRSI(14): 21.4 | EMA20: $0.0921 | EMA50: $0.0978\nMACD histogram: -0.000\nATR(14): $0.0049 (5.9% of price)\nVolume ratio (5d/20d): 0.95x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-06-10_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-10. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0829?",
+  "evidenceL2": "Symbol: Dogecoin (DOGEUSDT) | As-of date: 2026-06-10 | Current close: $0.0829\nClose 10 trading days ago (down 17.4%): $0.1004\nRSI(14): 46.3 | EMA20: $0.0883 | EMA50: $0.1018\nMACD histogram: +0.001\nATR(14): $0.0059 (7.1% of price)\nVolume ratio (5d/20d): 0.58x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-06-10_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-10. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0829?",
+  "evidenceL2": "Symbol: Dogecoin (DOGEUSDT) | As-of date: 2026-06-10 | Current close: $0.1991\nClose 10 trading days ago (down 19.3%): $0.2466\nRSI(14): 33.3 | EMA20: $0.2280 | EMA50: $0.2695\nMACD histogram: +0.000\nATR(14): $0.0205 (10.3% of price)\nVolume ratio (5d/20d): 1.51x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-07-11_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-11. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0732?",
+  "evidenceL2": "Dogecoin (DOGEUSDT) | As-of 2026-07-11 | Current price $0.0732\nPrice 10 days ago: $0.0722 (up 1.4% over 10d)\n7-day change: -5.7% | 14-day RSI: 46.1\nVolume ratio (5d/20d): 0.72x | On-chain sentiment: mixed",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-07-11_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-11. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0732?",
+  "evidenceL2": "Symbol: Dogecoin (DOGEUSDT) | As-of date: 2026-07-11 | Current close: $0.0732\nClose 10 trading days ago (up 1.4%): $0.0722\nRSI(14): 46.1 | EMA20: $0.0757 | EMA50: $0.0832\nMACD histogram: +0.000\nATR(14): $0.0032 (4.3% of price)\nVolume ratio (5d/20d): 0.72x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-07-11_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-11. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0732?",
+  "evidenceL2": "Symbol: Dogecoin (DOGEUSDT) | As-of date: 2026-07-11 | Current close: $0.0732\nClose 10 trading days ago (up 1.4%): $0.0722\nRSI(14): 80.7 | EMA20: $0.0566 | EMA50: $0.0416\nMACD histogram: +0.002\nATR(14): $0.0094 (12.8% of price)\nVolume ratio (5d/20d): 0.87x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-07-11_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-11. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0732?",
+  "evidenceL2": "Symbol: Dogecoin (DOGEUSDT) | As-of date: 2026-07-11 | Current close: $0.1578\nClose 10 trading days ago (up 2.1%): $0.1545\nRSI(14): 40.7 | EMA20: $0.1667 | EMA50: $0.1882\nMACD histogram: +0.002\nATR(14): $0.0092 (5.8% of price)\nVolume ratio (5d/20d): 0.60x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BNBUSDT_2026-07-18_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-18. Will BNB (BNBUSDT) be priced HIGHER 30 days from now than its current price of $570.65?",
+  "evidenceL2": "BNB (BNBUSDT) | As-of 2026-07-18 | Current price $570.65\nPrice 10 days ago: $568.66 (up 0.3% over 10d)\n7-day change: -0.7% | 14-day RSI: 47.1\nVolume ratio (5d/20d): 1.00x | On-chain sentiment: mixed",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BNBUSDT_2026-07-18_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-18. Will BNB (BNBUSDT) be priced HIGHER 30 days from now than its current price of $570.65?",
+  "evidenceL2": "Symbol: BNB (BNBUSDT) | As-of date: 2026-07-18 | Current close: $570.65\nClose 10 trading days ago (up 0.3%): $568.66\nRSI(14): 47.1 | EMA20: $570.92 | EMA50: $598.46\nMACD histogram: +2.573\nATR(14): $15.05 (2.6% of price)\nVolume ratio (5d/20d): 1.00x\nRegime classification: BEAR_QUIET",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BNBUSDT_2026-07-18_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-18. Will BNB (BNBUSDT) be priced HIGHER 30 days from now than its current price of $570.65?",
+  "evidenceL2": "Symbol: BNB (BNBUSDT) | As-of date: 2026-07-18 | Current close: $570.65\nClose 10 trading days ago (up 0.3%): $568.66\nRSI(14): 70.4 | EMA20: $486.37 | EMA50: $452.80\nMACD histogram: +2.469\nATR(14): $26.44 (4.6% of price)\nVolume ratio (5d/20d): 1.06x\nRegime classification: BEAR_QUIET",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BNBUSDT_2026-07-18_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-18. Will BNB (BNBUSDT) be priced HIGHER 30 days from now than its current price of $570.65?",
+  "evidenceL2": "Symbol: BNB (BNBUSDT) | As-of date: 2026-07-18 | Current close: $839.32\nClose 10 trading days ago (up 1.4%): $827.81\nRSI(14): 55.4 | EMA20: $837.41 | EMA50: $788.98\nMACD histogram: +5.955\nATR(14): $38.57 (4.6% of price)\nVolume ratio (5d/20d): 1.14x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-07-18_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-18. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $6.57?",
+  "evidenceL2": "Avalanche (AVAXUSDT) | As-of 2026-07-18 | Current price $6.57\nPrice 10 days ago: $6.47 (up 1.5% over 10d)\n7-day change: +0.3% | 14-day RSI: 38.4\nVolume ratio (5d/20d): 0.73x | On-chain sentiment: bearish",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-07-18_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-18. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $6.57?",
+  "evidenceL2": "Symbol: Avalanche (AVAXUSDT) | As-of date: 2026-07-18 | Current close: $6.57\nClose 10 trading days ago (up 1.5%): $6.47\nRSI(14): 38.4 | EMA20: $6.64 | EMA50: $6.99\nMACD histogram: -0.073\nATR(14): $0.2777 (4.2% of price)\nVolume ratio (5d/20d): 0.73x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-07-18_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-18. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $6.57?",
+  "evidenceL2": "Symbol: Avalanche (AVAXUSDT) | As-of date: 2026-07-18 | Current close: $6.57\nClose 10 trading days ago (up 1.5%): $6.47\nRSI(14): 72.8 | EMA20: $5.62 | EMA50: $5.43\nMACD histogram: +0.071\nATR(14): $0.3079 (4.7% of price)\nVolume ratio (5d/20d): 0.97x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-07-18_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-18. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $6.57?",
+  "evidenceL2": "Symbol: Avalanche (AVAXUSDT) | As-of date: 2026-07-18 | Current close: $12.38\nClose 10 trading days ago (up 1.0%): $12.26\nRSI(14): 50.6 | EMA20: $12.63 | EMA50: $13.80\nMACD histogram: -0.080\nATR(14): $0.6136 (5.0% of price)\nVolume ratio (5d/20d): 0.84x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-04-25_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-25. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2503?",
+  "evidenceL2": "Cardano (ADAUSDT) | As-of 2026-04-25 | Current price $0.2503\nPrice 10 days ago: $0.2460 (up 1.7% over 10d)\n7-day change: +0.5% | 14-day RSI: 50.5\nVolume ratio (5d/20d): 0.76x | On-chain sentiment: mixed",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-04-25_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-25. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2503?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-04-25 | Current close: $0.2503\nClose 10 trading days ago (up 1.7%): $0.2460\nRSI(14): 50.5 | EMA20: $0.2490 | EMA50: $0.2521\nMACD histogram: -0.000\nATR(14): $0.0109 (4.4% of price)\nVolume ratio (5d/20d): 0.76x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-04-25_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-25. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2503?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-04-25 | Current close: $0.2503\nClose 10 trading days ago (up 1.7%): $0.2460\nRSI(14): 55.7 | EMA20: $0.2532 | EMA50: $0.2383\nMACD histogram: -0.004\nATR(14): $0.0196 (7.8% of price)\nVolume ratio (5d/20d): 1.00x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-04-25_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-25. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2503?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-04-25 | Current close: $0.6334\nClose 10 trading days ago (up 1.2%): $0.6256\nRSI(14): 40.0 | EMA20: $0.6809 | EMA50: $0.7035\nMACD histogram: -0.005\nATR(14): $0.0381 (6.0% of price)\nVolume ratio (5d/20d): 1.00x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-07-13_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-13. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $1,776.72?",
+  "evidenceL2": "Ethereum (ETHUSDT) | As-of 2026-07-13 | Current price $1,776.72\nPrice 10 days ago: $1,758.21 (up 1.1% over 10d)\n7-day change: -1.3% | 14-day RSI: 68.8\nVolume ratio (5d/20d): 0.76x | On-chain sentiment: bullish",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-07-13_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-13. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $1,776.72?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-07-13 | Current close: $1,776.72\nClose 10 trading days ago (up 1.1%): $1,758.21\nRSI(14): 68.8 | EMA20: $1,723.96 | EMA50: $1,784.27\nMACD histogram: +26.789\nATR(14): $73.01 (4.1% of price)\nVolume ratio (5d/20d): 0.76x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-07-13_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-13. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $1,776.72?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-07-13 | Current close: $1,776.72\nClose 10 trading days ago (up 1.1%): $1,758.21\nRSI(14): 62.3 | EMA20: $1,742.17 | EMA50: $1,788.31\nMACD histogram: +21.707\nATR(14): $87.89 (4.9% of price)\nVolume ratio (5d/20d): 1.14x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-07-13_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-13. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $1,776.72?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-07-13 | Current close: $1,965.75\nClose 10 trading days ago (up 2.2%): $1,923.43\nRSI(14): 40.2 | EMA20: $2,060.71 | EMA50: $2,378.91\nMACD histogram: +31.216\nATR(14): $129.10 (6.6% of price)\nVolume ratio (5d/20d): 0.61x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-05-08_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-08. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2734?",
+  "evidenceL2": "Cardano (ADAUSDT) | As-of 2026-05-08 | Current price $0.2734\nPrice 10 days ago: $0.2468 (up 10.8% over 10d)\n7-day change: +10.2% | 14-day RSI: 74.0\nVolume ratio (5d/20d): 1.31x | On-chain sentiment: bullish",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-05-08_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-08. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2734?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-05-08 | Current close: $0.2734\nClose 10 trading days ago (up 10.8%): $0.2468\nRSI(14): 74.0 | EMA20: $0.2537 | EMA50: $0.2541\nMACD histogram: +0.002\nATR(14): $0.0094 (3.4% of price)\nVolume ratio (5d/20d): 1.31x\nRegime classification: BEAR_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-05-08_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-08. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2734?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-05-08 | Current close: $0.2734\nClose 10 trading days ago (up 10.8%): $0.2468\nRSI(14): 65.5 | EMA20: $0.2448 | EMA50: $0.2616\nMACD histogram: +0.009\nATR(14): $0.0153 (5.6% of price)\nVolume ratio (5d/20d): 1.36x\nRegime classification: BEAR_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-05-08_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-08. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2734?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-05-08 | Current close: $0.8371\nClose 10 trading days ago (up 9.6%): $0.7637\nRSI(14): 42.2 | EMA20: $0.8419 | EMA50: $0.8635\nMACD histogram: -0.006\nATR(14): $0.0447 (5.3% of price)\nVolume ratio (5d/20d): 1.07x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-04-20_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-20. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0952?",
+  "evidenceL2": "Dogecoin (DOGEUSDT) | As-of 2026-04-20 | Current price $0.0952\nPrice 10 days ago: $0.0937 (up 1.6% over 10d)\n7-day change: +1.2% | 14-day RSI: 57.6\nVolume ratio (5d/20d): 1.38x | On-chain sentiment: mixed",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-04-20_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-20. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0952?",
+  "evidenceL2": "Symbol: Dogecoin (DOGEUSDT) | As-of date: 2026-04-20 | Current close: $0.0952\nClose 10 trading days ago (up 1.6%): $0.0937\nRSI(14): 57.6 | EMA20: $0.0940 | EMA50: $0.0937\nMACD histogram: +0.001\nATR(14): $0.0043 (4.5% of price)\nVolume ratio (5d/20d): 1.38x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-04-20_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-20. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0952?",
+  "evidenceL2": "Symbol: Dogecoin (DOGEUSDT) | As-of date: 2026-04-20 | Current close: $0.0952\nClose 10 trading days ago (up 1.6%): $0.0937\nRSI(14): 42.6 | EMA20: $0.0942 | EMA50: $0.0833\nMACD histogram: -0.002\nATR(14): $0.0067 (7.0% of price)\nVolume ratio (5d/20d): 0.66x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-04-20_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-20. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0952?",
+  "evidenceL2": "Symbol: Dogecoin (DOGEUSDT) | As-of date: 2026-04-20 | Current close: $0.1007\nClose 10 trading days ago (up 2.5%): $0.0982\nRSI(14): 45.9 | EMA20: $0.1024 | EMA50: $0.1137\nMACD histogram: +0.003\nATR(14): $0.0090 (8.9% of price)\nVolume ratio (5d/20d): 0.90x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-04-29_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-29. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2446?",
+  "evidenceL2": "Cardano (ADAUSDT) | As-of 2026-04-29 | Current price $0.2446\nPrice 10 days ago: $0.2424 (up 0.9% over 10d)\n7-day change: -1.5% | 14-day RSI: 48.6\nVolume ratio (5d/20d): 0.74x | On-chain sentiment: mixed",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-04-29_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-29. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2446?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-04-29 | Current close: $0.2446\nClose 10 trading days ago (up 0.9%): $0.2424\nRSI(14): 48.6 | EMA20: $0.2493 | EMA50: $0.2526\nMACD histogram: -0.001\nATR(14): $0.0100 (4.1% of price)\nVolume ratio (5d/20d): 0.74x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-04-29_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-29. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2446?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-04-29 | Current close: $0.2446\nClose 10 trading days ago (up 0.9%): $0.2424\nRSI(14): 68.4 | EMA20: $0.2264 | EMA50: $0.2338\nMACD histogram: +0.006\nATR(14): $0.0124 (5.1% of price)\nVolume ratio (5d/20d): 1.01x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-04-29_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-29. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2446?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-04-29 | Current close: $0.9677\nClose 10 trading days ago (up 0.7%): $0.9612\nRSI(14): 58.9 | EMA20: $0.9629 | EMA50: $0.9939\nMACD histogram: +0.022\nATR(14): $0.0875 (9.0% of price)\nVolume ratio (5d/20d): 1.22x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-04-15_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-15. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2460?",
+  "evidenceL2": "Cardano (ADAUSDT) | As-of 2026-04-15 | Current price $0.2460\nPrice 10 days ago: $0.2508 (down 1.9% over 10d)\n7-day change: -1.9% | 14-day RSI: 48.8\nVolume ratio (5d/20d): 1.16x | On-chain sentiment: mixed",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-04-15_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-15. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2460?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-04-15 | Current close: $0.2460\nClose 10 trading days ago (down 1.9%): $0.2508\nRSI(14): 48.8 | EMA20: $0.2469 | EMA50: $0.2601\nMACD histogram: +0.003\nATR(14): $0.0133 (5.4% of price)\nVolume ratio (5d/20d): 1.16x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-04-15_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-15. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2460?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-04-15 | Current close: $0.2460\nClose 10 trading days ago (down 1.9%): $0.2508\nRSI(14): 31.9 | EMA20: $0.2530 | EMA50: $0.2903\nMACD histogram: +0.003\nATR(14): $0.0187 (7.6% of price)\nVolume ratio (5d/20d): 1.04x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-04-15_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-15. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2460?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-04-15 | Current close: $0.7932\nClose 10 trading days ago (down 2.8%): $0.8158\nRSI(14): 58.5 | EMA20: $0.7836 | EMA50: $0.7192\nMACD histogram: -0.005\nATR(14): $0.0639 (8.1% of price)\nVolume ratio (5d/20d): 0.77x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-04-16_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-16. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $9.73?",
+  "evidenceL2": "Avalanche (AVAXUSDT) | As-of 2026-04-16 | Current price $9.73\nPrice 10 days ago: $8.91 (up 9.2% over 10d)\n7-day change: +3.8% | 14-day RSI: 64.2\nVolume ratio (5d/20d): 1.21x | On-chain sentiment: bullish",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-04-16_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-16. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $9.73?",
+  "evidenceL2": "Symbol: Avalanche (AVAXUSDT) | As-of date: 2026-04-16 | Current close: $9.73\nClose 10 trading days ago (up 9.2%): $8.91\nRSI(14): 64.2 | EMA20: $9.20 | EMA50: $9.28\nMACD histogram: +0.195\nATR(14): $0.5529 (5.7% of price)\nVolume ratio (5d/20d): 1.21x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-04-16_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-16. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $9.73?",
+  "evidenceL2": "Symbol: Avalanche (AVAXUSDT) | As-of date: 2026-04-16 | Current close: $9.73\nClose 10 trading days ago (up 9.2%): $8.91\nRSI(14): 77.9 | EMA20: $8.74 | EMA50: $8.39\nMACD histogram: +0.262\nATR(14): $0.5135 (5.3% of price)\nVolume ratio (5d/20d): 1.61x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-04-16_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-16. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $9.73?",
+  "evidenceL2": "Symbol: Avalanche (AVAXUSDT) | As-of date: 2026-04-16 | Current close: $48.47\nClose 10 trading days ago (up 7.5%): $45.09\nRSI(14): 56.7 | EMA20: $47.37 | EMA50: $39.24\nMACD histogram: -1.135\nATR(14): $4.86 (10.0% of price)\nVolume ratio (5d/20d): 0.79x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BNBUSDT_2026-05-08_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-08. Will BNB (BNBUSDT) be priced HIGHER 30 days from now than its current price of $649.36?",
+  "evidenceL2": "BNB (BNBUSDT) | As-of 2026-05-08 | Current price $649.36\nPrice 10 days ago: $624.55 (up 4.0% over 10d)\n7-day change: +5.5% | 14-day RSI: 57.1\nVolume ratio (5d/20d): 1.60x | On-chain sentiment: mixed",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BNBUSDT_2026-05-08_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-08. Will BNB (BNBUSDT) be priced HIGHER 30 days from now than its current price of $649.36?",
+  "evidenceL2": "Symbol: BNB (BNBUSDT) | As-of date: 2026-05-08 | Current close: $649.36\nClose 10 trading days ago (up 4.0%): $624.55\nRSI(14): 57.1 | EMA20: $628.47 | EMA50: $626.57\nMACD histogram: -1.125\nATR(14): $15.03 (2.3% of price)\nVolume ratio (5d/20d): 1.60x\nRegime classification: BULL_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BNBUSDT_2026-05-08_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-08. Will BNB (BNBUSDT) be priced HIGHER 30 days from now than its current price of $649.36?",
+  "evidenceL2": "Symbol: BNB (BNBUSDT) | As-of date: 2026-05-08 | Current close: $649.36\nClose 10 trading days ago (up 4.0%): $624.55\nRSI(14): 69.8 | EMA20: $618.72 | EMA50: $607.34\nMACD histogram: +4.806\nATR(14): $16.96 (2.6% of price)\nVolume ratio (5d/20d): 1.55x\nRegime classification: BULL_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BNBUSDT_2026-05-08_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-08. Will BNB (BNBUSDT) be priced HIGHER 30 days from now than its current price of $649.36?",
+  "evidenceL2": "Symbol: BNB (BNBUSDT) | As-of date: 2026-05-08 | Current close: $947.12\nClose 10 trading days ago (up 5.2%): $900.30\nRSI(14): 71.3 | EMA20: $907.76 | EMA50: $889.35\nMACD histogram: +8.531\nATR(14): $25.13 (2.7% of price)\nVolume ratio (5d/20d): 1.24x\nRegime classification: BULL_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-07-12_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-12. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $6.41?",
+  "evidenceL2": "Avalanche (AVAXUSDT) | As-of 2026-07-12 | Current price $6.41\nPrice 10 days ago: $6.80 (down 5.7% over 10d)\n7-day change: -7.5% | 14-day RSI: 48.9\nVolume ratio (5d/20d): 0.69x | On-chain sentiment: mixed",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-07-12_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-12. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $6.41?",
+  "evidenceL2": "Symbol: Avalanche (AVAXUSDT) | As-of date: 2026-07-12 | Current close: $6.41\nClose 10 trading days ago (down 5.7%): $6.80\nRSI(14): 48.9 | EMA20: $6.63 | EMA50: $7.14\nMACD histogram: -0.016\nATR(14): $0.3111 (4.9% of price)\nVolume ratio (5d/20d): 0.69x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-07-12_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-12. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $6.41?",
+  "evidenceL2": "Symbol: Avalanche (AVAXUSDT) | As-of date: 2026-07-12 | Current close: $6.41\nClose 10 trading days ago (down 5.7%): $6.80\nRSI(14): 17.1 | EMA20: $6.91 | EMA50: $8.70\nMACD histogram: +0.016\nATR(14): $0.5074 (7.9% of price)\nVolume ratio (5d/20d): 1.10x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-07-12_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-12. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $6.41?",
+  "evidenceL2": "Symbol: Avalanche (AVAXUSDT) | As-of date: 2026-07-12 | Current close: $18.58\nClose 10 trading days ago (down 7.1%): $20.00\nRSI(14): 40.3 | EMA20: $20.41 | EMA50: $24.42\nMACD histogram: -0.363\nATR(14): $2.32 (12.5% of price)\nVolume ratio (5d/20d): 1.10x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-04-10_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-10. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $9.39?",
+  "evidenceL2": "Avalanche (AVAXUSDT) | As-of 2026-04-10 | Current price $9.39\nPrice 10 days ago: $8.91 (up 5.4% over 10d)\n7-day change: +5.4% | 14-day RSI: 60.7\nVolume ratio (5d/20d): 1.68x | On-chain sentiment: bullish",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-04-10_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-10. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $9.39?",
+  "evidenceL2": "Symbol: Avalanche (AVAXUSDT) | As-of date: 2026-04-10 | Current close: $9.39\nClose 10 trading days ago (up 5.4%): $8.91\nRSI(14): 60.7 | EMA20: $9.10 | EMA50: $9.21\nMACD histogram: -0.046\nATR(14): $0.5350 (5.7% of price)\nVolume ratio (5d/20d): 1.68x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-04-10_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-10. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $9.39?",
+  "evidenceL2": "Symbol: Avalanche (AVAXUSDT) | As-of date: 2026-04-10 | Current close: $9.39\nClose 10 trading days ago (up 5.4%): $8.91\nRSI(14): 43.7 | EMA20: $9.87 | EMA50: $11.22\nMACD histogram: +0.200\nATR(14): $0.7299 (7.8% of price)\nVolume ratio (5d/20d): 0.65x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_AVAXUSDT_2026-04-10_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-10. Will Avalanche (AVAXUSDT) be priced HIGHER 30 days from now than its current price of $9.39?",
+  "evidenceL2": "Symbol: Avalanche (AVAXUSDT) | As-of date: 2026-04-10 | Current close: $9.12\nClose 10 trading days ago (up 5.7%): $8.63\nRSI(14): 47.9 | EMA20: $9.26 | EMA50: $10.84\nMACD histogram: +0.099\nATR(14): $0.4321 (4.7% of price)\nVolume ratio (5d/20d): 0.61x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-04_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-04. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,065.52?",
+  "evidenceL2": "Ethereum (ETHUSDT) | As-of 2026-04-04 | Current price $2,065.52\nPrice 10 days ago: $2,169.02 (down 4.8% over 10d)\n7-day change: +3.5% | 14-day RSI: 48.4\nVolume ratio (5d/20d): 0.79x | On-chain sentiment: mixed",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-04_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-04. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,065.52?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-04-04 | Current close: $2,065.52\nClose 10 trading days ago (down 4.8%): $2,169.02\nRSI(14): 48.4 | EMA20: $2,120.06 | EMA50: $2,071.44\nMACD histogram: -10.325\nATR(14): $93.95 (4.5% of price)\nVolume ratio (5d/20d): 0.79x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-04_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-04. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,065.52?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-04-04 | Current close: $2,065.52\nClose 10 trading days ago (down 4.8%): $2,169.02\nRSI(14): 31.2 | EMA20: $2,127.83 | EMA50: $2,164.38\nMACD histogram: -26.896\nATR(14): $82.87 (4.0% of price)\nVolume ratio (5d/20d): 1.15x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-04_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-04. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,065.52?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-04-04 | Current close: $1,613.27\nClose 10 trading days ago (down 3.4%): $1,669.51\nRSI(14): 39.9 | EMA20: $1,647.18 | EMA50: $1,829.07\nMACD histogram: -19.718\nATR(14): $133.07 (8.2% of price)\nVolume ratio (5d/20d): 0.55x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BTCUSDT_2026-04-15_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-15. Will Bitcoin (BTCUSDT) be priced HIGHER 30 days from now than its current price of $74,809.99?",
+  "evidenceL2": "Bitcoin (BTCUSDT) | As-of 2026-04-15 | Current price $74,809.99\nPrice 10 days ago: $69,034.18 (up 8.4% over 10d)\n7-day change: +5.3% | 14-day RSI: 70.5\nVolume ratio (5d/20d): 1.01x | On-chain sentiment: bullish",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BTCUSDT_2026-04-15_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-15. Will Bitcoin (BTCUSDT) be priced HIGHER 30 days from now than its current price of $74,809.99?",
+  "evidenceL2": "Symbol: Bitcoin (BTCUSDT) | As-of date: 2026-04-15 | Current close: $74,809.99\nClose 10 trading days ago (up 8.4%): $69,034.18\nRSI(14): 70.5 | EMA20: $70,666.45 | EMA50: $69,956.85\nMACD histogram: +1056.908\nATR(14): $2,403.79 (3.2% of price)\nVolume ratio (5d/20d): 1.01x\nRegime classification: BULL_QUIET",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BTCUSDT_2026-04-15_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-15. Will Bitcoin (BTCUSDT) be priced HIGHER 30 days from now than its current price of $74,809.99?",
+  "evidenceL2": "Symbol: Bitcoin (BTCUSDT) | As-of date: 2026-04-15 | Current close: $74,809.99\nClose 10 trading days ago (up 8.4%): $69,034.18\nRSI(14): 58.7 | EMA20: $73,584.64 | EMA50: $72,963.52\nMACD histogram: +321.691\nATR(14): $1,968.16 (2.6% of price)\nVolume ratio (5d/20d): 0.68x\nRegime classification: BULL_QUIET",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BTCUSDT_2026-04-15_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-15. Will Bitcoin (BTCUSDT) be priced HIGHER 30 days from now than its current price of $74,809.99?",
+  "evidenceL2": "Symbol: Bitcoin (BTCUSDT) | As-of date: 2026-04-15 | Current close: $116,010.00\nClose 10 trading days ago (up 8.3%): $107,146.50\nRSI(14): 73.2 | EMA20: $108,067.07 | EMA50: $107,997.58\nMACD histogram: +1038.507\nATR(14): $2,398.51 (2.1% of price)\nVolume ratio (5d/20d): 1.01x\nRegime classification: BULL_QUIET",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BNBUSDT_2026-07-16_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-16. Will BNB (BNBUSDT) be priced HIGHER 30 days from now than its current price of $572.45?",
+  "evidenceL2": "BNB (BNBUSDT) | As-of 2026-07-16 | Current price $572.45\nPrice 10 days ago: $586.01 (down 2.3% over 10d)\n7-day change: +0.7% | 14-day RSI: 57.4\nVolume ratio (5d/20d): 0.93x | On-chain sentiment: mixed",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BNBUSDT_2026-07-16_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-16. Will BNB (BNBUSDT) be priced HIGHER 30 days from now than its current price of $572.45?",
+  "evidenceL2": "Symbol: BNB (BNBUSDT) | As-of date: 2026-07-16 | Current close: $572.45\nClose 10 trading days ago (down 2.3%): $586.01\nRSI(14): 57.4 | EMA20: $570.76 | EMA50: $589.11\nMACD histogram: +6.291\nATR(14): $15.24 (2.7% of price)\nVolume ratio (5d/20d): 0.93x\nRegime classification: BEAR_QUIET",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BNBUSDT_2026-07-16_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-16. Will BNB (BNBUSDT) be priced HIGHER 30 days from now than its current price of $572.45?",
+  "evidenceL2": "Symbol: BNB (BNBUSDT) | As-of date: 2026-07-16 | Current close: $572.45\nClose 10 trading days ago (down 2.3%): $586.01\nRSI(14): 34.0 | EMA20: $632.76 | EMA50: $679.18\nMACD histogram: -3.766\nATR(14): $31.77 (5.5% of price)\nVolume ratio (5d/20d): 0.87x\nRegime classification: BEAR_QUIET",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BNBUSDT_2026-07-16_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-16. Will BNB (BNBUSDT) be priced HIGHER 30 days from now than its current price of $572.45?",
+  "evidenceL2": "Symbol: BNB (BNBUSDT) | As-of date: 2026-07-16 | Current close: $638.24\nClose 10 trading days ago (down 0.8%): $643.53\nRSI(14): 30.5 | EMA20: $653.47 | EMA50: $639.54\nMACD histogram: -4.633\nATR(14): $17.19 (2.7% of price)\nVolume ratio (5d/20d): 0.88x\nRegime classification: BEAR_QUIET",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-06-13_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-13. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1718?",
+  "evidenceL2": "Cardano (ADAUSDT) | As-of 2026-06-13 | Current price $0.1718\nPrice 10 days ago: $0.2004 (down 14.3% over 10d)\n7-day change: +9.2% | 14-day RSI: 22.3\nVolume ratio (5d/20d): 0.85x | On-chain sentiment: bearish",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-06-13_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-13. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1718?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-06-13 | Current close: $0.1718\nClose 10 trading days ago (down 14.3%): $0.2004\nRSI(14): 22.3 | EMA20: $0.1915 | EMA50: $0.2199\nMACD histogram: -0.000\nATR(14): $0.0137 (8.0% of price)\nVolume ratio (5d/20d): 0.85x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-06-13_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-13. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1718?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-06-13 | Current close: $0.1718\nClose 10 trading days ago (down 14.3%): $0.2004\nRSI(14): 25.6 | EMA20: $0.1829 | EMA50: $0.1948\nMACD histogram: +0.001\nATR(14): $0.0261 (15.2% of price)\nVolume ratio (5d/20d): 0.45x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-06-13_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-13. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1718?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-06-13 | Current close: $0.6428\nClose 10 trading days ago (down 11.8%): $0.7284\nRSI(14): 32.0 | EMA20: $0.6974 | EMA50: $0.7582\nMACD histogram: -0.004\nATR(14): $0.0874 (13.6% of price)\nVolume ratio (5d/20d): 0.64x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_SOLUSDT_2026-07-17_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-17. Will Solana (SOLUSDT) be priced HIGHER 30 days from now than its current price of $75.04?",
+  "evidenceL2": "Solana (SOLUSDT) | As-of 2026-07-17 | Current price $75.04\nPrice 10 days ago: $80.58 (down 6.9% over 10d)\n7-day change: -4.0% | 14-day RSI: 25.0\nVolume ratio (5d/20d): 0.79x | On-chain sentiment: bearish",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_SOLUSDT_2026-07-17_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-17. Will Solana (SOLUSDT) be priced HIGHER 30 days from now than its current price of $75.04?",
+  "evidenceL2": "Symbol: Solana (SOLUSDT) | As-of date: 2026-07-17 | Current close: $75.04\nClose 10 trading days ago (down 6.9%): $80.58\nRSI(14): 25.0 | EMA20: $76.56 | EMA50: $76.01\nMACD histogram: -0.630\nATR(14): $2.88 (3.8% of price)\nVolume ratio (5d/20d): 0.79x\nRegime classification: BEAR_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_SOLUSDT_2026-07-17_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-17. Will Solana (SOLUSDT) be priced HIGHER 30 days from now than its current price of $75.04?",
+  "evidenceL2": "Symbol: Solana (SOLUSDT) | As-of date: 2026-07-17 | Current close: $75.04\nClose 10 trading days ago (down 6.9%): $80.58\nRSI(14): 28.6 | EMA20: $83.83 | EMA50: $91.37\nMACD histogram: -0.431\nATR(14): $6.33 (8.4% of price)\nVolume ratio (5d/20d): 0.94x\nRegime classification: BEAR_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_SOLUSDT_2026-07-17_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-17. Will Solana (SOLUSDT) be priced HIGHER 30 days from now than its current price of $75.04?",
+  "evidenceL2": "Symbol: Solana (SOLUSDT) | As-of date: 2026-07-17 | Current close: $125.33\nClose 10 trading days ago (down 8.5%): $137.01\nRSI(14): 35.6 | EMA20: $132.86 | EMA50: $162.34\nMACD histogram: +2.366\nATR(14): $10.49 (8.4% of price)\nVolume ratio (5d/20d): 0.51x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_SOLUSDT_2026-04-07_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-07. Will Solana (SOLUSDT) be priced HIGHER 30 days from now than its current price of $85.56?",
+  "evidenceL2": "Solana (SOLUSDT) | As-of 2026-04-07 | Current price $85.56\nPrice 10 days ago: $82.09 (up 4.2% over 10d)\n7-day change: +2.8% | 14-day RSI: 40.5\nVolume ratio (5d/20d): 0.88x | On-chain sentiment: mixed",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_SOLUSDT_2026-04-07_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-07. Will Solana (SOLUSDT) be priced HIGHER 30 days from now than its current price of $85.56?",
+  "evidenceL2": "Symbol: Solana (SOLUSDT) | As-of date: 2026-04-07 | Current close: $85.56\nClose 10 trading days ago (up 4.2%): $82.09\nRSI(14): 40.5 | EMA20: $83.97 | EMA50: $85.09\nMACD histogram: -1.002\nATR(14): $4.33 (5.1% of price)\nVolume ratio (5d/20d): 0.88x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_SOLUSDT_2026-04-07_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-07. Will Solana (SOLUSDT) be priced HIGHER 30 days from now than its current price of $85.56?",
+  "evidenceL2": "Symbol: Solana (SOLUSDT) | As-of date: 2026-04-07 | Current close: $85.56\nClose 10 trading days ago (up 4.2%): $82.09\nRSI(14): 68.4 | EMA20: $82.96 | EMA50: $82.28\nMACD histogram: +1.004\nATR(14): $3.49 (4.1% of price)\nVolume ratio (5d/20d): 1.12x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_SOLUSDT_2026-04-07_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-07. Will Solana (SOLUSDT) be priced HIGHER 30 days from now than its current price of $85.56?",
+  "evidenceL2": "Symbol: Solana (SOLUSDT) | As-of date: 2026-04-07 | Current close: $183.11\nClose 10 trading days ago (up 3.3%): $177.28\nRSI(14): 62.7 | EMA20: $178.67 | EMA50: $167.02\nMACD histogram: +0.190\nATR(14): $11.31 (6.2% of price)\nVolume ratio (5d/20d): 0.88x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-07-11_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-11. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1658?",
+  "evidenceL2": "Cardano (ADAUSDT) | As-of 2026-07-11 | Current price $0.1658\nPrice 10 days ago: $0.1539 (up 7.7% over 10d)\n7-day change: -13.7% | 14-day RSI: 62.9\nVolume ratio (5d/20d): 0.72x | On-chain sentiment: bullish",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-07-11_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-11. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1658?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-07-11 | Current close: $0.1658\nClose 10 trading days ago (up 7.7%): $0.1539\nRSI(14): 62.9 | EMA20: $0.1654 | EMA50: $0.1813\nMACD histogram: +0.001\nATR(14): $0.0111 (6.7% of price)\nVolume ratio (5d/20d): 0.72x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-07-11_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-11. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1658?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-07-11 | Current close: $0.1658\nClose 10 trading days ago (up 7.7%): $0.1539\nRSI(14): 38.0 | EMA20: $0.1707 | EMA50: $0.1868\nMACD histogram: -0.001\nATR(14): $0.0102 (6.1% of price)\nVolume ratio (5d/20d): 0.44x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-07-11_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-11. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1658?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-07-11 | Current close: $0.9138\nClose 10 trading days ago (up 9.4%): $0.8351\nRSI(14): 63.4 | EMA20: $0.8672 | EMA50: $0.8460\nMACD histogram: +0.005\nATR(14): $0.0392 (4.3% of price)\nVolume ratio (5d/20d): 1.14x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-05-26_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-26. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,073.77?",
+  "evidenceL2": "Ethereum (ETHUSDT) | As-of 2026-05-26 | Current price $2,073.77\nPrice 10 days ago: $2,180.77 (down 4.9% over 10d)\n7-day change: -1.8% | 14-day RSI: 26.3\nVolume ratio (5d/20d): 0.90x | On-chain sentiment: bearish",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-05-26_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-26. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,073.77?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-05-26 | Current close: $2,073.77\nClose 10 trading days ago (down 4.9%): $2,180.77\nRSI(14): 26.3 | EMA20: $2,170.48 | EMA50: $2,229.15\nMACD histogram: -15.185\nATR(14): $78.56 (3.8% of price)\nVolume ratio (5d/20d): 0.90x\nRegime classification: BEAR_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-05-26_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-26. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,073.77?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-05-26 | Current close: $2,073.77\nClose 10 trading days ago (down 4.9%): $2,180.77\nRSI(14): 23.9 | EMA20: $2,362.59 | EMA50: $2,488.92\nMACD histogram: -35.191\nATR(14): $184.82 (8.9% of price)\nVolume ratio (5d/20d): 1.74x\nRegime classification: BEAR_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-05-26_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-26. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,073.77?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-05-26 | Current close: $3,117.54\nClose 10 trading days ago (down 3.9%): $3,242.60\nRSI(14): 41.1 | EMA20: $3,221.21 | EMA50: $3,395.93\nMACD histogram: +26.903\nATR(14): $189.75 (6.1% of price)\nVolume ratio (5d/20d): 0.76x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-07-02_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-02. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1615?",
+  "evidenceL2": "Cardano (ADAUSDT) | As-of 2026-07-02 | Current price $0.1615\nPrice 10 days ago: $0.1585 (up 1.9% over 10d)\n7-day change: +12.3% | 14-day RSI: 48.0\nVolume ratio (5d/20d): 0.94x | On-chain sentiment: mixed",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-07-02_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-02. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1615?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-07-02 | Current close: $0.1615\nClose 10 trading days ago (up 1.9%): $0.1585\nRSI(14): 48.0 | EMA20: $0.1562 | EMA50: $0.1876\nMACD histogram: +0.004\nATR(14): $0.0089 (5.5% of price)\nVolume ratio (5d/20d): 0.94x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-07-02_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-02. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1615?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-07-02 | Current close: $0.1615\nClose 10 trading days ago (up 1.9%): $0.1585\nRSI(14): 81.5 | EMA20: $0.1301 | EMA50: $0.0963\nMACD histogram: +0.003\nATR(14): $0.0177 (10.9% of price)\nVolume ratio (5d/20d): 0.94x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-07-02_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-02. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1615?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-07-02 | Current close: $0.7287\nClose 10 trading days ago (up 3.4%): $0.7049\nRSI(14): 48.7 | EMA20: $0.7372 | EMA50: $0.7467\nMACD histogram: +0.008\nATR(14): $0.0397 (5.4% of price)\nVolume ratio (5d/20d): 0.58x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-06-10_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-10. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1607?",
+  "evidenceL2": "Cardano (ADAUSDT) | As-of 2026-06-10 | Current price $0.1607\nPrice 10 days ago: $0.2357 (down 31.8% over 10d)\n7-day change: -19.8% | 14-day RSI: 15.3\nVolume ratio (5d/20d): 1.23x | On-chain sentiment: bearish",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-06-10_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-10. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1607?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-06-10 | Current close: $0.1607\nClose 10 trading days ago (down 31.8%): $0.2357\nRSI(14): 15.3 | EMA20: $0.1986 | EMA50: $0.2259\nMACD histogram: -0.002\nATR(14): $0.0138 (8.6% of price)\nVolume ratio (5d/20d): 1.23x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-06-10_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-10. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1607?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-06-10 | Current close: $0.1607\nClose 10 trading days ago (down 31.8%): $0.2357\nRSI(14): 37.8 | EMA20: $0.1752 | EMA50: $0.1979\nMACD histogram: -0.002\nATR(14): $0.0121 (7.5% of price)\nVolume ratio (5d/20d): 0.85x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-06-10_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-10. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1607?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-06-10 | Current close: $0.4324\nClose 10 trading days ago (down 27.1%): $0.5928\nRSI(14): 31.2 | EMA20: $0.5221 | EMA50: $0.6193\nMACD histogram: -0.009\nATR(14): $0.0409 (9.4% of price)\nVolume ratio (5d/20d): 1.25x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-16_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-16. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,348.17?",
+  "evidenceL2": "Ethereum (ETHUSDT) | As-of 2026-04-16 | Current price $2,348.17\nPrice 10 days ago: $2,107.16 (up 11.4% over 10d)\n7-day change: +7.2% | 14-day RSI: 70.6\nVolume ratio (5d/20d): 1.19x | On-chain sentiment: bullish",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-16_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-16. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,348.17?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-04-16 | Current close: $2,348.17\nClose 10 trading days ago (up 11.4%): $2,107.16\nRSI(14): 70.6 | EMA20: $2,199.55 | EMA50: $2,140.62\nMACD histogram: +45.602\nATR(14): $103.75 (4.4% of price)\nVolume ratio (5d/20d): 1.19x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-16_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-16. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,348.17?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-04-16 | Current close: $2,348.17\nClose 10 trading days ago (up 11.4%): $2,107.16\nRSI(14): 53.6 | EMA20: $2,370.25 | EMA50: $2,572.86\nMACD histogram: +29.743\nATR(14): $120.91 (5.1% of price)\nVolume ratio (5d/20d): 0.64x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-16_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-16. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,348.17?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-04-16 | Current close: $1,799.88\nClose 10 trading days ago (up 13.3%): $1,588.60\nRSI(14): 69.7 | EMA20: $1,703.10 | EMA50: $1,758.12\nMACD histogram: +44.478\nATR(14): $82.14 (4.6% of price)\nVolume ratio (5d/20d): 0.76x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_XRPUSDT_2026-05-06_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-06. Will XRP (XRPUSDT) be priced HIGHER 30 days from now than its current price of $1.42?",
+  "evidenceL2": "XRP (XRPUSDT) | As-of 2026-05-06 | Current price $1.42\nPrice 10 days ago: $1.43 (down 0.7% over 10d)\n7-day change: +4.1% | 14-day RSI: 48.6\nVolume ratio (5d/20d): 0.87x | On-chain sentiment: mixed",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_XRPUSDT_2026-05-06_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-06. Will XRP (XRPUSDT) be priced HIGHER 30 days from now than its current price of $1.42?",
+  "evidenceL2": "Symbol: XRP (XRPUSDT) | As-of date: 2026-05-06 | Current close: $1.42\nClose 10 trading days ago (down 0.7%): $1.43\nRSI(14): 48.6 | EMA20: $1.41 | EMA50: $1.40\nMACD histogram: -0.006\nATR(14): $0.0340 (2.4% of price)\nVolume ratio (5d/20d): 0.87x\nRegime classification: BULL_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_XRPUSDT_2026-05-06_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-06. Will XRP (XRPUSDT) be priced HIGHER 30 days from now than its current price of $1.42?",
+  "evidenceL2": "Symbol: XRP (XRPUSDT) | As-of date: 2026-05-06 | Current close: $1.42\nClose 10 trading days ago (down 0.7%): $1.43\nRSI(14): 54.2 | EMA20: $1.48 | EMA50: $1.48\nMACD histogram: +0.001\nATR(14): $0.0561 (3.9% of price)\nVolume ratio (5d/20d): 0.99x\nRegime classification: BULL_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_XRPUSDT_2026-05-06_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-06. Will XRP (XRPUSDT) be priced HIGHER 30 days from now than its current price of $1.42?",
+  "evidenceL2": "Symbol: XRP (XRPUSDT) | As-of date: 2026-05-06 | Current close: $2.23\nClose 10 trading days ago (down 0.4%): $2.24\nRSI(14): 34.4 | EMA20: $2.19 | EMA50: $2.40\nMACD histogram: +0.007\nATR(14): $0.1637 (7.3% of price)\nVolume ratio (5d/20d): 1.20x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-04-05_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-05. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0924?",
+  "evidenceL2": "Dogecoin (DOGEUSDT) | As-of 2026-04-05 | Current price $0.0924\nPrice 10 days ago: $0.0921 (up 0.3% over 10d)\n7-day change: +2.1% | 14-day RSI: 55.8\nVolume ratio (5d/20d): 0.71x | On-chain sentiment: mixed",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-04-05_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-05. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0924?",
+  "evidenceL2": "Symbol: Dogecoin (DOGEUSDT) | As-of date: 2026-04-05 | Current close: $0.0924\nClose 10 trading days ago (up 0.3%): $0.0921\nRSI(14): 55.8 | EMA20: $0.0932 | EMA50: $0.0947\nMACD histogram: +0.000\nATR(14): $0.0038 (4.1% of price)\nVolume ratio (5d/20d): 0.71x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-04-05_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-05. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0924?",
+  "evidenceL2": "Symbol: Dogecoin (DOGEUSDT) | As-of date: 2026-04-05 | Current close: $0.0924\nClose 10 trading days ago (up 0.3%): $0.0921\nRSI(14): 40.3 | EMA20: $0.0947 | EMA50: $0.1050\nMACD histogram: +0.001\nATR(14): $0.0055 (6.0% of price)\nVolume ratio (5d/20d): 1.03x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-04-05_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-05. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0924?",
+  "evidenceL2": "Symbol: Dogecoin (DOGEUSDT) | As-of date: 2026-04-05 | Current close: $0.1526\nClose 10 trading days ago (up 0.3%): $0.1521\nRSI(14): 42.0 | EMA20: $0.1572 | EMA50: $0.1790\nMACD histogram: +0.001\nATR(14): $0.0109 (7.2% of price)\nVolume ratio (5d/20d): 0.69x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-01_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-01. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,140.35?",
+  "evidenceL2": "Ethereum (ETHUSDT) | As-of 2026-04-01 | Current price $2,140.35\nPrice 10 days ago: $2,053.89 (up 4.2% over 10d)\n7-day change: -1.3% | 14-day RSI: 45.0\nVolume ratio (5d/20d): 0.79x | On-chain sentiment: mixed",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-01_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-01. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,140.35?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-04-01 | Current close: $2,140.35\nClose 10 trading days ago (up 4.2%): $2,053.89\nRSI(14): 45.0 | EMA20: $2,095.39 | EMA50: $2,051.53\nMACD histogram: -16.145\nATR(14): $98.87 (4.6% of price)\nVolume ratio (5d/20d): 0.79x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-01_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-01. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,140.35?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-04-01 | Current close: $2,140.35\nClose 10 trading days ago (up 4.2%): $2,053.89\nRSI(14): 59.3 | EMA20: $1,979.22 | EMA50: $2,158.09\nMACD histogram: +80.704\nATR(14): $115.24 (5.4% of price)\nVolume ratio (5d/20d): 0.85x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-01_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-01. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,140.35?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-04-01 | Current close: $1,842.20\nClose 10 trading days ago (up 4.9%): $1,756.26\nRSI(14): 78.6 | EMA20: $1,735.09 | EMA50: $1,772.89\nMACD histogram: +42.327\nATR(14): $85.84 (4.7% of price)\nVolume ratio (5d/20d): 0.96x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_XRPUSDT_2026-04-22_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-22. Will XRP (XRPUSDT) be priced HIGHER 30 days from now than its current price of $1.43?",
+  "evidenceL2": "XRP (XRPUSDT) | As-of 2026-04-22 | Current price $1.43\nPrice 10 days ago: $1.32 (up 8.3% over 10d)\n7-day change: +2.7% | 14-day RSI: 62.4\nVolume ratio (5d/20d): 0.92x | On-chain sentiment: bullish",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_XRPUSDT_2026-04-22_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-22. Will XRP (XRPUSDT) be priced HIGHER 30 days from now than its current price of $1.43?",
+  "evidenceL2": "Symbol: XRP (XRPUSDT) | As-of date: 2026-04-22 | Current close: $1.43\nClose 10 trading days ago (up 8.3%): $1.32\nRSI(14): 62.4 | EMA20: $1.39 | EMA50: $1.39\nMACD histogram: +0.016\nATR(14): $0.0513 (3.6% of price)\nVolume ratio (5d/20d): 0.92x\nRegime classification: BEAR_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_XRPUSDT_2026-04-22_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-22. Will XRP (XRPUSDT) be priced HIGHER 30 days from now than its current price of $1.43?",
+  "evidenceL2": "Symbol: XRP (XRPUSDT) | As-of date: 2026-04-22 | Current close: $1.43\nClose 10 trading days ago (up 8.3%): $1.32\nRSI(14): 62.2 | EMA20: $1.40 | EMA50: $1.39\nMACD histogram: +0.016\nATR(14): $0.0766 (5.4% of price)\nVolume ratio (5d/20d): 1.05x\nRegime classification: BEAR_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_XRPUSDT_2026-04-22_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-22. Will XRP (XRPUSDT) be priced HIGHER 30 days from now than its current price of $1.43?",
+  "evidenceL2": "Symbol: XRP (XRPUSDT) | As-of date: 2026-04-22 | Current close: $2.37\nClose 10 trading days ago (up 7.2%): $2.21\nRSI(14): 57.6 | EMA20: $2.25 | EMA50: $2.22\nMACD histogram: +0.007\nATR(14): $0.1072 (4.5% of price)\nVolume ratio (5d/20d): 1.25x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_XRPUSDT_2026-05-08_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-08. Will XRP (XRPUSDT) be priced HIGHER 30 days from now than its current price of $1.42?",
+  "evidenceL2": "XRP (XRPUSDT) | As-of 2026-05-08 | Current price $1.42\nPrice 10 days ago: $1.38 (up 2.9% over 10d)\n7-day change: +2.3% | 14-day RSI: 46.5\nVolume ratio (5d/20d): 1.18x | On-chain sentiment: mixed",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_XRPUSDT_2026-05-08_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-08. Will XRP (XRPUSDT) be priced HIGHER 30 days from now than its current price of $1.42?",
+  "evidenceL2": "Symbol: XRP (XRPUSDT) | As-of date: 2026-05-08 | Current close: $1.42\nClose 10 trading days ago (up 2.9%): $1.38\nRSI(14): 46.5 | EMA20: $1.40 | EMA50: $1.40\nMACD histogram: -0.010\nATR(14): $0.0366 (2.6% of price)\nVolume ratio (5d/20d): 1.18x\nRegime classification: BULL_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_XRPUSDT_2026-05-08_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-08. Will XRP (XRPUSDT) be priced HIGHER 30 days from now than its current price of $1.42?",
+  "evidenceL2": "Symbol: XRP (XRPUSDT) | As-of date: 2026-05-08 | Current close: $1.42\nClose 10 trading days ago (up 2.9%): $1.38\nRSI(14): 49.9 | EMA20: $1.38 | EMA50: $1.43\nMACD histogram: +0.018\nATR(14): $0.0671 (4.7% of price)\nVolume ratio (5d/20d): 0.89x\nRegime classification: BULL_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_XRPUSDT_2026-05-08_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-08. Will XRP (XRPUSDT) be priced HIGHER 30 days from now than its current price of $1.42?",
+  "evidenceL2": "Symbol: XRP (XRPUSDT) | As-of date: 2026-05-08 | Current close: $2.09\nClose 10 trading days ago (up 3.5%): $2.02\nRSI(14): 61.7 | EMA20: $2.06 | EMA50: $2.18\nMACD histogram: +0.027\nATR(14): $0.1232 (5.9% of price)\nVolume ratio (5d/20d): 0.39x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-07-04_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-04. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $1,780.64?",
+  "evidenceL2": "Ethereum (ETHUSDT) | As-of 2026-07-04 | Current price $1,780.64\nPrice 10 days ago: $1,622.17 (up 9.8% over 10d)\n7-day change: +13.1% | 14-day RSI: 53.8\nVolume ratio (5d/20d): 0.96x | On-chain sentiment: mixed",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-07-04_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-04. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $1,780.64?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-07-04 | Current close: $1,780.64\nClose 10 trading days ago (up 9.8%): $1,622.17\nRSI(14): 53.8 | EMA20: $1,685.56 | EMA50: $1,795.87\nMACD histogram: +24.301\nATR(14): $83.56 (4.7% of price)\nVolume ratio (5d/20d): 0.96x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-07-04_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-04. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $1,780.64?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-07-04 | Current close: $1,780.64\nClose 10 trading days ago (up 9.8%): $1,622.17\nRSI(14): 63.3 | EMA20: $1,629.12 | EMA50: $1,749.96\nMACD histogram: +41.366\nATR(14): $92.30 (5.2% of price)\nVolume ratio (5d/20d): 0.91x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-07-04_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-04. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $1,780.64?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-07-04 | Current close: $3,643.42\nClose 10 trading days ago (up 9.5%): $3,327.78\nRSI(14): 66.9 | EMA20: $3,427.79 | EMA50: $3,085.70\nMACD histogram: -8.376\nATR(14): $193.63 (5.3% of price)\nVolume ratio (5d/20d): 0.86x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-27_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-27. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,303.67?",
+  "evidenceL2": "Ethereum (ETHUSDT) | As-of 2026-04-27 | Current price $2,303.67\nPrice 10 days ago: $2,419.00 (down 4.8% over 10d)\n7-day change: -0.4% | 14-day RSI: 44.6\nVolume ratio (5d/20d): 0.72x | On-chain sentiment: mixed",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-27_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-27. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,303.67?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-04-27 | Current close: $2,303.67\nClose 10 trading days ago (down 4.8%): $2,419.00\nRSI(14): 44.6 | EMA20: $2,305.49 | EMA50: $2,206.26\nMACD histogram: -6.594\nATR(14): $88.04 (3.8% of price)\nVolume ratio (5d/20d): 0.72x\nRegime classification: BEAR_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-27_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-27. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,303.67?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-04-27 | Current close: $2,303.67\nClose 10 trading days ago (down 4.8%): $2,419.00\nRSI(14): 31.7 | EMA20: $2,481.93 | EMA50: $2,431.98\nMACD histogram: -26.560\nATR(14): $95.39 (4.1% of price)\nVolume ratio (5d/20d): 1.00x\nRegime classification: BEAR_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-27_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-27. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,303.67?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-04-27 | Current close: $3,451.52\nClose 10 trading days ago (down 5.1%): $3,635.99\nRSI(14): 53.4 | EMA20: $3,352.57 | EMA50: $3,500.15\nMACD histogram: +72.068\nATR(14): $183.70 (5.3% of price)\nVolume ratio (5d/20d): 1.13x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BTCUSDT_2026-06-10_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-10. Will Bitcoin (BTCUSDT) be priced HIGHER 30 days from now than its current price of $61,510.99?",
+  "evidenceL2": "Bitcoin (BTCUSDT) | As-of 2026-06-10 | Current price $61,510.99\nPrice 10 days ago: $73,674.39 (down 16.5% over 10d)\n7-day change: -4.1% | 14-day RSI: 15.4\nVolume ratio (5d/20d): 1.01x | On-chain sentiment: bearish",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BTCUSDT_2026-06-10_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-10. Will Bitcoin (BTCUSDT) be priced HIGHER 30 days from now than its current price of $61,510.99?",
+  "evidenceL2": "Symbol: Bitcoin (BTCUSDT) | As-of date: 2026-06-10 | Current close: $61,510.99\nClose 10 trading days ago (down 16.5%): $73,674.39\nRSI(14): 15.4 | EMA20: $67,562.71 | EMA50: $72,855.74\nMACD histogram: -308.376\nATR(14): $2,731.81 (4.4% of price)\nVolume ratio (5d/20d): 1.01x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BTCUSDT_2026-06-10_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-10. Will Bitcoin (BTCUSDT) be priced HIGHER 30 days from now than its current price of $61,510.99?",
+  "evidenceL2": "Symbol: Bitcoin (BTCUSDT) | As-of date: 2026-06-10 | Current close: $61,510.99\nClose 10 trading days ago (down 16.5%): $73,674.39\nRSI(14): 46.1 | EMA20: $61,063.44 | EMA50: $60,373.54\nMACD histogram: -577.974\nATR(14): $2,741.38 (4.5% of price)\nVolume ratio (5d/20d): 0.86x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BTCUSDT_2026-06-10_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-10. Will Bitcoin (BTCUSDT) be priced HIGHER 30 days from now than its current price of $61,510.99?",
+  "evidenceL2": "Symbol: Bitcoin (BTCUSDT) | As-of date: 2026-06-10 | Current close: $67,082.52\nClose 10 trading days ago (down 12.8%): $76,968.21\nRSI(14): 24.3 | EMA20: $76,050.29 | EMA50: $82,636.51\nMACD histogram: -1585.872\nATR(14): $5,562.03 (8.3% of price)\nVolume ratio (5d/20d): 0.86x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-08_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-08. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,190.00?",
+  "evidenceL2": "Ethereum (ETHUSDT) | As-of 2026-04-08 | Current price $2,190.00\nPrice 10 days ago: $1,984.64 (up 10.3% over 10d)\n7-day change: +2.3% | 14-day RSI: 51.6\nVolume ratio (5d/20d): 0.96x | On-chain sentiment: mixed",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-08_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-08. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,190.00?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-04-08 | Current close: $2,190.00\nClose 10 trading days ago (up 10.3%): $1,984.64\nRSI(14): 51.6 | EMA20: $2,112.31 | EMA50: $2,068.94\nMACD histogram: -1.303\nATR(14): $100.53 (4.6% of price)\nVolume ratio (5d/20d): 0.96x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-08_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-08. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,190.00?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-04-08 | Current close: $2,190.00\nClose 10 trading days ago (up 10.3%): $1,984.64\nRSI(14): 56.9 | EMA20: $2,134.17 | EMA50: $2,109.20\nMACD histogram: +30.265\nATR(14): $96.02 (4.4% of price)\nVolume ratio (5d/20d): 0.71x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-04-08_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-08. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,190.00?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-04-08 | Current close: $1,588.60\nClose 10 trading days ago (up 7.8%): $1,473.41\nRSI(14): 37.8 | EMA20: $1,648.56 | EMA50: $1,840.72\nMACD histogram: -25.547\nATR(14): $134.22 (8.4% of price)\nVolume ratio (5d/20d): 0.67x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-05-01_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-01. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2482?",
+  "evidenceL2": "Cardano (ADAUSDT) | As-of 2026-05-01 | Current price $0.2482\nPrice 10 days ago: $0.2499 (down 0.7% over 10d)\n7-day change: -0.8% | 14-day RSI: 37.1\nVolume ratio (5d/20d): 0.77x | On-chain sentiment: bearish",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-05-01_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-01. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2482?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-05-01 | Current close: $0.2482\nClose 10 trading days ago (down 0.7%): $0.2499\nRSI(14): 37.1 | EMA20: $0.2466 | EMA50: $0.2526\nMACD histogram: -0.000\nATR(14): $0.0083 (3.3% of price)\nVolume ratio (5d/20d): 0.77x\nRegime classification: BEAR_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-05-01_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-01. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2482?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-05-01 | Current close: $0.2482\nClose 10 trading days ago (down 0.7%): $0.2499\nRSI(14): 27.2 | EMA20: $0.2806 | EMA50: $0.3185\nMACD histogram: +0.003\nATR(14): $0.0216 (8.7% of price)\nVolume ratio (5d/20d): 1.27x\nRegime classification: BEAR_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-05-01_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-01. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2482?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-05-01 | Current close: $0.2776\nClose 10 trading days ago (down 1.2%): $0.2811\nRSI(14): 51.6 | EMA20: $0.2760 | EMA50: $0.3095\nMACD histogram: +0.007\nATR(14): $0.0196 (7.1% of price)\nVolume ratio (5d/20d): 1.33x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-07-10_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-10. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $1,796.85?",
+  "evidenceL2": "Ethereum (ETHUSDT) | As-of 2026-07-10 | Current price $1,796.85\nPrice 10 days ago: $1,572.01 (up 14.3% over 10d)\n7-day change: +2.2% | 14-day RSI: 75.6\nVolume ratio (5d/20d): 0.87x | On-chain sentiment: bullish",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-07-10_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-10. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $1,796.85?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-07-10 | Current close: $1,796.85\nClose 10 trading days ago (up 14.3%): $1,572.01\nRSI(14): 75.6 | EMA20: $1,715.93 | EMA50: $1,776.81\nMACD histogram: +0.140\nATR(14): $72.23 (4.0% of price)\nVolume ratio (5d/20d): 0.87x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-07-10_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-10. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $1,796.85?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-07-10 | Current close: $1,796.85\nClose 10 trading days ago (up 14.3%): $1,572.01\nRSI(14): 72.9 | EMA20: $1,696.74 | EMA50: $1,666.52\nMACD histogram: -13.038\nATR(14): $76.27 (4.2% of price)\nVolume ratio (5d/20d): 1.14x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-07-10_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-10. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $1,796.85?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-07-10 | Current close: $2,369.46\nClose 10 trading days ago (up 15.4%): $2,053.83\nRSI(14): 71.2 | EMA20: $2,175.87 | EMA50: $2,089.74\nMACD histogram: +32.218\nATR(14): $108.41 (4.6% of price)\nVolume ratio (5d/20d): 1.00x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-05-13_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-13. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2648?",
+  "evidenceL2": "Cardano (ADAUSDT) | As-of 2026-05-13 | Current price $0.2648\nPrice 10 days ago: $0.2495 (up 6.1% over 10d)\n7-day change: -0.8% | 14-day RSI: 64.3\nVolume ratio (5d/20d): 1.04x | On-chain sentiment: bullish",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-05-13_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-13. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2648?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-05-13 | Current close: $0.2648\nClose 10 trading days ago (up 6.1%): $0.2495\nRSI(14): 64.3 | EMA20: $0.2622 | EMA50: $0.2584\nMACD histogram: +0.002\nATR(14): $0.0112 (4.2% of price)\nVolume ratio (5d/20d): 1.04x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-05-13_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-13. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2648?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-05-13 | Current close: $0.2648\nClose 10 trading days ago (up 6.1%): $0.2495\nRSI(14): 88.9 | EMA20: $0.1678 | EMA50: $0.1321\nMACD histogram: +0.012\nATR(14): $0.0265 (10.0% of price)\nVolume ratio (5d/20d): 1.16x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-05-13_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-13. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2648?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-05-13 | Current close: $0.8803\nClose 10 trading days ago (up 7.6%): $0.8184\nRSI(14): 58.8 | EMA20: $0.8669 | EMA50: $0.8460\nMACD histogram: +0.003\nATR(14): $0.0362 (4.1% of price)\nVolume ratio (5d/20d): 1.14x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_XRPUSDT_2026-05-09_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-09. Will XRP (XRPUSDT) be priced HIGHER 30 days from now than its current price of $1.42?",
+  "evidenceL2": "XRP (XRPUSDT) | As-of 2026-05-09 | Current price $1.42\nPrice 10 days ago: $1.37 (up 3.6% over 10d)\n7-day change: +1.9% | 14-day RSI: 49.2\nVolume ratio (5d/20d): 1.13x | On-chain sentiment: mixed",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_XRPUSDT_2026-05-09_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-09. Will XRP (XRPUSDT) be priced HIGHER 30 days from now than its current price of $1.42?",
+  "evidenceL2": "Symbol: XRP (XRPUSDT) | As-of date: 2026-05-09 | Current close: $1.42\nClose 10 trading days ago (up 3.6%): $1.37\nRSI(14): 49.2 | EMA20: $1.41 | EMA50: $1.40\nMACD histogram: -0.006\nATR(14): $0.0369 (2.6% of price)\nVolume ratio (5d/20d): 1.13x\nRegime classification: BULL_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_XRPUSDT_2026-05-09_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-09. Will XRP (XRPUSDT) be priced HIGHER 30 days from now than its current price of $1.42?",
+  "evidenceL2": "Symbol: XRP (XRPUSDT) | As-of date: 2026-05-09 | Current close: $1.42\nClose 10 trading days ago (up 3.6%): $1.37\nRSI(14): 50.0 | EMA20: $1.41 | EMA50: $1.41\nMACD histogram: +0.002\nATR(14): $0.0648 (4.6% of price)\nVolume ratio (5d/20d): 1.04x\nRegime classification: BULL_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_XRPUSDT_2026-05-09_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-09. Will XRP (XRPUSDT) be priced HIGHER 30 days from now than its current price of $1.42?",
+  "evidenceL2": "Symbol: XRP (XRPUSDT) | As-of date: 2026-05-09 | Current close: $2.14\nClose 10 trading days ago (up 2.4%): $2.09\nRSI(14): 65.9 | EMA20: $2.05 | EMA50: $2.06\nMACD histogram: +0.008\nATR(14): $0.1186 (5.5% of price)\nVolume ratio (5d/20d): 0.89x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-05-27_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-27. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,024.84?",
+  "evidenceL2": "Ethereum (ETHUSDT) | As-of 2026-05-27 | Current price $2,024.84\nPrice 10 days ago: $2,131.00 (down 5.0% over 10d)\n7-day change: -4.9% | 14-day RSI: 24.4\nVolume ratio (5d/20d): 0.97x | On-chain sentiment: bearish",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-05-27_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-27. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,024.84?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-05-27 | Current close: $2,024.84\nClose 10 trading days ago (down 5.0%): $2,131.00\nRSI(14): 24.4 | EMA20: $2,158.77 | EMA50: $2,214.37\nMACD histogram: -22.243\nATR(14): $78.00 (3.9% of price)\nVolume ratio (5d/20d): 0.97x\nRegime classification: BEAR_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-05-27_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-27. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,024.84?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-05-27 | Current close: $2,024.84\nClose 10 trading days ago (down 5.0%): $2,131.00\nRSI(14): 41.8 | EMA20: $1,994.48 | EMA50: $2,093.20\nMACD histogram: -12.591\nATR(14): $118.02 (5.8% of price)\nVolume ratio (5d/20d): 0.92x\nRegime classification: BEAR_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ETHUSDT_2026-05-27_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-27. Will Ethereum (ETHUSDT) be priced HIGHER 30 days from now than its current price of $2,024.84?",
+  "evidenceL2": "Symbol: Ethereum (ETHUSDT) | As-of date: 2026-05-27 | Current close: $2,053.83\nClose 10 trading days ago (down 4.7%): $2,156.23\nRSI(14): 42.8 | EMA20: $2,099.72 | EMA50: $2,066.35\nMACD histogram: -5.395\nATR(14): $98.10 (4.8% of price)\nVolume ratio (5d/20d): 0.91x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-04-23_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-23. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0971?",
+  "evidenceL2": "Dogecoin (DOGEUSDT) | As-of 2026-04-23 | Current price $0.0971\nPrice 10 days ago: $0.0941 (up 3.2% over 10d)\n7-day change: -2.1% | 14-day RSI: 59.0\nVolume ratio (5d/20d): 0.96x | On-chain sentiment: mixed",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-04-23_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-23. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0971?",
+  "evidenceL2": "Symbol: Dogecoin (DOGEUSDT) | As-of date: 2026-04-23 | Current close: $0.0971\nClose 10 trading days ago (up 3.2%): $0.0941\nRSI(14): 59.0 | EMA20: $0.0946 | EMA50: $0.0939\nMACD histogram: +0.000\nATR(14): $0.0039 (4.1% of price)\nVolume ratio (5d/20d): 0.96x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-04-23_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-23. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0971?",
+  "evidenceL2": "Symbol: Dogecoin (DOGEUSDT) | As-of date: 2026-04-23 | Current close: $0.0971\nClose 10 trading days ago (up 3.2%): $0.0941\nRSI(14): 46.8 | EMA20: $0.0944 | EMA50: $0.0849\nMACD histogram: -0.000\nATR(14): $0.0081 (8.3% of price)\nVolume ratio (5d/20d): 0.93x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_DOGEUSDT_2026-04-23_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-04-23. Will Dogecoin (DOGEUSDT) be priced HIGHER 30 days from now than its current price of $0.0971?",
+  "evidenceL2": "Symbol: Dogecoin (DOGEUSDT) | As-of date: 2026-04-23 | Current close: $0.1010\nClose 10 trading days ago (up 2.5%): $0.0985\nRSI(14): 44.8 | EMA20: $0.1037 | EMA50: $0.1142\nMACD histogram: +0.001\nATR(14): $0.0092 (9.1% of price)\nVolume ratio (5d/20d): 0.88x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BNBUSDT_2026-06-10_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-10. Will BNB (BNBUSDT) be priced HIGHER 30 days from now than its current price of $586.53?",
+  "evidenceL2": "BNB (BNBUSDT) | As-of 2026-06-10 | Current price $586.53\nPrice 10 days ago: $710.55 (down 17.5% over 10d)\n7-day change: -5.5% | 14-day RSI: 39.2\nVolume ratio (5d/20d): 0.67x | On-chain sentiment: bearish",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BNBUSDT_2026-06-10_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-10. Will BNB (BNBUSDT) be priced HIGHER 30 days from now than its current price of $586.53?",
+  "evidenceL2": "Symbol: BNB (BNBUSDT) | As-of date: 2026-06-10 | Current close: $586.53\nClose 10 trading days ago (down 17.5%): $710.55\nRSI(14): 39.2 | EMA20: $625.18 | EMA50: $636.61\nMACD histogram: +3.583\nATR(14): $37.32 (6.4% of price)\nVolume ratio (5d/20d): 0.67x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BNBUSDT_2026-06-10_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-10. Will BNB (BNBUSDT) be priced HIGHER 30 days from now than its current price of $586.53?",
+  "evidenceL2": "Symbol: BNB (BNBUSDT) | As-of date: 2026-06-10 | Current close: $586.53\nClose 10 trading days ago (down 17.5%): $710.55\nRSI(14): 46.0 | EMA20: $574.79 | EMA50: $543.60\nMACD histogram: -1.849\nATR(14): $34.75 (5.9% of price)\nVolume ratio (5d/20d): 0.59x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_BNBUSDT_2026-06-10_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-06-10. Will BNB (BNBUSDT) be priced HIGHER 30 days from now than its current price of $586.53?",
+  "evidenceL2": "Symbol: BNB (BNBUSDT) | As-of date: 2026-06-10 | Current close: $571.72\nClose 10 trading days ago (down 15.9%): $679.74\nRSI(14): 19.2 | EMA20: $645.44 | EMA50: $667.31\nMACD histogram: -12.988\nATR(14): $34.64 (6.1% of price)\nVolume ratio (5d/20d): 1.55x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-05-31_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-31. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2357?",
+  "evidenceL2": "Cardano (ADAUSDT) | As-of 2026-05-31 | Current price $0.2357\nPrice 10 days ago: $0.2507 (down 6.0% over 10d)\n7-day change: -2.7% | 14-day RSI: 28.2\nVolume ratio (5d/20d): 0.96x | On-chain sentiment: bearish",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-05-31_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-31. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2357?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-05-31 | Current close: $0.2357\nClose 10 trading days ago (down 6.0%): $0.2507\nRSI(14): 28.2 | EMA20: $0.2466 | EMA50: $0.2480\nMACD histogram: -0.004\nATR(14): $0.0085 (3.6% of price)\nVolume ratio (5d/20d): 0.96x\nRegime classification: BEAR_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-05-31_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-31. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2357?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-05-31 | Current close: $0.2357\nClose 10 trading days ago (down 6.0%): $0.2507\nRSI(14): 26.9 | EMA20: $0.2767 | EMA50: $0.2958\nMACD histogram: +0.000\nATR(14): $0.0195 (8.3% of price)\nVolume ratio (5d/20d): 0.99x\nRegime classification: BEAR_QUIET",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-05-31_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-05-31. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.2357?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-05-31 | Current close: $0.9501\nClose 10 trading days ago (down 6.9%): $1.02\nRSI(14): 31.1 | EMA20: $1.07 | EMA50: $0.8880\nMACD histogram: -0.063\nATR(14): $0.1119 (11.8% of price)\nVolume ratio (5d/20d): 0.96x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": false,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-07-04_thin",
+  "topic": "arm-thin",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-04. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1922?",
+  "evidenceL2": "Cardano (ADAUSDT) | As-of 2026-07-04 | Current price $0.1922\nPrice 10 days ago: $0.1477 (up 30.1% over 10d)\n7-day change: +32.3% | 14-day RSI: 67.3\nVolume ratio (5d/20d): 1.38x | On-chain sentiment: bullish",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-07-04_rich",
+  "topic": "arm-rich",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-04. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1922?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-07-04 | Current close: $0.1922\nClose 10 trading days ago (up 30.1%): $0.1477\nRSI(14): 67.3 | EMA20: $0.1624 | EMA50: $0.1855\nMACD histogram: +0.006\nATR(14): $0.0115 (6.0% of price)\nVolume ratio (5d/20d): 1.38x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-07-04_scram",
+  "topic": "arm-scram",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-04. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1922?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-07-04 | Current close: $0.1922\nClose 10 trading days ago (up 30.1%): $0.1477\nRSI(14): 64.3 | EMA20: $0.1903 | EMA50: $0.1876\nMACD histogram: +0.002\nATR(14): $0.0081 (4.2% of price)\nVolume ratio (5d/20d): 1.04x\nRegime classification: BEAR_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ },
+ {
+  "id": "cf30d_ADAUSDT_2026-07-04_scramfull",
+  "topic": "arm-scramfull",
+  "domain": "crypto",
+  "label": "unknowable",
+  "question": "Today is 2026-07-04. Will Cardano (ADAUSDT) be priced HIGHER 30 days from now than its current price of $0.1922?",
+  "evidenceL2": "Symbol: Cardano (ADAUSDT) | As-of date: 2026-07-04 | Current close: $0.9211\nClose 10 trading days ago (up 24.3%): $0.7413\nRSI(14): 78.6 | EMA20: $0.8267 | EMA50: $0.7564\nMACD histogram: +0.010\nATR(14): $0.0606 (6.6% of price)\nVolume ratio (5d/20d): 2.02x\nRegime classification: BULL_VOLATILE",
+  "sealedYes": true,
+  "trueProb": 0.5
+ }
+]
