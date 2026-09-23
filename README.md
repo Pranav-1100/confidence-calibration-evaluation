@@ -85,6 +85,8 @@ changed.
   throughout; a stale sentence in §6.0 was removed.
 - Wording made exact: the calibration bands in §5 are 55-65% and 35-45%; the dose-response edge is
   averaged over the rows that report it; the separability analysis uses 344 labeled rows of 528.
+- §8 now gives the natural-framing J range as +62 to +100, matching §6.3 and Table 4; the Figure 3
+  and Figure 6 captions say which runs they plot; §2 names the error flag that marks a failed call.
 - The data behind the §5 separability result and the §3 48-event replication are now released,
   with the scripts that reproduce them.
 

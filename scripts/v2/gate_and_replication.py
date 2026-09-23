@@ -55,6 +55,6 @@ def replicate(rs, label):
           f"90% CI [{bs[200]:+.2f}, {bs[3799]:+.2f}]")
 
 print("§3 48-event replication (seven responsive models)")
-replicate(run, "all rows kept (as reported in the paper)")
+replicate([r for r in run if not str(r.get("raw")).startswith("__ERROR__")], "API-error rows dropped (paper rule; none here)")
 cost = lambda r: (r.get("usage") or {}).get("cost") if isinstance(r.get("usage"), dict) else None
-replicate([r for r in run if (r.get("raw") or "").strip() or cost(r)], "one zero-cost failed call dropped")
+replicate([r for r in run if (r.get("raw") or "").strip() or cost(r)], "sensitivity: one empty zero-cost response also dropped")
