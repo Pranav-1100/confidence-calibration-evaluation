@@ -14,7 +14,7 @@
 #     row-level resampling would understate the interval.
 #   * Cohen's h is reported for proportion contrasts, as in the v2 draft.
 #
-# usage: python3 rl/v2_stats.py
+# usage: python3 scripts/v2/v2_stats.py
 # ================================================================================
 import json, re, os, glob, math, random, collections
 
