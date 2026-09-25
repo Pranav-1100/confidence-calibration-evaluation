@@ -87,6 +87,9 @@ changed.
   averaged over the rows that report it; the separability analysis uses 344 labeled rows of 528.
 - §8 now gives the natural-framing J range as +62 to +100, matching §6.3 and Table 4; the Figure 3
   and Figure 6 captions say which runs they plot; §2 names the error flag that marks a failed call.
+- §7 gives the lenient frontier J range as +36 to +62 (tool calls counted as refusals); §2 gives the
+  failure rate of each older paid construction separately; the Xu (2026) reference points to the v1
+  that was cited, since v2 was retitled.
 - The data behind the §5 separability result and the §3 48-event replication are now released,
   with the scripts that reproduce them.
 
