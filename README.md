@@ -51,6 +51,7 @@ python3 scripts/v2/aggregate_seeds.py data         # per-run breakdown for all e
 python3 scripts/v2/calibration_corp.py             # §5 CORP decomposition, AUROC by level, Brier Skill Score
 python3 scripts/v2/gate_and_replication.py         # §5 separability (AUROC 0.887), §3 48-event replication
 python3 scripts/v2/compute_T_metric.py data/raw_generations.json
+python3 scripts/v2/degenerate_baselines.py        # Table 2: what strategies with no understanding score
 
 # the figures and the PDF
 python3 -m venv .venv && .venv/bin/pip install markdown matplotlib

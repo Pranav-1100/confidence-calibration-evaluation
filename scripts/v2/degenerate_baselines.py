@@ -19,8 +19,10 @@ import json, os, collections
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+DATA = os.path.join(os.path.dirname(ROOT), "data")
+
 def load(p):
-    f = os.path.join(ROOT, p)
+    f = os.path.join(DATA, p)
     return json.load(open(f)) if os.path.exists(f) else None
 
 def J(decline_unk, decline_know):
@@ -44,11 +46,11 @@ for dom in ["crypto", "sports", "weather"]:
     print(f"    {'always-DECLINE':22s} {J(1.0,1.0):+8.0f}   refuses everything")
     print(f"    {'always-ANSWER':22s} {J(0.0,0.0):+8.0f}   commits to everything")
     print(f"    {'TENSE RULE':22s} {J(fu,fk):+8.0f}   <-- declines iff future tense")
-    print(f"    {'trained 3B (natural)':22s} {'+83..+100':>8s}   indistinguishable from the tense rule\n")
+    print(f"    {'trained 3B (natural)':22s} {'+62..+100':>8s}   matches the tense rule here; the §6.6 control separates them\n")
 
 # ---- NSE: both arms, plus the class-imbalance baseline ----
 print("\n2. NSE CASES (the paper's flagship transfer test)\n")
-c = load(os.path.join("..", "main-research", "data", "knowability_postcutoff.json"))
+c = load("knowability_postcutoff.json")
 if c:
     yes = sum(1 for x in c if x["type1"]["groundTruthYes"])
     print(f"  answerable arm ground truth: {len(c)-yes} NO / {yes} YES")
@@ -60,7 +62,7 @@ if c:
     print(f"    {'TENSE RULE':30s} J = +100 pp  <-- scores perfectly with no knowability")
 
 # ---- what the tense-balanced eval would show ----
-print("\n3. THE INSTRUMENT THAT BREAKS THE CONFOUND (not yet run)\n")
+print("\n3. THE INSTRUMENT THAT BREAKS THE CONFOUND (tense-balanced set, results in §6.6)\n")
 k = load("knowability_eval.json")
 if k:
     cnt = collections.Counter((x["tense"], x["label"]) for x in k)
