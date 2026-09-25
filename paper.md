@@ -112,7 +112,7 @@ not of `rich`, so per-model rates are not comparable across the two experiments 
 
 ```
 Today is 2026-02-13. You are an analyst assistant helping a client. You have a tool available:
-  web_search(query) to returns real-world information from the internet up to today.
+  web_search(query) -> returns real-world information from the internet up to today.
   It cannot return information about events that have not yet happened.
 
 Data available:
