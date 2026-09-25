@@ -109,16 +109,16 @@ def fig2():
     ax.plot([], [], "^:", color=C["trained"], lw=1.6, ms=6, alpha=0.75,
             label="trained 3B (3-option prompt)")
     ax.plot([], [], "x--", color=C["grey"], lw=1.3, ms=6, alpha=0.85,
-            label="7.5 ablation ckpt (516 cases)")
+            label="ablation s0 (516 cases)")
     ax.set_title("stocks (original cases)", fontsize=10)
     ax.set_ylabel("commitment on unknowable (%)")
-    ax.legend(fontsize=8, frameon=False, loc="upper left")
+    handles, labels = ax.get_legend_handles_labels()
 
     tr_rows = []
     for f in glob.glob(os.path.join(V2, "raw_generations*.json")):
         tr_rows += json.load(open(f))
     # The five checkpoints are NOT five seeds of one recipe. Four were trained on the same 540
-    # cases; ckpt_nosports (the 7.5 ablation) was trained on 516. Pooling all five put a line on
+    # cases; ckpt_nosports (the §6.5 ablation) was trained on 516. Pooling all five put a line on
     # this figure that describes no model that was actually trained - it reported 25% commitment
     # on crypto where the four main-recipe runs give 6.2% and the ablation alone gives 100%.
     MAIN = ["SFT-2", "SFT-2+DPO", "SFT-2-seed1", "SFT-2-seed2"]
@@ -142,17 +142,19 @@ def fig2():
         ax.plot([0, 1, 2], trained(dom, "natural"), "s-", color=C["trained"], lw=2.2, ms=7)
         ax.plot([0, 1, 2], trained(dom, "frontier"), "^:", color=C["trained"], lw=1.6, ms=6,
                 alpha=0.75)
-        # the 7.5 ablation checkpoint, shown as itself rather than averaged into the recipe above
+        # the §6.5 ablation checkpoint, shown as itself rather than averaged into the recipe above
         abl = trained(dom, "frontier", ABLATION)
         ax.plot([0, 1, 2], abl, "x--", color=C["grey"], lw=1.3, ms=6, alpha=0.85)
         # it exits the top of the axis in two panels; say so rather than letting it clip silently
         if abl[-1] > 62:
-            ax.annotate(f"{abl[-1]:.0f}%", xy=(2, 60), xytext=(1.62, 52), fontsize=8,
+            ax.annotate(f"{abl[-1]:.0f}%", xy=(1.58, 61), xytext=(0.62, 50), fontsize=8,
                         color=C["grey"], arrowprops=dict(arrowstyle="->", color=C["grey"], lw=1))
         ax.set_title(dom, fontsize=10)
     for ax in axes:
         ax.set_xticks([0, 1, 2]); ax.set_xticklabels(["L0\nbare", "L1\nthin", "L2\nfull panel"])
         ax.set_ylim(-4, 62); ax.grid(axis="y", alpha=0.25)
+    fig.legend(handles, labels, loc="lower center", bbox_to_anchor=(0.5, -0.1), ncol=4,
+               fontsize=8.5, frameon=False)
     fig.suptitle("Evidence-induced commitment across four domains, and its removal by training",
                  fontsize=11, y=1.02)
     save(fig, "fig3_gradient")
@@ -201,8 +203,8 @@ def fig3():
           color=[C["grey"], C["commit"], C["tool"], C["tool"]], width=0.62, yerr=yerr, capsize=4,
           error_kw=dict(ecolor=C["ink"], lw=1.2))
     a.patches[3].set_hatch("//"); a.patches[3].set_edgecolor(C["ink"])
-    for i, v in enumerate(vals):
-        a.text(i, v + 2.2, f"{v:.1f}%", ha="center", fontsize=9, weight="bold")
+    for i, (v, (_, hi)) in enumerate(zip(vals, lohi)):
+        a.text(i, hi + 1.2, f"{v:.1f}%", ha="center", fontsize=9, weight="bold")
     a.set_ylabel("commitment (%)"); a.set_ylim(0, 56); a.grid(axis="y", alpha=0.25)
     a.tick_params(axis="x", labelsize=7.5)
     a.set_title("fabricated evidence = real evidence\n"
@@ -218,10 +220,13 @@ def fig3():
                alpha=0.95 if seduced else 0.35,
                color=C["commit"] if seduced else C["grey"],
                label=m.split("/")[-1] if seduced else None)
+        if seduced:
+            b.text(3.1, y[3], m.split("/")[-1].replace("claude-", "").replace("-", " ").title(),
+                   fontsize=7.5, va="center", color=C["commit"])
     b.set_xticks([0, 1, 2, 3]); b.set_xticklabels(["no\npanel", "real", "indic.\nfaked", "ALL\nfaked"],
                                                   fontsize=7.5)
     b.set_ylabel("commitment (%)"); b.set_ylim(-4, 108); b.grid(alpha=0.25)
-    b.legend(fontsize=7, frameon=False, loc="center left")
+    b.set_xlim(-0.2, 4.05)
     b.set_title("the average hides who it happens to\n(bold = seducible; flat lines = immune or saturated)",
                 fontsize=9)
 
@@ -290,8 +295,8 @@ def fig5():
     b.barh(list(y), [r[2] for r in rows], color=C["decline"], height=0.62)
     b.set_xlabel("Youden's J (pp)"); b.grid(axis="x", alpha=0.25)
     b.axvline(95, color=C["trained"], ls="--", lw=1.6)
-    b.text(40, len(rows)-0.4, "trained 3B: +95 (NSE, different cases)", color=C["trained"],
-           fontsize=7.5, weight="bold")
+    b.text(92, 0.5, "trained 3B: +95\n(NSE, different cases)", color=C["trained"],
+           fontsize=7.5, weight="bold", ha="right", va="center")
     b.set_title("and they do not discriminate", fontsize=10)
     fig.suptitle("Per-model behaviour spans the full range, and does not track capability",
                  fontsize=11, y=1.0)
@@ -323,7 +328,7 @@ def fig6():
             ys = [v for v in vals if v is not None]
             ax.scatter(xs, ys, s=52, label=dom if framing == "natural" else None, zorder=3)
         ax.set_xticks(range(len(runs)))
-        ax.set_xticklabels(["SFT", "SFT\n+DPO*", "seed 1", "seed 2", "overlap\nremoved"], fontsize=8)
+        ax.set_xticklabels(["SFT", "SFT\n+DPO*", "seed 1", "seed 2", "ablation\ns0"], fontsize=8)
         ax.axhline(0, color=C["grey"], lw=1, ls=":")
         ax.set_title(title, fontsize=10); ax.grid(axis="y", alpha=0.25); ax.set_ylim(-35, 110)
     axes[0].set_ylabel("Youden's J (pp)")
