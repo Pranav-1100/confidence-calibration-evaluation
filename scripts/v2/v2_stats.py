@@ -16,7 +16,7 @@
 #
 # usage: python3 scripts/v2/v2_stats.py
 # ================================================================================
-import json, re, os, glob, math, random, collections
+import json, re, os, glob, math, random, collections, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RNG = random.Random(0)
@@ -67,9 +67,9 @@ def fmt(t):
     return f"{p:6.1f} [{lo:5.1f},{hi:5.1f}]"
 
 
-# Search the data dir first (release layout), then the working dirs (author layout).
-SEARCH = [os.path.join(ROOT, "data"), os.path.join(ROOT, "..", "..", "RL_env", "rl"),
-          os.path.join(ROOT, "..", "..", "RL_env"), ROOT]
+# The released data directory only, so a missing file fails loudly instead of being
+# silently picked up from a private working copy.
+SEARCH = [os.path.join(os.path.dirname(ROOT), "data")]
 def _find_all(pat):
     out = []
     for d in SEARCH:
@@ -92,6 +92,8 @@ for f in _find_all("raw_generations*.json"):
 nse = load("rl/nse_generations.json") or []
 front = load("frontier_transfer_baseline.json") or []
 print(f"loaded: transfer {len(transfer)} | nse {len(nse)} | frontier {len(front)}\n")
+if not (transfer and nse and front):
+    sys.exit("no cached generations found in data/ - run from a full checkout of the repository")
 
 
 # ---------------- 1. Youden's J on the transfer domains ----------------
