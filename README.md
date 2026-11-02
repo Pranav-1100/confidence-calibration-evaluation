@@ -2,7 +2,7 @@
 
 **Fabricated Evidence Makes LLM Agents Commit to the Unknowable**
 
-Pranav Aggarwal, independent researcher · [arXiv:2608.27167](https://arxiv.org/abs/2608.27167) · [DOI 10.5281/zenodo.22043517](https://doi.org/10.5281/zenodo.22043517) · ORCID [0009-0005-1243-0520](https://orcid.org/0009-0005-1243-0520)
+Pranav Aggarwal, independent researcher · [arXiv:2608.27167](https://arxiv.org/abs/2608.27167) · [DOI 10.5281/zenodo.21325374](https://doi.org/10.5281/zenodo.21325374) · ORCID [0009-0005-1243-0520](https://orcid.org/0009-0005-1243-0520)
 
 **[Read on arXiv](https://arxiv.org/abs/2608.27167)** · **[Read the paper (PDF)](paper.pdf)** · [Markdown source](paper.md)
 
@@ -99,10 +99,10 @@ changed.
 ```
 Aggarwal, P. (2026). Calibrated Enough to Know, Not Calibrated to Act:
 Fabricated Evidence Makes LLM Agents Commit to the Unknowable.
-arXiv:2608.27167. DOI 10.5281/zenodo.22043517
+arXiv:2608.27167. DOI 10.5281/zenodo.21325374
 ```
 
-arXiv: [arxiv.org/abs/2608.27167](https://arxiv.org/abs/2608.27167) · Zenodo (this version): [10.5281/zenodo.22043517](https://doi.org/10.5281/zenodo.22043517) · Zenodo (v1): [10.5281/zenodo.21325375](https://doi.org/10.5281/zenodo.21325375)
+arXiv: [arxiv.org/abs/2608.27167](https://arxiv.org/abs/2608.27167) · Zenodo (all versions, resolves to latest): [10.5281/zenodo.21325374](https://doi.org/10.5281/zenodo.21325374) · Zenodo (v2.1, matches arXiv v2): [10.5281/zenodo.22958012](https://doi.org/10.5281/zenodo.22958012) · Zenodo (v2.0.0): [10.5281/zenodo.22043517](https://doi.org/10.5281/zenodo.22043517) · Zenodo (v1): [10.5281/zenodo.21325375](https://doi.org/10.5281/zenodo.21325375)
 
 ## License
 

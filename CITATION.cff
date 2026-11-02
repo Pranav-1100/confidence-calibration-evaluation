@@ -16,7 +16,7 @@ keywords:
   - abstention
   - aleatoric uncertainty
   - AI safety
-doi: 10.5281/zenodo.22043517
+doi: 10.5281/zenodo.21325374
 identifiers:
   - type: other
     value: "arXiv:2608.27167"
@@ -24,6 +24,15 @@ identifiers:
   - type: url
     value: "https://arxiv.org/abs/2608.27167"
     description: "arXiv abstract page"
+  - type: doi
+    value: 10.5281/zenodo.21325374
+    description: "Zenodo concept DOI (always resolves to the latest version)"
+  - type: doi
+    value: 10.5281/zenodo.22958012
+    description: "Zenodo DOI for v2.1 (25 Sep 2026, matches arXiv v2)"
+  - type: doi
+    value: 10.5281/zenodo.22043517
+    description: "Zenodo DOI for v2.0.0 (21 Aug 2026)"
   - type: doi
     value: 10.5281/zenodo.21325375
     description: "Zenodo DOI for v1"
@@ -35,4 +44,4 @@ preferred-citation:
       given-names: "Pranav"
       orcid: "https://orcid.org/0009-0005-1243-0520"
   year: 2026
-  doi: "10.5281/zenodo.22043517"
+  doi: "10.5281/zenodo.21325374"
